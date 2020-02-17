@@ -1,0 +1,218 @@
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Week |Date |Topic |Coursework
+
+|13
+|6/1 -- 10/1
+|_Government microeconomic intervention (part 1)_
+|
+
+|
+|
+|Maximum and minimum prices
+|*(1)* Watch link:https://www.tutor2u.net/economics/reference/government-intervention-maximum-prices[tutor2u video], + 
+*(2)* Watch link:https://www.youtube.com/watch?v=qin2rz8aKsk[youtube video], +
+*(3)* Read link:http://www.economicsonline.co.uk/Competitive_markets/Non_market_price.html[Economics Online],  +
+*(4)* Study revision guide (pages 32-33), +
+*(5)* Read coursebook (pages 68-69), +
+*(6)* Answer Self-assessment task 3.1 in coursebook (page 70), +
+*(7)* Exercise 1 in workbook (page 45), +
+*(8)* Progress check A in revision guide (page 33) 
+
+|
+|
+|Direct and indirect taxes (part 1)
+|*(1)* Read link:http://www.economicsonline.co.uk/Competitive_markets/Tax_incidence.html[Economics Online (tax incidence)] and link:http://www.economicsonline.co.uk/Competitive_markets/Indirect_taxes_and_subsidies.html[Economics Online (specific tax and ad valorem tax)], +
+*(2)* Read link:https://www.tutor2u.net/economics/blog/key-as-micro-terms-taxes-and-subsidies[tutor2u], +
+*(3)* Read link:https://www.tutor2u.net/economics/reference/price-elasticity-of-demand[tutor2u], +
+*(4)* Study revision guide (pages 33-36), +
+*(5)* Read coursebook (pages 70-73), +
+*(6)* Answer Self-assessment task 3.2 in coursebook (page 72)
+
+|
+|
+|Direct and indirect taxes (part 2)
+|*(7)* Exercises 2 and 3 in workbook (page 46) , +
+*(8)* Check link:https://www.economicshelp.org/concepts/tax-incidence/[Economics Help] for Incidence of tax, +
+*(9)* Worksheet: numerical example on average vs. marginal rate of tax.  +
+*(10)* Revision activity A in revision guide (page 34), +
+*(11)* Progress check B in revision guide (page 35), +
+*(12)* Progress check C in revision guide (page 36) 
+
+|14
+|13/1 -- 17/1
+|_Government microeconomic intervention (part 2)_
+|
+
+|
+|
+|Subsidies; +
+Transfer payment
+|*(1)* Read coursebook (pages 73-74), +
+*(2)*  Answer Self-assessment task 3.3 in coursebook (page 74), +
+*(3)* Exercises 4 and 5.i in workbook (page 47) , +
+*(4)* Revision activity B in revision guide (page 37) 
+
+|
+|
+|Direct provision of goods and services + 
+Nationalisation and privatisation
+|*(1)* Read coursebook (pages 74-76), +
+*(2)* Visit link:https://www.tutor2u.net/economics/reference/public-goods[tutor2u (public goods and market failure)], +
+*(3)* Visit link:https://www.tutor2u.net/economics/reference/government-intervention-in-markets[tutor2u (analysing and evaluating government intervention in markets)], +
+*(4)* Read link:http://www.economicsonline.co.uk/Market_failures/Healthcare.html[Economics Online (healthcare as a merit good)], +
+*(5)* Progress check D in revision guide (page 37), +
+*(6)* Progress check E in revision guide (page 37), +
+*(7)* Revision activity C in revision guide (page 38), +
+*(8)* Exercise 5.ii, 6, 7, 8, +
+*(9)* Self-assessement task 3.4 in coursebook (page 77), +
+*(10)* Self-assessment task 3.5 in coursebook (page 77), +
+*(11)* Self-assessment task 3.6 in coursebook (page 78) 
+
+|
+|
+|Assessment
+|*(1)* Exam-style questions in coursebook (page 79), +
+*(2)* Data response question in workbook (page 48), +
+*(3)* Essay questions in workbook (page 48), +
+*(4)* Multiple choice questions in workbook (pages 49-50), +
+*(5)* Think like an economist in workbook (pages 51-52), +
+*(6)* Improve your answer in workbook (page 53-54), +
+*(7)* Multiple choice questions in revision guide (pages 40-41), +
+*(8)* Data response questions in revision guide (pages 41-42), +
+*(9)* Essay questions (page 43) 
+
+|15
+|20/1 -- 24/1
+|_The macroeconomy_
+|
+
+|
+|
+|Aggregate demand (AD) and aggregate supply (AS) analysis
+|*(1)* Read coursebook (pages 81-85), +
+*(2)* Visit link:http://www.economicsonline.co.uk/Managing_the_economy/Aggregate_demand.html[Economics Online (aggregate demand)], +
+*(3)* Visit link:http://www.economicsonline.co.uk/Managing_the_economy/Aggregate+supply.html[Economics Online (aggregate supply)], +
+*(4)* Visit link:https://www.tutor2u.net/economics/reference/aggregate-supply[tutor2u (aggregate supply)], +
+*(5)* Research a current macroeconomic problem in your country of choice (use ft.com/macroeconomics), +
+*(6)* Self-assessment task 4.1 in coursebook (page 85), +
+*(7)* Self-assessment task 4.2 in coursebook (page 85), +
+*(8)* Exercises 1, 2 and 3 in workbook (page 56), +
+*(9)* Progress check A and B in revision guide (pages 45-46), +
+*(10)* Revision activity A in revision guide (page 47) 
+
+|
+|
+|Inflation
+|*(1)* Read coursebook (pages 86-90), +
+*(2)* Visit link:https://www.tutor2u.net/economics/reference/inflation-measuring-inflation[tutor2u (inflation)], +
+*(3)* Visit link:https://www.tutor2u.net/economics/blog/unit-2-macro-revision-on-real-economic-data[tutor2u (real economic data)], +
+*(4)* Visit link:http://www.economicsonline.co.uk/Global_economics/Inflation.html[Economics Online (price stability)], +
+*(5)* Self-assessment task 4.3 in coursebook (page 88), +
+*(6)* Exercise 4 in workbook (pages 56-57), +
+*(7)* Progress check C in revision guide (page 49), +
+*(8)* Progress check D, E and F in revision guide (pages 49-50) 
+
+|
+|
+|Balance of payments
+|*(1)* Read coursebook (pages 90-94), +
+*(2)* Visit link:https://www.economicshelp.org/blog/185/economics/balance-of-payments-disequilibrium/[Economics Help (balance of payments disequilibrium)], +
+*(3)* Visit link:http://www.economicsonline.co.uk/Global_economics/The_balance_of_payments.html[Economics Online (balance of payments)], +
+*(4)* Visit link:https://www.economicshelp.org/blog/5776/trade/uk-balance-of-payments/[Economics Help (UK Balance of Payments)], +
+*(5)* Self-assessment task 4.4 in coursebook (page 91), +
+*(6)* Self-assessment task 4.5 in coursebook (page 93), +
+*(7)* Exercise 5 in workbook (page s 57-58), +
+*(8)* Revision activity B in revision guide (page 51), +
+*(9)* Progress check G in revision guide (page 51), +
+*(10)* Revision activity C in revision guide (page 52) 
+
+|16
+|27/1 -- 31/1
+|_The macroeconomy_
+|
+
+|
+|
+|Exchange rate
+|*(1)* Read coursebook (pages 94-100), +
+*(2)*  Prepare PowerPoint presentation on the impact of a change of a countryâ€™s exchange rate on their key indicators (for Friday), +
+*(3)* Self-assessment task in coursebook 4.6 (page 94), +
+*(4)* Self-assessment task 4.7 in coursebook (page 98), +
+*(5)* Exercise 6 in workbook (page 58), +
+*(6)* Progress check H in revision guide (page 53), +
+*(7)* Revision activity D in revision guide (page 54)
+
+|
+|
+|Terms of trade
+|*(1)*  Prepare PowerPoint presentation on the data response question, +
+*(2)* Visit link:http://www.economicsonline.co.uk/Global_economics/Terms_of_trade.html[Economics Online (terms of trade)], +
+*(3)* Visit link:http://www.economicsonline.co.uk/Global_economics/Policies_to_promote_development.html[Economics Online (policies to promote development)], (optional) Visit quandl.com, +
+*(4)* Self-assessment task 4.8 in coursebook (page 101), +
+*(5)* Exercise 6 in workbook (page 58), +
+*(6)* Exercise 8 in workbook (page 59)
+
+|
+|
+|Assessment
+|
+
+//|17
+//|3/2 -- 7/2
+//|
+//|
+
+//|18
+//|10/2 -- 14/2
+//|
+//|
+
+//|Holiday
+//|17/2 -- 21/2
+//|
+//|
+
+//|19
+//|24/2 -- 28/2
+//|
+//|
+
+//|20
+//|2/3 -- 6/3
+//|
+//|
+
+//|21
+//|9/3 -- 13/3
+//|
+//|
+
+//|22
+//|16/3 -- 20/3
+//|
+//|
+
+//|23
+//|23/3 -- 27/3
+//|
+//|
+
+//|Holiday
+//|6/4 -- 17/4
+//|
+//|
+
+//|24
+//|20/4 -- 24/4
+//|
+//|
+
+//|25
+//|27/4 -- 30/4
+//|
+//|
+
+|===
+
