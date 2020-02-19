@@ -1,10 +1,220 @@
 = Economics 2iec (2019-20)
 
+{blank} +
+
+
+== Basic economic ideas and resource allocation
+
+=== Outline
+
+At the outset of the course, it is essential that learners develop their understanding of the basic economic problem of scarcity and choice, and why this arises. This section also introduces the key fundamental economic ideas and principles which will underpin learning throughout the rest of the course. In particular, basic economic concepts and their links to the key concept Scarcity and choice are examined in detail.
+
+The AS Level (2iec) topics covered in this section are:
+
+* scarcity, choice and opportunity cost
+* positive and normative statements
+* factors of production
+* resource allocation in different economic systems and issues of transition
+* production possibility curves
+* money
+* classification of goods and services.
+
+{blank} +
+
+
+
 
 [cols="1,2,4,5", options="header"]
 //[%autowidth, options="header"]
 |===
 |Week |Date |Topic |Coursework
+
+|
+|
+|_Scarcity, choice and opportunity cost_
+|*(1)* link:http://www.tutor2u.net/economics/revision-notes/as-markets-scarcity-and-choice.html[Scarcity and Choices (tutor2u)] +
+ *(2)* link:http://www.tutor2u.net/economics/revision-notes/as-markets-demand.html[Theory of Demand (tutor2u)] +
+ *(3)* link:https://www.tutor2u.net/economics/reference/short-run-costs-of-production[Explaining Fixed and Variable Costs of Production]
+
+|
+|
+|_Positive and normative statements_
+|*(1)* link:http://www.tutor2u.net/economics/revision-notes/as-markets-positive-normative.html[Positive and Normative Economic Statements (tutor2u)] +
+
+|
+|
+|_Factors of production_
+|*(1)* link:http://www.tutor2u.net/economics/content/topics/introduction/factor.htm[Factors of production (tutor2u - broken)] +
+
+|
+|
+|_Resource allocation in different economic systems and issues of transition_
+|*(1)* link:http://www.tutor2u.net/assets/textfiles/sample_econ_wjec_as_companion_2005.pdf[Scarcity and Choice in Resource Allocation (tutor2u - pdf)] +
+ *(2)* link:https://www.economicsnetwork.ac.uk/links/data_free.htm[Economic data] 
+ 
+|
+|
+|_Production possibility curves_
+|*(1)* link:http://www.tutor2u.net/economics/revision-notes/as-markets-production-possibility-frontier.html[Production Possibility Frontier (tutor2u)] 
+
+|
+|
+|_Money_
+|
+
+|
+|
+|_Classification of goods and services_
+|*(1)* link:http://www.tutor2u.net/economics/content/topics/externalities/what_are_externalities.htm[Externalities - broken]
+ 
+
+
+
+
+//|17
+//|3/2 -- 7/2
+//|
+//|
+
+//|18
+//|10/2 -- 14/2
+//|
+//|
+
+//|Holiday
+//|17/2 -- 21/2
+//|
+//|
+
+//|19
+//|24/2 -- 28/2
+//|
+//|
+
+//|20
+//|2/3 -- 6/3
+//|
+//|
+
+//|21
+//|9/3 -- 13/3
+//|
+//|
+
+//|22
+//|16/3 -- 20/3
+//|
+//|
+
+//|23
+//|23/3 -- 27/3
+//|
+//|
+
+//|Holiday
+//|6/4 -- 17/4
+//|
+//|
+
+//|24
+//|20/4 -- 24/4
+//|
+//|
+
+//|25
+//|27/4 -- 30/4
+//|
+//|
+
+|===
+
+
+
+== The price system and the micro economy
+
+=== Outline
+
+The theory of supply and demand and how it is used to determine market equilibrium levels of price and output are fundamental requirements for understanding and applying economic knowledge throughout the curriculum and in real-life practice. This section provides a basic platform from which learners are able to analyse and evaluate a variety of alternative market situations.
+
+The AS Level (2iec) topics covered in this section are:
+
+* demand and supply curves
+* price elasticity, income elasticity and cross-elasticities of demand
+* price elasticity of supply
+* interaction of demand and supply
+* market equilibrium and disequilibrium
+* consumer and producer surplus.
+
+{blank} +
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Week |Date |Topic |Coursework
+
+
+|
+|
+|_Demand and supply curves_
+|*(1)* link:http://www.tutor2u.net/economics/revision-notes/as-markets-demand.html[Theory of Demand (tutor2u)] +
+ *(2)* link:http://www.tutor2u.net/economics/revision-notes/as-markets-supply.html[Theory of Supply (tutor2u)] 
+
+|
+|
+|_Price elasticity, income elasticity and cross-elasticities of demand_
+| *(1)* link:http://www.tutor2u.net/economics/revision-notes/as-markets-price-elasticity-of-demand.html[Explaining Price Elasticity of Demand] +
+  *(2)* link:http://www.economicsonline.co.uk/Competitive_markets/Elasticity.html[Elasticity] +
+  *(3)* link:http://www.economicsonline.co.uk/Competitive_markets/Income_elasticity_of_demand.html[Income elasticity of demand] +
+  *(4)* link:http://www.tutor2u.net/economics/revision-notes/as-markets-crossprice-elasticity-of-demand.html[Cross Price Elasticity of Demand] +
+  *(5)* link:http://www.economicsonline.co.uk/Competitive_markets/Price_elasticity_of_demand.html[Price elasticity of demand] +
+
+|
+|
+|_Price elasticity of supply_
+|*(1)* link:http://www.tutor2u.net/economics/content/topics/elasticity/elasticity_of_supply.htm[Explaining Price Elasticity of Supply (tutor2u)] +
+ *(2)* link:http://www.economicsonline.co.uk/Competitive_markets/Elasticity.html[Elasticity] +
+ *(3)* link:http://www.tutor2u.net/economics/content/topics/elasticity/elasticity_of_supply.htm[Explaining Price Elasticity of Supply] +
+ *(4)* link:http://www.tutor2u.net/economics/revision-notes/as-markets-price-elasticity-of-demand.html[Explaining Price Elasticity of Demand] +
+
+|
+|
+|_Interaction of demand and supply; Market equilibrium and disequilibrium_
+|*(1)* link:http://www.tutor2u.net/economics/content/topics/demandsupply/market_equilibrium.htm[Equilibrium Market Prices (tutor2u)] +
+ *(2)* link:http://www.tutor2u.net/economics/revision-notes/as-markets-coffee.html[Coffee Market] +
+ *(3)* link:http://www.tutor2u.net/economics/revision-notes/as-markets-crossprice-elasticity-of-demand.html[Cross Price Elasticity of Demand] 
+
+
+|
+|
+|_Consumer and producer surplus_
+|
+
+
+|===
+
+
+== Government microeconomic intervention
+
+This topic builds upon the market analysis developed in section 2. The emphasis is on government intervention in the market and learners will be given opportunities to apply theory introduced in section 2.
+
+=== Outline
+
+The AS Level topics covered in this section are:
+
+* maximum, and minimum prices
+* taxes (direct and indirect)
+* subsidies
+* transfer payments
+* direct provision of goods and services
+* nationalisation and privatisation.
+
+{blank} +
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Week |Date |Topic |Coursework
+
 
 |13
 |6/1 -- 10/1
@@ -86,6 +296,33 @@ Nationalisation and privatisation
 *(8)* Data response questions in revision guide (pages 41-42), +
 *(9)* Essay questions (page 43) 
 
+|===
+
+
+== The macroeconomy
+
+This section introduces learners to the study of the economy as a whole, rather than focusing upon the behaviour of particular markets. It develops knowledge and understanding of key macroeconomic indicators such as inflation, balance of payments and exchange rates and enables learners to apply this understanding to analyse and evaluate aggregate economic behaviour in a range of different economic settings.
+
+=== Outline
+
+The AS Level topics covered in this section are:
+
+* aggregate demand (AD) and aggregate supply (AS) analysis
+* inflation
+* balance of payments
+* exchange rates
+* the terms of trade
+* principles of absolute and comparative advantage
+* protectionism.
+
+{blank} +
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Week |Date |Topic |Coursework
+
+
 |15
 |20/1 -- 24/1
 |_The macroeconomy_
@@ -162,60 +399,9 @@ Nationalisation and privatisation
 |Assessment
 |
 
-//|17
-//|3/2 -- 7/2
-//|
-//|
 
-//|18
-//|10/2 -- 14/2
-//|
-//|
-
-//|Holiday
-//|17/2 -- 21/2
-//|
-//|
-
-//|19
-//|24/2 -- 28/2
-//|
-//|
-
-//|20
-//|2/3 -- 6/3
-//|
-//|
-
-//|21
-//|9/3 -- 13/3
-//|
-//|
-
-//|22
-//|16/3 -- 20/3
-//|
-//|
-
-//|23
-//|23/3 -- 27/3
-//|
-//|
-
-//|Holiday
-//|6/4 -- 17/4
-//|
-//|
-
-//|24
-//|20/4 -- 24/4
-//|
-//|
-
-//|25
-//|27/4 -- 30/4
-//|
-//|
 
 |===
+
+
 
