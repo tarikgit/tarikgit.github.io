@@ -3,7 +3,7 @@
 {blank} +
 
 
-== Basic economic ideas and resource allocation
+== Chapter 1: Basic economic ideas and resource allocation
 
 === Outline
 
@@ -130,7 +130,7 @@ The AS Level (2iec) topics covered in this section are:
 
 
 
-== The price system and the micro economy
+== Chapter 2: The price system and the micro economy
 
 === Outline
 
@@ -193,7 +193,7 @@ The AS Level (2iec) topics covered in this section are:
 |===
 
 
-== Government microeconomic intervention
+== Chapter 3: Government microeconomic intervention
 
 This topic builds upon the market analysis developed in section 2. The emphasis is on government intervention in the market and learners will be given opportunities to apply theory introduced in section 2.
 
@@ -299,7 +299,7 @@ Nationalisation and privatisation
 |===
 
 
-== The macroeconomy
+== Chapter 4: The macroeconomy
 
 This section introduces learners to the study of the economy as a whole, rather than focusing upon the behaviour of particular markets. It develops knowledge and understanding of key macroeconomic indicators such as inflation, balance of payments and exchange rates and enables learners to apply this understanding to analyse and evaluate aggregate economic behaviour in a range of different economic settings.
 
