@@ -1,0 +1,1373 @@
+= Business key terms
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Chapter |Key term |Definition |
+
+|1
+|Consumer goods
+|
+|
+
+|
+|Consumer services
+|
+|
+
+|
+|Capital goods
+|
+|
+
+|
+|Creating value
+|
+|
+
+|
+|Added value
+|
+|
+
+|
+|Opportunity cost
+|
+|
+
+|
+|Entrepreneur
+|someone who takes the financial risk of starting and managing a new venture
+|
+
+|
+|Social enterprise
+|
+|
+
+|
+|Triple bottom line
+|
+|
+
+|2
+|Primary sector business activity
+|
+|
+
+|
+|Secondary sector business activity
+|
+|
+
+|
+|Tertiary sector business activity
+|
+|
+
+|
+|Public sector
+|
+|
+
+|
+|Private sector
+|
+|
+
+|
+|Mixed economy
+|
+|
+
+|
+|Free-market economy
+|
+|
+
+|
+|Command economy
+|
+|
+
+|
+|Sole trader
+|
+|
+
+|
+|Partnership
+|
+|
+
+|
+|Limited liability
+|
+|
+
+|
+|Private limited company
+|
+|
+
+|
+|Share
+|
+|
+
+|
+|Shareholder
+|
+|
+
+|
+|Public limited company
+|
+|
+
+|
+|Memorandum of Association
+|
+|
+
+|
+|Articles of Association
+|
+|
+
+|
+|Franchise
+|
+|
+
+|
+|Joint venture
+|
+|
+
+|
+|Holding company
+|
+|
+
+|
+|Public corporation
+|
+|
+
+|3
+|Revenue
+|
+|
+
+|
+|Capital employed
+|
+|
+
+|
+|Market capitalisation
+|
+|
+
+|
+|Market share
+|
+|
+
+|
+|Internal growth
+|
+|
+
+|4
+|Mission statement
+|
+|
+
+|
+|Corporate social repsonsibility
+|
+|
+
+|
+|Management by objectives
+|
+|
+
+|
+|Ethical code (code of conduct)
+|
+|
+
+|5
+|Stakeholders
+|
+|
+
+|
+|Stakeholder concept
+|
+|
+
+|
+|Corporate social responsibility
+|
+|
+
+|10
+|Manager
+|
+|
+
+|
+|Leadership
+|
+|
+
+|
+|Autocratic leadership
+|
+|
+
+|
+|Democratic leadership
+|
+|
+
+|
+|Paternalistic leadership
+|
+|
+
+|
+|Laissez-faire leadership
+|
+|
+
+|
+|Informal leader
+|
+|
+
+|
+|Emotional intelligence (EI)
+|
+|
+
+|11
+|Motivation
+|
+|
+
+|
+|Self-actualisation
+|
+|
+
+|
+|Motivating factors (motivators)
+|
+|
+
+|
+|Hygiene factors
+|
+|
+
+|
+|Job enrichment
+|
+|
+
+|
+|Time based wage rate
+|
+|
+
+|
+|Piece rate
+|
+|
+
+|
+|Salary
+|
+|
+
+|
+|Commission
+|
+|
+
+|
+|Bonus
+|
+|
+
+|
+|Performance-related pay
+|
+|
+
+|
+|Profit sharing
+|
+|
+
+|
+|Fringe benefits
+|
+|
+
+|
+|Job rotation
+|
+|
+
+|
+|Job enlargement
+|
+|
+
+|
+|Job redesign
+|
+|
+
+|
+|Quality circles
+|
+|
+
+|
+|Worker participation
+|
+|
+
+|
+|Team-working
+|
+|
+
+|12
+|Human resource management (HRM)
+|
+|
+
+|
+|Recruitment
+|
+|
+
+|
+|Selection
+|
+|
+
+|
+|Job description
+|
+|
+
+|
+|Person specification
+|
+|
+
+|
+|Employment contract
+|
+|
+
+|
+|Labour turnover
+|
+|
+
+|
+|Training
+|
+|
+
+|
+|Induction training
+|
+|
+
+|
+|On-the-job training
+|
+|
+
+|
+|Off-the-job training
+|
+|
+
+|
+|Employee appraisal
+|
+|
+
+|
+|Dismissal
+|
+|
+
+|
+|Unfair dismissal
+|
+|
+
+|
+|Redundancy
+|
+|
+
+|
+|Work-life balance
+|
+|
+
+|
+|Equality policy
+|
+|
+
+|
+|Diversity policy
+|
+|
+
+|16
+|Marketing
+|
+|
+
+|
+|Marketing objectives
+|
+|
+
+|
+|Marketing strategy
+|
+|
+
+|
+|Market orientation
+|
+|
+
+|
+|Product orientation
+|
+|
+
+|
+|Asset-led marketing
+|
+|
+
+|
+|Societal marketing
+|
+|
+
+|
+|Demand
+|
+|
+
+|
+|Supply
+|
+|
+
+|
+|Equilibrium price
+|
+|
+
+|
+|Market size
+|
+|
+
+|
+|Market growth
+|
+|
+
+|
+|Market share
+|
+|
+
+|
+|Direct competitor
+|
+|
+
+|
+|USP - unique selling point (or proposition)
+|
+|
+
+|
+|Product differentiation
+|
+|
+
+|
+|Niche marketing
+|
+|
+
+|
+|Mass marketing
+|
+|
+
+|
+|Market segment
+|
+|
+
+|
+|Market segmentation
+|
+|
+
+|
+|Consumer profile
+|
+|
+
+|17
+|Market research
+|
+|
+
+|
+|Primary research
+|
+|
+
+|
+|Secondary research
+|
+|
+
+|
+|Qualitative research
+|
+|
+
+|
+|Quantitative research
+|
+|
+
+|
+|Focus groups
+|
+|
+
+|
+|Sample
+|
+|
+
+|
+|Random sampling
+|
+|
+
+|
+|Systematic sampling
+|
+|
+
+|
+|Stratified sampling
+|
+|
+
+|
+|Quota sampling
+|
+|
+
+|
+|Custer sampling
+|
+|
+
+|
+|Open questions
+|
+|
+
+|
+|Closed questions
+|
+|
+
+|
+|Arithmetic mean
+|
+|
+
+|
+|Mode
+|
+|
+
+|
+|Median
+|
+|
+
+|
+|Range
+|
+|
+
+|
+|Inter-quartile range
+|
+|
+
+|18
+|Marketing mix
+|
+|
+
+|
+|Customer relationship management (CRM)
+|
+|
+
+|
+|Brand
+|
+|
+
+|
+|Intangible attributes of a product
+|
+|
+
+|
+|Tangible attributes of a product
+|
+|
+
+|
+|Product
+|
+|
+
+|
+|Product positioning
+|
+|
+
+|
+|Product portfolio analysis
+|
+|
+
+|
+|Product life cycle
+|
+|
+
+|
+|Consumer durable
+|
+|
+
+|
+|Extension strategies
+|
+|
+
+|
+|Price elasticity of demand
+|
+|
+
+|
+|Mark-up pricing
+|
+|
+
+|
+|Target pricing
+|
+|
+
+|
+|Full-cost pricing
+|
+|
+
+|
+|Contribution-cost pricing
+|
+|
+
+|
+|Competition-based pricing
+|
+|
+
+|
+|Dynamic pricing
+|
+|
+
+|
+|Penetration pricing
+|
+|
+
+|
+|Market skimming
+|
+|
+
+|19
+|Promotion
+|
+|
+
+|
+|Promotion mix
+|
+|
+
+|
+|Above-the-line promotion
+|
+|
+
+|
+|Advertising
+|
+|
+
+|
+|Below-the-line promotion
+|
+|
+
+|
+|Sales promotion
+|
+|
+
+|
+|Personal selling
+|
+|
+
+|
+|Sponsorship
+|
+|
+
+|
+|Public relations
+|
+|
+
+|
+|Branding
+|
+|
+
+|
+|Marketing or promotion budget
+|
+|
+
+|
+|Channel of distribution
+|
+|
+
+|
+|Internet (online) marketing
+|
+|
+
+|
+|E-commerce
+|
+|
+
+|
+|Viral marketing
+|
+|
+
+|
+|Integrated marketing mix
+|
+|
+
+|22
+|Added value
+|the difference between the cost of purchasing raw materials and the price the finished goods are sold for - this is the same as creating value
+|
+
+|
+|Intellectual capital
+|intangible capital of a business that includes human capital (well trained and knowledgeable employees), structural capital (databases and information systems) and relational capital (good links with supplier and customers)
+|
+
+|
+|Production
+|converting inputs into outputs
+|
+
+|
+|Level of production
+|the number of units produced during a time period
+|
+
+|
+|Productivity
+|the ratio of outputs to inputs during production, e.g. output per worker per time period
+|
+
+|
+|Efficiency
+|producing output at the highest ratio of output to input
+|
+
+|
+|Effectiveness
+|meeting the objectives of the enterprise by using inputs productively to meet customers' need
+|
+
+|
+|Labour intensive
+|involving a high level of labour input compared with capital equipment
+|
+
+|
+|Capital intensive
+|involving a high quantity of capital equipment compared with labour input
+|
+
+|23
+|Operations planning
+|preparing input resources to supply products to meet expected demand
+|
+
+|
+|CAD - computer aided design
+|the use of the computer programs to create two- or three-dimensional (2D or 3D) graphical representations of physical objects
+|
+
+|
+|CAM - computer aided manufacturing
+|the use of computer software to control machine tools and related machinery in the manufacturing of components or complete products
+|
+
+|
+|Operational flexibility
+|the ability of a business to vary both the level of production and the range of products following changes in customer demand
+|
+
+|
+|Process innovation
+|the use of a new or much improved production method or service delivery method
+|
+
+|
+|Job production
+|producing a one-off item specially designed for the customer
+|
+
+|
+|Batch production
+|producing a limited number of identical products -- each item in the batch passes through one stage of production before passing on to the next stage
+|
+
+|
+|Flow production
+|producing items in a continually moving process
+|
+
+|
+|Mass customisation
+|the use of flexible computer-aided production systems to produce items to meet individual customers' requirements at mass-production cost level
+|
+
+|
+|Optimal location
+|a business location that gives the best combination of quantitative and qualitative factors
+|
+
+|
+|Quantitative factors
+|these are measurable in financial terms and will have a direct impact on either the costs of a site or the revenues from it and its profitability
+|
+
+|
+|Qualitative factors
+|non-measurable factors that may influence business decisions
+|
+
+|
+|Multi-site location
+|a business that operates from more than one location
+|
+
+|
+|Offshoring
+|the relocation of a business process done in one country to the same or another company in another country
+|
+
+|
+|Multinational
+|a business with operations or production bases in more than one country
+|
+
+|
+|Trade barriers
+|taxes (tariffs) or other limitations on the free international movement of goods and services
+|
+
+|
+|Scale of operation
+|the maximum output that can be achieved using the available inputs (resources) -- this scale can oly be increased in the long term by employing more of all inputs
+|
+
+|
+|Economies of scale
+|reductions in a firm's unit (average) costs of production that result from an increase in the scale of operations
+|
+
+|
+|Diseconomies of scale
+|factors that cause average costs of production to rise when the scale of operation is increased
+|
+
+|
+|Enterprise resource planning
+|the use of a single computer application to plan the purchase and use of resources in an organisation to improve the efficiency of operations
+|
+
+|
+|Supply chain
+|all of the stages in the production process from obtaining raw materials to selling to the consumer -- from point of origin to point of consumption
+|
+
+|
+|Sustainability
+|production systems that prevent waste by using theminimum of non-renewable resources so that levels of production can be sustained in the future
+|
+
+|24
+|Inventory (stock)
+|materials and goods required to allow for the production and supply of products to the customer
+|
+
+|
+|Economic order quantity
+|the optimum or least-cost quantity of stock to re-order taking into account delivery costs and stock-holding costs
+|
+
+|
+|Buffer inventories
+|the minimum inventory level that should be held to ensure that production could still take place should a delay in delivery occur or should production rates increase.
+|
+
+|
+|Re-order quantity
+|the number of units ordered each time
+|
+
+|
+|Lead time
+|the normal time taken between ordering new stocks and their delivery
+|
+
+|
+|Just-in-time
+|this inventory-control method aims to avoid holding inventories by requiring supplies to arrive just as
+they are needed in production and completed products are produced to order.
+|
+
+|28
+|Start-up capital
+|the capital needed by an entrepreneur to set up a business
+|
+
+|
+|Working capital
+|the capital needed to pay for raw materials, day-to-day running costs and credit offered to customers. In accounting terms working capital = current assets – current liabilities
+|
+
+|
+|Capital expenditure
+|the purchase of assets that are expected to last for more than one year, such as building and machinery
+|
+
+|
+|Revenue expenditure
+|spending on all costs and assets other than fixed assets and includes wages and salaries and materials bought for stock
+|
+
+|
+|Liquidity
+|the ability of a firm to be able to pay its short-term debts
+|
+
+|
+|Liquidation
+|when a firm ceases trading and its assets are sold for cash to pay suppliers and other creditors
+|
+
+|
+|Overdraft
+|bank agrees to a business borrowing up to an agreed limit as and when required
+|
+
+|
+|Factoring
+|selling of claims over trade receivables to a debt factor in exchange for immediate liquidity – only a proportion of the value of the debts will be received as cash
+|
+
+|
+|Hire purchase
+|an asset is sold to a company that agrees to pay fixed repayments over an agreed time period – the asset belongs to the company
+|
+
+|
+|Leasing
+|obtaining the use of equipment or vehicles and paying a rental or leasing charge over a fixed period, this avoids the need for the business to raise long-term capital to buy the asset; ownership remains with the leasing company
+|
+
+|
+|Equity finance
+|permanent finance raised by companies through the sale of shares
+|
+
+|
+|Long-term loans
+|loans that do not have to be repaid for at least one year
+|
+
+|
+|Long-term bonds or debentures
+|bonds issued by companies to raise debt finance, oft en with a fixed rate of interest
+|
+
+|
+|Rights issue
+|existing shareholders are given the right to buy additional shares at a discounted price
+|
+
+|
+|Venture capital
+|risk capital invested in business start-ups or expanding small businesses that have good profit potential but do not find it easy to gain finance from other sources
+|
+
+|
+|Microfinance
+|providing financial services for poor and low-income customers who do not have access to banking
+services, such as loans and overdraft s off ered by traditional commercial banks
+|
+
+|
+|Crowd funding
+|the use of small amounts of capital from a large number of individuals to finance a new business venture
+|
+
+|
+|Business plan
+|a detailed document giving evidence about a new or existing business, and that aims to convince
+external lenders and investors to extend finance to the business
+|
+
+|29
+|Direct costs
+|these costs can be clearly identified with each unit of production and can be allocated to a cost centre
+|
+
+|
+|Indirect costs
+|costs that cannot be identified with a unit of production or allocated accurately to a cost centre
+|
+
+|
+|Fixed costs
+|costs that do not vary with output in the short run
+|
+
+|
+|Variable costs
+|costs that vary with output
+|
+
+|
+|Marginal costs
+|the extra cost of producing one more unit of output
+|
+
+|
+|Break-even point of production
+|the level of output at which total costs equal total revenue, neither a profit nor a loss is made
+|
+
+|
+|Margin of safety
+|the amount by which the sales level exceeds the break-even level of output
+|
+
+|
+|Contribution per unit
+|selling price less variable cost per unit
+|
+
+|30
+|Income statement
+|records the revenue, costs and profit (or loss) of a business over a given period of time
+|
+
+|
+|Gross profit
+|equal to sales revenue less cost of sales
+|
+
+|
+|Revenue
+|(formerly called sales turnover): the total value of sales made during the trading period = selling price × quantity sold
+|
+
+|
+|Cost of sales
+|(or cost of goods sold): this is the direct cost of the goods that were sold during the financial year
+|
+
+|
+|Operating profit
+|(formerly referred to as net profit): gross profit minus overhead expenses
+|
+
+|
+|Profit for the year
+|(profit aft er tax): operating profit minus interest costs and corporation tax
+|
+
+|
+|Dividends
+|the share of the profits paid to shareholders as a return for investing in the company
+|
+
+|
+|Retained earnings
+|(profit): the profit left aft er all deductions, including dividends, have been made, this is ‘ploughed back’ into the company as a source of finance
+|
+
+|
+|Low-quality profit
+|one-off profit that cannot easily be repeated or sustained
+|
+
+|
+|High-quality profit
+|profit that can be repeated and sustained
+|
+
+|
+|Statement of financial position
+|(balance sheet): an accounting statement that records the values of a business’s assets, liabilities and shareholders’ equity at one point in time
+|
+
+|
+|Shareholders' equity
+|total value of assets – total value of liabilities
+|
+
+|
+|Asset
+|an item of monetary value that is owned by a business
+|
+
+|
+|Liability
+|a financial obligation of a business that it is required to pay in the future
+|
+
+|
+|Share capital
+|the total value of capital raised from shareholders by the issue of shares
+|
+
+|
+|Non-current assets
+|assets to be kept and used by the business for more than one year. Used to be referred to as 'fixed assets'
+|
+
+|
+|Intangible assets
+|items of value that do not have a physical presence, such as patents, trademarks and current assets
+|
+
+|
+|Current assets
+|assets that are likely to be turned into cash before the next balance-sheet date
+|
+
+|
+|Inventories
+|stocks held by the business in the form of materials, work in progress and finished goods
+|
+
+|
+|Trade receivables (debtors)
+|the value of payments to be received from customers who have bought goods on credit
+|
+
+|
+|Current liabilities
+|debts of the business that will usually have to be paid within one year
+|
+
+|
+|Accounts payable (creditors)
+|value of debts for goods bought on credit payable to suppliers; also known as 'trade payables'
+|
+
+|
+|Non-current liabilities
+|value of debts of the business that will be payable aft er more than one year
+|
+
+|
+|Intellectual capital or property
+|the amount by which the market value of a firm exceeds its tangible assets less liabilities – an intangible asset
+|
+
+|
+|Goodwill
+|arises when a business is valued at or sold for more than the balance-sheet value of its assets
+|
+
+|
+|Cash-flow statement
+|record of the cash received by a business over a period of time and the cash outflows from the business
+|
+
+|
+|Gross profit margin
+|This ratio compares gross profit (profit before deduction of overheads) with revenue. +
+ gross profit margin = (gross profit)/revenue x100 %
+|
+
+|
+|Operating profit margin
+|This ratio compares operating profit (formerly this ratio was referred to as the net profit margin) revenue +
+operating profit margin = (operating profit)/revenue x 100%
+|
+
+|
+|Liquidity
+|the ability of a firm to pay its short-term debts
+|
+
+|
+|Current ratio
+|current ratio =(current assets)/(current liabilities)
+|
+
+|
+|Acid-test ratio
+|acid-test ratio = (liquid assets)/(current liabilities)
+|
+
+|
+|Liquid assets
+|current assets – inventories (stocks) = liquid assets
+|
+
+|
+|Window-dressing
+|presenting the company accounts in a favourable light – to flatter the business performance
+|
+
+|31
+|Cash flow
+|the sum of cash payments to a business (inflows) less the sum of cash payments (outflows)
+|
+
+|
+|Liquidation
+|when a firm ceases trading and its assets are sold for cash to pay suppliers and other creditors
+|
+
+|
+|Insolvent
+|when a business cannot meet its short-term debts
+|
+
+|
+|Cash inflows
+|payments in cash received by a business, such as those from customers (trade receivables) or from the bank, e.g. receiving a loan
+|
+
+|
+|Cash outflows
+|payments in cash made by a business, such as those to suppliers and workers
+|
+
+|
+|Cash-flow forecast
+|estimate of a firm’s future cash inflows and outflows
+|
+
+|
+|Net monthly cash flow
+|estimated diff erence between monthly cash inflows and cash outflows
+|
+
+|
+|Opening cash balance
+|cash held by the business at the start of the month
+|
+
+|
+|Closing cash balance
+|cash held at the end of the month becomes next month’s opening balance
+|
+
+|
+|Credit control
+|monitoring of debts to ensure that credit periods are not exceeded
+|
+
+|
+|Bad debt
+|unpaid customers’ bills that are now very unlikely to ever be paid
+|
+
+|
+|Overtrading
+|expanding a business rapidly without obtaining all of the necessary finance so that a cash-flow shortage develops
+|
+
+
+|===
+
+
+
+

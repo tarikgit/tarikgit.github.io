@@ -1,0 +1,195 @@
+= Business 2iec (2019-20)
+
+{blank} +
+
+
+
+
+== Unit 1: Business and its environment
+
+
+{blank} +
+
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Week |Date |Topic |Coursework
+
+|
+|
+| _1: Enterprise_
+|
+
+|
+|
+|_2: Business structure_
+|
+
+|
+|
+|_3: Size of business_
+|
+
+|
+|
+|_4: Business objectives_
+|
+
+|
+|
+|_5: Stakeholders in a business_
+|
+
+
+|===
+
+{blank} +
+
+
+
+
+== Unit 2: People in organisations
+
+
+{blank} +
+
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Week |Date |Topic |Coursework
+
+|
+|
+|_10: Management and leadership_
+|
+
+|
+|
+|_11: Motivation_
+|
+
+|
+|
+|_12: Human resource management_
+|
+
+
+|===
+
+{blank} +
+
+
+
+
+== Unit 3: Marketing
+
+
+{blank} +
+
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Week |Date |Topic |Coursework
+
+|
+|
+|_16: What is marketing_
+|
+
+|
+|
+|_17: Market research_
+|
+
+|
+|
+|_18: The marketing mix -- product and price_
+|
+
+|
+|
+|_19: The marketing mix -- promotion and place_
+|
+
+
+|===
+
+{blank} +
+
+
+
+
+== Unit 4: Operations and project management
+
+
+{blank} +
+
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Week |Date |Topic |Coursework
+
+|
+|
+|_22: The nature of operations_
+|
+
+|
+|
+|_23: Operations planning_
+|
+
+|
+|
+|_24: Inventory management_
+|
+
+
+|===
+
+{blank} +
+
+
+
+
+== Unit 5: Finance and accounting
+
+
+{blank} +
+
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Week |Date |Topic |Coursework
+
+
+|
+|
+|_28: Business finance_
+|
+
+|
+|
+|_29: Costs_
+|
+
+|
+|
+|_30: Accounting fundamentals_
+|
+
+|
+|
+|_31: Forecasting and managing cash flows_
+|
+
+
+|===
+
+{blank} +
+
