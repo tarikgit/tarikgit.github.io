@@ -35,24 +35,44 @@
 
 
 
+The following chart represents the essay from the revision guide (page 176).
 
 [ditaa, ../img/ditaa-essaywriting-example1]
 ....
 
  +------------------------+                            +-------------------------------+
  |                        |                            |                               |
- |      Argument:         |                            |   Counterbalance argument:    |
+ |                        |                            |                               |
  |       {d}              |<-----+                +--->|               {d}             |
- | This a test            |      |                |    |                               |
- | Then it willbe like    |      |                |    |                               |
+ |                        |      |                |    |                               |
+ |  market economy        |      |                |    |    planned economy            |
+ |                        |      |                |    |                               |
+ |   market forces        |      |                |    |     distribution of income    |
+ |   resource allocation  |      |                |    |     state planning            |
+ |   price mechanism      |      |                |    |     merit/demerit goods       |
+ |   scarce resources     |      |                |    |                               |
+ |        more expensive  |      |                |    |                               |
+ |                        |      |                |    |                               |
+ |   advantages of price  |      |                |    |    advantages of planned      |
+ |        mechanism (...) |      |                |    |               economy (...)   |
+ |   downsides of price   |      |                |    |    downsides of planned       |
+ |        mechanism (...) |      |                |    |               economy (...)   |
+ |                        |      |                |    |                               |
+ |                        |      |                |    |                               |
+ |                        |      |                |    |                               |
+ |                        |      |                |    |                               |
  |                        |      |                |    |                               |
  +------------------------+      |                |    +-------------------------------+  
+                                 |                |  
+                                 |                | 
+                                 |                |  
+                                 |                |  
                                  |                |
                                  |                |
                                  |                |
                              /------------------------\
                              |                        |
-                             |      Key term          |
+                             |  the economic problem  |
                              |                        |
                              \------------------------/  
                                          |
