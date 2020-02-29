@@ -452,8 +452,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <pre class="highlight"><code class="language-bash" data-lang="bash">sudo aptitude install texlive-latex-recommended texlive-pictures texlive-latex-extra</code></pre>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_tikz">Tikz</h3>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tikz">Tikz</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>Visit <a href="http://www.texample.net/tikz/">Examples for Tikz.</a></p>
 </div>
@@ -462,11 +465,63 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_bash_script">Bash script</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This script is for compiling a latex file:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">#!/bin/bash
+
+# We have to make it an executable file by changing the permissions.
+# chmod u+x compile-latex.sh
+
+latex $1".tex" &amp;
+latex $1".tex" &amp;
+latex $1".tex" &amp;
+dvips $1".dvi" &amp;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Once the permission of the file has been changed (in order to make it executable):</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">chmod u+x compile-latex.sh</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>It can be run like this:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">./compile-latex.sh sourcefile</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>(the sourcefile has to be without the '.tex' extension)</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_convert_pdf_ps_into_images">Convert pdf, ps into images</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Use <a href="https://imagemagick.org">ImageMagick</a>, by installing:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo aptitude install imagemagick</code></pre>
+</div>
+</div>
+</div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-02-29 10:51:12 +0100
+Last updated 2020-02-29 18:40:13 +0100
 </div>
 </div>
 </body>

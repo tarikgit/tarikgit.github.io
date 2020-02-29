@@ -10,8 +10,51 @@ Visit link:https://www.latex-project.org/get/[The LaTeX project] or install texl
 sudo aptitude install texlive-latex-recommended texlive-pictures texlive-latex-extra
 ----
 
-=== Tikz
+== Tikz
 
 Visit link:http://www.texample.net/tikz/[Examples for Tikz.]
 
 link:http://www.texample.net/tikz/examples/area/economics/[Examples from economics].
+
+== Bash script
+
+This script is for compiling a latex file:
+
+[source,bash]
+----
+#!/bin/bash
+
+# We have to make it an executable file by changing the permissions.
+# chmod u+x compile-latex.sh
+
+latex $1".tex" &
+latex $1".tex" &
+latex $1".tex" &
+dvips $1".dvi" &
+----
+
+Once the permission of the file has been changed (in order to make it executable):
+
+[source,bash]
+----
+chmod u+x compile-latex.sh
+----
+
+It can be run like this:
+
+[source,bash]
+----
+./compile-latex.sh sourcefile
+----
+(the sourcefile has to be without the '.tex' extension)
+
+
+== Convert pdf, ps into images
+
+Use link:https://imagemagick.org[ImageMagick], by installing:
+
+[source,bash]
+----
+sudo aptitude install imagemagick
+----
+
