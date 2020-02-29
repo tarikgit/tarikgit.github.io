@@ -22,7 +22,7 @@ link:../latex/01-demand-supply.tex[Supply and demand diagram.]
 
 == Bash script
 
-This script is for compiling a latex file:
+This link:../latex/compile-latex.sh[script] is for compiling a latex file:
 
 [source,bash]
 ----
