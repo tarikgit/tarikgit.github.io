@@ -18,7 +18,7 @@ link:http://www.texample.net/tikz/examples/area/economics/[Examples from economi
 
 === Examples
 
-link:latex/01-demand-supply.tex[Supply and demand diagram.]
+link:../latex/01-demand-supply.tex[Supply and demand diagram.]
 
 == Bash script
 
