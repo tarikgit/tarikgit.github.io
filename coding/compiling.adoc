@@ -1,0 +1,17 @@
+= Compiling in different environments
+
+
+== Installing LaTeX
+
+Visit link:https://www.latex-project.org/get/[The LaTeX project] or install texlive:
+
+[source,bash]
+----
+sudo aptitude install texlive-latex-recommended texlive-pictures texlive-latex-extra
+----
+
+=== Tikz
+
+Visit link:http://www.texample.net/tikz/[Examples for Tikz.]
+
+link:http://www.texample.net/tikz/examples/area/economics/[Examples from economics].
