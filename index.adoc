@@ -5,3 +5,9 @@
 * link:teaching/economics-essaywriting.html[Economics essay writing (2019-20)] 
 * link:teaching/business2019-20.html[Business (2019-20)]
 * link:teaching/business-keyterms.html[Business keyterms (2019-20)]
+
+
+= Misc
+
+* link:coding/compiling.html[Instructions for LaTeX.]
+* link:coding/asciidoctor.html[Instructions for compiling asciidoctor files.]
