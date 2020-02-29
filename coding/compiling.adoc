@@ -16,6 +16,10 @@ Visit link:http://www.texample.net/tikz/[Examples for Tikz.]
 
 link:http://www.texample.net/tikz/examples/area/economics/[Examples from economics].
 
+=== Examples
+
+link:latex/01-demand-supply.tex[Supply and demand diagram.]
+
 == Bash script
 
 This script is for compiling a latex file:
@@ -57,4 +61,7 @@ Use link:https://imagemagick.org[ImageMagick], by installing:
 ----
 sudo aptitude install imagemagick
 ----
+
+
+
 
