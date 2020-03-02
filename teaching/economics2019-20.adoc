@@ -404,4 +404,37 @@ The AS Level topics covered in this section are:
 |===
 
 
+== Chapter 5: Government macro intervention
+
+This section builds on the learning undertaken in the previous AS units to link together macroeconomic theory and government macroeconomic policy. In particular, learners will have the opportunity to focus on the key fiscal, monetary and supply side policy instruments and look at how effective these are in correcting balance of payment deficits, inflation and deflation. Learners will also have plenty of opportunity to look at different approaches and assess and evaluate how effective governments are in achieving their macro-economic aims.
+
+The AS Level topics covered in this section are:
+
+* types of policy: fiscal, monetary and supply side policy
+* policies to correct balance of payments disequilibrium
+* policies to correct inflation and deflation.
+
+{blank} +
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Week |Date |Topic |Coursework
+
+
+|24
+|2/3 -- 6/3
+|_Government macro intervention_
+|
+
+|
+|
+|Fiscal policy
+|*(1)* link:https://www.thebalance.com/expansionary-fiscal-policy-purpose-examples-how-it-works-3305792[Expansionary Fiscal Policy: Definition, Examples] +
+*(2)* link:https://www.economicshelp.org/blog/617/economics/impact-of-expansionary-fiscal-policy/[Impact of Expansionary Fiscal Policy (Economics Help)] +
+*(3)* link:https://www.ft.com/video/93b4ca05-9541-42fe-a9e6-0349d880df55[Is a global recession on the horizon? (FT video)] +
+*(4)* link:https://www.ft.com/content/459e1c1a-57b1-11ea-a528-dd0f971febbc[What should macro policymakers do about the coronavirus?]
+ 
+
+|===
 
