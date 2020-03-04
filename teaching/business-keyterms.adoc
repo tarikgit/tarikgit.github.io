@@ -8,32 +8,45 @@
 
 |1
 |Consumer goods
-|
+|the physical and tangible goods sold to 
+the general public – they include durable consumer goods,
+such as cars and washing machines, and non-durable
+consumer goods, such as food, drinks and sweets that can
+be used only once.
 |
 
 |
 |Consumer services
-|
+|the non-tangible products sold to
+the general public – they include hotel accommodation,
+insurance services and train journeys.
 |
 
 |
 |Capital goods
-|
+|the physical goods used by industry to
+aid in the production of other goods and services, such as
+machines and commercial vehicles.
 |
 
 |
 |Creating value
-|
+|increasing the difference between the
+cost of purchasing bough-in materials and the price the
+finished goods are sold for.
 |
 
 |
 |Added value
-|
+|the difference between the cost of
+purchasing bought-in materials and the price the finished
+goods are sold for.
 |
 
 |
 |Opportunity cost
-|
+|the benefit of the next most desired
+option which is given up.
 |
 
 |
@@ -43,782 +56,1052 @@
 
 |
 |Social enterprise
-|
+|a business with mainly social
+objectives that reinvests most of its profits into benefiting
+society rather than maximising returns to owners.
 |
 
 |
 |Triple bottom line
-|
+|the three objectives of social
+enterprises: economic, social and environmental.
 |
 
 |2
 |Primary sector business activity
-|
+|firms engaged in
+farming, fishing, oil extraction and all other industries that
+extract natural resources so that they can be used and
+processed by other firms.
 |
 
 |
 |Secondary sector business activity
-|
+|firms that
+manufacture and process products from natural resources,
+including computers, brewing, baking, clothes-making and
+construction.
 |
 
 |
 |Tertiary sector business activity
-|
+|firms that provide
+services to consumers and other businesses, such as
+retailing, transport, insurance, banking, hotels, tourism and
+telecommunications.
 |
 
 |
 |Public sector
-|
+|comprises organisations accountable
+to and controlled by central or local government
+(the state).
 |
 
 |
 |Private sector
-|
+|comprises businesses owned and
+controlled by individuals or groups of individuals.
 |
 
 |
 |Mixed economy
-|
+|economic resources are owned and
+controlled by both private and public sectors.
 |
 
 |
 |Free-market economy
-|
+|economic resources are
+owned largely by the private sector with very little state
+intervention.
 |
 
 |
 |Command economy
-|
+|economic resources are owned,
+planned and controlled by the state.
 |
 
 |
 |Sole trader
-|
+|a business in which one person provides the
+permanent finance and, in return, has full control of the
+business and is able to keep all of the profits.
 |
 
 |
 |Partnership
-|
+|a business formed by two or more people
+to carry on a business together, with shared capital
+investment and, usually, shared responsibilities.
 |
 
 |
 |Limited liability
-|
+|the only liability – or potential loss – a
+shareholder has if the company fails is the amount invested
+in the company, not the total wealth of the shareholder.
 |
 
 |
 |Private limited company
-|
+|a small to medium-sized
+business that is owned by shareholders who are oft en
+members of the same family; this company cannot sell
+shares to the general public.
 |
 
 |
 |Share
-|
+|a certificate confirming part ownership of a
+company and entitling the shareholder owner to dividends
+and certain shareholder rights.
 |
 
 |
 |Shareholder
-|
+|a person or institution owning shares in a
+limited company.
 |
 
 |
 |Public limited company
-|
+|a limited company, oft en a large
+business, with the legal right to sell shares to the general
+public – share prices are quoted on the national stock
+exchange.
 |
 
 |
 |Memorandum of Association
-|
+|this states the name of the
+company, the address of the head office through which it
+can be contacted, the maximum share capital for which the
+company seeks authorisation and the declared aims of the
+business.
 |
 
 |
 |Articles of Association
-|
+|this document covers the internal
+workings and control of the business – for example, the
+names of directors and the procedures to be followed at
+meetings will be detailed.
 |
 
 |
 |Franchise
-|
+|a business that uses the name, logo and
+trading systems of an existing successful business.
 |
 
 |
 |Joint venture
-|
+|two or more businesses agree to work
+closely together on a particular project and create a
+separate business division to do so.
 |
 
 |
 |Holding company
-|
+|a business organisation that owns and
+controls a number of separate businesses, but does not
+unite them into one unified company.
 |
 
 |
 |Public corporation
-|
+|a business enterprise owned and
+controlled by the state – also known as nationalised
+industry.
 |
 
 |3
 |Revenue
-|
+|total value of sales made by a business in a
+given time period.
 |
 
 |
 |Capital employed
-|
+|the total value of all long-term finance
+invested in the business.
 |
 
 |
 |Market capitalisation
-|
+|the total value of a company’s
+issued shares.
 |
 
 |
 |Market share
-|
+|sales of the business as a proportion of
+total market sales.
 |
 
 |
 |Internal growth
-|
+|expansion of a business by means of
+opening new branches, shops or factories (also known as
+organic growth).
 |
 
 |4
 |Mission statement
-|
+|a statement of the business’s core
+aims, phrased in a way to motivate employees and to
+stimulate interest by outside groups.
 |
 
 |
 |Corporate social repsonsibility
-|
+|this concept applies to
+those businesses that consider the interests of society by
+taking responsibility for the impact of their decisions and
+activities on customers, employees, communities and the
+environment
 |
 
 |
 |Management by objectives
-|
+|a method of coordinating
+and motivating all staff in an organisation by dividing its
+overall aim into specific targets for each department,
+manager and employee.
 |
 
 |
 |Ethical code (code of conduct)
-|
+|a document detailing
+a company’s rules and guidelines on staff behaviour that
+must be followed by all employees.
 |
 
 |5
 |Stakeholders
-|
+|people or groups of people who can be
+affected by – and therefore have an interest in – any action
+by an organisation.
 |
 
 |
 |Stakeholder concept
-|
+|the view that businesses and their
+managers have responsibilities to a wide range of groups,
+not just shareholders.
 |
 
 |
 |Corporate social responsibility
-|
+|the concept that
+accepts that businesses should consider the interests of
+society in their activities and decisions, beyond the legal
+obligations that they have.
 |
 
 |10
 |Manager
-|
+|responsible for setting objectives, organising
+resources and motivating staff so that the organisation’s
+aims are met.
 |
 
 |
 |Leadership
-|
+|the art of motivating a group of people
+towards achieving a common objective.
 |
 
 |
 |Autocratic leadership
-|
+|a style of leadership that keeps all
+decision-making at the centre of the organisation.
 |
 
 |
 |Democratic leadership
-|
+|a leadership style that promotes
+the active participation of workers in taking decisions.
 |
 
 |
 |Paternalistic leadership
-|
+|a leadership style based on the
+approach that the manager is in a better position than the
+workers to know what is best for an organisation.
 |
 
 |
 |Laissez-faire leadership
-|
+|a leadership style that leaves
+much of the business decision-making to the workforce – a
+‘hands-off ’ approach and the reverse of the autocratic style.
 |
 
 |
 |Informal leader
-|
+|a person who has no formal authority but
+has the respect of colleagues and some power over them.
 |
 
 |
 |Emotional intelligence (EI)
-|
+|the ability of managers to
+understand their own emotions, and those of the people
+they work with, to achieve better business performance.
 |
 
 |11
 |Motivation
-|
+|the internal and external factors that
+stimulate people to take actions that lead to achieving
+a goal.
 |
 
 |
 |Self-actualisation
-|
+|a sense of self-fulfilment reached by
+feeling enriched and developed by what one has learned
+and achieved.
 |
 
 |
 |Motivating factors (motivators)
-|
+|aspects of a worker’s
+job that can lead to positive job satisfaction, such as
+achievement, recognition, meaningful and interesting work
+and advancement at work.
 |
 
 |
 |Hygiene factors
-|
+|aspects of a worker’s job that have the
+potential to cause dissatisfaction, such as pay, working
+conditions, status and over-supervision by managers.
 |
 
 |
 |Job enrichment
-|
+|aims to use the full capabilities of
+workers by giving them the opportunity to do more
+challenging and fulfilling work.
 |
 
 |
 |Time based wage rate
-|
+|payment to a worker made for
+each period of time worked, e.g. one hour.
 |
 
 |
 |Piece rate
-|
+|a payment to a worker for each unit produced.
 |
 
 |
 |Salary
-|
+|annual income that is usually paid on a
+monthly basis.
 |
 
 |
 |Commission
-|
+|a payment to a sales person for each sale made.
 |
 
 |
 |Bonus
-|
+|a payment made in addition to the contracted
+wage or salary.
 |
 
 |
 |Performance-related pay
-|
+|a bonus scheme to reward
+staff for above-average work performance.
 |
 
 |
 |Profit sharing
-|
+|a bonus for staff based on the profits of
+the business – usually paid as a proportion of basic salary.
 |
 
 |
 |Fringe benefits
-|
+|benefits given, separate from pay, by an
+employer to some or all employees.
 |
 
 |
 |Job rotation
-|
+|increasing the flexibility of employees
+and the variety of work they do by switching from one
+job to another.
 |
 
 |
 |Job enlargement
-|
+|attempting to increase the scope of a
+job by broadening or deepening the tasks undertaken.
 |
 
 |
 |Job redesign
-|
+|involves the restructuring of a job – usually
+with employees’ involvement and agreement – to make
+work more interesting, satisfying and challenging.
 |
 
 |
 |Quality circles
-|
+|voluntary groups of workers who meet
+regularly to discuss work-related problems and issues.
 |
 
 |
 |Worker participation
-|
+|workers are actively encouraged
+to become involved in decision-making within the
+organisation.
 |
 
 |
 |Team-working
-|
+|production is organised so that groups of
+workers undertake complete units of work.
 |
 
 |12
 |Human resource management (HRM)
-|
+|the strategic
+approach to the effective management of an organisation’s
+workers so that they help the business gain a competitive
+advantage.
 |
 
 |
 |Recruitment
-|
+|the process of identifying the need for a new
+employee, defining the job to be filled and the type of person
+needed to fill it and attracting suitable candidates for the job.
 |
 
 |
 |Selection
-|
+|involves the series of steps by which the
+candidates are interviewed, tested and screened for
+choosing the most suitable person for vacant post.
 |
 
 |
 |Job description
-|
+|a detailed list of the key points about the
+job to be filled – stating all its key tasks and responsibilities.
 |
 
 |
 |Person specification
-|
+|a detailed list of the qualities, skills
+and qualifications that a successful applicant will need
+to have.
 |
 
 |
 |Employment contract
-|
+|a legal document that sets out
+the terms and conditions governing a worker’s job.
 |
 
 |
 |Labour turnover
-|
+|measures the rate at which employees
+are leaving an organisation. It is measured by: +
+stem:[ \frac{ \textrm{ number of employees leaving in 1 year } }{ \textrm{ average number of people employed } } \times 100 ]
 |
 
 |
 |Training
-|
+|work-related education to increase workforce
+skills and efficiency.
 |
 
 |
 |Induction training
-|
+|introductory training programme
+to familiarise new recruits with the systems used in the
+business and the layout of the business site.
 |
 
 |
 |On-the-job training
-|
+|instruction at the place of work on
+how a job should be carried out.
 |
 
 |
 |Off-the-job training
-|
+|all training undertaken away from
+the business, e.g. work-related college courses.
 |
 
 |
 |Employee appraisal
-|
+|the process of assessing the
+effectiveness of an employee judged against pre-set
+objectives.
 |
 
 |
 |Dismissal
-|
+|being dismissed or sacked from a job due to
+incompetence or breach of discipline.
 |
 
 |
 |Unfair dismissal
-|
+|ending a worker’s employment contract
+for a reason that the law regards as being unfair.
 |
 
 |
 |Redundancy
-|
+|when a job is no longer required, the
+employee doing this job becomes unnecessary through
+no fault of their own.
 |
 
 |
 |Work-life balance
-|
+|a situation in which employees are
+able to give the right amount of time and eff ort to work and
+to their personal life outside work, for example to family or
+other interests.
 |
 
 |
 |Equality policy
-|
+|practices and processes aimed at
+achieving a fair organisation where everyone is treated
+in the same way and has the opportunity to fulfil their
+potential.
 |
 
 |
 |Diversity policy
-|
+|practices and processes aimed at
+creating a mixed workforce and placing positive value on
+diversity in the workplace.
 |
 
 |16
 |Marketing
-|
+|the management task that links the business
+to the customer by identifying and meeting the needs
+of customers profitably – it does this by getting the right
+product at the right price to the right place at the right time.
 |
 
 |
 |Marketing objectives
-|
+|the goals set for the marketing
+department to help the business achieve its overall
+objectives.
 |
 
 |
 |Marketing strategy
-|
+|long-term plan established for
+achieving marketing objectives.
 |
 
 |
 |Market orientation
-|
+|an outward-looking approach basing
+product decisions on consumer demand, as established by
+market research.
 |
 
 |
 |Product orientation
-|
+|an inward-looking approach
+that focuses on making products that can be made –
+or have been made for a long time – and then trying
+to sell them.
 |
 
 |
 |Asset-led marketing
-|
+|an approach to marketing that
+bases strategy on the firm’s existing strengths and assets
+instead of purely on what the customer wants.
 |
 
 |
 |Societal marketing
-|
+|this approach considers not only the
+demands of consumers but also the effects on all members
+of the public (society) involved in some way when firms
+meet these demands.
 |
 
 |
 |Demand
-|
+|the quantity of a product that consumers are
+willing and able to buy at a given price in a time period.
 |
 
 |
 |Supply
-|
+|the quantity of a product that firms are prepared
+to supply at a given price in a time period.
 |
 
 |
 |Equilibrium price
-|
+|the market price that equates supply
+and demand for a product.
 |
 
 |
 |Market size
-|
+|the total level of sales of all producers within
+a market.
 |
 
 |
 |Market growth
-|
+|the percentage change in the total size of
+a market (volume or value) over a period of time.
 |
 
 |
 |Market share
-|
+|the percentage of sales in the total market
+sold by one business. This is calculated by the following
+formula: +
+stem:[ \frac{ \textrm{ firm’s sales in time period } }{ \textrm{ total market sales in time period } } \times 100 ]
 |
 
 |
 |Direct competitor
-|
+|businesses that provide the same or
+very similar goods or services.
 |
 
 |
 |USP - unique selling point (or proposition)
-|
+|the special
+feature of a product that diff erentiates it from competitors’
+products.
 |
 
 |
 |Product differentiation
-|
+|making a product distinctive
+so that it stands out from competitors’ products in
+consumers’ perception.
 |
 
 |
 |Niche marketing
-|
+|identifying and exploiting a small
+segment of a larger market by developing products to suit it.
 |
 
 |
 |Mass marketing
-|
+|selling the same products to the whole
+market with no attempt to target groups within it.
 |
 
 |
 |Market segment
-|
+|a sub-group of a whole market in which
+consumers have similar characteristics.
 |
 
 |
 |Market segmentation
-|
+|identifying diff erent segments
+within a market and targeting diff erent products or services
+to them.
 |
 
 |
 |Consumer profile
-|
+|a quantified picture of consumers
+of a firm’s products, showing proportions of age groups,
+income levels, location, gender and social class.
 |
 
 |17
 |Market research
-|
+|this is the process of collecting,
+recording and analysing data about customers,
+competitors and the market.
 |
 
 |
 |Primary research
-|
+|the collection of first-hand data that
+is directly related to a firm’s needs.
 |
 
 |
 |Secondary research
-|
+|collection of data from second-
+hand sources.
 |
 
 |
 |Qualitative research
-|
+|research into the in-depth
+motivations behind consumer buying behaviour or opinions.
 |
 
 |
 |Quantitative research
-|
+|research that leads to numerical
+results that can be statistically analysed.
 |
 
 |
 |Focus groups
-|
+|a group of people who are asked about
+their attitude towards a product, service, advertisement
+or new style of packaging.
 |
 
 |
 |Sample
-|
+|the group of people taking part in a market
+research survey selected to be representative of the overall
+target market.
 |
 
 |
 |Random sampling
-|
+|every member of the target
+population has an equal chance of being selected.
 |
 
 |
 |Systematic sampling
-|
+|every _n_ th item in the target
+population is selected.
 |
 
 |
 |Stratified sampling
-|
+|this draws a sample from a specified
+sub-group or segment of the population and uses random
+sampling to select an appropriate number from each
+stratum.
 |
 
 |
 |Quota sampling
-|
+|when the population has been stratified
+and the interviewer selects an appropriate number of
+respondents from each stratum.
 |
 
 |
-|Custer sampling
-|
+|Cluster sampling
+|using one or a number of specific
+groups to draw samples from and not selecting from the
+whole population, e.g. using one town or region.
 |
 
 |
 |Open questions
-|
+|those that invite a wide-ranging or
+imaginative response – the results will be difficult to collate
+and present numerically.
 |
 
 |
 |Closed questions
-|
+|questions to which a limited number of
+pre-set answers is offered.
 |
 
 |
 |Arithmetic mean
-|
+|calculated by totalling all the results
+and dividing by the number of results.
 |
 
 |
 |Mode
-|
+|the value that occurs most frequently in a set
+of data.
 |
 
 |
 |Median
-|
+|the value of the middle item when data have been
+ordered or ranked. It divides the data into two equal parts.
 |
 
 |
 |Range
-|
+|the difference between the highest and lowest
+value.
 |
 
 |
 |Inter-quartile range
-|
+|the range of the middle 50% of
+the data.
 |
 
 |18
 |Marketing mix
-|
+|the four key decisions that must be taken
+in the effective marketing of a product.
 |
 
 |
 |Customer relationship management (CRM)
-|
+|using
+marketing activities to establish successful customer
+relationships so that existing customer loyalty can be
+maintained.
 |
 
 |
 |Brand
-|
+|an identifying symbol, name, image or trademark
+that distinguishes a product from its competitors.
 |
 
 |
 |Intangible attributes of a product
-|
+|subjective opinions
+of customers about a product that cannot be measured or
+compared easily.
 |
 
 |
 |Tangible attributes of a product
-|
+|measurable features of
+a product that can be easily compared with other products.
 |
 
 |
 |Product
-|
+|the end result of the production process sold on
+the market to satisfy a customer need.
 |
 
 |
 |Product positioning
-|
+|the consumer perception of a
+product or service as compared to its competitors.
 |
 
 |
 |Product portfolio analysis
-|
+|analysing the range of
+existing products of a business to help allocate resources
+effectively between them.
 |
 
 |
 |Product life cycle
-|
+|the pattern of sales recorded by a
+product from launch to withdrawal from the market and is
+one of the main forms of product portfolio analysis.
 |
 
 |
 |Consumer durable
-|
+|manufactured product that can be
+reused and is expected to have a reasonably long life, such
+as a car or washing machine.
 |
 
 |
 |Extension strategies
-|
+|these are marketing plans to
+extend the maturity stage of the product before a brand
+new one is needed.
 |
 
 |
 |Price elasticity of demand
-|
+|measures the responsiveness
+of demand following a change in price: +
+stem:[ \textrm{PED} = \frac{ \textrm{ percentage change in quantity demanded } }{ \textrm{ percentage change in price } } ]
 |
 
 |
 |Mark-up pricing
-|
+|adding a fixed mark-up for profit to the
+unit price of a product.
 |
 
 |
 |Target pricing
-|
+|setting a price that will give a required rate
+of return at a certain level of output/sales.
 |
 
 |
 |Full-cost pricing
-|
+|setting a price by calculating a unit cost
+for the product (allocated fixed and variable costs) and
+then adding a fixed profit margin.
 |
 
 |
 |Contribution-cost pricing
-|
+|setting prices based on the
+variable costs of making a product in order to make a
+contribution towards fixed costs and profit.
 |
 
 |
 |Competition-based pricing
-|
+|a firm will base its price
+upon the price set by its competitors.
 |
 
 |
 |Dynamic pricing
-|
+|off ering goods at a price that changes
+according to the level of demand and the customer’s ability
+to pay.
 |
 
 |
 |Penetration pricing
-|
+|setting a relatively low price oft en
+supported by strong promotion in order to achieve a high
+volume of sales.
 |
 
 |
 |Market skimming
-|
+|setting a high price for a new product
+when a firm has a unique or highly differentiated product
+with low price elasticity of demand.
 |
 
 |19
 |Promotion
-|
+|the use of advertising, sales promotion,
+personal selling, direct mail, trade fairs, sponsorship and
+public relations to inform consumers and persuade them
+to buy.
 |
 
 |
 |Promotion mix
-|
+|the combination of promotional
+techniques that a firm uses to sell a product.
 |
 
 |
 |Above-the-line promotion
-|
+|a form of promotion that is
+undertaken by a business by paying for communication
+with consumers
 |
 
 |
 |Advertising
-|
+|paid-for communication with consumers to
+inform and persuade, e.g. TV and cinema advertising.
 |
 
 |
 |Below-the-line promotion
-|
+|promotion that is not a
+directly paid-for means of communication, but based on
+short-term incentives to purchase.
 |
 
 |
 |Sales promotion
-|
+|incentives such as special off ers or special
+deals directed at consumers or retailers to achieve short-term
+sales increases and repeat purchases by consumers.
 |
 
 |
 |Personal selling
-|
+|a member of the sales staff
+communicates with one consumer with the aim of selling
+the product and establishing a long-term relationship
+between company and consumer.
 |
 
 |
 |Sponsorship
-|
+|payment by a company to the organisers
+of an event or team/individuals so that the company name
+becomes associated with the event/team/individual.
 |
 
 |
 |Public relations
-|
+|the deliberate use of free publicity
+provided by newspapers, TV and other media to
+communicate with and achieve understanding by
+the public.
 |
 
 |
 |Branding
-|
+|the strategy of diff erentiating products from
+those of competitors by creating an identifiable image and
+clear expectations about a product.
 |
 
 |
 |Marketing or promotion budget
-|
+|the financial amount
+made available by a business for spending on marketing/
+promotion during a certain time period.
 |
 
 |
 |Channel of distribution
-|
+|this refers to the chain of
+intermediaries a product passes through from producer to
+final consumer.
 |
 
 |
 |Internet (online) marketing
-|
+|refers to advertising and
+marketing activities that use the Internet, email and mobile
+communications to encourage direct sales via electronic
+commerce.
 |
 
 |
 |E-commerce
-|
+|the buying and selling of goods and services
+by businesses and consumers through an electronic medium.
 |
 
 |
 |Viral marketing
-|
+|the use of social media sites or text
+messages to increase brand awareness or sell products.
 |
 
 |
 |Integrated marketing mix
-|
+|the key marketing decisions
+complement each other and work together to give
+customers a consistent message about the product.
 |
 
 |22
