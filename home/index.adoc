@@ -1,6 +1,6 @@
 
 
 [.text-center]
-link:../index.html[Current teaching ...] +
+link:../teaching/index.html[Current teaching ...] +
 
 
