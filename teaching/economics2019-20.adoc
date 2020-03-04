@@ -439,7 +439,8 @@ The AS Level topics covered in this section are:
 |
 |Monetary policy and supply side policcies
 |*(1)* link:https://www.tutor2u.net/economics/reference/monetary-policy-managing-demand[Monetary Policy - Managing Demand (tutor2u)] +
-*(2)* link:https://www.tutor2u.net/economics/reference/supply-side-economics-introduction[What are Supply-Side Policies? (tutor2u)]
+*(2)* link:https://www.tutor2u.net/economics/reference/supply-side-economics-introduction[What are Supply-Side Policies? (tutor2u)] +
+*(3)* link:https://www.ft.com/video/b7226e50-44f8-4480-90f2-680098418812[How the end of QE will affect asset prices (FT video)]
 
 |===
 
