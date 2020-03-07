@@ -20,6 +20,81 @@ link:http://www.texample.net/tikz/examples/area/economics/[Examples from economi
 
 link:../latex/01-demand-supply.tex[Supply and demand diagram.]
 
+=== Convert tikz into images
+
+A LaTeX file that uses tikz aimedto export images should look like this:
+
+[source,latex]
+----
+\documentclass[landscape,10pt]{article}
+\usepackage[latin1]{inputenc}
+
+\usepackage{ae}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage{xspace}
+
+\usepackage{tikz}
+\usetikzlibrary{mindmap,trees}
+\usetikzlibrary{shapes}
+
+% set up externalization
+\usetikzlibrary{external}
+\tikzset{external/system call={latex \tikzexternalcheckshellescape -halt-on-error
+-interaction=batchmode -jobname "\image" "\texsource";
+dvips -o "\image".ps "\image".dvi;
+ps2eps "\image.ps"}}
+\tikzexternalize
+
+\begin{document}
+
+\tikzstyle{root concept}+=[concept color=red!60]
+
+\begin{tikzpicture}
+
+
+\end{tikzpicture}
+
+
+\end{document}
+
+----
+
+Here is an link:../latex/02-mindmap.tex[example to construct a mindmap].
+
+The script to compile this is as follows:
+
+[source,bash]
+----
+
+#!/bin/bash
+
+# We have to make it an executable file by changing the permissions.
+# chmod u+x compile-latex.sh
+
+latex -shell-escape $1".tex" &
+latex -shell-escape $1".tex" &
+latex -shell-escape $1".tex" &
+dvips $1".dvi" &
+
+ps2pdf $1".ps"
+
+----
+
+Once a ps-file is generated, it can be converted into an eps-file:
+
+[source,bash]
+----
+ps2epsi source-figure0.ps target-figure0.eps
+----
+
+The eps-file can then be converted into a rasterized image file using Ghostscript
+
+[source,bash]
+----
+gs -dSAFER -dBATCH -dNOPAUSE -dEPSCrop -r600 -sDEVICE=pngalpha -sOutputFile=outputfile.png inputfile.eps
+----
+
 == Bash script
 
 This link:../latex/compile-latex.sh[script] is for compiling a latex file:

@@ -469,6 +469,84 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p><a href="../latex/01-demand-supply.tex">Supply and demand diagram.</a></p>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_convert_tikz_into_images">Convert tikz into images</h3>
+<div class="paragraph">
+<p>A LaTeX file that uses tikz aimedto export images should look like this:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-latex" data-lang="latex">\documentclass[landscape,10pt]{article}
+\usepackage[latin1]{inputenc}
+
+\usepackage{ae}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage{xspace}
+
+\usepackage{tikz}
+\usetikzlibrary{mindmap,trees}
+\usetikzlibrary{shapes}
+
+% set up externalization
+\usetikzlibrary{external}
+\tikzset{external/system call={latex \tikzexternalcheckshellescape -halt-on-error
+-interaction=batchmode -jobname "\image" "\texsource";
+dvips -o "\image".ps "\image".dvi;
+ps2eps "\image.ps"}}
+\tikzexternalize
+
+\begin{document}
+
+\tikzstyle{root concept}+=[concept color=red!60]
+
+\begin{tikzpicture}
+
+
+\end{tikzpicture}
+
+
+\end{document}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Here is an <a href="../latex/02-mindmap.tex">example to construct a mindmap</a>.</p>
+</div>
+<div class="paragraph">
+<p>The script to compile this is as follows:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">#!/bin/bash
+
+# We have to make it an executable file by changing the permissions.
+# chmod u+x compile-latex.sh
+
+latex -shell-escape $1".tex" &amp;
+latex -shell-escape $1".tex" &amp;
+latex -shell-escape $1".tex" &amp;
+dvips $1".dvi" &amp;
+
+ps2pdf $1".ps"</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Once a ps-file is generated, it can be converted into an eps-file:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">ps2epsi source-figure0.ps target-figure0.eps</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The eps-file can then be converted into a rasterized image file using Ghostscript</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">gs -dSAFER -dBATCH -dNOPAUSE -dEPSCrop -r600 -sDEVICE=pngalpha -sOutputFile=outputfile.png inputfile.eps</code></pre>
+</div>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -527,7 +605,7 @@ dvips $1".dvi" &amp;</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-02-29 19:35:00 +0100
+Last updated 2020-03-07 11:02:37 +0100
 </div>
 </div>
 </body>
