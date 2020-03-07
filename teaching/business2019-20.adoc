@@ -19,27 +19,46 @@
 |
 |
 | _1: Enterprise_
-|
+| Creating and adding value +
+  Opportunity cost +
+  Entreprenurship +
+  Business failure +
+  Social enterprises
 
 |
 |
 |_2: Business structure_
-|
+| Public and private sectors +
+  Private limited companies +
+  Public limited companies +
+  Franchises +
+  Joint venture
 
 |
 |
 |_3: Size of business_
-|
+| Business size +
+  Small businesses +
+  Government assistance +
+  Family business +
+  Business growth 
 
 |
 |
 |_4: Business objectives_
-|
+| SMART criteria +
+  Mission statement +
+  Corporate objectives +
+  Corporate culture +
+  Ethical decision making
 
 |
 |
 |_5: Stakeholders in a business_
-|
+| Stakeholders +
+  Corporate social responsibility +
+  Conflicts from different stakeholder objectives +
+  Changing business objectives
 
 
 |===
@@ -63,17 +82,31 @@
 |
 |
 |_10: Management and leadership_
-|
+| Functions of management +
+  Leadership +
+  Leadership styles +
+  Theory X and Theory Y +
+  Emotional intelligence
 
 |
 |
 |_11: Motivation_
-|
+| Scientific management (Taylor) +
+  Human relations theories (Mayo) +
+  Hierarchy of human needs (Maslow) +
+  The 'two factor theory' (Herzberg) +
+  Motivational needs theory (McClelland) +
+  Financial reward system +
+  Non-financial reward system
 
 |
 |
 |_12: Human resource management_
-|
+| Human resource management +
+  Recruitment process +
+  Labour turnover +
+  Training +
+  Dismissal and redundancies
 
 
 |===
@@ -97,22 +130,42 @@
 |
 |
 |_16: What is marketing_
-|
+| Marketing objectives +
+  Demand, supply and equilibrium price +
+  Mass marketing and niche marketing +
+  Market segmentation 
+
 
 |
 |
 |_17: Market research_
-|
+| Product launches and risk +
+  Primary and secondary research +
+  Qualitative and quantitative research +
+  Sampling methods +
+  Questionnaire design +
+  Statistical analysis 
 
 |
 |
 |_18: The marketing mix -- product and price_
-|
+| The 4Cs +
+  Product positioning +
+  Product life cycle +
+  Product portfolio analysis +
+  Price elasticity of demand +
+  Pricing methods +
+  Pricing strategies
+  
 
 |
 |
 |_19: The marketing mix -- promotion and place_
-|
+| Promotion mix +
+  Advertising +
+  Marketing budget +
+  Channels of distribution +
+  Marketing over the internet
 
 
 |===
@@ -136,12 +189,20 @@
 |
 |
 |_22: The nature of operations_
-|
+| Production process +
+  Productivity +
+  Efficiency +
+  Effectiveness
 
 |
 |
 |_23: Operations planning_
-|
+| Technological innovations (CAD and CAM) +
+  Process innovation +
+  Production methods +
+  Choice of production method +
+  International location +
+  Economies and diseconomies of scale +
 
 |
 |
