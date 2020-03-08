@@ -1,0 +1,91 @@
+\documentclass[landscape,10pt]{article}
+\usepackage[latin1]{inputenc}
+
+\usepackage{ae}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage{xspace}
+
+\usepackage{tikz}
+\usetikzlibrary{mindmap,trees}
+\usetikzlibrary{shapes}
+
+% set up externalization
+\usetikzlibrary{external}
+\tikzset{external/system call={latex \tikzexternalcheckshellescape -halt-on-error
+-interaction=batchmode -jobname "\image" "\texsource";
+dvips -o "\image".ps "\image".dvi;
+ps2eps "\image.ps"}}
+\tikzexternalize
+
+%% https://www.bu.edu/math/files/2013/08/tikzpgfmanual.pdf
+
+\begin{document}
+
+\tikzstyle{root concept}+=[concept color=red!60]
+%% \tikzstyle{level 1 concept}+=[set style={{every child}=[concept color=orange!50]}]
+%% \tikzstyle{level 2 concept}+=[set style={{every child}=[concept color=blue!20]}]
+
+
+\begin{tikzpicture}[mindmap, level distance=30mm]
+%%% 8-mark question %%%
+
+      \node[concept, concept color=red!60] {\emph{e-commerce}\\ retail fashion store}
+      %%
+      child[grow=45] 
+      {
+        node[concept] {\emph{popularity} \\ e.g. ASOS}
+      }
+      %% 
+      child[grow=-45]
+      {
+        node[concept] {\emph{wide audience} \\ e.g. world-wide sales}
+      }
+      child[grow=-90] 
+      {
+        node[concept] {\emph{24/7} \\ e.g. convenience}
+      }
+      child[grow=180] 
+      {
+        node[concept] {use \emph{stores} \\ e.g. click-and-collect, returns}
+      }
+      ;
+
+
+\end{tikzpicture}
+
+\begin{tikzpicture}[mindmap, level distance=30mm]
+%%% 12-mark question %%%
+
+      \node[concept, concept color=red!60] {\emph{promotion}\\ and \emph{marketing mix} }
+      %%
+      child[grow=45] 
+      {
+        %
+        node[concept, concept color=red!60] {\textbf{against} }
+        %
+        child[grow=36, concept color=red!60]  {node [concept] {\emph{product is important} \\ feature \& functions \\ quality \& safety }}
+        %
+        child[grow=-36, concept color=red!60]  {node [concept] {\emph{price is important} \\ car industry \\ highly competitive }}
+      }
+      %% 
+      child[grow=135, concept color=green!60]
+      {
+        node[concept, concept color=green!60] {\textbf{for}}
+        %
+        child[grow=126, concept color=green!60]  {node [concept, concept color=green!60] {\emph{create brand awareness} \\ spending on expensive goods }}
+        %
+        child[grow=198, concept color=green!60]  {node [concept] {\emph{image matters} \\ personality \\ lifestyle }} 
+      }
+      child[grow=-90, concept color=blue!40] 
+      {
+        node[concept, concept color=blue!40] {\textbf{evaluate} \\ customer criteria}
+      }
+      ;
+
+
+\end{tikzpicture}
+
+
+
+\end{document}
