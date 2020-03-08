@@ -1,0 +1,25 @@
+= Business essay writing
+
+Here are some answers to the essays seen in class:
+
+
+{blank} +
+
+
+
+                             
+
+
+[.float-group]
+--
+[.left]
+.8-marks question
+image::../latex/images/03-business-mindmap-figure0.png[a, 450, 337.5]
+
+[.right]
+.12-marks question
+image::../latex/images/03-business-mindmap-figure1.png[b, 495, 371.25]
+--
+
+
+{blank} +
