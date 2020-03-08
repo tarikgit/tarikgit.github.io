@@ -1,6 +1,6 @@
-= Teaching
+= Teaching (2019-20)
 
-== Economics (2019-20)
+== Economics
 
 [cols="1*"]
 |===
@@ -12,7 +12,7 @@
 
 |===
 
-== Business (2019-20)
+== Business
 
 [cols="1*"]
 |===
