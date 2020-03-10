@@ -1,5 +1,45 @@
 = Economics essay writing
 
+== Exam-style question (10/3/2020)          
+
+The questions are taken from page 78 in your revision guide.
+
+* Explain the causes of a fall in a country's exchange rate (8 marks). +
+* Discuss whether a fall in a country's exchange rate will reduce a deficit on the current account of the balance of payments of the country (12 marks).
+
+[.float-group]
+--
+[.left]
+.8-mark question 
+image::../latex/images/04-economics-mindmap-figure0.png[a, 450, 337.5]
+
+[.right]
+.12-mark question
+image::../latex/images/04-economics-mindmap-figure1.png[b, 495, 371.25]
+--
+
+
+{blank} +
+
+* Explain the effects of an appreciation of its currency on an economy's inflation rate (8 marks).
+* Discuss whether a rise in an economy's inflation rate will cause the value of its currency to fall (12 marks).
+
+
+[.float-group]
+--
+[.left]
+.8-mark question 
+image::../latex/images/04-economics-mindmap-figure2.png[a, 450, 337.5]
+
+[.right]
+.12-mark question
+image::../latex/images/04-economics-mindmap-figure3.png[b, 495, 371.25]
+--
+
+
+{blank} +
+
+
 
                              
 [ditaa, ../img/ditaa-essaywriting]
