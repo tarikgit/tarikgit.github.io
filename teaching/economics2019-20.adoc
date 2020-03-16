@@ -1,4 +1,5 @@
 = Economics 2iec (2019-20)
+:stem: latexmath
 
 {blank} +
 
@@ -464,7 +465,8 @@ Revise will include the five chapters of the AS level. We will start with elemen
 
 | 
 |16/3 -- 20/3 
-|Terms of trade
+|Terms of trade +
+ stem:[ \textrm{Terms of trade index}= \frac{\textrm{index of export prices}}{\textrm{index of import prices}} \times 100]
 |*(1)* Read page 100-101 in your _coursebook_ (10 min) +
  *(2)* link:https://www.youtube.com/watch?v=KrGvEhMMTNE[Tutorial video (video, 8 min)] +
  *(3)* link:https://www.youtube.com/watch?v=M7Wm4v7krHw[Chain of reasoning (video, 4 min)] +
