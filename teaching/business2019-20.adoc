@@ -232,7 +232,11 @@
 |
 |
 |_28: Business finance_
-|
+|*(1)* Read page 417-424 in your _coursebook_ (20 min) +
+ *(2)* link:https://www.tutor2u.net/business/reference/sources-of-finance-for-a-startup-or-small-business[Study notes: Sources of Finance for a Startup or Small Business (15 min, tutor2u)] +
+ *(3)* Do activities 28.1, 28.2, 28.3, 28.4 and 28.5 (upload into _Teams_, 40 min) +
+ *(4)* Videos: _(i)_ link:https://www.youtube.com/watch?v=zCyzZsHri38[Hire, purchase and leasing (5 min)], _(ii)_ link:https://www.youtube.com/watch?v=Q5vEcS4H9U4[Factoring (4 min)], _(iii)_ link:https://www.youtube.com/watch?v=fVU5Ofn1TCg[Bank overdrafts and bank loans (7 min)], _(iv)_ link:https://www.youtube.com/watch?v=0oXcKSO5I0A[Retained profit (5min)], _(v)_ link:https://www.youtube.com/watch?v=qZG6Rcjfvro[Trade creditors (5 min)] +
+ *(5)* Key skills exercises (_Knowledge and understanding_ and _Knowledge, understanding and application_) at page 129-131 in your _workbook_ (upload into _Teams_, 40 min)
 
 |
 |
@@ -253,4 +257,9 @@
 |===
 
 {blank} +
+
+
+
+
+
 
