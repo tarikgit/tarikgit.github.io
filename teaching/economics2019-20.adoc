@@ -446,3 +446,31 @@ The AS Level topics covered in this section are:
 
 |===
 
+
+
+
+== Revision (March-April)
+
+=== Outline
+
+Revise will include the five chapters of the AS level. We will start with elements of chapter 4.
+
+{blank} +
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Week |Date |Topic |Coursework
+
+| 
+|16/3 -- 20/3 
+|Terms of trade
+|*(1)* Read page 100-101 in your _coursebook_ (10 min) +
+ *(2)* link:https://www.youtube.com/watch?v=KrGvEhMMTNE[Tutorial video (video, 8 min)] +
+ *(3)* link:https://www.youtube.com/watch?v=M7Wm4v7krHw[Chain of reasoning (video, 4 min)] +
+ *(4)* Question 7 in your _workbook_ (upload into _Teams_, 20 min) +
+ *(5)* Read page 54-55 in your _revision guide_ (10 min) +
+ *(6)* Describe what is meant by a rise in an economy’s terms of trade. Outline how a change in an economy’s exchange rate and its domestic price level might each cause this to come about. (upload into _Teams_, 15 min) +
+ *(7)* Discuss whether a rise in an economy’s terms of trade is likely to be of overall benefit to that  economy. (upload into _Teams_, 20 min)
+
+|===
