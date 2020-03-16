@@ -470,12 +470,22 @@ Revise will include the five chapters of the AS level. We will start with elemen
  [red]#stem:[ \textrm{Terms of trade index}]# +
  {blank} +
  [red]#stem:[ = \frac{\textrm{index of export prices}}{\textrm{index of import prices}} \times 100]#
-|*(1)* Read page 100-101 in your _coursebook_ (10 min) +
+|*(1)* Read pages 100-101 in your _coursebook_ (10 min) +
  *(2)* link:https://www.youtube.com/watch?v=KrGvEhMMTNE[Tutorial video (video, 8 min)] +
  *(3)* link:https://www.youtube.com/watch?v=M7Wm4v7krHw[Chain of reasoning (video, 4 min)] +
  *(4)* Question 7 page 58 in your _workbook_ (upload into _Teams_, 20 min) +
  *(5)* Read page 54-55 in your _revision guide_ (10 min) +
  *(6)* Describe what is meant by a rise in an economy’s terms of trade. Outline how a change in an economy’s exchange rate and its domestic price level might each cause this to come about. (upload into _Teams_, 15 min) +
  *(7)* Discuss whether a rise in an economy’s terms of trade is likely to be of overall benefit to that  economy. (upload into _Teams_, 20 min)
+
+|
+|
+|Absolute and comparative advantage
+|*(1)* Read pages 102-104  in your _coursebook_ (10 min)+
+ *(2)* Tutorial videos: _(i)_ link:https://www.youtube.com/watch?v=yBrESEzGaU4[Absolute advantage (3 min)], _(ii)_ link:https://www.youtube.com/watch?v=BXgN9Ig8L-Q[Comparative advantage (8 min)] _(iii)_ link:https://www.youtube.com/watch?v=xN3UV5FsBkU[Comparative and absolute advantage], _(iv)_ link:https://www.youtube.com/watch?v=xx9xNJlPOJo[Comparative advantage specialization and gains from trade] +
+ *(3)* Self-assessment task 4.9 (page 103 in your coursebook, 10 min) +
+ *(4)* Data response question 1 and 2 (pages 60 and 61 in your workbook, 40 min) +
+ *(5)* Explain the benefits of free trade as suggested by the principle of comparative advantage. (15 min) +
+ *(6)* Explain how the principle of comparative advantage might be used to justify Thailand and Vietnam specialising in rice production and Japan specialising in some other product. (10 min)
 
 |===
