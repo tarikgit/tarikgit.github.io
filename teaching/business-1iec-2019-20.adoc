@@ -1,0 +1,52 @@
+= Business 1iec - Revision (2019-20)
+
+{blank} +
+
+
+
+
+== Subtheme 3.1: Business objectives and strategy 
+
+Revision of this subtheme should take you two hours. You can either read the four chapters or watch the tutorial videos. Answering the past paper (task 4) should take 40-45 minutes. +
+
+Remember that the main goal is to be able to use concepts like _Porter's matrix_, _Ansoff's matrix_, _Boston matrix_, ... in the context of a business. Simply memorizing these concepts is not enough. Use the student answer provided in the table below to practice that.
+
+*Note:* Try to use a computer instead of your tablet/smartphone. Especially the past paper links don't work as they should on those devices.
+
+
+{blank} +
+
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Week |Date |Topic |Coursework
+
+
+|
+| 16/3 -- 20/3
+| _Corporate objectives_ +
+  _Theories of corporate strategy_ +
+  _SWOT analysis_ +
+  _Impact of external influences_
+| *(1)* Revise chapters 44-47 +
+  *(2)* Watch the following _tutorial videos_: +
+        _(i)_ link:https://www.youtube.com/watch?v=RdQuKwhCzGU[Business objectives (4 min)] +
+        _(ii)_ link:https://www.youtube.com/watch?v=CVByJVRWNqs&t=74s[Mission statement (4 min)] +
+        _(iii)_ link:https://www.youtube.com/watch?v=uRgQlW4qRTo[Business strategy vs. business tactics (5 min)] +
+        _(iv)_ link:https://www.youtube.com/watch?v=CMFXsJxi05U&t=89s[[red]#Ansoff matrix# (14 min)] +
+        _(v)_ link:https://www.youtube.com/watch?v=i66HWNCwUTs[[red]#Porter's Generic Strategies# (10 min)] +
+        _(vi)_ link:https://www.youtube.com/watch?v=rW5SOENyq5g[[red]#Boston matrix# (15 min)] +
+        _(vii)_ link:https://www.youtube.com/watch?v=7JmDXDZYx0s[SWOT analysis (7 min)] +
+        _(viii)_ link:https://www.youtube.com/watch?v=sP2sDw5waEU[PESTLE analysis (9 min)] +
+        _(ix)_ link:https://www.youtube.com/watch?v=cm9SsMa56r4[Porter's Five Forces Model (21 min)] +
+  *(3)* Past papers (student answers): +
+        _(i)_ link:https://qualifications.pearson.com/content/dam/pdf/A%20Level/Business%20Studies/2013/Exam%20materials/6BS04_01_pef_20130815.pdf#page=14[Assess Superdry's corporate strategy with the aid of [red]#Porter's strategic matrix#.] +
+        _(ii)_ link:https://qualifications.pearson.com/content/dam/pdf/A%20Level/Business%20Studies/2013/Exam%20materials/Examiner-report-Unit-4-(6BS04)-June-2014.pdf#page=11[Assess the likely implications on Greggs' [red]#corporate strategy# of applying VAT to hot takeaway food] +
+        _(iii)_ link:https://qualifications.pearson.com/content/dam/pdf/A%20Level/Business%20Studies/2013/Exam%20materials/6BS04_01_pef_20130307.pdf#page=6[Using Ansoff's Matrix , explain Superdry's decision to launch a mobile phone sales option] +
+  *(4)* link:https://pastpapers.papacambridge.com/view.php?id=Cambridge%20International%20Examinations%20%28CIE%29/AS%20and%20A%20Level/Business%20%28for%20first%20examination%20in%202016%29%20-%209609/2017%20Nov/9609_w17_qp_32.pdf[Answer question 6 in section B.]
+|===
+
+{blank} +
+
+

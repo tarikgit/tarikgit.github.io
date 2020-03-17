@@ -1,6 +1,6 @@
 = Teaching (2019-20)
 
-== Economics
+== Economics (2iec)
 
 [cols="1*"]
 |===
@@ -12,7 +12,7 @@
 
 |===
 
-== Business
+== Business (2iec)
 
 [cols="1*"]
 |===
@@ -24,6 +24,21 @@
 |link:teaching/business-keyterms.html[Business keyterms]
 
 |===
+
+
+== Business (1iec)
+
+[cols="1*"]
+|===
+
+|link:teaching/business-1iec-2019-20.html[Course content]
+
+|
+
+|
+
+|===
+
 
 == Misc
 
