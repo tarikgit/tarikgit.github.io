@@ -24,7 +24,7 @@ Remember that the main goal is to be able to use concepts like _Porter's matrix_
 
 
 |
-| 16/3 -- 20/3
+| 17/3/2020
 | _Corporate objectives_ +
   _Theories of corporate strategy_ +
   _SWOT analysis_ +
@@ -44,9 +44,53 @@ Remember that the main goal is to be able to use concepts like _Porter's matrix_
         _(i)_ link:https://qualifications.pearson.com/content/dam/pdf/A%20Level/Business%20Studies/2013/Exam%20materials/6BS04_01_pef_20130815.pdf#page=14[Assess Superdry's corporate strategy with the aid of [red]#Porter's strategic matrix#.] +
         _(ii)_ link:https://qualifications.pearson.com/content/dam/pdf/A%20Level/Business%20Studies/2013/Exam%20materials/Examiner-report-Unit-4-(6BS04)-June-2014.pdf#page=11[Assess the likely implications on Greggs' [red]#corporate strategy# of applying VAT to hot takeaway food] +
         _(iii)_ link:https://qualifications.pearson.com/content/dam/pdf/A%20Level/Business%20Studies/2013/Exam%20materials/6BS04_01_pef_20130307.pdf#page=6[Using Ansoff's Matrix , explain Superdry's decision to launch a mobile phone sales option] +
-  *(4)* link:https://pastpapers.papacambridge.com/view.php?id=Cambridge%20International%20Examinations%20%28CIE%29/AS%20and%20A%20Level/Business%20%28for%20first%20examination%20in%202016%29%20-%209609/2017%20Nov/9609_w17_qp_32.pdf[Answer question 6 in section B.]
+  *(4)* link:https://pastpapers.papacambridge.com/Cambridge%20International%20Examinations%20%28CIE%29/AS%20and%20A%20Level/Business%20%28for%20first%20examination%20in%202016%29%20-%209609/2017%20Nov/9609_w17_qp_32.pdf[Answer question 6 in section B.] +
+  link:https://pastpapers.papacambridge.com/Cambridge%20International%20Examinations%20%28CIE%29/AS%20and%20A%20Level/Business%20%28for%20first%20examination%20in%202016%29%20-%209609/2017%20Nov/9609_w17_ms_32.pdf#page=16[[red]#Marking scheme#.]
 |===
 
 {blank} +
 
 
+== Subtheme 3.2: Business growth 
+
+Revision of this subtheme should take you two hours. You can either read the four chapters or watch the tutorial videos. Answering the past paper (task 4) should take 40-45 minutes. +
+
+Remember that the main goal is to be able to use concepts like _economies/diseconomies of scale_, _market power_, _brand recognition_, _profitability_, _overtrading_ ... in an essay-style question. Watch link:https://www.youtube.com/watch?v=B4LMyav5SN0[this video], there are interesting examples and hints for exam questions. You may be asked to evaluate whether growth is beneficial for a business. 
+
+*Note:* Try to use a computer instead of your tablet/smartphone. Especially the past paper links don't work as they should on those devices.
+
+
+
+{blank} +
+
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Week |Date |Topic |Coursework
+
+|
+| 19/3/2020
+| _Growth_ +
+  _Mergers and takeovers_ +
+  _Organic growth_ +
+  _Reasons for staying small_
+| *(1)* Revise chapters 48-51 +
+  *(2)* Watch the following _tutorial videos_: +
+  _(i)_ link:https://www.youtube.com/watch?v=ny29zZmmwkM[Growth Strategy: Internal v External Growth (21 min)] +
+  _(ii)_ link:https://www.youtube.com/watch?v=b82S3AFHoE0[Economic Growth (GDP) (4 min)] +
+  _(iii)_ link:https://www.youtube.com/watch?v=C0pAxcTgEB4[Constraints on Business Growth (8 min)] +
+  _(iv)_ link:https://www.youtube.com/watch?v=uOO4ClVUrkw[Business Growth Strategy - Horizontal and Vertical Integration (6 min)] +
+  _(v)_ link:https://www.youtube.com/watch?v=9fUWnZ3k2tc[Business Growth Strategy - Synergy (6 min)] +
+  _(vi)_ link:https://www.youtube.com/watch?v=2E1pAqZ8qCg[Economies of Scale (9 min)] +
+  _(vi)_ link:https://www.youtube.com/watch?v=s4DGC6yITxQ[Overtrading (5 min)] +
+  _(vii)_ link:https://www.youtube.com/watch?v=baN8NrcFaFQ[Takeovers and mergers (28 min)] +
+  _(viii)_ link:https://www.youtube.com/watch?v=B4LMyav5SN0[Essay tip: Internal v External Growth (15 min)] +
+  *(3)* Read the following student answers: +
+  _(i)_ link:https://qualifications.pearson.com/content/dam/pdf/A%20Level/Business%20Studies/2013/Exam%20materials/6BS03_01_pef_20130307.pdf#page=14[Assess the likely consequences for Tata of expanding by mergers and takeovers.(8 marks)] +
+  _(ii)_ link:https://qualifications.pearson.com/content/dam/pdf/A%20Level/Business%20Studies/2013/Exam%20materials/6BS03-6EB03-Jan-2010-ER.pdf#page=11[Assess the likely importance of mergers and takeovers in L’Oréal’s international success. (8 marks)] +
+  _(iii)_ link:https://qualifications.pearson.com/content/dam/pdf/A%20Level/Business%20Studies/2013/Exam%20materials/6BS03_01_pef_20110309.pdf#page=10[Assess the likely benefits for BAT of expanding by mergers and takeovers. (8 marks)] +
+  *(4)* Read link:https://pastpapers.papacambridge.com/Cambridge%20International%20Examinations%20%28CIE%29/AS%20and%20A%20Level/Business%20%28for%20first%20examination%20in%202016%29%20-%209609/2017%20Jun/9609_s17_qp_31.pdf[this extract] and answer the following question: + 
+  _Assess the most likely reasons why the takeover of SRH has so far failed to achieve TTC’s objectives. (12 marks)_.
+
+|===

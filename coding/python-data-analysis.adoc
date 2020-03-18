@@ -1,0 +1,9 @@
+= Data analysis with Python
+
+Inn order to install and set up your environment follow the link:https://python.quantecon.org/getting_started.html[instructions on the QuantEcon website].
+
+
+[source, bash]
+----
+asciidoctor sourcefile.adoc
+----
