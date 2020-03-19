@@ -464,7 +464,7 @@ Revise will include the five chapters of the AS level. We will start with elemen
 |Week |Date |Topic |Coursework
 
 | 
-|16/3 -- 20/3 
+|16/3 
 |Terms of trade +
  {blank} +
  [red]#stem:[ \textrm{Terms of trade index}]# +
@@ -479,13 +479,32 @@ Revise will include the five chapters of the AS level. We will start with elemen
  *(7)* Discuss whether a rise in an economy’s terms of trade is likely to be of overall benefit to that  economy. (upload into _Teams_, 20 min)
 
 |
-|
+|17/3
 |Absolute and comparative advantage
-|*(1)* Read pages 102-104  in your _coursebook_ (10 min)+
+|*(1)* Read pages 102-104  in your _coursebook_ (10 min) +
  *(2)* Tutorial videos: _(i)_ link:https://www.youtube.com/watch?v=yBrESEzGaU4[Absolute advantage (3 min)], _(ii)_ link:https://www.youtube.com/watch?v=BXgN9Ig8L-Q[Comparative advantage (8 min)] _(iii)_ link:https://www.youtube.com/watch?v=xN3UV5FsBkU[Comparative and absolute advantage], _(iv)_ link:https://www.youtube.com/watch?v=xx9xNJlPOJo[Comparative advantage specialization and gains from trade] +
  *(3)* Self-assessment task 4.9 (page 103 in your coursebook, 10 min) +
  *(4)* Data response question 1 and 2 (pages 60 and 61 in your workbook, 40 min) +
  *(5)* Explain the benefits of free trade as suggested by the principle of comparative advantage. (15 min) +
  *(6)* Explain how the principle of comparative advantage might be used to justify Thailand and Vietnam specialising in rice production and Japan specialising in some other product. (10 min)
 
+|
+|19/3
+|Free trade
+|*(1)* Read pages 104-108 in your _coursebook_ (20 min) +
+ *(2)* Tutorial videos: + 
+ _(i)_ link:https://www.youtube.com/watch?v=eR1t7r4nKa8[Patterns of trade (8 min)] +
+ _(ii)_ link:https://www.youtube.com/watch?v=roZCidl8NoM[Advantages and Disadvantages of Trade for Developing Countries (8 min)] +
+ _(iii)_ link:https://www.youtube.com/watch?v=JPY-38KcI3c[Gains from trade (6 min)] +
+ _(iv)_ link:https://www.youtube.com/watch?v=4HjN1FPYXaY[Economic Integration between Countries (5 min)] +
+ _(v)_ link:https://www.youtube.com/watch?v=cO3rP0MXqNg[Customs Union (4 min)] +
+ _(vi)_ link:https://www.youtube.com/watch?v=z11ytQU6Vz0[Difference between Customs Union and Monetary Union (4 min)] +
+ _(vii)_ link:https://www.youtube.com/watch?v=Ku02wyAe6TY[Trade creation (6 min)] +
+ *(3)* This task is optional: _Economics of Brexit_+
+ _(i)_ link:https://www.youtube.com/watch?v=nTt6Wo4O5WA[Trade Patterns, Customs Unions and the Single Market] +
+ _(ii)_ link:https://www.youtube.com/watch?v=nPsxji8n8nw[Options for the UK when leaving the EU] +
+ _(iii)_ link:https://www.youtube.com/watch?v=mT4QUATlk-I[Micro and Macro Effects of the UK leaving the EU] +
+ *(4)* Work on Self-Assessment Task 4.10 (page 105 in your _coursebook_, 25 min)  +
+ *(5)* Work on Question 10a and 10b (page 59 in your _workbook_, 15 min) +
+ *(6)* link:https://www.ft.com/content/fc85d94e-0a28-11ea-b2d6-9bf4d1957a67[FT _The Big Read_: Brexit talks: the brutal reckoning that awaits the UK]
 |===
