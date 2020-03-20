@@ -506,5 +506,6 @@ Revise will include the five chapters of the AS level. We will start with elemen
  _(iii)_ link:https://www.youtube.com/watch?v=mT4QUATlk-I[Micro and Macro Effects of the UK leaving the EU] +
  *(4)* Work on Self-Assessment Task 4.10 (page 105 in your _coursebook_, 25 min)  +
  *(5)* Work on Question 10a and 10b (page 59 in your _workbook_, 15 min) +
- *(6)* link:https://www.ft.com/content/fc85d94e-0a28-11ea-b2d6-9bf4d1957a67[FT _The Big Read_: Brexit talks: the brutal reckoning that awaits the UK]
+ *(6)* link:https://www.ft.com/content/fc85d94e-0a28-11ea-b2d6-9bf4d1957a67[FT _The Big Read_: Brexit talks: the brutal reckoning that awaits the UK] +
+ *(7)* _Optional_: link:https://core-econ.org/the-economy/book/text/18.html[Read 18.1 and 18.2. at Core Econ]. You are advised to do the self-assessment MCQs at the end of each section.
 |===
