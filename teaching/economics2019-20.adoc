@@ -508,4 +508,19 @@ Revise will include the five chapters of the AS level. We will start with elemen
  *(5)* Work on Question 10a and 10b (page 59 in your _workbook_, 15 min) +
  *(6)* link:https://www.ft.com/content/fc85d94e-0a28-11ea-b2d6-9bf4d1957a67[FT _The Big Read_: Brexit talks: the brutal reckoning that awaits the UK] +
  *(7)* _Optional_: link:https://core-econ.org/the-economy/book/text/18.html[Read 18.1 and 18.2. at Core Econ]. You are advised to do the self-assessment MCQs at the end of each section.
+
+|
+|23/3
+|Protectionism
+|*(1)* Read pages 108-111  in your _coursebook_ (20 min) +
+ *(2)* Tutorial videos: + 
+ _(i)_ link:https://www.youtube.com/watch?v=pZ6zXoYSTUI&list=PLp8BSCLLWBUDR82JLnAa3tp8jDxFvTSqb&index=6[Import Tariffs - Basic Analysis (5 min)] +
+ _(ii)_ link:https://www.youtube.com/watch?v=uoyg4L791PE[[red]#Analysing and Evaluating Import Tariffs# (11 min)] +
+ _(iii)_ link:https://www.youtube.com/watch?v=--fckqjGKaE[Dumping (The Economist, 2 min)] +
+ _(iv)_ link:https://www.youtube.com/watch?v=UUwVpfNc6KU[Trade Theory - Import Dumping (8 min)] +
+ _(v)_ link:https://www.youtube.com/watch?v=XlnEVamxZDY&list=PLp8BSCLLWBUDR82JLnAa3tp8jDxFvTSqb[Synoptic Economics: Trump's Tariffs on Mexico (8 min)] +
+ _(vi)_ link:https://www.youtube.com/watch?v=OGLZ2u5wkXQ&list=PLp8BSCLLWBUDR82JLnAa3tp8jDxFvTSqb&index=3[Import Quotas - Example Exam Answer (11 min)] +
+ _(vii)_ link:https://www.youtube.com/watch?v=SDotDymQ04A&list=PLp8BSCLLWBUDR82JLnAa3tp8jDxFvTSqb&index=5[A Level Economics Synoptic Essay Guide: Steel Tariffs (11 min)] +
+ *(3)* Work on Self-Assessment Task 4.11 (page 111 in your _coursebook_, 15 min)  +
+ *(4)* _Think like an economist_ (pages 64-67 in your _workbook_) 
 |===
