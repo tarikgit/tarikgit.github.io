@@ -95,6 +95,7 @@ Remember that the main goal is to be able to use concepts like _economies/diseco
 
 |===
 
+{blank} +
 
 == Research topic: The entertainment industry
 
@@ -110,3 +111,49 @@ Research on FT how the following companies are financed: +
 
 Use the shared document in _Teams_ (saved in "Files" --> "Shared document") to write your findings (in bullet-points). Provide the link to your article in the "References" section.
 
+
+
+{blank} +
+
+== Subtheme 3.3: Decision-making techniques 
+
+Revision of this subtheme should take you two hours. You can either read the four chapters or watch the tutorial videos. +
+
+Remember that the main goal is to be able to calculate _ratios_, construct _decision trees_ and calculate the components of the _critical path_ network. At your level the marks assigned to the calculation will be relatively low. The key point is to be able to use these values in an essay-style question. If your calculations are wrong, it will be very difficult to write a consistent essay.
+
+*Note:* Try to use a computer instead of your tablet/smartphone. Especially the past paper links don't work as they should on those devices.
+
+
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Week |Date |Topic |Coursework
+
+|
+| 24/3/2020
+| _Quantitative sales forecasting_ +
+  _Investment appraisal_ +
+  _Decision trees_ +
+  _Critical path analysis_
+| *(1)* Revise chapters 52-55 +
+  *(2)* Watch the following _tutorial videos_: +
+  _(i)_ link:https://www.youtube.com/watch?v=C9zJbo6LKo8[Index Numbers (12 min)] +
+  _(ii)_ link:https://www.youtube.com/watch?v=kEsZKO87TlU[Payback Period (10 min)] +
+  _(iii)_ link:https://www.youtube.com/watch?v=Yl7U7GovOQk[Ratios (27 min)] +
+  _(iv)_ link:https://www.youtube.com/watch?v=-ICsKIB6AzI[Average Rate of Return (4 min)] +
+  _(v)_ link:https://www.youtube.com/watch?v=2GUVGx2KL-w[Net Present Value (16 min)] +
+  _(vi)_ link:https://www.youtube.com/watch?v=PYxDkGlpj_U[Decision Trees (14 min)] +
+  _(vii)_ link:https://www.youtube.com/watch?v=poOyKIt7M1g[Critical Path Analysis (11 min)] +
+  *(3)* Basic Business Math Knowledge: +
+  _(i)_ link:https://www.youtube.com/watch?v=lIuKWV8Ho8E[Calculating Averages (5 min)] +
+  _(ii)_ link:https://www.youtube.com/watch?v=QZs8y0Y_3Vk[Calculating Percentage Changes (6 min)] +
+  _(iii)_ link:https://www.youtube.com/watch?v=D7ggEPyfuvg[Exchange Rates (6 min)] +
+  _(iv)_ link:https://www.youtube.com/watch?v=IKihYinXmIg[[red]#Depreciation# (6 min)] +
+  *(4)* Techniques for answering questions: +
+  _(i)_ link:https://www.youtube.com/watch?v=OZtstmE89qE[Short _4-mark_ questions (6 min)] +
+  _(ii)_ link:https://www.youtube.com/watch?v=oXfIb9o3_7Y[Long _20-mark_ questions (9 min)] 
+
+
+
+|===
