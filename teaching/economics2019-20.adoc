@@ -524,4 +524,16 @@ Revise will include the five chapters of the AS level. We will start with elemen
  *(3)* Work on Self-Assessment Task 4.11 (page 111 in your _coursebook_, 15 min)  +
  *(4)* _Think like an economist_ (pages 64-67 in your _workbook_) +
  *(5)* Watch link:https://www.youtube.com/watch?v=LRDIejhdtYk[Dani Rodrik's video] on globalisation and answer the link:https://core-econ.org/the-economy/book/text/18.html#exercise-1810-rodriks-trilemma[following questions]. *Hint*: Check out this link:https://www.youtube.com/watch?v=lXafFoUhems[video on Rodrik's Trilemma].
+
+|
+|27/3
+|Doing Economics: Measuring Climate Change
+|*(1)* Read the link:https://www.core-econ.org/doing-economics/book/text/01-01.html[_empirical project 1_ on measuring climate change], and complete it with link:https://core-econ.org/espp/book/text/01.html[the introduction to Capitalism and Democracy], as well as link:https://core-econ.org/the-economy/book/text/01.html[the Capitalist Revolution] and finally link:https://core-econ.org/the-economy/book/text/20.html[Economics of the Environment] +
+ *(2)* Working in Excel: +
+ _(i)_ link:https://www.core-econ.org/doing-economics/book/text/01-02.html[Part 1.1 The behaviour of average surface temperature over time] and +
+ _(ii)_ link:https://www.core-econ.org/doing-economics/book/text/01-02.html#part-12-variation-in-temperature-over-time[Part 1.2 Variation in temperature over time] +
+ *(3)* All the applications will be done in your Microsoft 365 account using the online version of Excel. Once you have completed the exercises, you will [red]#share your Excel worksheets with me using _Assignments_# .
+
 |===
+
+
