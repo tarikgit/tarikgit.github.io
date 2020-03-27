@@ -170,3 +170,31 @@ Read the link:https://www.ft.com/content/91bd081e-6e7b-11ea-9bca-bf503995cd6f[fo
 
 These are 12-mark essay questions. Make sure to properly _balance_, _structure_ and _evaluate_ your answers.
 
+{blank} +
+
+== Subtheme 3.4: Influences on business decisions 
+
+Revision of this subtheme should take you two hours. You can either read the four chapters or watch the tutorial videos. +
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Week |Date |Topic |Coursework
+
+|
+|27/3/2020
+|_Corporate influences_ +
+ _Corporate culture_ +
+ _Shareholders versus stakeholders_ +
+ _Business ethics_
+|*(1)* Revise chapters 56-59 +
+ *(2)* Watch the following _tutorial videos_: +
+ _(i)_ link:https://www.youtube.com/watch?v=xChi9_5W-Y8[Key Influences on the Organisational Culture of a Business (7 min)] +
+ _(ii)_ link:https://www.youtube.com/watch?v=AJKEmfh8Q3c[Influences on the Choice of Strategic Positioning (5 min)] +
+ _(iii)_ link:https://www.youtube.com/watch?v=zKhqN69MT-0[Influences on Financial Objectives (5 min)] +
+ _(iv)_ link:https://www.youtube.com/watch?v=MfL_0ko4T3o[Organisational culture (27 min)] +
+ _(v)_ link:https://www.youtube.com/watch?v=EK1ak9lXLo8[Business ethics (19 min)] +
+ _(vi)_ link:https://www.youtube.com/watch?v=nkteAJBtM9A[Corporate Social Responsibility - CSR (19 min)] +
+ *(3)* Multiple choice question in _Microsoft Forms_
+|===
+
