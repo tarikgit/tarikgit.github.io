@@ -534,6 +534,15 @@ Revise will include the five chapters of the AS level. We will start with elemen
  _(ii)_ link:https://www.core-econ.org/doing-economics/book/text/01-02.html#part-12-variation-in-temperature-over-time[Part 1.2 Variation in temperature over time] +
  *(3)* All the applications will be done in your Microsoft 365 account using the online version of Excel. Once you have completed the exercises, you will [red]#share your Excel worksheets with me using _Assignments_# .
 
-|===
 
+|
+|19/4
+|Market failure and  inefficient allocation of resources
+|*(1)* link:https://www.youtube.com/watch?v=ejJRhn53X2M[_Adam Smith_] (the link:https://www.youtube.com/watch?v=-CqMMxsN_7c["_invisible hand_"]), and _Jean-Baptiste Say_ ("_Say's Law_"). See link:https://www.economist.com/schools-brief/2017/08/12/says-law-supply-creates-its-own-demand[Say's law: supply creates its own demand]+
+ *(2)* Price elasticity and sales revenue +
+ *(3)* _Improve your answer_ (page 43 in your workbook). Hint: Use your _revision guide_ to revise the material of chapter 2. 
+
+
+
+|===
 
