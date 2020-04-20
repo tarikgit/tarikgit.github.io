@@ -279,7 +279,8 @@
 |_30: Accounting fundamentals (Part 1)_
 |*(1)* link:../slides/23-AccountingFundamentals.pdf[Presentation] +
  *(2)* Upload Activities 30.1 and 30.2 into _Assignments_. + 
- *Hint*: Use the link:business-keyterms.html[keyterms webpage] when writing your answers.
+ *Hint*: Use the link:business-keyterms.html[keyterms webpage] when writing your answers. +
+ *Solution to Activity 30.1 question 3*: link:../slides/23-GrossProfit.pdf[Calculate _value of closing stocks_ and _gross profit_]
 
 |
 |
