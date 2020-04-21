@@ -536,13 +536,17 @@ Revise will include the five chapters of the AS level. We will start with elemen
 
 
 |
-|19/4
+|20/4
 |Market failure and  inefficient allocation of resources
-|*(1)* link:https://www.youtube.com/watch?v=ejJRhn53X2M[_Adam Smith_] (the link:https://www.youtube.com/watch?v=-CqMMxsN_7c["_invisible hand_"]), and _Jean-Baptiste Say_ ("_Say's Law_"). See link:https://www.economist.com/schools-brief/2017/08/12/says-law-supply-creates-its-own-demand[Say's law: supply creates its own demand] +
+|*(1)* link:https://www.youtube.com/watch?v=ejJRhn53X2M[_Adam Smith_] (the link:https://www.youtube.com/watch?v=-CqMMxsN_7c["_invisible hand_"]), and _Jean-Baptiste Say_ ("_Say's Law_"). See link:https://www.economist.com/schools-brief/2017/08/12/says-law-supply-creates-its-own-demand[Say's law: supply creates its own demand]. The link:../slides/13-Says-Law.pdf[slides presented in our Meeting]. +
  *(2)* Price elasticity and sales revenue +
  *(3)* _Improve your answer_ (page 43 in your workbook). Hint: Use your _revision guide_ to revise the material of chapter 2. 
 
-
+|
+|21/4
+|Market failure and  inefficient allocation of resources
+|*(1)* MCQ in Microsoft Forms (see Teams). You can revise yesterday's material using the link:../slides/13-Says-Law.pdf[following slides] +
+ *(2)* Write the following 12-mark essay and submit in Teams: _Discuss whether resources are more effectively allocated in a planned economy or in a market economy._ 
 
 |===
 

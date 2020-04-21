@@ -207,3 +207,29 @@ Read the following article: link:https://www.ft.com/content/16209002-6531-11ea-a
 
 * Topics: _globalisation_, _government intervention_, _leadership_
 * Watch the video link:https://www.ft.com/video/96240572-7e35-4fcd-aecb-8f503d529354[Macron: coronavirus is Europe's 'moment of truth']
+
+
+== Subtheme 3.5: Assessing competitiveness 
+
+Revision of this subtheme should take you two hours. You can either read the three chapters or watch the tutorial videos. +
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Week |Date |Topic |Coursework
+
+|
+|21/3/2020
+|_Interpretation of financial statements_ +
+ _Ratio analysis_ +
+ _Human resources_ 
+|*(1)* Revise chapters 60-61 +
+ *(2)* Watch the following _tutorial videos_: +
+ _(i)_ link:https://www.youtube.com/watch?v=or3bOLtAV4s[Introduction to the Income Statement (6 min)] +
+ _(ii)_ link:https://www.youtube.com/watch?v=GoKIZqSFMIE[Ratio Analysis (7 min)] +
+ _(iii)_ link:https://www.youtube.com/watch?v=Syu2sKv05rQ[Introduction to the Balance Sheet (7 min)] +
+ _(iv)_ link:https://www.youtube.com/watch?v=ROqkmlVuXKU[Ratio Analysis (6 min)] +
+ _(v)_ link:https://www.youtube.com/watch?v=BCaoQNkeoy0[Liquidity Ratios (10 min)] +
+ _(vi)_ link:https://www.youtube.com/watch?v=wrk_XZJYXy4[Ratio Analysis - ROCE (9 min)] +
+ *(3)* Multiple choice question in _Microsoft Forms_
+|===
