@@ -221,8 +221,7 @@ Revision of this subtheme should take you two hours. You can either read the thr
 |
 |21/3/2020
 |_Interpretation of financial statements_ +
- _Ratio analysis_ +
- _Human resources_ 
+ _Ratio analysis_ 
 |*(1)* Revise chapters 60-61 +
  *(2)* Watch the following _tutorial videos_: +
  _(i)_ link:https://www.youtube.com/watch?v=or3bOLtAV4s[Introduction to the Income Statement (6 min)] +
