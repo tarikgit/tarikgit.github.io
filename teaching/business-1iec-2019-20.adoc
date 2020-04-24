@@ -244,5 +244,34 @@ Revision of this subtheme should take you two hours. You can either read the thr
  _(v)_ link:https://www.youtube.com/watch?v=3St5OoLYTJ0[Maslow - Hierarchy of Needs (8 min)] +
  _(vi)_ link:https://www.youtube.com/watch?v=f-qbGAvR4EU[Herzberg - Two Factor Theory (8 min)] +
  *(3)* Identify topics that you want to revise (survey will be available later today)
- 
+
+
+
+|===
+
+
+
+
+== Subtheme 3.6: Managing change  
+
+Revision of this subtheme should take you two hours. You can either read the three chapters or watch the tutorial videos. +
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Week |Date |Topic |Coursework
+
+
+|
+|24/3/2020
+|_Causes and effects of change_ +
+ _Key factors in change_ +
+ _Scenario planning_
+|*(1)* Revise chapters 63-65 +
+ *(2)* Watch the following _tutorial videos_: +
+ _(i)_ link:https://www.youtube.com/watch?v=PmuNsYmEAoc[Causes and Types of Change (5 min)] +
+ _(ii)_ link:https://www.youtube.com/watch?v=9yysOwXbzRA[Change Management (22 min)] 
+
+
+
 |===
