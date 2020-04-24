@@ -550,9 +550,10 @@ Revise will include the five chapters of the AS level. We will start with elemen
 
 |
 |24/4
-|Government microeconomic intervention: subsidies
-|*(1)* _Improve your answer_ (page 53 in your workbook) +
- *(2)* Submit your answer in _Teams Assignment_
+|Government microeconomic intervention: subsidies 
+|*(1)* link:https://www.youtube.com/watch?v=v_E2F6hBt80[Subsidies: Consumer and Producer Benefit] +
+ *(2)* _Improve your answer_ (page 53 in your workbook) +
+ *(3)* Submit your answer in _Teams Assignment_
 
 
 |===
