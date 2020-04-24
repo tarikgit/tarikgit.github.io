@@ -290,6 +290,14 @@
  *Hint*: Use the link:business-keyterms.html[keyterms webpage] when writing your answers. +
 
 |
+|24/4/2020
+|_30: Accounting fundamentals (Part 3)_
+|*(1)* link:../slides/23-AccountingFundamentals.pdf[Presentation] +
+ *(2)* Upload Activities 30.5 and 30.6 into _Assignments_. + 
+ *Hint*: Use the link:business-keyterms.html[keyterms webpage] when writing your answers. +
+
+
+|
 |
 |_31: Forecasting and managing cash flows_
 |
