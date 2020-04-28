@@ -271,7 +271,16 @@ Revision of this subtheme should take you two hours. You can either read the thr
  *(2)* Watch the following _tutorial videos_: +
  _(i)_ link:https://www.youtube.com/watch?v=PmuNsYmEAoc[Causes and Types of Change (5 min)] +
  _(ii)_ link:https://www.youtube.com/watch?v=9yysOwXbzRA[Change Management (22 min)] 
-
+ *(3)* 
 
 
 |===
+
+
+
+== Production, productivity and efficiency (28/4/2020)
+
+* Topics: _job flexibility_, _flexibility in production_, _lean production_
+* link:https://www.ft.com/content/e8245a0a-773d-4666-9c44-132bd21c88f1[Culture war: How Danone kept making yoghurt in the pandemic]
+* *Essay-style question*: _Assess the extent to which flexibility has helped Danone to gain a competitive edge during the coronavirus crisis. (12 marks)_
+
