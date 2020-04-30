@@ -284,3 +284,38 @@ Revision of this subtheme should take you two hours. You can either read the thr
 * link:https://www.ft.com/content/e8245a0a-773d-4666-9c44-132bd21c88f1[Culture war: How Danone kept making yoghurt in the pandemic]
 * *Essay-style question*: _Assess the extent to which flexibility has helped Danone to gain a competitive edge during the coronavirus crisis. (12 marks)_
 
+
+== Subtheme 4.1: Globalisation  
+
+Revision of this subtheme should take you two hours. You can either read the four chapters or watch the tutorial videos. +
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Week |Date |Topic |Coursework
+
+
+|
+|30/4/2020
+|_Growing economies_ +
+ _International trade_ +
+ _and business growth_ +
+ _Factors contributing_ +
+ _to increased_ + 
+ _globalisation_ +
+ _Protectionism_ +
+ _Trading blocs_ +
+|*(1)* Revise chapters 66-70 +
+ *(2)* Watch the following _tutorial videos_: +
+ _(i)_ link:https://www.youtube.com/watch?v=b82S3AFHoE0&t=60s[Economic Growth (4 min)] +
+ _(ii)_ link:https://www.youtube.com/watch?v=PcF-xymKqCA[Open Trade and Protectionism (4 min)] +
+ _(iii)_ link:https://www.youtube.com/watch?v=9t61OlAIdDc[Factors Influencing the Attractiveness of International Markets (6 min)] +
+ *(3)* Watch the _FT video_: +
+_(i)_ link:https://www.ft.com/video/ac9402b9-5ee5-4f68-bac6-d5c3c3c03ca3[How to survive a trade war (2 min)] +
+_(ii)_ link:https://www.ft.com/video/8a2a605f-130a-3155-98bf-71dbee565e61[Globalisation to localisation? (4 min)] +
+_(iii)_ link:https://next-media-api.ft.com/renditions/15599279361720/1280x720.mp4[Financing projects (2 min)] +
+*(4)* Read the _FT article_: + 
+link:https://www.ft.com/content/40748256-86b5-11e9-a028-86cea8523dc2[Entrepreneurs weigh effects of geopolitical upheaval]
+
+
+|===
