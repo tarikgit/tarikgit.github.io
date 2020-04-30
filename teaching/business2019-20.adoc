@@ -307,9 +307,13 @@
 
 
 |
-|
+|30/4/2020
 |_31: Forecasting and managing cash flows_
-|
+|*(1)* link:../slides/24-ForecastingCashFlows.pdf[Presentation] +
+ *(2)* link:https://www.youtube.com/watch?v=dLHZy4DWKRM[Introduction to the Cash Flow Forecast (6 min)] +
+ *(3)* link:https://www.youtube.com/watch?v=P6sJYQEo4Dw[Cashflow Management - Improving Cash Flow (8 min)] +
+ *(4)* link:https://www.youtube.com/watch?v=HxYjB6cHKXA[Cash Flow - Causes of Cash Flow Problems (6 min)] 
+
 
 
 |===
