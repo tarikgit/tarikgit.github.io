@@ -7,7 +7,8 @@
 
 |link:teaching/economics2019-20.html[Course content]
 
-|link:teaching/economics-essaywriting.html[Economics essay writing]
+|link:teaching/general-essaywriting.html[General advice for essay writing] +
+ link:teaching/economics-essaywriting.html[Economics essay writing]
 
 
 |===
@@ -19,7 +20,8 @@
 
 |link:teaching/business2019-20.html[Course content]
 
-|link:teaching/business-essaywriting.html[Business essay writing]
+|link:teaching/general-essaywriting.html[General advice for essay writing] +
+ link:teaching/business-essaywriting.html[Business essay writing]
 
 |link:teaching/business-keyterms.html[Business keyterms]
 
@@ -31,7 +33,8 @@
 [cols="1*"]
 |===
 
-|link:teaching/business-1iec-2019-20.html[Course content]
+|link:teaching/general-essaywriting.html[General advice for essay writing] +
+ link:teaching/business-1iec-2019-20.html[Course content]
 
 |
 
