@@ -317,5 +317,9 @@ _(iii)_ link:https://next-media-api.ft.com/renditions/15599279361720/1280x720.mp
 *(4)* Read the _FT article_: + 
 link:https://www.ft.com/content/40748256-86b5-11e9-a028-86cea8523dc2[Entrepreneurs weigh effects of geopolitical upheaval]
 
+|
+|5/5/2020
+|_Essay writing_
+|Read link:https://tarikgit.github.io/teaching/general-essaywriting.html[_How to write a good essay_].
 
 |===
