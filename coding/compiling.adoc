@@ -137,6 +137,13 @@ Use link:https://imagemagick.org[ImageMagick], by installing:
 sudo aptitude install imagemagick
 ----
 
+Or alternatively (chosen method), use
+
+[source,bash]
+----
+ps2epsi filename.ps filename.eps
+gs -dSAFER -dBATCH -dNOPAUSE -dEPSCrop -r600 -sDEVICE=pngalpha -sOutputFile=filename.png filename.eps
+----
 
 
 

@@ -1,5 +1,7 @@
 = How to write a good essay
 
+image::../latex/images/05-essay-mindmap-figure0.png[a, 450, 337.5]
+
 The following text is inspired by link:https://www-nature-com.proxy.bnl.lu/articles/d41586-018-02404-4[Gewin, Virginia. "How to write a first-class paper." Nature 555.7694 (2018)]. I made small adaptations for AS/A level Business and Economics essay-writing.
 
 == Keep your message clear

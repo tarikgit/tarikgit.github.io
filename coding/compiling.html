@@ -600,12 +600,21 @@ dvips $1".dvi" &amp;</code></pre>
 <pre class="highlight"><code class="language-bash" data-lang="bash">sudo aptitude install imagemagick</code></pre>
 </div>
 </div>
+<div class="paragraph">
+<p>Or alternatively (chosen method), use</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">ps2epsi filename.ps filename.eps
+gs -dSAFER -dBATCH -dNOPAUSE -dEPSCrop -r600 -sDEVICE=pngalpha -sOutputFile=filename.png filename.eps</code></pre>
+</div>
+</div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-03-07 11:02:37 +0100
+Last updated 2020-05-05 14:01:25 +0200
 </div>
 </div>
 </body>
