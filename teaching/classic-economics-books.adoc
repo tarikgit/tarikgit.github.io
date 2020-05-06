@@ -13,9 +13,20 @@ link:http://www.gutenberg.org/files/27597/27597-h/27597-h.htm[The English Utilit
 * George, Henry: link:http://www.gutenberg.org/ebooks/55308[Progress and Poverty]
 * Hobbes, Thomas: link:http://www.gutenberg.org/ebooks/3207[The Leviathan]
 * Machiavelli, Niccolo: link:http://www.gutenberg.org/ebooks/57037[The Prince]
-Malthus, T.R.: link:http://www.gutenberg.org/ebooks/4239[On the Principle of Population]
-* Marx, Karl: Capital: A Critical Analysis 
-* Mill, John Stuart: link:http://www.gutenberg.org/ebooks/30107[Principles of Political Economy]
+* Malthus, T.R.: link:http://www.gutenberg.org/ebooks/4239[On the Principle of Population]
+* Marx, Karl: link:https://www.marxists.org/archive/marx/works/1867-c1/index.htm[Capital: A Critical Analysis] 
+* Mill, John Stuart: link:http://www.gutenberg.org/ebooks/30107[Principles of Political Economy] 
+
+"Cheapness is the
+    sentence of death to the producer on a small scale who has no
+    money to invest in the purchase of machinery that his rich
+    rivals can easily procure. Cheapness is the great instrument in
+    the hands of monopoly; it absorbs the small manufacturer, the
+    small shopkeeper, the small proprietor; it is, in one word, the
+    destruction of the middle classes for the advantage of a few
+    industrial oligarchs."
+-- John Stuart Mill, link:http://www.gutenberg.org/ebooks/38138[Socialism]
+  
 * Montesquieu: link:http://www.gutenberg.org/ebooks/27573[The Spirit of Laws]
 * More, Sir Thomas: link:http://www.gutenberg.org/ebooks/2130[Utopia Nowhere Land]
 * Paine, Thomas: link:http://www.gutenberg.org/ebooks/31270[The Rights of Man]
