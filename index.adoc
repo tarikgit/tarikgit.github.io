@@ -34,7 +34,8 @@
 |===
 
 |link:teaching/general-essaywriting.html[General advice for essay writing] +
- link:teaching/business-1iec-2019-20.html[Course content]
+ link:teaching/business-1iec-2019-20.html[Course content] +
+ link:teaching/classic-economics-books.html[Classic economic texts]
 
 |
 
