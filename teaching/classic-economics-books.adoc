@@ -6,7 +6,7 @@ link:http://www.gutenberg.org/files/25009/25009-h/25009-h.htm[The World's Greate
 link:http://www.gutenberg.org/files/27597/27597-h/27597-h.htm[The English Utilitarians]
 
 * Bellamy, Edward: link:http://www.gutenberg.org/ebooks/624[Looking Backward]
-* Bentham, Jeremy: Principles of Morals and Legislation
+* Bentham, Jeremy: link:https://www.utilitarianism.com/jeremy-bentham/index.html[Principles of Morals and Legislation]
 * Bloch, Jean: The Future of War
 * Burke, Edmund: Reflections on the Revolution in France
 * Comte, Auguste: A Course of Positive Philosophy link:http://www.gutenberg.org/ebooks/31881[1], link:http://www.gutenberg.org/ebooks/31882[2], link:http://www.gutenberg.org/ebooks/31883[3], link:http://www.gutenberg.org/ebooks/31947[4], link:http://www.gutenberg.org/ebooks/52880[5], link:http://www.gutenberg.org/ebooks/50786[6] 	
