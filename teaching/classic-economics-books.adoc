@@ -5,17 +5,17 @@ link:http://www.gutenberg.org/files/25009/25009-h/25009-h.htm[The World's Greate
 
 link:http://www.gutenberg.org/files/27597/27597-h/27597-h.htm[The English Utilitarians]
 
-* Bellamy, Edward: link:http://www.gutenberg.org/ebooks/624[Looking Backward]
-* Bentham, Jeremy: link:https://www.utilitarianism.com/jeremy-bentham/index.html[Principles of Morals and Legislation]
-* Bloch, Jean: The Future of War
-* Burke, Edmund: Reflections on the Revolution in France
-* Comte, Auguste: A Course of Positive Philosophy link:http://www.gutenberg.org/ebooks/31881[1], link:http://www.gutenberg.org/ebooks/31882[2], link:http://www.gutenberg.org/ebooks/31883[3], link:http://www.gutenberg.org/ebooks/31947[4], link:http://www.gutenberg.org/ebooks/52880[5], link:http://www.gutenberg.org/ebooks/50786[6] 	
-* George, Henry: link:http://www.gutenberg.org/ebooks/55308[Progress and Poverty]
-* Hobbes, Thomas: link:http://www.gutenberg.org/ebooks/3207[The Leviathan]
-* Machiavelli, Niccolo: link:http://www.gutenberg.org/ebooks/57037[The Prince]
-* Malthus, T.R.: link:http://www.gutenberg.org/ebooks/4239[On the Principle of Population]
-* Marx, Karl: link:https://www.marxists.org/archive/marx/works/1867-c1/index.htm[Capital: A Critical Analysis] 
-* Mill, John Stuart: link:http://www.gutenberg.org/ebooks/30107[Principles of Political Economy] 
+* Bellamy, Edward (1850 - 1898): link:http://www.gutenberg.org/ebooks/624[Looking Backward]
+* Bentham, Jeremy (1747 - 1832): link:https://www.utilitarianism.com/jeremy-bentham/index.html[Principles of Morals and Legislation]
+* Bloch, Jean (1836 - 1902): The Future of War
+* Burke, Edmund (1729 - 1797): Reflections on the Revolution in France
+* Comte, Auguste (1798 - 1857): A Course of Positive Philosophy link:http://www.gutenberg.org/ebooks/31881[1], link:http://www.gutenberg.org/ebooks/31882[2], link:http://www.gutenberg.org/ebooks/31883[3], link:http://www.gutenberg.org/ebooks/31947[4], link:http://www.gutenberg.org/ebooks/52880[5], link:http://www.gutenberg.org/ebooks/50786[6] 	
+* George, Henry (1839 - 1897): link:http://www.gutenberg.org/ebooks/55308[Progress and Poverty]
+* Hobbes, Thomas (1588 - 1679): link:http://www.gutenberg.org/ebooks/3207[The Leviathan]
+* Machiavelli, Niccolo (1469 - 1527): link:http://www.gutenberg.org/ebooks/57037[The Prince]
+* Malthus, T.R. (1766 - 1834): link:http://www.gutenberg.org/ebooks/4239[On the Principle of Population]
+* Marx, Karl (1818 - 1883): link:https://www.marxists.org/archive/marx/works/1867-c1/index.htm[Capital: A Critical Analysis] 
+* Mill, John Stuart (1806 - 1873): link:http://www.gutenberg.org/ebooks/30107[Principles of Political Economy] 
 
 "Cheapness is the
     sentence of death to the producer on a small scale who has no
@@ -27,18 +27,18 @@ link:http://www.gutenberg.org/files/27597/27597-h/27597-h.htm[The English Utilit
     industrial oligarchs."
 -- John Stuart Mill, link:http://www.gutenberg.org/ebooks/38138[Socialism]
   
-* Montesquieu: link:http://www.gutenberg.org/ebooks/27573[The Spirit of Laws]
-* More, Sir Thomas: link:http://www.gutenberg.org/ebooks/2130[Utopia Nowhere Land]
-* Paine, Thomas: link:http://www.gutenberg.org/ebooks/31270[The Rights of Man]
-* Rousseau, Jean Jacques: link:http://www.gutenberg.org/ebooks/46333[The Social Contract]
-* Smith, Adam: link:http://www.gutenberg.org/ebooks/3300[Wealth of Nations]
-* Samuelson, Paul: _revealed preference theory_ link:["A note on the pure theory of consumer's behaviour." Economica (1938)] and link:["Consumption theory in terms of revealed preference." Economica (1948)].
-* Ricardo, David: link:http://www.gutenberg.org/ebooks/33310[On The Principles of Political Economy, and Taxation]
-* Viner, Jacob: link:https://cdn.mises.org/Studies%20in%20the%20Theory%20of%20International%20Trade_3.pdf[Studies in the Theory of International Trade]
-* Tinbergen, Jan: 
-* Baumol, William J.: link:https://www.economist.com/finance-and-economics/2017/05/11/william-baumol-a-great-economist-died-on-may-4th[Obituary (The Economist)]
-* Pigou, A.C.: link:https://www.econlib.org/library/NPDBooks/Pigou/pgEW.html[The Economics of Welfare]
-* Keynes, John Maynard: link:https://www.marxists.org/reference/subject/economics/keynes/general-theory/[The General Theory of Employment, Interest and Money]
-* Friedman, Milton: link:https://www.economist.com/special-report/2006/11/23/a-heavyweight-champ-at-five-foot-two[Special report (The Economist)]
-* Galbraith, J.K.: link:https://www.economist.com/obituary/2006/05/04/john-kenneth-galbraith[Obituary (The Economist)]
+* Montesquieu (1689 - 1755): link:http://www.gutenberg.org/ebooks/27573[The Spirit of Laws]
+* More, Sir Thomas (1478 - 1535): link:http://www.gutenberg.org/ebooks/2130[Utopia Nowhere Land]
+* Paine, Thomas (1737 - 1809): link:http://www.gutenberg.org/ebooks/31270[The Rights of Man]
+* Rousseau, Jean Jacques (1712 - 1778): link:http://www.gutenberg.org/ebooks/46333[The Social Contract]
+* Smith, Adam (1723 - 1790): link:http://www.gutenberg.org/ebooks/3300[Wealth of Nations]
+* Samuelson, Paul (1915 - 2009): _revealed preference theory_ link:["A note on the pure theory of consumer's behaviour." Economica (1938)] and link:["Consumption theory in terms of revealed preference." Economica (1948)].
+* Ricardo, David (1772 - 1823): link:http://www.gutenberg.org/ebooks/33310[On The Principles of Political Economy, and Taxation]
+* Viner, Jacob (1892 - 1970): link:https://cdn.mises.org/Studies%20in%20the%20Theory%20of%20International%20Trade_3.pdf[Studies in the Theory of International Trade]
+* Tinbergen, Jan (1903 - 1994): 
+* Baumol, William J. (1922 - 2017): link:https://www.economist.com/finance-and-economics/2017/05/11/william-baumol-a-great-economist-died-on-may-4th[Obituary (The Economist)]
+* Pigou, A.C. (1877 - 1959): link:https://www.econlib.org/library/NPDBooks/Pigou/pgEW.html[The Economics of Welfare]
+* Keynes, John Maynard (1883 - 1946): link:https://www.marxists.org/reference/subject/economics/keynes/general-theory/[The General Theory of Employment, Interest and Money]
+* Friedman, Milton (1912 - 2006): link:https://www.economist.com/special-report/2006/11/23/a-heavyweight-champ-at-five-foot-two[Special report (The Economist)]
+* Galbraith, J.K. (1908 - 2006): link:https://www.economist.com/obituary/2006/05/04/john-kenneth-galbraith[Obituary (The Economist)]
 * link:https://www.marxists.org/reference/subject/economics/[more]
