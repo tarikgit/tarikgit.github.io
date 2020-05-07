@@ -26,6 +26,19 @@ link:http://www.gutenberg.org/files/27597/27597-h/27597-h.htm[The English Utilit
     destruction of the middle classes for the advantage of a few
     industrial oligarchs."
 -- John Stuart Mill, link:http://www.gutenberg.org/ebooks/38138[Socialism]
+
+
+"Competition is the best security for cheapness, but by no
+means a security for quality. In former times, when producers and
+consumers were less numerous, it was a security for both. The market
+was not large enough nor the means of publicity sufficient to enable a
+dealer to make a fortune by continually attracting new customers: his
+success depended on his retaining those that he had; and when a dealer
+furnished good articles, or when he did not, the fact was soon known
+to those whom it concerned, and he acquired a character for honest or
+dishonest dealing of more importance to him than the gain that would
+be made by cheating casual purchasers."
+-- John Stuart Mill, link:http://www.gutenberg.org/ebooks/38138[Socialism]
   
 * Montesquieu (1689 - 1755): link:http://www.gutenberg.org/ebooks/27573[The Spirit of Laws]
 * More, Sir Thomas (1478 - 1535): link:http://www.gutenberg.org/ebooks/2130[Utopia Nowhere Land]
