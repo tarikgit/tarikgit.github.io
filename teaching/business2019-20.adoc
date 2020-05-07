@@ -317,8 +317,8 @@
 |
 |7/5/2020
 |
-|*(1)* link:https://www.ft.com/video/4254fd92-4619-483c-8f4b-9c1613169a86?playlist-name=section-c47f4dfc-6879-4e95-accf-ca8cbe6a1f69&playlist-offset=42[What Thomas Cook collapse means for customers and investors] (or link:https://www.youtube.com/watch?v=LCaBnMSP3JE[Youtube]) +
- *(2)* link:https://www.ft.com/video/047605a1-929a-40bc-b2c9-ac98b36f7100?playlist-name=section-c47f4dfc-6879-4e95-accf-ca8cbe6a1f69&playlist-offset=49[What Starbucks tells us about the US economy] (or link:https://www.youtube.com/watch?v=dsKotrVXO8k[Youtube]) +
+|*(1)* link:https://www.ft.com/video/4254fd92-4619-483c-8f4b-9c1613169a86?playlist-name=section-c47f4dfc-6879-4e95-accf-ca8cbe6a1f69&playlist-offset=42[What Thomas Cook collapse means for customers and investors (7 min)] (or link:https://www.youtube.com/watch?v=LCaBnMSP3JE[Youtube]) +
+ *(2)* link:https://www.ft.com/video/047605a1-929a-40bc-b2c9-ac98b36f7100?playlist-name=section-c47f4dfc-6879-4e95-accf-ca8cbe6a1f69&playlist-offset=49[What Starbucks tells us about the US economy (3 min)] (or link:https://www.youtube.com/watch?v=dsKotrVXO8k[Youtube]) +
  *(3)* link:https://www.ft.com/video/e6a60bf9-df52-47ec-acfd-db9e7ef55b00?playlist-name=section-c47f4dfc-6879-4e95-accf-ca8cbe6a1f69&playlist-offset=21[Gojek and Grab: the rise of the south-east Asian super app (9 min)] (or link:https://www.youtube.com/watch?v=ssGhuFOYqvw[Youtube]) +
  *(4)* Answer the multiple-choice questions in _Assignments_ 
 
