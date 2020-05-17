@@ -1,0 +1,18 @@
+= Economics - Using Diagrams
+
+[cols="1,2,2"] 
+|===
+
+| *September 24 2019*
+a| image::test.jpg[Test,300,300,align="center"]
+| Test Test  +
+             +
+             +
+             +
+             +
+             +
+             +
+             +            
+
+
+|===

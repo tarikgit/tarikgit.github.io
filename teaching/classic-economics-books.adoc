@@ -46,13 +46,17 @@ be made by cheating casual purchasers."
 * Paine, Thomas (1737 - 1809): link:http://www.gutenberg.org/ebooks/31270[The Rights of Man]
 * Rousseau, Jean Jacques (1712 - 1778): link:http://www.gutenberg.org/ebooks/46333[The Social Contract]
 * Smith, Adam (1723 - 1790): link:http://www.gutenberg.org/ebooks/3300[Wealth of Nations] or on link:https://archive.org/details/selectchaptersa00smitgoog/page/n30/mode/2up[ archive.org]
+* Say, Jean-Baptiste (1767 - 1832):
 * Samuelson, Paul (1915 - 2009): _revealed preference theory_ link:["A note on the pure theory of consumer's behaviour." Economica (1938)] and link:["Consumption theory in terms of revealed preference." Economica (1948)].
 * Ricardo, David (1772 - 1823): link:http://www.gutenberg.org/ebooks/33310[On The Principles of Political Economy, and Taxation]
 * Viner, Jacob (1892 - 1970): link:https://cdn.mises.org/Studies%20in%20the%20Theory%20of%20International%20Trade_3.pdf[Studies in the Theory of International Trade]
 * Tinbergen, Jan (1903 - 1994): 
-* Baumol, William J. (1922 - 2017): link:https://www.economist.com/finance-and-economics/2017/05/11/william-baumol-a-great-economist-died-on-may-4th[Obituary (The Economist)]
+* Baumol, William J. (1922 - 2017): link:https://www.economist.com/finance-and-economics/2017/05/11/william-baumol-a-great-economist-died-on-may-4th[Obituary (The Economist)]; _Welfare Economics and the Theory of the State_
 * Pigou, A.C. (1877 - 1959): link:https://www.econlib.org/library/NPDBooks/Pigou/pgEW.html[The Economics of Welfare]
 * Keynes, John Maynard (1883 - 1946): link:https://www.marxists.org/reference/subject/economics/keynes/general-theory/[The General Theory of Employment, Interest and Money]
 * Friedman, Milton (1912 - 2006): link:https://www.economist.com/special-report/2006/11/23/a-heavyweight-champ-at-five-foot-two[Special report (The Economist)]
 * Galbraith, J.K. (1908 - 2006): link:https://www.economist.com/obituary/2006/05/04/john-kenneth-galbraith[Obituary (The Economist)]
 * link:https://www.marxists.org/reference/subject/economics/[more]
+
+* Arrow, Kenneth (1921 - 2017): link:https://www.jstor.org/stable/j.ctt1nqb90[Social Choice and Individual Values]
+* Sen, Amartya (1933 - ): Choice, Welfare, and Measurement
