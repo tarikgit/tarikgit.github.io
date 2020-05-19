@@ -381,15 +381,19 @@ connection/.style={thick, dotted},
 
 \begin{tikzpicture}[scale=3] 
 % Draw axes
-\draw [<->,thick] (0,2) node (yaxis) [above] {$P$}  |- (3,0) node (xaxis) [right] {$Q$};% Draw two intersecting lines
+\draw [<->,thick] (0,2) node (yaxis) [above] {$P$}  |- (3,0) node (xaxis) [right] {$Q$};
+% Draw two intersecting lines
 \draw[ color=white ] (0,0) coordinate (a 1) -- (2 ,2) coordinate (a 2) ;
 \draw (0 ,1.5) coordinate (b 1) -- (1.5 ,0) coordinate (b 2) node [ below ] {$Demand$};
-% Calculate the intersection of the lines a 1 −− a 2 and b 1 −− b 2% and store the coordinate in c.
+% Calculate the intersection of the lines a 1 −− a 2 and b 1 −− b 2
+% and store the coordinate in c.
 \coordinate (c) at ( intersection of a 1--a 2 and b 1--b 2) ; 
-% Draw a dot to indicate intersection point\fill [red] (c) circle (1pt);
+% Draw a dot to indicate intersection point
+\fill [red] (c) circle (1pt);
 \draw[->,dashed] ($(c)+(0,0.15)$) -- ($(c)+(-.7,0.85)$);
 \draw[->,dashed] ($(c)+(0.15,0)$) -- ($(c)+(.85,-0.7)$); 
-\fill[blue] (0.5,1.5) node {Elastic};\fill[blue] (1.6,0.5) node {Inelastic};
+\fill[blue] (0.5,1.5) node {Elastic};
+\fill[blue] (1.6,0.5) node {Inelastic};
 \draw[->] (1.5,1.5) node[label= above:Unitary Elastic] {} -- ($(c)+(.1,.1)$);
 \end{tikzpicture}
 
@@ -399,6 +403,270 @@ connection/.style={thick, dotted},
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
 
 \newpage
+
+% Template for AS/AD analysis
+\begin{tikzpicture}
+
+% Draw axis
+\draw (0,0) -- (7,0); % x-axis
+\draw (0,0) -- (0,6); % y-axis
+
+% Label axis
+\node [right] at (7,0) {Real GDP};
+\node [left] at (0,6) {Price level};
+
+% Label curves
+\node [right] at (1,5) {AD};
+\node [red,right] at (2,5) {AD'};
+\node [right] at (6,5) {AS};
+
+% Draw AS curve
+\draw (0,2) to  (4,2);
+\draw (4,2) to [bend right] (6,4);
+\draw (6,4) to (6,5);
+
+% Draw AD curve
+\draw (1,5) to [bend right] (6,1);
+
+% Draw AD' curve
+\draw[dashed,red] (2,5) to [bend right] (6,2);
+
+
+\draw [fill] (3.3,2) circle [radius=.05];
+\draw [fill] (4.7,2.3) circle [radius=.05];
+
+\end{tikzpicture}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+
+\newpage
+
+% Template forProduction Possibility Curve
+\begin{tikzpicture}
+
+% Draw axis
+\draw (0,0) -- (7,0); % x-axis
+\draw (0,0) -- (0,6); % y-axis
+
+% Label axis
+\node [right] at (7,0) {Consumer goods};
+\node [left] at (0,6) {Capital goods};
+
+% Label curves
+
+
+% Draw initial Production Possibility Curve (PPC)
+\draw (0,3) to [bend left] (3,0);
+% Draw new PPC 
+\draw (0,5) to [bend left] (5,0);
+
+% Shift
+\draw[->, red] (2.2,2.2) -- (3,3);
+%\draw[->,dashed] ($(c)+(0,0.15)$) -- ($(c)+(-.7,0.85)$);
+
+%\draw [fill] (3.3,2) circle [radius=.05];
+%\draw [fill] (4.7,2.3) circle [radius=.05];
+
+\end{tikzpicture}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+
+\newpage
+
+% Template forProduction Possibility Curve
+\begin{tikzpicture}
+
+% Draw axis
+\draw (0,0) -- (7,0); % x-axis
+\draw (0,0) -- (0,6); % y-axis
+
+% Label axis
+\node [right] at (7,0) {Consumer goods};
+\node [left] at (0,6) {Capital goods};
+
+% Label curves
+
+
+% Draw initial Production Possibility Curve (PPC)
+\draw (0,4) to [bend left] (4,0);
+% Draw new PPC 
+\draw (0,4) to [bend left] (6,0);
+
+% Shift
+\draw[->, red] (4,1) -- (5,1);
+%\draw[->,dashed] ($(c)+(0,0.15)$) -- ($(c)+(-.7,0.85)$);
+
+% Draw points
+\draw [fill] (3.1,2) circle [radius=.05];
+\draw [fill] (4.65,2) circle [radius=.05];
+
+% Draw dashed horizontal line
+\draw[dashed] (0,2) to (4.65,2);
+% Draw first dashed vertical line
+\draw[dashed] (3.1,2) to (3.1,0);
+% Draw second dashed vertical line
+\draw[dashed] (4.65,2) to (4.65,0);
+
+\end{tikzpicture}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+
+\newpage
+
+% Template forProduction Possibility Curve
+\begin{tikzpicture}
+
+% Draw axis
+\draw (0,0) -- (7,0); % x-axis
+\draw (0,0) -- (0,6); % y-axis
+
+% Label axis
+\node [right] at (7,0) {Quantity};
+\node [left] at (0,6) {Price};
+
+% Label curves
+
+
+% Draw initial Supply
+\draw (2,1) to  (5.5,6);
+\node [right] at (5.5,6) {S}; % label
+% Draw new Supply 
+\draw (1,1) to  (4.5,6);
+\node [right] at (4.5,6) {S'}; % label
+
+% Draw Demand
+\draw (2,6) to  (4.5,1);
+\node [left] at (2,6) {D}; % label
+
+% Shift
+\draw[->, red] (4.5,4.5) -- (4,5);
+%\draw[->,dashed] ($(c)+(0,0.15)$) -- ($(c)+(-.7,0.85)$);
+
+% Draw points
+\draw [fill] (3.05,3.95) circle [radius=.05];
+\draw [fill] (3.45,3.05) circle [radius=.05];
+
+% Draw dashed first horizontal line
+\draw[dashed] (0,3.95) to (3.05,3.95);
+% Draw dashed second horizontal line
+\draw[dashed] (0,3.05) to (3.45,3.05);
+% Draw first dashed vertical line
+\draw[dashed] (3.05,3.95) to (3.05,0);
+% Draw second dashed vertical line
+\draw[dashed] (3.45,3.05) to (3.45,0);
+
+\end{tikzpicture}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+
+\newpage
+
+% Template forProduction Possibility Curve
+\begin{tikzpicture}
+
+% Draw axis
+\draw (0,0) -- (7,0); % x-axis
+\draw (0,0) -- (0,6); % y-axis
+
+% Label axis
+\node [right] at (7,0) {Quantity};
+\node [left] at (0,6) {Price};
+
+% Label curves
+
+
+% Draw initial Supply
+\draw (2,1) to  (5.5,6);
+\node [right] at (5.5,6) {S}; % label
+% Draw new Supply 
+\draw (1,1) to  (4.5,6);
+\node [right] at (4.5,6) {S'}; % label
+
+% Draw Demand
+\draw (1,5) to  (6,1);
+\node [left] at (1,5) {D}; % label
+
+% Shift
+\draw[->, red] (4.5,4.5) -- (4,5);
+%\draw[->,dashed] ($(c)+(0,0.15)$) -- ($(c)+(-.7,0.85)$);
+
+% Draw points
+\draw [fill] (2.8,3.55) circle [radius=.05];
+\draw [fill] (3.45,3.05) circle [radius=.05];
+
+% Draw dashed first horizontal line
+\draw[dashed] (0,3.55) to (2.8,3.55);
+% Draw dashed second horizontal line
+\draw[dashed] (0,3.05) to (3.45,3.05);
+% Draw first dashed vertical line
+\draw[dashed] (2.8,3.55) to (2.8,0);
+% Draw second dashed vertical line
+\draw[dashed] (3.45,3.05) to (3.45,0);
+
+\end{tikzpicture}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+
+\newpage
+
+% Grid for constructing
+\begin{tikzpicture}
+
+% Draw axis
+\draw (0,0) -- (7,0); % x-axis
+\draw (0,0) -- (0,6); % y-axis
+
+% Label axis
+\node [right] at (7,0) {x-axis};
+\node [left] at (0,6) {y-axis};
+
+% Draw grid (vertical lines)
+\draw[dotted] (1,0) to  (1,6);
+\draw[dotted] (2,0) to  (2,6);
+\draw[dotted] (3,0) to  (3,6);
+\draw[dotted] (4,0) to  (4,6);
+\draw[dotted] (5,0) to  (5,6);
+\draw[dotted] (6,0) to  (6,6);
+
+% Draw grid (horizontal lines)
+\draw[dotted] (0,1) to  (7,1);
+\draw[dotted] (0,2) to  (7,2);
+\draw[dotted] (0,3) to  (7,3);
+\draw[dotted] (0,4) to  (7,4);
+\draw[dotted] (0,5) to  (7,5);
+
+% Label x-axis
+\node [] at (1,-0.5) {1};
+\node [] at (2,-0.5) {2};
+\node [] at (3,-0.5) {3};
+\node [] at (4,-0.5) {4};
+\node [] at (5,-0.5) {5};
+\node [] at (6,-0.5) {6};
+
+% Label y-axis
+\node [] at (-0.5,1) {1};
+\node [] at (-0.5,2) {2};
+\node [] at (-0.5,3) {3};
+\node [] at (-0.5,4) {4};
+\node [] at (-0.5,5) {5};
+
+
+\end{tikzpicture}
 
 
 
