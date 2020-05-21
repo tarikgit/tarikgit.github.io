@@ -64,11 +64,11 @@ be made by cheating casual purchasers."
 
 TBD
 
-* Walras, Léon (1834 - 1910):
-* Edgeworth, Francis Ysidro (1845 - 1926):
-* Giffen, Robert (1837 - 1910): 
+* Walras, Léon (1834 - 1910): link:https://gallica.bnf.fr/ark:/12148/bpt6k1181431v[Éléments d'économie politique pure ou Théorie de la Richesse Sociale]
+* Edgeworth, Francis Ysidro (1845 - 1926): Papers relating to political economy, link:https://gallica.bnf.fr/ark:/12148/bpt6k243783[Vol.1], link:https://gallica.bnf.fr/ark:/12148/bpt6k24390z[Vol.2], and link:https://gallica.bnf.fr/ark:/12148/bpt6k243919[Vol.3]
+* Giffen, Robert (1837 - 1910): link:https://gallica.bnf.fr/ark:/12148/bpt6k27861g[Essai sur l'Économie Rurale]
 * Douglas, Paul (1892 - 1976):
 * Engel, Ernst (1821 - 1896):
 * Laffer, Arthur (1940 - ):
-* Cournot, Antoine Auguste (1801 - 1877):
-* SLutsky, Evgeny (1880 - 1948):
+* Cournot, Antoine Auguste (1801 - 1877): link:https://gallica.bnf.fr/ark:/12148/bpt6k106150v[Principes de la Théorie des Richesses]
+* Slutsky, Evgeny (1880 - 1948):
