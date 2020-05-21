@@ -23,6 +23,12 @@ axis/.style={<->},
 important line/.style={thick},
 connection/.style={thick, dotted},
 }
+
+
+
+
+
+
 \begin{document}
 
 
@@ -670,5 +676,122 @@ connection/.style={thick, dotted},
 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+
+\newpage
+
+
+%Demand-Supply Curve: upward shift of supply
+\begin{tikzpicture}
+
+% Draw axis
+\draw (0,0) -- (7,0); % x-axis
+\draw (0,0) -- (0,6); % y-axis
+
+% Label axis
+\node [right] at (7,0) {$Quantity$};
+\node [left] at (0,6) {$Price$};
+
+% Label curves
+
+
+% Draw initial Supply
+\draw (1,0) to  (5,4);
+\node [right] at (5,4) {$S$}; % label
+% Draw new Supply 
+\draw (1,2) to  (4,5);
+\node [right] at (4,5) {$S'$}; % label
+
+% Draw Demand
+\draw (1,5) to  (5,1);
+\node [left] at (5,1) {$D$}; % label
+
+% Shift
+\draw[->, red] (4.25,3.75) -- (3.75,4.25);
+%\draw[->,dashed] ($(c)+(0,0.15)$) -- ($(c)+(-.7,0.85)$);
+
+% Draw points
+%\draw [fill] (3.05,3.95) circle [radius=.05];
+%\draw [fill] (3.45,3.05) circle [radius=.05];
+
+% Draw dashed first horizontal line
+\draw[dashed] (0,3.50) to (2.50,3.50);
+% Draw dashed second horizontal line
+\draw[dashed] (0,2.50) to (3.50,2.50);
+% Draw first dashed vertical line
+\draw[dashed] (2.50,0) to (2.50,3.50);
+% Draw second dashed vertical line
+\draw[dashed] (3.50,0) to (3.50,2.50);
+
+% Label new equilibrium
+\node [] at (2.5,-0.5) {$Q'$}; 
+\node [] at (3.5,-0.5) {$Q$}; 
+\node [] at (-0.5,2.5) {$P$}; 
+\node [] at (-0.5,3.5) {$P'$}; 
+
+\end{tikzpicture}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+
+\newpage
+
+
+%Demand-Supply Curve: upward shift of demand
+\begin{tikzpicture}
+
+% Draw axis
+\draw (0,0) -- (7,0); % x-axis
+\draw (0,0) -- (0,6); % y-axis
+
+% Label axis
+\node [right] at (7,0) {$Quantity$};
+\node [left] at (0,6) {$Price$};
+
+% Label curves
+
+
+% Draw initial Supply
+\draw (1,0) to  (5,4);
+\node [right] at (5,4) {$S$}; % label
+
+
+% Draw Demand
+\draw (1,5) to  (5,1);
+\node [left] at (5,1) {$D$}; % label
+
+% Draw new Demand 
+\draw (2,5.5) to  (5.5,2);
+\node [right] at (5.5,2) {$D'$}; % label
+
+% Shift
+\draw[->, red] (2.75,3.75) -- (3,4);
+%\draw[->,dashed] ($(c)+(0,0.15)$) -- ($(c)+(-.7,0.85)$);
+
+% Draw points
+%\draw [fill] (3.05,3.95) circle [radius=.05];
+%\draw [fill] (3.45,3.05) circle [radius=.05];
+
+% Draw dashed first horizontal line
+\draw[dashed] (0,2.50) to (3.50,2.50);
+% Draw dashed second horizontal line
+\draw[dashed] (0,3.25) to (4.25,3.25);
+% Draw first dashed vertical line
+\draw[dashed] (3.50,0) to (3.50,2.50);
+% Draw second dashed vertical line
+\draw[dashed] (4.25,0) to (4.25,3.25);
+
+% Label new equilibrium
+\node [] at (4.25,-0.5) {$Q'$}; 
+\node [] at (3.5,-0.5) {$Q$}; 
+\node [] at (-0.5,2.5) {$P$}; 
+\node [] at (-0.5,3.25) {$P'$}; 
+
+\end{tikzpicture}
     
 \end{document}
