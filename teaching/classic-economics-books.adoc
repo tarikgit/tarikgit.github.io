@@ -60,6 +60,10 @@ be made by cheating casual purchasers."
 
 * Arrow, Kenneth (1921 - 2017): link:https://www.jstor.org/stable/j.ctt1nqb90[Social Choice and Individual Values]
 * Sen, Amartya (1933 - ): Choice, Welfare, and Measurement; Utilitarianism and Welfarism
+
+"The utilitarian moral approach can be factorized into three distinct elements: (1) _consequentialism_ (judging all choice variables, e.g. actions or policies, entirely in terms consequent of states of affairs); (2) _welfarism_ (judging states of affairs entirely in terms of personal utility information relating to the respective states); and (3) _sum-ranking_ (judging personal utility information entirely in terms of their sum-total)."
+-- Amartya Sen, Choice, Welfare, and Measurement (page 28)
+
 * Rawls, John (1921 - 2002): A Theory of Justice, link:https://plato.stanford.edu/entries/rawls/[Stanford Encyclopedia of Philosophy]
 
 TBD
