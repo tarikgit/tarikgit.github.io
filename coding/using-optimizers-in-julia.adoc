@@ -1,0 +1,5 @@
+= Using JuliaOpt to solve Numerical Optimization Problems
+
+
+* link:https://neos-guide.org/users-guide[User guide for the NEOS server]
+* link:https://github.com/JuliaOpt[Mathematical Optimization in Julia]

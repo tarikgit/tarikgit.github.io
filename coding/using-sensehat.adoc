@@ -1,0 +1,129 @@
+= Raspberry Pi and the Sense HAT
+
+A collection of codes designed for Raspberry Pi Sense HAT can be found on link:https://github.com/tarikgit/sensehat[my GitHub site].
+
+[source,bash]
+----
+# Update the package list, update all packages and remove any packages that are no longer required on your Raspberry Pi
+sudo apt-get update -y && sudo apt-get dist-upgrade -y && sudo apt-get autoremove -y
+----
+
+== Using GitHub with your Sense HAT
+
+For the following steps, you have to ssh into your Respberry Pi:
+
+[source,bash]
+----
+ssh pi@raspberrypi
+----
+
+The default password for user *pi* is *raspberry*. You can change this following the link:https://www.raspberrypi.org/documentation/linux/usage/users.md[procedure described at the Raspberry Pi page]. 
+
+* First create a new repository:
+
+[source,bash]
+----
+echo "# sensehat" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:tarikgit/sensehat.git
+git push -u origin master
+----
+
+* Tell GitHub who you are:
+
+[source,bash]
+----
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+----
+
+* Generate a new SSH key
+
+[source,bash]
+----
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+----
+
+Press Enter to set a default file location. When asked to _Enter passphrase ..._, provide a safe password.
+
+* Add new SSH key to your GitHub account
+
+** Copy the SSH key to your clipboard
+
+Open id_rsa.pub:
+
+[source,bash]
+----
+cat ../.ssh/id_rsa.pub 
+# assuming that the current folder is /home/pi/sensehat
+----
+
+Copy the key and link:https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account[paste it into GitHub]
+
+* Push your first commit
+
+[source,bash]
+----
+git commit -m "initial commit"
+git push origin master
+----
+
+* Putting all the commands into a sequence:
+
+[source,bash]
+----
+git add *
+git commit  -m "description of commit"
+git push
+----
+
+
+Sources:
+
+* https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+* https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
+
+== Using the Raspberry Pi Sense HAT and Scratch 2 (not tested)
+
+_Check your system, if you have a more recent version, Scratch 3 may be available._
+
+Update your Raspberry Pi
+
+[source,bash]
+----
+sudo aptitude update
+sudo aptitude safe-upgrade
+----
+
+Install Scratch on your Raspberry Pi:
+
+[source,bash]
+----
+sudo aptitude install scratch2
+----
+
+In order to use the interface of Scratch, you can use Remote Desktop Server on your Raspberry Pi. This will allow you to connect to your Raspberry Pi from another device. This is particularly useful if you don't have a screen, keyboard and mouse connected to your Raspberry Pi.
+
+One approach to set up a Remote Desktop Server, is to link:https://www.raspberrypi.org/documentation/remote-access/vnc/[install *VNC* (Virtual Network Computing)] on your Raspberry Pi:
+
+[source,bash]
+----
+sudo apt-get install vnc4server
+----
+
+
+On your Raspberry, retrieve the local IP address:
+[source,bash]
+----
+hostname -I
+----
+
+You can then install on your laptop, tablet or desktop a link:https://www.realvnc.com/en/connect/download/vnc/raspberrypi/[VNC viewer].
+
+== 
+
+
+
+

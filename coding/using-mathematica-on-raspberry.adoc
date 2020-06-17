@@ -1,0 +1,62 @@
+= Using Mathematica on a Raspberry Pi
+
+link:https://projects.raspberrypi.org/en/projects/getting-started-with-mathematica[Getting started with Mathematica on a Raspberry Pi].
+
+Run a Mathematica script through command line on a Raspberry Pi:
+
+[source,bash]
+----
+wolfram -script MathamaticaScript.m
+----
+
+== Useful Mathematica functions
+
+[source,mathematica]
+----
+Solve[ x^2 + 2x - 7 == 0, x ]
+----
+
+== Optimization
+
+[source,mathematica]
+----
+Minimize[2 x^2 - 3 x + 5, x]
+----
+
+== Bayesian minimization
+
+Minimize a function over an interval:
+
+[source,mathematica]
+----
+bo = BayesianMinimization[(# - 2)^2 + 1 &, Interval[{0, 4}]]
+----
+
+Get the estimated minimum configuration:
+
+[source,mathematica]
+----
+bo["MinimumConfiguration"]
+----
+
+Get the estimated minimum function value:
+
+[source,mathematica]
+----
+bo["MinimumValue"]
+----
+
+== Plotting functions
+
+Launch Mathematica in command line using the *wolfram* command:
+
+[source,mathematica]
+----
+Mathematica 12.0.1 Kernel for Linux ARM (32-bit)
+Copyright 1988-2019 Wolfram Research, Inc.
+
+In[1]:= p = Plot[x^2, {x,-1,1}]                                                 
+Out[1]= -Graphics-
+In[2]:= Export["foo.png", p]                                                    
+Out[2]= foo.png
+----
