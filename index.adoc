@@ -1,6 +1,6 @@
 = Cours (2020-21)
 
-== Economie de gestion et applications informatiques (2D & 2G)
+== Économie de gestion et applications informatiques (2D & 2G)
 
 [cols="1*"]
 |===
