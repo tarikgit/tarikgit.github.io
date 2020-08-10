@@ -1,40 +1,39 @@
-= Teaching (2019-20)
+= Cours (2020-21)
 
-== Economics (2iec)
-
-[cols="1*"]
-|===
-
-|link:teaching/economics2019-20.html[Course content]
-
-|link:teaching/general-essaywriting.html[General advice for essay writing] +
- link:teaching/economics-essaywriting.html[Economics essay writing]
-
-
-|===
-
-== Business (2iec)
+== Economie de gestion et applications informatiques (2D & 2G)
 
 [cols="1*"]
 |===
 
-|link:teaching/business2019-20.html[Course content]
+|link:teaching/economics2019-20.html[tbd]
 
-|link:teaching/general-essaywriting.html[General advice for essay writing] +
- link:teaching/business-essaywriting.html[Business essay writing]
+|link:teaching/general-essaywriting.html[tbd] +
+ link:teaching/economics-essaywriting.html[tbd]
 
-|link:teaching/business-keyterms.html[Business keyterms]
 
 |===
 
-
-== Business (1iec)
+== Sociologie (2GSO)
 
 [cols="1*"]
 |===
 
-|link:teaching/general-essaywriting.html[General advice for essay writing] +
- link:teaching/business-1iec-2019-20.html[Course content] 
+|link:teaching/business2019-20.html[tbd]
+
+|link:teaching/general-essaywriting.html[tbd] +
+ link:teaching/business-essaywriting.html[tbd]
+
+
+|===
+
+
+== Économie politique (2GSO)
+
+[cols="1*"]
+|===
+
+|link:teaching/general-essaywriting.html[tbd] +
+ link:teaching/business-1iec-2019-20.html[tbd] 
 
 |
 
@@ -43,15 +42,29 @@
 |===
 
 
-== Misc
+== Administration et commerce (3FP & 4FP)
+
+*Les bases du traitement de texte*
 
 [cols="1*"]
 |===
 
-|link:coding/compiling.html[Instructions for LaTeX.]
+|link:coding/compiling.html[tbd]
 
-|link:coding/asciidoctor.html[Instructions for compiling asciidoctor files.]
+|link:coding/asciidoctor.html[tbd]
 
-|link:teaching/classic-economics-books.html[Classic economic texts]
+
+|===
+
+
+*Les bases de l’administration générale*
+
+[cols="1*"]
+|===
+
+|link:coding/compiling.html[tbd]
+
+|link:coding/asciidoctor.html[tbd]
+
 
 |===
