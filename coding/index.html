@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<title>Using Mathematica on a Raspberry Pi</title>
+<title>Coding Tutorials</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -438,96 +438,32 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>Using Mathematica on a Raspberry Pi</h1>
+<h1>Coding Tutorials</h1>
 </div>
 <div id="content">
-<div id="preamble">
-<div class="sectionbody">
-<div class="paragraph">
-<p><a href="https://projects.raspberrypi.org/en/projects/getting-started-with-mathematica">Getting started with Mathematica on a Raspberry Pi</a>.</p>
-</div>
-<div class="paragraph">
-<p>Run a Mathematica script through command line on a Raspberry Pi:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">wolfram -script MathamaticaScript.m</code></pre>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_useful_mathematica_functions">Useful Mathematica functions</h2>
-<div class="sectionbody">
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-mathematica" data-lang="mathematica">Solve[ x^2 + 2x - 7 == 0, x ]</code></pre>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_optimization">Optimization</h2>
-<div class="sectionbody">
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-mathematica" data-lang="mathematica">Minimize[2 x^2 - 3 x + 5, x]</code></pre>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_bayesian_minimization">Bayesian minimization</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Minimize a function over an interval:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-mathematica" data-lang="mathematica">bo = BayesianMinimization[(# - 2)^2 + 1 &amp;, Interval[{0, 4}]]</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Get the estimated minimum configuration:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-mathematica" data-lang="mathematica">bo["MinimumConfiguration"]</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Get the estimated minimum function value:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-mathematica" data-lang="mathematica">bo["MinimumValue"]</code></pre>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_plotting_functions">Plotting functions</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Launch Mathematica in command line using the <strong>wolfram</strong> command:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-mathematica" data-lang="mathematica">Mathematica 12.0.1 Kernel for Linux ARM (32-bit)
-Copyright 1988-2019 Wolfram Research, Inc.
-
-In[1]:= p = Plot[x^2, {x,-1,1}]
-Out[1]= -Graphics-
-In[2]:= Export["foo.png", p]
-Out[2]= foo.png</code></pre>
-</div>
-</div>
-</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://tarikgit.github.io/coding/using-mathematica-on-raspberry.html">Using Mathematica on a RaspberryPi</a></p>
+</li>
+<li>
+<p><a href="https://tarikgit.github.io/coding/using-asciidoctor.html">Using asciidoctor</a></p>
+</li>
+<li>
+<p><a href="https://tarikgit.github.io/coding/compiling.html">Compiling in different environments</a></p>
+</li>
+<li>
+<p><a href="https://tarikgit.github.io/coding/using-github.html">Using GitHub</a></p>
+</li>
+<li>
+<p><a href="https://tarikgit.github.io/coding/using-sensehat.html">Using Sense HAT</a></p>
+</li>
+</ul>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-08-27 06:33:07 +0200
+Last updated 2020-08-27 10:53:31 +0200
 </div>
 </div>
 </body>
