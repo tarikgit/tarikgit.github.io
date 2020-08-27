@@ -3,7 +3,7 @@
 
 * link:https://tarikgit.github.io/coding/using-mathematica-on-raspberry.html[Using Mathematica on a RaspberryPi]
 
-* link:https://tarikgit.github.io/coding/using-asciidoctor.html[Using asciidoctor]
+* link:https://tarikgit.github.io/coding/asciidoctor.html[Using asciidoctor]
 
 * link:https://tarikgit.github.io/coding/compiling.html[Compiling in different environments]
 
