@@ -5,7 +5,7 @@
 [cols="1*"]
 |===
 
-|link:teaching/economics2019-20.html[tbd]
+|link:teaching/comptabilite2020-21.html[Comptabilité]
 
 |link:teaching/general-essaywriting.html[tbd] +
  link:teaching/economics-essaywriting.html[tbd]
