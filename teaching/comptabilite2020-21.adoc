@@ -1,0 +1,103 @@
+= Comptabilité 2DG (2020-21)
+
+{blank} +
+
+
+
+
+== Révision
+
+
+{blank} +
+
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Semaine |Date |Sujet |
+
+| 
+| 
+| Le bilan  
+|  
+
+| 
+| 
+| Le Grand-Livre 
+|  
+
+| 
+| 
+| Les comptes de charges et produits 
+|  
+
+| 
+| 
+| Le Journal  
+|  
+
+| 
+| 
+| La balance de vérification par sommes et par soldes 
+|  
+
+| 
+| 
+| La facture et la taxe sur la valeur ajoutée 
+|  
+
+| 
+| 
+| Les réductions de prix  
+|  
+
+
+|===
+
+{blank} +
+
+
+
+== Programme du 2DG
+
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Semaine |Date |Sujet |
+
+| 
+| 
+| Les salaires  
+|  
+
+| 
+| 
+| Les opérations d'inventaire 
+|  
+
+| 
+| 
+| Les amortissements (les corrections de valeurs définitives) 
+|  
+
+| 
+| 
+| Les corrections de valeur probables et les provisions 
+|  
+
+| 
+| 
+| La régularisation des charges et des produits
+|  
+
+| 
+| 
+| Exercices de synthèse  
+|  
+
+
+|===
+
+{blank} +
+
