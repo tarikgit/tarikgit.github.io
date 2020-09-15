@@ -49,7 +49,7 @@
 | 
 | 
 | Les réductions de prix  
-|  
+| link:https://tarikgit.github.io/teaching/comptabilite/01-Resume-RRR-Escompte.pdf[Résumé: RRR et escompte] 
 
 
 |===
