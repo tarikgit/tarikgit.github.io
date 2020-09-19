@@ -42,7 +42,7 @@
 [cols="1*"]
 |===
 
-|link:https://de4.schreibtrainer.com/index.php?r=typewriter/practise[Introduction à l'apprentissage de la frappe à l’aveugle (_touch typing_)]
+|link:https://de4.schreibtrainer.com/index.php?r=typewriter/practise[S'entraîner à la frappe à l’aveugle (_touch typing_)]
 
 
 
