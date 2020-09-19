@@ -1,0 +1,80 @@
+= Soziologie 2GSO (2020-21)
+
+{blank} +
+
+
+
+
+== Überblick
+
+
+{blank} +
+
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Woche |Datum |Thema |
+
+| 1
+| 18/9/2020
+| Einführung
+| link:https://tarikgit.github.io/teaching/soziologie-cours/01-Grundbegriffe.pdf[Einleitung und Grundbegriffe in der Soziologie]
+
+| 
+| 
+| 
+|  
+
+
+
+|===
+
+{blank} +
+
+
+
+== Lehrplan (2GSO)
+
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Woche |Datum |Thema |
+
+| 
+| 
+|   
+|  
+
+| 
+| 
+| 
+|  
+
+| 
+| 
+| 
+|  
+
+| 
+| 
+| 
+| 
+ 
+
+| 
+| 
+| 
+|  
+
+| 
+| 
+| 
+|  
+
+
+|===
+
+{blank} +
+

@@ -7,9 +7,6 @@
 
 |link:teaching/comptabilite2020-21.html[Comptabilité]
 
-|link:teaching/general-essaywriting.html[tbd] +
- link:teaching/economics-essaywriting.html[tbd]
-
 
 |===
 
@@ -18,11 +15,7 @@
 [cols="1*"]
 |===
 
-|link:teaching/business2019-20.html[tbd]
-
-|link:teaching/general-essaywriting.html[tbd] +
- link:teaching/business-essaywriting.html[tbd]
-
+|link:teaching/soziologie2019-20.html[Soziologie]
 
 |===
 
@@ -49,22 +42,8 @@
 [cols="1*"]
 |===
 
-|link:coding/compiling.html[tbd]
+|link:https://de4.schreibtrainer.com/index.php?r=typewriter/practise[Introduction à l'apprentissage de la frappe à l’aveugle (_touch typing_)]
 
-|link:coding/asciidoctor.html[tbd]
-
-
-|===
-
-
-*Les bases de l’administration générale*
-
-[cols="1*"]
-|===
-
-|link:coding/compiling.html[tbd]
-
-|link:coding/asciidoctor.html[tbd]
 
 
 |===
