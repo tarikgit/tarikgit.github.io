@@ -15,7 +15,7 @@
 [cols="1*"]
 |===
 
-|link:teaching/soziologie2019-20.html[Soziologie]
+|link:teaching/soziologie2020-21.html[Soziologie]
 
 |===
 
