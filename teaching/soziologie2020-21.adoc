@@ -37,44 +37,49 @@
 == Lehrplan (2GSO)
 
 
-[cols="1,2,4,5", options="header"]
-//[%autowidth, options="header"]
-|===
-|Woche |Datum |Thema |
-
-| 
-| 
-|   
-|  
-
-| 
-| 
-| 
-|  
-
-| 
-| 
-| 
-|  
-
-| 
-| 
-| 
-| 
- 
-
-| 
-| 
-| 
-|  
-
-| 
-| 
-| 
-|  
-
-
-|===
-
-{blank} +
-
+. Einführung
+.. Grundbegriffe (Gesellschaft, System, Institution, ...)
+.. Der Gegenstand der Soziologie
+. Soziales Handeln 
+.. Das Zusammenwirken von Menschen 
+... Die Begriffe _soziale Interaktion_ und _soziale Kommunikation_
+... Menschliches Zusammenleben als soziales Handeln 
+.. Die Wertbezogenheit sozialen Handelns
+... Soziale Werte
+... Der Wandel von Werten 
+.. Die Regelung des Zusammenlebens
+... Soziale Normen als Verhaltensvorschrift
+... Arten von Normen
+... Soziale Rolle als Verhaltenserwartung
+... Rollenkonflikte
+.. Das Erlernen des sozialen Verhaltens (in Absprache mit PEDAG)
+... Der Begriff _Sozialisation_
+... Sozialisation als lebenslanger Prozess
+... Theorien der Sozialisation
+. Soziale Kontrolle und Abweichung
+.. Die Gewährleistung normengerechten Verhaltens
+... Soziale Kontrolle als Überwachung
+... Sanktionen als Überwachungsmaßnahmen
+.. Anpassung und Abweichung
+... Sozialangepasstes Verhalten / Sozialabweichendes Verhalten
+.. Die Problematik abweichenden Verhaltens
+... Die Norm als Beurteilungsmaßstab
+... Die normorientierte Einschätzung abweichenden Verhaltens
+... Theorie der Zuschreibung
+.. Sozialer Konflikt
+... Der Begriff _sozialer Konflikt_
+... Formen des Konfliktes
+... Ursachen und Funktionen des sozialen Konfliktes
+... Konfliktmanagement
+. Soziale Gruppe
+.. Die Gruppe als soziales Gebilde
+... Der Begriff _Gruppe_
+... Der Prozess der Gruppe
+.. Die Bedeutung von Gruppen
+... Funktionen der Gruppe
+... Das Konzept des sozialen Netzwerkes
+... Gefahren einer Gruppe
+.. Arten von Gruppen
+... Primär-und Sekundärgruppe
+... Eigen-und Fremdgruppe
+... Formelle und informelle Gruppe
