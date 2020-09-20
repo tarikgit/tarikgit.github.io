@@ -83,3 +83,8 @@
 ... Primär-und Sekundärgruppe
 ... Eigen-und Fremdgruppe
 ... Formelle und informelle Gruppe
+
+
+== Strukturierte Antwort
+
+[caption="Abbildung 1: Struktur in drei Teilen",link=https://tarikgit.github.io/latex/images/06-strukturierte-antwort-mindmap-figure1.png]
