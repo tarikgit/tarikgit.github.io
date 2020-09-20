@@ -87,4 +87,4 @@
 
 == Strukturierte Antwort
 
-[caption="Abbildung 1: Struktur in drei Teilen",link=https://tarikgit.github.io/latex/images/06-strukturierte-antwort-mindmap-figure1.png]
+image::https://tarikgit.github.io/latex/images/06-strukturierte-antwort-mindmap-figure1.png[Abbildung 1: Struktur in drei Teilen]
