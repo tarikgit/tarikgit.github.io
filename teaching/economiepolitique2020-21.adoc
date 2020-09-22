@@ -1,0 +1,69 @@
+= Économie Politique 2GSO (2020-21)
+
+{blank} +
+
+
+
+
+== Aperçu
+
+
+{blank} +
+
+
+[cols="1,2,4,5", options="header"]
+//[%autowidth, options="header"]
+|===
+|Semaine |Date |Sujet |
+
+| 1
+| 23/9/2020
+| Introduction
+| link:https://tarikgit.github.io/teaching/economiepolitique/01-Economie_Politique.pdf[Définition de la science économique.]
+
+| 
+| 
+| 
+|  
+
+
+
+|===
+
+{blank} +
+
+
+
+== Aperçu du programme (2GSO)
+
+. Introduction à la science économique
+.. Définition de la science économique
+.. La décision économique et les coûts d'opportunité 
+.. Les missions de l'économie politique 
+.. Les objectifs de la politique économique 
+.. Le circuit économique
+. Formation des prix
+.. Le marché des biens et services
+.. La demande : les fondements de la décision d’achat
+.. L’offre : les fondements de la décision de vente
+.. Le marché en concurrence pure et parfaite
+. Rôle de l'État
+.. L’économie sociale de marché
+.. Les fonctions de l’Etat dans les économies développées modernes
+.. Le budget de l’Etat et la politique budgétaire
+. Rôle de la monnaie
+.. Les fonctions de la monnaie
+.. Les différentes formes de la monnaie
+.. L’inflation et la politique monétaire
+. Emploi et chômage
+.. Le marché du travail 
+.. Le chômage
+. Comptabilité nationale
+.. Notion, utilité et lien avec le circuit économique
+.. Valeur ajoutée
+.. PIB
+.. Taux de croissance du PIB
+.. Cycles conjoncturels
+.. Croissance et développement
+.. Economie et écologie
+.. Développement durable
