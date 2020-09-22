@@ -24,16 +24,16 @@
   link:https://tarikgit.github.io/teaching/comptabilite/02-Resume-Calculs-Reduction-Prix.pdf[Résumé: Calculs des réductions de prix (Tableau)]
 
 | 2
-| 22/9/2020
+| 21/9/2020
 | Le bilan et les comptes de gestion
 | link:https://tarikgit.github.io/teaching/comptabilite/05-Exercice-synthese-1.pdf[Exercices de synthèse 1: Journal et opérations courantes] +
-  link:https://tarikgit.github.io/teaching/comptabilite/Comptabilite___Fiche.pdf[Fiche de résumé: Le compte de bilan et les comptes de gestion] +
+  link:https://tarikgit.github.io/teaching/comptabilite/Comptabilite___Fiche_1.pdf[Fiche de résumé: Le compte de bilan et les comptes de gestion] +
   link:https://tarikgit.github.io/teaching/comptabilite-cours/Plan_comptable.pdf[Plan comptable]
 
-| 
-| 
-| Le Grand-Livre 
-|  
+| 3
+| 23/9/2020
+| La taxe sur la valeur ajoutée (TVA) 
+| link:https://tarikgit.github.io/teaching/comptabilite/Comptabilite___Fiche_2.pdf[Fiche de résumé: La taxe sur la valeur ajoutée (TVA)] 
 
 | 
 | 
