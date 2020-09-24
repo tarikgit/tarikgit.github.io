@@ -33,7 +33,7 @@
 |===
 
 
-== Administration et commerce (3FP & 4FP)
+== Administration et commerce (4TPCM)
 
 *Les bases du traitement de texte*
 
