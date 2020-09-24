@@ -21,10 +21,10 @@
 | Einführung
 | link:https://tarikgit.github.io/teaching/soziologie-cours/01-Grundbegriffe.pdf[Einleitung und Grundbegriffe in der Soziologie]
 
-| 
-| 
-| 
-|  
+| 2
+| 23/9/2020
+| Strukturierte Antwort
+| link:https://tarikgit.github.io/teaching/soziologie-cours/02-Grundbegriffe-Strurkturierte-Antwort-web.pdf[Strukturierte Antwort in der Soziologie] 
 
 
 
