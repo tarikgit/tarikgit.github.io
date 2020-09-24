@@ -37,10 +37,10 @@
 * link:https://tarikgit.github.io/teaching/comptabilite-cours/03-Facturation-ReductionPrix-TVA-eleves.pdf[Présentation en classe] +
 * link:https://tarikgit.github.io/teaching/comptabilite-cours/03-TVA.xlsx[La TVA dans le contexte national et international (_fichier Excel_)]
 
-| 
-| 
-| Les comptes de charges et produits 
-|  
+| 4
+| 25/9/2020
+| Les réductions de prix
+| link:https://tarikgit.github.io/teaching/comptabilite/Comptabilite___Fiche_3.pdf[Fiche de résumé: Les réductions de prix (RRR et escomptes)]
 
 | 
 | 
