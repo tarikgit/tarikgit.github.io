@@ -26,6 +26,10 @@
 | Strukturierte Antwort
 | link:https://tarikgit.github.io/teaching/soziologie-cours/02-Grundbegriffe-Strurkturierte-Antwort-web.pdf[Strukturierte Antwort in der Soziologie] 
 
+| 3
+| 25/9/2020
+| Soziale Gebilde, soziale Struktur und soziales System
+| link:https://tarikgit.github.io/teaching/soziologie-cours/03-Grundbegriffe.pdf[Soziales System] 
 
 
 |===
