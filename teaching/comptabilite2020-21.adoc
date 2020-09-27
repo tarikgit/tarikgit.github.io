@@ -40,7 +40,8 @@
 | 4
 | 25/9/2020
 | Les réductions de prix
-| link:https://tarikgit.github.io/teaching/comptabilite/Comptabilite___Fiche_3_new.pdf[Fiche de résumé: Les réductions de prix (RRR et escomptes)]
+| * link:https://tarikgit.github.io/teaching/comptabilite/Comptabilite___Fiche_3_new.pdf[Fiche de résumé: Les réductions de prix (RRR et escomptes)] +
+* Exercices résolus: Factures et réductions de prix (voir sur _Teams_)
 
 | 
 | 
