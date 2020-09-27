@@ -30,23 +30,23 @@
   * link:https://tarikgit.github.io/teaching/comptabilite/Comptabilite___Fiche_1.pdf[Fiche de résumé: Le compte de bilan et les comptes de gestion] +
   * link:https://tarikgit.github.io/teaching/comptabilite-cours/Plan_comptable.pdf[Plan comptable]
 
-| 3
+| 2
 | 23/9/2020
 | La taxe sur la valeur ajoutée (TVA) 
 | * link:https://tarikgit.github.io/teaching/comptabilite/Comptabilite___Fiche_2.pdf[Fiche de résumé: La taxe sur la valeur ajoutée (TVA)] +
 * link:https://tarikgit.github.io/teaching/comptabilite-cours/03-Facturation-ReductionPrix-TVA-eleves.pdf[Présentation en classe] +
 * link:https://tarikgit.github.io/teaching/comptabilite-cours/03-TVA.xlsx[La TVA dans le contexte national et international (_fichier Excel_)]
 
-| 4
+| 2
 | 25/9/2020
 | Les réductions de prix
 | * link:https://tarikgit.github.io/teaching/comptabilite/Comptabilite___Fiche_3_new.pdf[Fiche de résumé: Les réductions de prix (RRR et escomptes)] +
-* Exercices résolus: Factures et réductions de prix (voir sur _Teams_)
+* Exercices résolus: Factures et réductions de prix (voir  sur _Teams_)
 
-| 
-| 
-| Le Journal  
-|  
+| 3
+| 28/9/2020
+| La TVA  
+| * link:https://tarikgit.github.io/teaching/comptabilite-cours/05-Applications-Facturation-TVA.pdf[La TVA, Journal, Grand Livre et TVA due]
 
 | 
 | 
