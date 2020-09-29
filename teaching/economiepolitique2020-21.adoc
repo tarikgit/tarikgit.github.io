@@ -21,10 +21,11 @@
 | Introduction
 | link:https://tarikgit.github.io/teaching/economiepolitique/01-Economie_Politique.pdf[Définition de la science économique.]
 
-| 
-| 
-| 
-|  
+| 2
+| 29/9/2020
+| Décisions économique et coûts d'opportunité
+| link:https://tarikgit.github.io/teaching/economiepolitique/02-Economie_Politique.pdf[La décision économique et les coûts d’opportunité. Les missions de l'économie politique. Les objectifs de la politique économique.]
+ 
 
 
 
