@@ -46,7 +46,8 @@
 | 3
 | 28/9/2020
 | La TVA  
-| * link:https://tarikgit.github.io/teaching/comptabilite-cours/05-Applications-Facturation-TVA.pdf[La TVA, Journal, Grand Livre et TVA due]
+| * link:https://tarikgit.github.io/teaching/comptabilite-cours/05-Applications-Facturation-TVA.pdf[La TVA, Journal, Grand Livre et TVA due] +
+  * link:https://tarikgit.github.io/teaching/comptabilite-cours/05-MiniTest-Correction.pdf[MiniTest, correction]
 
 | 
 | 
