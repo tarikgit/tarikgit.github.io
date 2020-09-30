@@ -49,10 +49,10 @@
 | * link:https://tarikgit.github.io/teaching/comptabilite-cours/05-Applications-Facturation-TVA.pdf[La TVA, Journal, Grand Livre et TVA due] +
   * link:https://tarikgit.github.io/teaching/comptabilite-cours/05-MiniTest-Correction.pdf[MiniTest, correction]
 
-| 
-| 
-| La balance de vérification par sommes et par soldes 
-|  
+| 3
+| 30/9/2020
+| Exercices: Factures, TVA, réductions de prix 
+| Exercices résolus: Factures, TVA et réductions de prix (voir  sur _Teams_)
 
 | 
 | 
