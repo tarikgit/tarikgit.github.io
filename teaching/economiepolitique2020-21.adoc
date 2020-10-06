@@ -26,7 +26,10 @@
 | Décisions économique et coûts d'opportunité
 | link:https://tarikgit.github.io/teaching/economiepolitique/02-Economie_Politique.pdf[La décision économique et les coûts d’opportunité. Les missions de l'économie politique. Les objectifs de la politique économique.]
  
-
+| 3
+| 7/10/2020
+| Circuit économique
+| link:https://tarikgit.github.io/teaching/economiepolitique/03-Economie_Politique.pdf[Le circuit économique, les agents économiques, les marchés. Les risques potentiels.]
 
 
 |===
