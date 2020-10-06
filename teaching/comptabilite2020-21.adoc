@@ -41,7 +41,7 @@
 | 25/9/2020
 | Les réductions de prix
 | * link:https://tarikgit.github.io/teaching/comptabilite/Comptabilite___Fiche_3_new.pdf[Fiche de résumé: Les réductions de prix (RRR et escomptes)] +
-* Exercices résolus: Factures et réductions de prix (voir  sur _Teams_)
+* Exercices résolus: Factures et réductions de prix (voir  sur _Teams_ : la date du 26/9/2020)
 
 | 3
 | 28/9/2020
@@ -52,12 +52,17 @@
 | 3
 | 30/9/2020
 | Exercices: Factures, TVA, réductions de prix 
-| Exercices résolus: Factures, TVA et réductions de prix (voir  sur _Teams_)
+| Exercices résolus: Factures, TVA et réductions de prix (voir  sur _Teams_ : la date du 30/9/2020)
 
 | 3
 | 2/10/2020
 | Exercices: Factures, TVA, réductions de prix 
-| Exercices résolus: Factures, TVA et réductions de prix (voir  sur _Teams_)
+| Exercices résolus: Factures, TVA et réductions de prix (voir  sur _Teams_ : la date du 4/10/2020)
+
+| 4
+| 5/10/2020
+| Exercices: Factures, TVA, réductions de prix 
+| Exercices résolus: Factures, TVA et réductions de prix (voir  sur _Teams_ : la date du 5/10/2020)
 
 
 | 
