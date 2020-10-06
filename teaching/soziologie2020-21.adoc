@@ -26,15 +26,20 @@
 | Strukturierte Antwort
 | link:https://tarikgit.github.io/teaching/soziologie-cours/02-Grundbegriffe-Strurkturierte-Antwort-web.pdf[Strukturierte Antwort in der Soziologie] 
 
-| 3
+| 2
 | 25/9/2020
 | Soziale Gebilde, soziale Struktur und soziales System
 | link:https://tarikgit.github.io/teaching/soziologie-cours/03-Grundbegriffe.pdf[Soziales System] 
 
-| 4
+| 3
 | 30/9/2020
 | Organisation, Institution, Film: _Einfach gut leben – Die staatlose Gesellschaft_
 | link:https://tarikgit.github.io/teaching/soziologie-cours/04-Grundbegriffe.pdf[Soziale Institutionen] 
+
+| 3
+| 2/10/2020
+| Organisation, Institution, Film: _Einfach gut leben – Die staatlose Gesellschaft_
+| link:https://tarikgit.github.io/teaching/soziologie-cours/05-Grundbegriffe.pdf[Merkmale einer Gesellschaft] 
 
 
 |===
