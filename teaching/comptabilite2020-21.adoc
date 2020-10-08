@@ -64,6 +64,14 @@
 | Exercices: Factures, TVA, réductions de prix 
 | Exercices résolus: Factures, TVA et réductions de prix (voir  sur _Teams_ : la date du 5/10/2020)
 
+| 4
+| 9/10/2020
+| Theorie: Les salaires 
+| link:https://tarikgit.github.io/teaching/comptabilite/09-Worksheet-Salaire.pdf[Bulletin de paie]
+
+
+
+
 
 | 
 | 
