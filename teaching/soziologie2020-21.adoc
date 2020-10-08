@@ -41,6 +41,11 @@
 | Organisation, Institution, Film: _Einfach gut leben – Die staatlose Gesellschaft_
 | link:https://tarikgit.github.io/teaching/soziologie-cours/05-Grundbegriffe.pdf[Merkmale einer Gesellschaft] 
 
+| 4
+| 8/10/2020
+| Methoden der Soziologie, Soziometrie
+| link:https://tarikgit.github.io/teaching/soziologie-cours/06-Methoden-der-Soziologie.png[Methoden der Soziologie] 
+
 
 |===
 
