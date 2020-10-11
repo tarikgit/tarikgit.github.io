@@ -67,7 +67,8 @@
 | 4
 | 9/10/2020
 | Theorie: Les salaires 
-| link:https://tarikgit.github.io/teaching/comptabilite/09-Worksheet-Salaire.pdf[Bulletin de paie]
+| link:https://tarikgit.github.io/teaching/comptabilite/09-Worksheet-Salaire.pdf[Bulletin de paie] +
+Voir sur _Teams_ le corrigé de l'exercice 9 p.263.
 
 
 

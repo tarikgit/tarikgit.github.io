@@ -107,3 +107,7 @@
 == Strukturierte Antwort
 
 image::https://tarikgit.github.io/latex/images/06-strukturierte-antwort-mindmap-figure1.png[Abbildung 1: Struktur in drei Teilen]
+
+
+
+link:https://www.youtube.com/watch?v=J8KczQ3b44o[Was ist Soziologie? Max Weber Teil 1: Der Handlungsbegriff (soziales Handeln, irrationales Verhalten)]
