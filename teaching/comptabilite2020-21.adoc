@@ -70,14 +70,10 @@
 | link:https://tarikgit.github.io/teaching/comptabilite/09-Worksheet-Salaire.pdf[Bulletin de paie] +
 Voir sur _Teams_ le corrigé de l'exercice 9 p.263.
 
-
-
-
-
-| 
-| 
-| La facture et la taxe sur la valeur ajoutée 
-|  
+| 5
+| 12/10/2020
+| Theorie et application: Les salaires 
+| link:https://tarikgit.github.io/teaching/comptabilite/Comptabilite___Fiche_4.pdf[Fiche de résumé: Les salaires] 
 
 
 
