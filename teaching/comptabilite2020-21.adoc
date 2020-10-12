@@ -73,7 +73,8 @@ Voir sur _Teams_ le corrigé de l'exercice 9 p.263.
 | 5
 | 12/10/2020
 | Theorie et application: Les salaires 
-| link:https://tarikgit.github.io/teaching/comptabilite/Comptabilite___Fiche_4.pdf[Fiche de résumé: Les salaires] 
+| link:https://tarikgit.github.io/teaching/comptabilite/Comptabilite___Fiche_4.pdf[Fiche de résumé: Les salaires] +
+  link:https://tarikgit.github.io/teaching/comptabilite/10-Les-salaires-Journal.pdf[Enregistrement de la paie dans le Journal de l'entreprise]
 
 
 
