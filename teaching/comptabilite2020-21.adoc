@@ -64,19 +64,6 @@
 | Exercices: Factures, TVA, réductions de prix 
 | Exercices résolus: Factures, TVA et réductions de prix (voir  sur _Teams_ : la date du 5/10/2020)
 
-| 4
-| 9/10/2020
-| Theorie: Les salaires 
-| link:https://tarikgit.github.io/teaching/comptabilite/09-Worksheet-Salaire.pdf[Bulletin de paie] +
-Voir sur _Teams_ le corrigé de l'exercice 9 p.263.
-
-| 5
-| 12/10/2020
-| Theorie et application: Les salaires 
-| link:https://tarikgit.github.io/teaching/comptabilite/Comptabilite___Fiche_4.pdf[Fiche de résumé: Les salaires] +
-  link:https://tarikgit.github.io/teaching/comptabilite/10-Les-salaires-Journal.pdf[Enregistrement de la paie dans le Journal de l'entreprise]
-
-
 
 |===
 
@@ -92,10 +79,18 @@ Voir sur _Teams_ le corrigé de l'exercice 9 p.263.
 |===
 |Semaine |Date |Sujet |
 
-| 
-| 
-| Les salaires  
-|  
+| 4
+| 9/10/2020
+| Theorie: Les salaires 
+| link:https://tarikgit.github.io/teaching/comptabilite/09-Worksheet-Salaire.pdf[Bulletin de paie] +
+Voir sur _Teams_ le corrigé de l'exercice 9 p.263.
+
+| 5
+| 12/10/2020
+| Theorie et application: Les salaires 
+| link:https://tarikgit.github.io/teaching/comptabilite/Comptabilite___Fiche_4.pdf[Fiche de résumé: Les salaires] +
+  link:https://tarikgit.github.io/teaching/comptabilite/10-Les-salaires-Journal.pdf[Enregistrement de la paie dans le Journal de l'entreprise]
+
 
 | 
 | 
