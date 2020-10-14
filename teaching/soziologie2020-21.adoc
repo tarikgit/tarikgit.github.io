@@ -49,7 +49,7 @@
 | 5
 | 14/10/2020
 | Soziale Interaktion, soziale Kommunikation, soziales Verhalten, soziales Handeln, soziale Werte
-| link:https://tarikgit.github.io/teaching/soziologie-cours/07-Soziales Handeln.pdf[Präsentationsfolien] 
+| link:https://tarikgit.github.io/teaching/soziologie-cours/07-Soziales-Handeln.pdf[Präsentationsfolien] 
 
 
 
