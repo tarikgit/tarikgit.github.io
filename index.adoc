@@ -27,8 +27,15 @@
 
 |link:teaching/economiepolitique2020-21.html[Économie politique]
 
+| Droit
 
-|
+| Mathématiques financières
+
+| Marketing
+
+| Applications informatiques
+
+
 
 |===
 
