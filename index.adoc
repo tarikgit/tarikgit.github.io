@@ -25,6 +25,8 @@
 
 |link:teaching/soziologie2020-21.html[Soziologie]
 
+|link:teaching/soziologie-resources.html[Ressourcen (Erklärvideos)] 
+
 |===
 
 
