@@ -7,6 +7,14 @@
 
 |link:teaching/comptabilite2020-21.html[Comptabilité]
 
+| Droit
+
+| Mathématiques financières
+
+| Marketing
+
+| Applications informatiques
+
 
 |===
 
@@ -26,15 +34,6 @@
 |===
 
 |link:teaching/economiepolitique2020-21.html[Économie politique]
-
-| Droit
-
-| Mathématiques financières
-
-| Marketing
-
-| Applications informatiques
-
 
 
 |===
