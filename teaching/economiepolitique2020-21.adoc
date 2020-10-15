@@ -31,6 +31,11 @@
 | Circuit économique
 | link:https://tarikgit.github.io/teaching/economiepolitique/03-Economie_Politique.pdf[Le circuit économique, les agents économiques, les marchés. Les risques potentiels.]
 
+| 4
+| 14/10/2020
+| Chapitre 2: La formation des prix (demande sur le marché des biens et services, facteurs influançant la demande, ceteris paribus, loi de la demande, déplacement sur la courb de demande, déplacement de la courbe de demande)
+| voir cours
+
 
 |===
 
