@@ -91,6 +91,13 @@ Voir sur _Teams_ le corrigé de l'exercice 9 p.263.
 | link:https://tarikgit.github.io/teaching/comptabilite/Comptabilite___Fiche_4.pdf[Fiche de résumé: Les salaires] +
   link:https://tarikgit.github.io/teaching/comptabilite/10-Les-salaires-Journal.pdf[Enregistrement de la paie dans le Journal de l'entreprise]
 
+| 5
+| 16/10/2020
+| link:https://tarikgit.github.io/teaching/comptabilite-cours/12-Exercices-Salaire.pdf[Exercices 1 et 2: Les salaires] 
+| link:https://impotsdirects.public.lu/dam-assets/fr/baremes/recueil-bareme-01012017.pdf[Barêmes de l'impôt (applicables à partir du 1/1/2017)] +
+  
+
+
 
 | 
 | 
