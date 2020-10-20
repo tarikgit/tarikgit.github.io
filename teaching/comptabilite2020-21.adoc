@@ -96,6 +96,10 @@ Voir sur _Teams_ le corrigé de l'exercice 9 p.263.
 | link:https://tarikgit.github.io/teaching/comptabilite-cours/12-Exercices-Salaire.pdf[Exercices 1 et 2: Les salaires] 
 | link:https://impotsdirects.public.lu/dam-assets/fr/baremes/recueil-bareme-01012017.pdf[Barêmes de l'impôt (applicables à partir du 1/1/2017)] +
   
+| 6
+| 19/10/2020
+| Opérations d'inventaire (1/2)
+| link:https://tarikgit.github.io/teaching/comptabilite-cours/13-operations-d-inventaire-part1.pdf[Opérations courantes] +
 
 
 
