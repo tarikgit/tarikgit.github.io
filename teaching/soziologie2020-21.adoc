@@ -61,8 +61,8 @@
 | 6
 | 23/10/2020
 | Feedback
-| 1. link:https://tarikgit.github.io/teaching/soziologie-cours/08-Mindmap-strukturierte-Antwort-2.pdf[Erläutern Sie am Beispiel der Bitnation, und im Vergleich mit unserer Gesellschaft, die Merkmale des Begriffs _Gesellschaft_] +
-  2. link:https://tarikgit.github.io/teaching/soziologie-cours/08_MerkmaleEinerGesellschaft.png[Merkmale einer Gesellschaft]
+| 1a. link:https://tarikgit.github.io/teaching/soziologie-cours/08-Mindmap-strukturierte-Antwort-2.pdf[Erläutern Sie am Beispiel der Bitnation, und im Vergleich mit unserer Gesellschaft, die Merkmale des Begriffs _Gesellschaft_] +
+  1b. link:https://tarikgit.github.io/teaching/soziologie-cours/08_MerkmaleEinerGesellschaft.png[Merkmale einer Gesellschaft]
 
 
 
