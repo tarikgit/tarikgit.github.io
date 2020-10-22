@@ -102,12 +102,6 @@ Voir sur _Teams_ le corrigé de l'exercice 9 p.263.
 | link:https://tarikgit.github.io/teaching/comptabilite-cours/13-operations-d-inventaire-part1.pdf[Opérations courantes] +
 
 
-
-| 
-| 
-| Les opérations d'inventaire 
-|  
-
 | 
 | 
 | Les amortissements (les corrections de valeurs définitives) 
