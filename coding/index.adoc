@@ -15,3 +15,5 @@ are a valuable (but free) source to find inspiration for projects related to you
 
 * link:https://www.overleaf.com/learn/latex/Main_Page[Using Overleaf to compile LaTeX code]
 
+* link:https://tarikgit.github.io/coding/computational-tools.html[Computational tools]
+
