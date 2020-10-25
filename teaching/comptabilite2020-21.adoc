@@ -101,10 +101,14 @@ Voir sur _Teams_ le corrigé de l'exercice 9 p.263.
 | Opérations d'inventaire (1/2)
 | link:https://tarikgit.github.io/teaching/comptabilite-cours/13-operations-d-inventaire-part1.pdf[Opérations courantes] +
 
+| 6
+| 21/10/2020
+| Les amortissements (les corrections de valeurs définitives)
+| link:https://tarikgit.github.io/teaching/comptabilite-cours/13-Amortissement.pdf[Amortissements constants]
 
 | 
 | 
-| Les amortissements (les corrections de valeurs définitives) 
+|  
 |  
 
 | 
