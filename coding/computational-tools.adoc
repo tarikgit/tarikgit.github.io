@@ -5,6 +5,9 @@ link:https://rextester.com/l/r_online_compiler[Compile R codes online]
 
 link:https://www.tutorialspoint.com/execute_julia_online.php[Execute Julia code online]
 
+link:https://www.tutorialspoint.com/compile_rust_online.php[Execute Rust code online]
+
+
 == Slice sampler
 
 [source,R]

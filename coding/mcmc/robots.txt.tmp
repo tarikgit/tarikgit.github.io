@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /recherche.html
+Disallow: /en/recherche.html
+Disallow: /es/recherche.html
+Disallow: /cn/recherche.html
