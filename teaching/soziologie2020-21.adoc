@@ -92,14 +92,14 @@ Film: _Good Vibrations - Récréation_ auf link:https://educ.arte.tv/program/goo
 == Lehrplan (2GSO)
 
 
-. Einführung
+. Einführung 
 .. Grundbegriffe (Gesellschaft, System, Institution, ...)
 .. Der Gegenstand der Soziologie
 . Soziales Handeln 
 .. Das Zusammenwirken von Menschen 
 ... Die Begriffe _soziale Interaktion_ und _soziale Kommunikation_
 ... Menschliches Zusammenleben als soziales Handeln 
-.. Die Wertbezogenheit sozialen Handelns
+.. Die Wertbezogenheit sozialen Handelns 
 ... Soziale Werte
 ... Der Wandel von Werten 
 .. Die Regelung des Zusammenlebens
