@@ -506,9 +506,10 @@ for i in 2:nsim
     x[i] = rand(Uniform(0.0,(-log.(2*w))^2))
 end
 
-
-
-...</code></pre>
+# Histogram of density
+using Plots; pyplot()
+Plots.PyPlotBackend()
+histogram(x)</code></pre>
 </div>
 </div>
 </div>
@@ -516,7 +517,7 @@ end
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-10-27 07:27:37 +0100
+Last updated 2020-10-27 07:46:52 +0100
 </div>
 </div>
 </body>

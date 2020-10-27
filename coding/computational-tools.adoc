@@ -57,8 +57,11 @@ for i in 2:nsim
     x[i] = rand(Uniform(0.0,(-log.(2*w))^2))
 end
 
+# Histogram of density
+using Plots; pyplot()
+Plots.PyPlotBackend()
+histogram(x)
 
 
-...
 
 ----
