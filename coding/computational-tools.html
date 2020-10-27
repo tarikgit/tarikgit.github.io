@@ -461,12 +461,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="content">
 <pre class="highlight"><code class="language-R" data-lang="R">f &lt;- function(y)exp(-sqrt(y))/2;
 
-nsim&lt;-50000;
-x&lt;-array(0,dim=c(nsim,1));
-x[1]&lt;--log(runif(1));
+nsim &lt;- 50000;
+x &lt;- array(0,dim=c(nsim,1));
+x[1] &lt;- -log(runif(1));
 
 for (i in 2:nsim)  {
-     w&lt;-runif(1,min=0,max=f(x[i-1]));x[i]&lt;-runif(1,min=0,max=(-log(2*w))^2);
+     w &lt;- runif(1,min=0,max=f(x[i-1]));
+     x[i] &lt;- runif(1,min=0,max=(-log(2*w))^2);
 }
 
 hist(x,main="Slice sample",xlim=c(0,60),ylim=c(0,.25),freq=F,col="green",breaks=250)
@@ -478,15 +479,27 @@ plot(function(y)f(y), 0, 70, xlim=c(0,60),ylim=c(0,.25),xlab="",ylab="",xaxt="n"
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-julia" data-lang="julia">function f(y)
+<pre class="highlight"><code class="language-julia" data-lang="julia">using Random, Distributions
+
+# Setting the seed
+Random.seed!(123)
+
+function f(y)
     exp( -sqrt(y) ) / 2
 end
 
 nsim = 50000
 
-x = rand(nsim)
+x = rand(Uniform(0.0,1.0),nsim,1)
 
-x[1] = -log.( rand(1) )
+x[1] = -log.( rand(Uniform(0.0,1.0)) )
+
+for i in 2:nsim
+    w = rand(Uniform(0.0,f(x[i-1])))
+    x[i] = rand(Uniform(0.0,(-log.(2*w))^2))
+end
+
+
 
 ...</code></pre>
 </div>
@@ -496,7 +509,7 @@ x[1] = -log.( rand(1) )
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-10-26 18:37:54 +0100
+Last updated 2020-10-27 07:19:00 +0100
 </div>
 </div>
 </body>
