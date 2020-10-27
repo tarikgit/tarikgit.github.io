@@ -1,6 +1,6 @@
 = Computational Tools
 
-You can use the following to sites to run your (R, julia, Rust) code online, without having to install anything:
+You can use the following websites to run your (R, julia, Rust) code online, without having to install anything:
 
 * link:https://rextester.com/l/r_online_compiler[Compile R codes online]
 * link:https://www.tutorialspoint.com/execute_julia_online.php[Execute Julia code online]
