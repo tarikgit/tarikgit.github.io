@@ -1,0 +1,14 @@
+= Test eqn cross-ref
+:stem: latexmath
+:eqnums:
+
+== Let's try
+
+[stem]
+++++
+\begin{equation}\label{myequation}
+c^2 = a^2 + b^2 + 5
+\end{equation}
+++++
+
+I refer back to \eqref{myequation}.
