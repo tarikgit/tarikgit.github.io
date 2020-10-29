@@ -520,7 +520,7 @@ with \(A^{(t+1)} = \{ x: f(x) \geq u^{(t+1)} \}\)</p>
 <p>In this example, the <em>slice sampler</em> will be used to simulate from the density:
 
 \[
-f(x)=\frac{1}{2}exp( -\sqrt{x} )
+f(x)=\frac{1}{2}\exp( -\sqrt{x} )
 \]
 
 </p>
@@ -528,7 +528,7 @@ f(x)=\frac{1}{2}exp( -\sqrt{x} )
 <div class="paragraph">
 <p>At iteration <em>t</em>, simulate:
 \begin{eqnarray}
- u^{(t+1)} &amp;\sim&amp; U_{[0,\frac{1}{2}exp( -\sqrt{x} )]} \nonumber \\
+ u^{(t+1)} &amp;\sim&amp; U_{[0,\frac{1}{2}\exp( -\sqrt{x} )]} \nonumber \\
  x^{(t+1)} &amp;\sim&amp; U_{[0,(-\log(2u))^2]} \nonumber
 \end{eqnarray}</p>
 </div>
@@ -601,13 +601,13 @@ histogram(x)</code></pre>
 </div>
 <div class="stemblock">
 <div class="content">
-\[f(x) \varpropto f_1(x) = exp\big( -(x+3)^2/2 \big) \mathbb{1}_{[0,1]}{(x)}\]
+\[f(x) \varpropto f_1(x) = \exp\big( -(x+3)^2/2 \big) \mathbb{1}_{[0,1]}{(x)}\]
 </div>
 </div>
 <div class="paragraph">
 <p>At iteration <em>t</em>, simulate:
 \begin{eqnarray}
- u^{(t+1)} &amp;\sim&amp; exp\big( -(x+3)^2/2 \big) U_{[0,1]} \nonumber \\
+ u^{(t+1)} &amp;\sim&amp; \exp\big( -(x+3)^2/2 \big) U_{[0,1]} \nonumber \\
  x^{(t+1)} &amp;\sim&amp; U_{[0,(-3+\sqrt{-2\log(u)})]} \nonumber
 \end{eqnarray}</p>
 </div>
@@ -633,10 +633,71 @@ hist(obs,main="Slice sample",freq=F,col="green", breaks=25)</code></pre>
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_monte_carlo_integration">Monte Carlo Integration</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Consider the function,
+\begin{eqnarray}
+  h(x) = [ \cos(50x) + \sin(20x) ]^2 \nonumber
+\end{eqnarray}</p>
+</div>
+<div class="paragraph">
+<p>The integral,
+\begin{eqnarray}
+  \int h(x) dx \nonumber
+\end{eqnarray}
+can be calculated by generating
+
+\[
+   U_1, U_2, \ldots, U_n  \sim  iid \quad U(0,1)
+\]
+
+
+random variables, and approximate \(\int h(x) dx\) with
+
+\[
+   \sum h(U_i)/n
+\]
+
+</p>
+</div>
+<div class="paragraph">
+<p>Using <strong>R</strong></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-R" data-lang="R">nsim &lt;- 10000;
+u &lt;- runif(nsim);
+den &lt;- 1:(nsim)
+
+# The function to be integrated
+mci.ex &lt;- function(x){(cos(50*x)+sin(20*x))^2}
+par(mfrow=c(1,3))
+plot(function(x)mci.ex(x), xlim=c(0,1),ylim=c(0,4),xlab="Function",ylab="")
+
+# The Monte Carlo sum
+hint&lt;-mci.ex(u)
+hplot&lt;-cumsum(hint)/den
+stdh&lt;-sqrt( cumsum(hint^2)/den - (hplot)^2)
+
+# Plot
+par(new=F)
+hist(hint,xlab="Generated Values of Function",freq=F,col="green",breaks=30,ylab="",main="")
+par(new=F)
+plot(hplot,type="l",col="red",xlab="Mean and Standard Errors",ylab="",xlim=c(1,nsim),ylim=c(.9,1.1))
+par(new=T)
+plot(hplot+stdh/sqrt(den),type="l",col="green",xlab="",ylab="",xlim=c(1,nsim),ylim=c(.9,1.1),lty=2)
+par(new=T)
+plot(hplot-stdh/sqrt(den),type="l",col="green",xlab="",ylab="",xlim=c(1,nsim),ylim=c(.9,1.1),lty=2)</code></pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-10-29 12:49:59 +0100
+Last updated 2020-10-29 22:12:51 +0100
 </div>
 </div>
 <script type="text/x-mathjax-config">
