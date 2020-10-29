@@ -14,24 +14,27 @@ You can use the following websites to run your (R, julia, Rust) code online, wit
 
 This part is taken from link:https://www.springer.com/gp/book/9780387212395[Robert and Casella (2004)].
 
+At iteration _t_, simulate:
+
+\begin{eqnarray}
+ u^{(t+1)} &\sim& U_{[0,f(x^{(t)}]} \nonumber \\
+ x^{(t+1)} &\sim& U_{A^{(t+1)}} \nonumber 
+\end{eqnarray}
+with $A^{(t+1)} = \{ x: f(x) \geq u^{(t+1)} \}$
+
+
 === Example 1
 
 In this example, the _slice sampler_ will be used to simulate from the density:
-[stem]
-++++
+\[
 f(x)=\frac{1}{2}exp( -\sqrt{x} )
-++++
+\]
 
 At iteration _t_, simulate: 
-[stem]
-++++
- u^{(t+1)} \sim U_{[0,\frac{1}{2}exp( -\sqrt{x} )]} 
-++++
-
-[stem]
-++++
- x^{(t+1)} \sim U_{[0,[\log(2u)]^2]}
-++++
+\begin{eqnarray}
+ u^{(t+1)} &\sim& U_{[0,\frac{1}{2}exp( -\sqrt{x} )]} \nonumber \\
+ x^{(t+1)} &\sim& U_{[0,[\log(2u)]^2]} \nonumber 
+\end{eqnarray}
 
 Using *R*
 
@@ -101,6 +104,8 @@ In this example, the _slice sampler_ will be used to simulate from the density:
 ++++
 f(x) \varpropto f_1(x) = exp\big( -(x+3)^2/2 \big) \mathbb{1}_{[0,1]}{(x)}
 ++++
+
+
 
 At iteration _t_, simulate: 
 [stem]

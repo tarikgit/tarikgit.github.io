@@ -54,3 +54,5 @@ Compile into _html_:
 ----
 asciidoctor-latex -b html foo.adoc
 ----
+
+More details can be found at link:https://github.com/asciidoctor/asciidoctor-latex[asciidoctor-latex documentation].
