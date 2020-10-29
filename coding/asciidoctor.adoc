@@ -1,5 +1,8 @@
 = Using asciidoctor
 
+:stem: latexmath
+:eqnums:
+
 Simple asciidoctor files are compiled as follows:
 
 [source,asciidoctor]
@@ -22,16 +25,16 @@ Files containing LaTeX code like:
 
 [source,latex]
 ----
-[env.equation]
---
+[stem]
+++++
 a^{p-1} \equiv 1\ \text{mod}\ p
---
+++++
 ----
 
 which will convert the code into
 
-[env.equation]
---
+[stem]
+++++
 a^{p-1} \equiv 1\ \text{mod}\ p
---
+++++
 

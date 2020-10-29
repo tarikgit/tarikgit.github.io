@@ -435,8 +435,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body class="article">
 <div id="header">
@@ -464,27 +462,49 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-latex" data-lang="latex">[env.equation]
---
+<pre class="highlight"><code class="language-latex" data-lang="latex">[stem]
+++++
 a^{p-1} \equiv 1\ \text{mod}\ p
---</code></pre>
+++++</code></pre>
 </div>
 </div>
 <div class="paragraph">
 <p>which will convert the code into</p>
 </div>
-<div class="openblock env equation">
+<div class="stemblock">
 <div class="content">
-<div class="paragraph">
-<p>\ a^{p-1} \equiv 1\ \text{mod}\ p \ </p>
-</div>
+\[a^{p-1} \equiv 1\ \text{mod}\ p\]
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-09-15 15:35:31 +0200
+Last updated 2020-10-29 05:16:34 +0100
 </div>
 </div>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  messageStyle: "none",
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    ignoreClass: "nostem|nolatexmath"
+  },
+  asciimath2jax: {
+    delimiters: [["\\$", "\\$"]],
+    ignoreClass: "nostem|noasciimath"
+  },
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+})
+MathJax.Hub.Register.StartupHook("AsciiMath Jax Ready", function () {
+  MathJax.InputJax.AsciiMath.postfilterHooks.Add(function (data, node) {
+    if ((node = data.script.parentNode) && (node = node.parentNode) && node.classList.contains('stemblock')) {
+      data.math.root.display = "block"
+    }
+    return data
+  })
+})
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 </body>
 </html>
