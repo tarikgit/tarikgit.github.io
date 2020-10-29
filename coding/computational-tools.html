@@ -529,7 +529,7 @@ f(x)=\frac{1}{2}exp( -\sqrt{x} )
 <p>At iteration <em>t</em>, simulate:
 \begin{eqnarray}
  u^{(t+1)} &amp;\sim&amp; U_{[0,\frac{1}{2}exp( -\sqrt{x} )]} \nonumber \\
- x^{(t+1)} &amp;\sim&amp; U_{[0,[\log(2u)]^2]} \nonumber
+ x^{(t+1)} &amp;\sim&amp; U_{[0,(-\log(2u))^2]} \nonumber
 \end{eqnarray}</p>
 </div>
 <div class="paragraph">
@@ -602,17 +602,11 @@ histogram(x)</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>At iteration <em>t</em>, simulate:</p>
-</div>
-<div class="stemblock">
-<div class="content">
-\[ u^{(t+1)} \sim U_{[0,\frac{1}{2}exp( -\sqrt{x} )]}\]
-</div>
-</div>
-<div class="stemblock">
-<div class="content">
-\[ x^{(t+1)} \sim U_{[0,[\log(2u)]^2]}\]
-</div>
+<p>At iteration <em>t</em>, simulate:
+\begin{eqnarray}
+ u^{(t+1)} &amp;\sim&amp; exp\big( -(x+3)^2/2 \big) U_{[0,1]} \nonumber \\
+ x^{(t+1)} &amp;\sim&amp; U_{[0,(-3+\sqrt{-2\log(u)})]} \nonumber
+\end{eqnarray}</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -639,7 +633,7 @@ hist(obs,main="Slice sample",freq=F,col="green", breaks=25)</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-10-29 08:08:52 +0100
+Last updated 2020-10-29 12:03:08 +0100
 </div>
 </div>
 <script type="text/x-mathjax-config">

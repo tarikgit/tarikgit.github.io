@@ -33,7 +33,7 @@ f(x)=\frac{1}{2}exp( -\sqrt{x} )
 At iteration _t_, simulate: 
 \begin{eqnarray}
  u^{(t+1)} &\sim& U_{[0,\frac{1}{2}exp( -\sqrt{x} )]} \nonumber \\
- x^{(t+1)} &\sim& U_{[0,[\log(2u)]^2]} \nonumber 
+ x^{(t+1)} &\sim& U_{[0,(-\log(2u))^2]} \nonumber 
 \end{eqnarray}
 
 Using *R*
@@ -108,15 +108,10 @@ f(x) \varpropto f_1(x) = exp\big( -(x+3)^2/2 \big) \mathbb{1}_{[0,1]}{(x)}
 
 
 At iteration _t_, simulate: 
-[stem]
-++++
- u^{(t+1)} \sim U_{[0,\frac{1}{2}exp( -\sqrt{x} )]} 
-++++
-
-[stem]
-++++
- x^{(t+1)} \sim U_{[0,[\log(2u)]^2]}
-++++
+\begin{eqnarray}
+ u^{(t+1)} &\sim& exp\big( -(x+3)^2/2 \big) U_{[0,1]} \nonumber \\
+ x^{(t+1)} &\sim& U_{[0,(-3+\sqrt{-2\log(u)})]} \nonumber
+\end{eqnarray}
 
 
 [source,R]
