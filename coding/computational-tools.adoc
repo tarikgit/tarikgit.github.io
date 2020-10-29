@@ -98,6 +98,7 @@ histogram(x)
 
 
 === Example 2
+Now we consider a truncated normal distribution $\mathcal{N}$(3,1), which is restricted to the interval [0,1]. 
 
 In this example, the _slice sampler_ will be used to simulate from the density:
 [stem]
