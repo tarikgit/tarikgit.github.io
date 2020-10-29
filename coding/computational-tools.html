@@ -468,7 +468,31 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>This part is taken from <a href="https://www.springer.com/gp/book/9780387212395">Robert and Casella (2004)</a>.</p>
 </div>
 <div class="sect2">
-<h3 id="_using_r">Using <strong>R</strong></h3>
+<h3 id="_example_1">Example 1</h3>
+<div class="paragraph">
+<p>In this example, the <em>slice sampler</em> will be used to simulate from the density:</p>
+</div>
+<div class="stemblock">
+<div class="content">
+\[f(x)=\frac{1}{2}exp( -\sqrt{x} )\]
+</div>
+</div>
+<div class="paragraph">
+<p>At iteration <em>t</em>, simulate:</p>
+</div>
+<div class="stemblock">
+<div class="content">
+\[ u^{(t+1)} \sim U_{[0,\frac{1}{2}exp( -\sqrt{x} )]}\]
+</div>
+</div>
+<div class="stemblock">
+<div class="content">
+\[ x^{(t+1)} \sim U_{[0,[\log(2u)]^2]}\]
+</div>
+</div>
+<div class="paragraph">
+<p>Using <strong>R</strong></p>
+</div>
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="language-R" data-lang="R"># Sample from 0.5*exp(-sqrt(x))
@@ -493,28 +517,9 @@ par(new=T)
 plot(function(y)f(y), 0, 70, xlim=c(0,60),ylim=c(0,.25),xlab="",ylab="",xaxt="n",yaxt="n",lwd=3)</code></pre>
 </div>
 </div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-R" data-lang="R"># Sample from a N(-3,1) truncated to [0,1]
-# using the slice sampler
-
-nsim = 1000
-
-obs &lt;- matrix(0,nsim,2)
-obs[1,1] = .25
-obs[1,2] = 0.5*exp(-0.5*(obs[1,1]+3)^2)
-
-for (i in 2:nsim){
- obs[i,2] = exp(-0.5*(obs[i-1,1]+3)^2)*runif(1)
- obs[i,1] = runif(1)*min(1,-3+sqrt(-2*log(obs[i,2])))
- }
-
-hist(obs,main="Slice sample",freq=F,col="green", breaks=25)</code></pre>
+<div class="paragraph">
+<p>Using <strong>julia</strong></p>
 </div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_using_julia">Using <strong>julia</strong></h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="language-julia" data-lang="julia">using Random, Distributions
@@ -543,9 +548,47 @@ Plots.PyPlotBackend()
 histogram(x)</code></pre>
 </div>
 </div>
-<div class="imageblock right">
+</div>
+<div class="sect2">
+<h3 id="_example_2">Example 2</h3>
+<div class="paragraph">
+<p>In this example, the <em>slice sampler</em> will be used to simulate from the density:</p>
+</div>
+<div class="stemblock">
 <div class="content">
-<img src="https://latex.codecogs.com/png.latex?\dpi{400}\int&space;\frac{1}{x^2}&space;dx&space;=&space;\ln&space;\left|&space;x&space;\right|&space;+&space;C" alt="Eqn" width="150" height="150">
+\[f(x) \varpropto f_1(x) = exp\big( -(x+3)^2/2 \big) \mathbb{1}_{[0,1]}{(x)}\]
+</div>
+</div>
+<div class="paragraph">
+<p>At iteration <em>t</em>, simulate:</p>
+</div>
+<div class="stemblock">
+<div class="content">
+\[ u^{(t+1)} \sim U_{[0,\frac{1}{2}exp( -\sqrt{x} )]}\]
+</div>
+</div>
+<div class="stemblock">
+<div class="content">
+\[ x^{(t+1)} \sim U_{[0,[\log(2u)]^2]}\]
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-R" data-lang="R"># Sample from a N(-3,1) truncated to [0,1]
+# using the slice sampler
+
+nsim = 1000
+
+obs &lt;- matrix(0,nsim,2)
+obs[1,1] = .25
+obs[1,2] = 0.5*exp(-0.5*(obs[1,1]+3)^2)
+
+for (i in 2:nsim){
+ obs[i,2] = exp(-0.5*(obs[i-1,1]+3)^2)*runif(1)
+ obs[i,1] = runif(1)*min(1,-3+sqrt(-2*log(obs[i,2])))
+ }
+
+hist(obs,main="Slice sample",freq=F,col="green", breaks=25)</code></pre>
 </div>
 </div>
 </div>
@@ -554,8 +597,32 @@ histogram(x)</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-10-27 18:18:34 +0100
+Last updated 2020-10-29 06:25:02 +0100
 </div>
 </div>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  messageStyle: "none",
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    ignoreClass: "nostem|nolatexmath"
+  },
+  asciimath2jax: {
+    delimiters: [["\\$", "\\$"]],
+    ignoreClass: "nostem|noasciimath"
+  },
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+})
+MathJax.Hub.Register.StartupHook("AsciiMath Jax Ready", function () {
+  MathJax.InputJax.AsciiMath.postfilterHooks.Add(function (data, node) {
+    if ((node = data.script.parentNode) && (node = node.parentNode) && node.classList.contains('stemblock')) {
+      data.math.root.display = "block"
+    }
+    return data
+  })
+})
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 </body>
 </html>

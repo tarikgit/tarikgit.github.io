@@ -1,4 +1,6 @@
-= Using asciidoctor
+= Using asciidoctor and asciidoctor-latex
+
+== asciidoctor
 
 :stem: latexmath
 :eqnums:
@@ -38,3 +40,17 @@ which will convert the code into
 a^{p-1} \equiv 1\ \text{mod}\ p
 ++++
 
+== Using asciidoctor-latex
+
+Install _asciidoctor-latex_ using:
+
+[source,asciidoctor]
+----
+sudo gem install asciidoctor-latex --pre
+----
+Compile into _html_:
+
+[source,asciidoctor]
+----
+asciidoctor-latex -b html foo.adoc
+----

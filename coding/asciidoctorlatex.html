@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.8">
-<title>Using asciidoctor and asciidoctor-latex</title>
+<title>Some Equations</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -475,66 +475,61 @@ $(document).on('page:load', ready2);
 
 <body class="article">
 <div id="header">
-<h1>Using asciidoctor and asciidoctor-latex</h1>
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_asciidoctor">asciidoctor</h2>
+<h2 id="_some_equations">Some Equations</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_number_theory">Number Theory</h3>
 <div class="paragraph">
-<p>Simple asciidoctor files are compiled as follows:</p>
+<p>The equation
+\(a^2 + b^2 = c^2\) has infinitely many
+non-proportional integer solutions.
+The integer solutions of the equation
+
+\[
+  a^3 + b^3 = c^3
+\]
+
+
+are trivial: at least one entry is
+zero and the others are "obvious"</p>
 </div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-asciidoctor" data-lang="asciidoctor">asciidoctor sourcefile.adoc</code></pre>
 </div>
-</div>
+<div class="sect2">
+<h3 id="_calculus">Calculus</h3>
 <div class="paragraph">
-<p>If the filecontains graphics, such as ditaa, use:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-asciidoctor" data-lang="asciidoctor">asciidoctor -r asciidoctor-diagram sourcefile.adoc</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Files containing LaTeX code like:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-latex" data-lang="latex">[stem]
-++++
-a^{p-1} \equiv 1\ \text{mod}\ p
-++++</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>which will convert the code into</p>
-</div>
-<div class="stemblock">
-<div class="content">
-\[a^{p-1} \equiv 1\ \text{mod}\ p\]
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_using_asciidoctor_latex">Using asciidoctor-latex</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Install <em>asciidoctor-latex</em> using:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-asciidoctor" data-lang="asciidoctor">sudo gem install asciidoctor-latex --pre</code></pre>
-</div>
+<p>A definite integral:
+
+\[
+  \int_0^1 x^n dx = \frac{1}{n}
+\]
+
+</p>
 </div>
 <div class="paragraph">
-<p>Compile into <em>html</em>:</p>
+<p>The fundamental theorem of calculus:
++
+\[
+   \frac{d}{dx} \int_a^x f(t) dt = f(x)
+ \]</p>
 </div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-asciidoctor" data-lang="asciidoctor">asciidoctor-latex -b html foo.adoc</code></pre>
+</div>
+<div class="sect2">
+<h3 id="_linear_algebra">Linear algebra</h3>
+<div class="paragraph">
+<p>A matrix:
+
+\[
+M = \left[
+  \begin{array}{ c c }
+	 1 & 2 \\
+	 3 & 4
+  \end{array} \right]
+\]
+
+</p>
 </div>
 </div>
 </div>
@@ -542,7 +537,7 @@ a^{p-1} \equiv 1\ \text{mod}\ p
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-10-29 07:32:35 +0100
+Last updated 2020-10-29 07:24:13 +0100
 </div>
 </div>
 <script type="text/x-mathjax-config">
@@ -557,7 +552,7 @@ MathJax.Hub.Config({
     delimiters: [["\\$", "\\$"]],
     ignoreClass: "nostem|noasciimath"
   },
-  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  TeX: { extensions: ["mhchem.js"] }
 });
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
