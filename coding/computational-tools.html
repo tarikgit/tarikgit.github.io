@@ -689,10 +689,86 @@ lower &lt;- hplot-stdh/sqrt(den)</code></pre>
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_simulated_annealing">Simulated Annealing</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Given a <em>temperature</em> parameter \(T>0\), a sample \(\theta^T_1, \theta^T_2, \ldots\) is generated from the distribution
+
+\[
+ \pi(\theta) \varpropto \exp( h(\theta)/T )
+\]
+
+</p>
+</div>
+<div class="sect2">
+<h3 id="_example_3">Example 3</h3>
+<div class="paragraph">
+<p>We are searching for the maximum of the following function
+
+\[
+  h(x) = [ \cos(50x) + \sin(20x) ]^2
+\]
+
+</p>
+</div>
+<div class="paragraph">
+<p>At iteration <em>t</em> the algorithm is at \(( x^{(t)},h^{(t)} )\):</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Simulate \(u \sim U(a_t, b_t)\) where \(a_t = \max( x^{(t)}-r,0 )\) and \(b_t = \min( x^{(t)}+r,1 )\)</p>
+</li>
+<li>
+<p>Accept \(x^{(t+1)}=u\) with probability
+
+\[
+  \rho^{(t)} = \min \big\{  \exp \big(  \frac{h(u)-h(x^{(t)})}{T_t} \big), 1  \big\}
+\]
+
+
+take \(x^{(t+1)}=x^{(t)}\) otherwise.</p>
+</li>
+<li>
+<p>Update \(T_t\) to \(T_{t+1}\)</p>
+</li>
+</ol>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-R" data-lang="R">par(mfrow=c(1,2))
+
+# The function to be optimized
+mci &lt;- function(x){(cos(50*x)+sin(20*x))^2}
+
+# The Monte Carlo maximum
+nsim &lt;- 2500
+u &lt;- runif(nsim)
+
+# Simulated annealing
+xval &lt;- array(0,c(nsim,1));
+r &lt;- .5
+for(i in 2:nsim){
+    test &lt;- runif(1, min=max(xval[i-1]-r,0),max=min(xval[i-1]+r,1));
+    delta &lt;- mci(test) - mci(xval[i-1]);
+    rho &lt;- min(exp(delta*log(i)/1),1);
+    xval[i] &lt;- test*(u[i]&lt;rho)+xval[i-1]*(u[i]&gt;rho)
+}
+mci(xval[nsim])
+
+# Plot the trajectory of the optimization path
+plot(function(x)mci(x), xlim=c(0,1),ylim=c(0,4),xlab="Function",ylab="")
+plot(xval,mci(xval),type="l",lwd=2)</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-10-30 15:57:30 +0100
+Last updated 2020-10-30 20:19:51 +0100
 </div>
 </div>
 <script type="text/x-mathjax-config">

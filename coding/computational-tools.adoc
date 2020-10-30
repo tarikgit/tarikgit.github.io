@@ -185,5 +185,58 @@ lower <- hplot-stdh/sqrt(den)
 ----
 
 
+== Simulated Annealing
 
+Given a _temperature_ parameter $T>0$, a sample $\theta^T_1, \theta^T_2, \ldots$ is generated from the distribution
+\[
+ \pi(\theta) \varpropto \exp( h(\theta)/T ) 
+\]
+
+
+=== Example 3
+
+We are searching for the maximum of the following function
+\[
+  h(x) = [ \cos(50x) + \sin(20x) ]^2
+\]
+
+At iteration _t_ the algorithm is at $( x^{(t)},h^{(t)} )$:
+
+. Simulate $u \sim U(a_t, b_t)$ where $a_t = \max( x^{(t)}-r,0 )$ and $b_t = \min( x^{(t)}+r,1 )$
+. Accept $x^{(t+1)}=u$ with probability
+\[
+  \rho^{(t)} = \min \big\{  \exp \big(  \frac{h(u)-h(x^{(t)})}{T_t} \big), 1  \big\}
+\]
+take $x^{(t+1)}=x^{(t)}$ otherwise.
+. Update $T_t$ to $T_{t+1}$
+
+[source,R]
+----
+
+par(mfrow=c(1,2))
+
+# The function to be optimized
+mci <- function(x){(cos(50*x)+sin(20*x))^2}
+
+# The Monte Carlo maximum
+nsim <- 2500
+u <- runif(nsim)
+
+# Simulated annealing
+xval <- array(0,c(nsim,1));
+r <- .5
+for(i in 2:nsim){
+    test <- runif(1, min=max(xval[i-1]-r,0),max=min(xval[i-1]+r,1));
+    delta <- mci(test) - mci(xval[i-1]);
+    rho <- min(exp(delta*log(i)/1),1);
+    xval[i] <- test*(u[i]<rho)+xval[i-1]*(u[i]>rho)
+}
+mci(xval[nsim])
+
+# Plot the trajectory of the optimization path
+plot(function(x)mci(x), xlim=c(0,1),ylim=c(0,4),xlab="Function",ylab="")
+plot(xval,mci(xval),type="l",lwd=2)
+ 
+
+----
 
