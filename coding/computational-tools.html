@@ -710,7 +710,8 @@ lower &lt;- hplot-stdh/sqrt(den)</code></pre>
   h(x) = [ \cos(50x) + \sin(20x) ]^2
 \]
 
-</p>
+
+Note: Variable</p>
 </div>
 <div class="paragraph">
 <p>At iteration <em>t</em> the algorithm is at \(( x^{(t)},h^{(t)} )\):</p>
@@ -765,10 +766,171 @@ plot(xval,mci(xval),type="l",lwd=2)</code></pre>
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_metropolis_hastings_algorithm">Metropolis-Hastings Algorithm</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Let \(q(\theta, \vartheta)\) be a <em>proposal density</em> or a <em>candidate-generating density</em> (<a href=http://www2.stat.duke.edu/~scs/Courses/Stat376/Papers/Basic/ChibGreenberg1995.pdf>Chib and Greenberg, 1995</a>) such that
+
+\[
+ \int q(\theta, \vartheta) d\vartheta = 1
+\]
+
+
+Also let \(U(O, 1)\) denote the uniform distribution over \((0, 1)\). Then, a general version of the Metropolis- Hastings algorithm for sampling from the posterior distribution \(\pi(\theta,D)\) can be described as follows:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Choose an arbitrary starting point \(\theta_0\) and set \(i=0\).</p>
+</li>
+<li>
+<p>Generate a candidate point \(\theta^*\) from \(q(\theta_i,\cdot)\) and \(u\) from \(U(0,1)\).</p>
+</li>
+<li>
+<p>Set \(\theta_{i+1}=\theta^*\) if \(u \leq a(\theta_i, \theta^*)\) and \(\theta_{i+1}=\theta_i\) otherwise, where the acceptance probability is given by
+
+\[
+ a(\theta,\vartheta) = \min\big\{
+                        \frac{ \pi(\vartheta|D)q(\vartheta, \theta) }{ \pi(\theta|D)q(\theta, \vartheta) },
+                        1
+                        \big\}
+\]
+
+</p>
+</li>
+<li>
+<p>Set \(i=i+1\), and go to Step 2.</p>
+</li>
+</ol>
+</div>
+<div class="sect2">
+<h3 id="_example_4">Example 4</h3>
+<div class="paragraph">
+<p>Let us consider the following simple linear model:
+
+\[
+ y_t = \alpha x_t + \beta + \epsilon_t
+\]
+
+
+where \(\epsilon \sim N(0, \sigma^2)\).</p>
+</div>
+<div class="paragraph">
+<p><em>Source</em>: R code taken from <a href=https://theoreticalecology.wordpress.com/2010/09/17/metropolis-hastings-mcmc-in-r/>A simple Metropolis-Hastings MCMC in R</a></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-R" data-lang="R">### Creating test data
+trueA &lt;- 5
+trueB &lt;- 0
+trueSd &lt;- 10
+sampleSize &lt;- 31
+
+# create independent x-values
+x &lt;- (-(sampleSize-1)/2):((sampleSize-1)/2)
+# create dependent values according to ax + b + N(0,sd)
+y &lt;-  trueA * x + trueB + rnorm(n=sampleSize,mean=0,sd=trueSd)
+
+plot(x,y, main="Test Data")
+
+
+### Deriving the likelihood
+likelihood &lt;- function(param){
+    a = param[1]
+    b = param[2]
+    sd = param[3]
+
+    pred = a*x + b
+    singlelikelihoods = dnorm(y, mean = pred, sd = sd, log = T)
+    sumll = sum(singlelikelihoods)
+    return(sumll)
+}
+
+# Example: plot the likelihood profile of the slope a
+slopevalues &lt;- function(x){return(likelihood(c(x, trueB, trueSd)))}
+slopelikelihoods &lt;- lapply(seq(3, 7, by=.05), slopevalues )
+plot (seq(3, 7, by=.05), slopelikelihoods , type="l", xlab = "values of slope parameter a", ylab = "Log likelihood")
+
+
+### Defining the prior
+# Prior distribution
+prior &lt;- function(param){
+    a = param[1]
+    b = param[2]
+    sd = param[3]
+    aprior = dunif(a, min=0, max=10, log = T)
+    bprior = dnorm(b, sd = 5, log = T)
+    sdprior = dunif(sd, min=0, max=30, log = T)
+    return(aprior+bprior+sdprior)
+}
+
+### Defining the posterior
+posterior &lt;- function(param){
+   return (likelihood(param) + prior(param))
+}
+
+
+
+######## Metropolis algorithm ################
+
+proposalfunction &lt;- function(param){
+    return(rnorm(3,mean = param, sd= c(0.1,0.5,0.3)))
+}
+
+run_metropolis_MCMC &lt;- function(startvalue, iterations){
+    chain = array(dim = c(iterations+1,3))
+    chain[1,] = startvalue
+    for (i in 1:iterations){
+        proposal = proposalfunction(chain[i,])
+
+        probab = exp(posterior(proposal) - posterior(chain[i,]))
+        if (runif(1) &lt; probab){
+            chain[i+1,] = proposal
+        }else{
+            chain[i+1,] = chain[i,]
+        }
+    }
+    return(chain)
+}
+
+startvalue = c(4,0,10)
+chain = run_metropolis_MCMC(startvalue, 10000)
+
+burnIn = 5000
+acceptance = 1-mean(duplicated(chain[-(1:burnIn),]))
+
+
+### Summary: #######################
+
+par(mfrow = c(2,3))
+hist(chain[-(1:burnIn),1],nclass=30, , main="Posterior of a", xlab="True value = red line" )
+abline(v = mean(chain[-(1:burnIn),1]))
+abline(v = trueA, col="red" )
+hist(chain[-(1:burnIn),2],nclass=30, main="Posterior of b", xlab="True value = red line")
+abline(v = mean(chain[-(1:burnIn),2]))
+abline(v = trueB, col="red" )
+hist(chain[-(1:burnIn),3],nclass=30, main="Posterior of sd", xlab="True value = red line")
+abline(v = mean(chain[-(1:burnIn),3]) )
+abline(v = trueSd, col="red" )
+plot(chain[-(1:burnIn),1], type = "l", xlab="True value = red line" , main = "Chain values of a", )
+abline(h = trueA, col="red" )
+plot(chain[-(1:burnIn),2], type = "l", xlab="True value = red line" , main = "Chain values of b", )
+abline(h = trueB, col="red" )
+plot(chain[-(1:burnIn),3], type = "l", xlab="True value = red line" , main = "Chain values of sd", )
+abline(h = trueSd, col="red" )
+
+# for comparison:
+summary(lm(y~x))</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-10-30 20:19:51 +0100
+Last updated 2020-10-31 18:28:48 +0100
 </div>
 </div>
 <script type="text/x-mathjax-config">
