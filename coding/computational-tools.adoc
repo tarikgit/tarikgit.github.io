@@ -536,9 +536,9 @@ where $K^*$ denotes the stationary solution to the initial problem
 in the set of indices $\{ j^*_{i-1}, j^*_{i-1}+1, \ldots, n \}$. Set $h^1_i=j^*_i$ and $v^1_i=u\big( f(K_i)-K_{j^*_i} \big) + \beta v^0_{j^*_i}$
 . Check for convergence: If $\parallel \underline{v}^0-\underline{v}^1 \parallel_{\infty} < \epsilon (1-\beta)$, $\epsilon \in \mathbb{R}_{++}$ stop, else replace $\underline{v}^0$ with $\underline{v}^1$ and $\underline{h}^0$ with $\underline{h}^1$ and return to step 3. 
 
-Using *Matlab*
+Using *Octave*
 
-[source,Matlab]
+[source,Octave]
 ----
 
 % Deterministic Growth model
