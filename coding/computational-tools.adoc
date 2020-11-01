@@ -442,6 +442,8 @@ The _Euler equation_ and the _transversality condition_ is given by:
 
 === Example 5
 
+*The Model*
+
 Let us consider the following _functional equation_:
 \[
  v(k) = \max_{k'\geq 0} \big\{  U\big( f(k)-k' \big) + \beta v(k') \big\}
@@ -458,6 +460,64 @@ and it is parameterized as follows
  \alpha &=& 0.3 \nonumber \\
  \beta &=& 0.9 \nonumber
 \end{eqnarray}
+
+*First Order and Envelope Conditions*
+
+\begin{eqnarray}
+ v(k) &=& \max_{c,k'} \big\{ U(c) +  \beta v(k') \big\} \nonumber \\
+ && \mbox{s.t.} \quad f(k) - k' - c \geq 0 \quad \quad  [\lambda] \nonumber
+\end{eqnarray}
+
+
+
+\begin{eqnarray}
+ \frac{\partial v(k)}{\partial k'} = 0 \iff \beta \frac{\partial v(k')}{\partial k'} - \lambda = 0 \nonumber
+\end{eqnarray}
+
+\begin{eqnarray}
+ \boxed{\lambda = \beta \frac{\partial v(k')}{\partial k'} } \nonumber
+\end{eqnarray}
+
+
+
+\begin{eqnarray}
+ \frac{\partial v(k)}{\partial k} &=& \beta \frac{\partial v(k')}{\partial k'} 
+                                        + \lambda \big[ \frac{\partial f(k)}{\partial k} - \frac{k'}{k} \big]
+                                        \nonumber \\
+                                &=& \underbrace{\big[ \beta \frac{\partial v(k')}{\partial k'} - \lambda \big]}_{=0} \frac{k'}{\partial k} + \lambda \frac{\partial f(k)}{\partial k}
+                                \nonumber
+\end{eqnarray}
+which yields the _envelope condition_
+\[
+ \boxed{ \frac{\partial v(k')}{\partial k'} = \lambda' \frac{\partial f(k')}{\partial k'} }
+\]
+
+By combining the two boxed expressions, we get the _first-order condition_
+\[
+ \boxed{ \lambda = \lambda' \beta \frac{\partial f(k')}{\partial k'} }
+\]
+and
+\[
+ \frac{\partial v(k)}{\partial c} = 0 \iff \frac{\partial U(c)}{\partial c} - \lambda = 0
+\]
+
+\[
+ \boxed{ \lambda = \frac{\partial U(c)}{\partial c} }
+\]
+
+*Steady-state*
+
+By combining the _first-order condition_ with the following expressions
+\begin{eqnarray}
+ \frac{\partial U(c)}{\partial c} &=& c^{-1} \nonumber \\
+ \frac{\partial f(k)}{\partial k} &=& \alpha k^{\alpha-1} \nonumber
+\end{eqnarray}
+we can find the _steady-state value_ of $k$ 
+\[
+  k^* = \Bigg( \frac{1}{\alpha\beta} \Bigg)^{\frac{1}{\alpha-1}}
+\]
+
+*Numerical Solution*
 
 The _numerical solution algorithm_ (value function iteration) is given by (link:https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1120686[Heer and Maussner, 2008]):
 

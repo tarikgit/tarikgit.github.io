@@ -1016,6 +1016,9 @@ summary(lm(y~x))</code></pre>
 <div class="sect2">
 <h3 id="_example_5">Example 5</h3>
 <div class="paragraph">
+<p><strong>The Model</strong></p>
+</div>
+<div class="paragraph">
 <p>Let us consider the following <em>functional equation</em>:
 
 \[
@@ -1039,6 +1042,85 @@ and it is parameterized as follows
  \alpha &amp;=&amp; 0.3 \nonumber \\
  \beta &amp;=&amp; 0.9 \nonumber
 \end{eqnarray}</p>
+</div>
+<div class="paragraph">
+<p><strong>First Order and Envelope Conditions</strong></p>
+</div>
+<div class="paragraph">
+<p>\begin{eqnarray}
+ v(k) &amp;=&amp; \max_{c,k'} \big\{ U(c) +  \beta v(k') \big\} \nonumber \\
+ &amp;&amp; \mbox{s.t.} \quad f(k) - k' - c \geq 0 \quad \quad  [\lambda] \nonumber
+\end{eqnarray}</p>
+</div>
+<div class="paragraph">
+<p>\begin{eqnarray}
+ \frac{\partial v(k)}{\partial k'} = 0 \iff \beta \frac{\partial v(k')}{\partial k'} - \lambda = 0 \nonumber
+\end{eqnarray}</p>
+</div>
+<div class="paragraph">
+<p>\begin{eqnarray}
+ \boxed{\lambda = \beta \frac{\partial v(k')}{\partial k'} } \nonumber
+\end{eqnarray}</p>
+</div>
+<div class="paragraph">
+<p>\begin{eqnarray}
+ \frac{\partial v(k)}{\partial k} &amp;=&amp; \beta \frac{\partial v(k')}{\partial k'}
+                                        + \lambda \big[ \frac{\partial f(k)}{\partial k} - \frac{k'}{k} \big]
+                                        \nonumber \\
+                                &amp;=&amp; \underbrace{\big[ \beta \frac{\partial v(k')}{\partial k'} - \lambda \big]}_{=0} \frac{k'}{\partial k} + \lambda \frac{\partial f(k)}{\partial k}
+                                \nonumber
+\end{eqnarray}
+which yields the <em>envelope condition</em>
+
+\[
+ \boxed{ \frac{\partial v(k')}{\partial k'} = \lambda' \frac{\partial f(k')}{\partial k'} }
+\]
+
+</p>
+</div>
+<div class="paragraph">
+<p>By combining the two boxed expressions, we get the <em>first-order condition</em>
+
+\[
+ \boxed{ \lambda = \lambda' \beta \frac{\partial f(k')}{\partial k'} }
+\]
+
+
+and
+
+\[
+ \frac{\partial v(k)}{\partial c} = 0 \iff \frac{\partial U(c)}{\partial c} - \lambda = 0
+\]
+
+</p>
+</div>
+<div class="paragraph">
+<p>
+\[
+ \boxed{ \lambda = \frac{\partial U(c)}{\partial c} }
+\]
+
+</p>
+</div>
+<div class="paragraph">
+<p><strong>Steady-state</strong></p>
+</div>
+<div class="paragraph">
+<p>By combining the <em>first-order condition</em> with the following expressions
+\begin{eqnarray}
+ \frac{\partial U(c)}{\partial c} &amp;=&amp; c^{-1} \nonumber \\
+ \frac{\partial f(k)}{\partial k} &amp;=&amp; \alpha k^{\alpha-1} \nonumber
+\end{eqnarray}
+we can find the <em>steady-state value</em> of \(k\)
+
+\[
+  k^* = \Bigg( \frac{1}{\alpha\beta} \Bigg)^{\frac{1}{\alpha-1}}
+\]
+
+</p>
+</div>
+<div class="paragraph">
+<p><strong>Numerical Solution</strong></p>
 </div>
 <div class="paragraph">
 <p>The <em>numerical solution algorithm</em> (value function iteration) is given by (<a href=https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1120686>Heer and Maussner, 2008</a>):</p>
@@ -1178,7 +1260,7 @@ disp(idxIter)</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-11-01 19:12:20 +0100
+Last updated 2020-11-01 20:22:14 +0100
 </div>
 </div>
 <script type="text/x-mathjax-config">
