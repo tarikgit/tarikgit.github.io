@@ -382,7 +382,7 @@ summary(lm(y~x))
 ----
 
 
-The following table gives the equivalent of the variables used in the pseudo-code to the variables used in the R code:
+The following table gives the equivalence of the variables used in the pseudo-code to the variables used in the R code:
 
 [%header,cols=2*] 
 |===
