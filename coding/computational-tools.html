@@ -489,7 +489,7 @@ $(document).on('page:load', ready2);
 <p><a href=https://rextester.com/l/r_online_compiler>Compile R codes online</a></p>
 </li>
 <li>
-<p><a href=https://www.tutorialspoint.com/execute_julia_online.php>Execute Julia code online</a></p>
+<p><a href=https://repl.it/languages/julia>Execute Julia code online</a></p>
 </li>
 <li>
 <p><a href=https://www.tutorialspoint.com/compile_rust_online.php>Execute Rust code online</a></p>
@@ -924,13 +924,261 @@ abline(h = trueSd, col="red" )
 summary(lm(y~x))</code></pre>
 </div>
 </div>
+<div class="paragraph">
+<p>The following table gives the equivalent of the variables used in the pseudo-code to the variables used in the R code:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Theory</th>
+<th class="tableblock halign-left valign-top">Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\theta\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">chain[,]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(u\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">runif(1)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(a(\theta_i, \theta^*)\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">probab</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\min \big\{  \frac{\pi(\vartheta|D)q(\vartheta,\theta)}{\pi(\theta|D)q(\theta,\vartheta)}  \big\}\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">exp( posterior(proposal) - posterior(chain[i,]) )</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\theta_0\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c(4,0,10)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\theta^*\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">proposal</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_dynamic_programming_and_value_function_iteration">Dynamic programming and value function iteration</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Consider the following dynamic optimization problem:
+
+\[
+ \max_{ \{ x_{t+1} \}^{\infty}_{t=0} } \Sigma^{\infty}_{t=0}\beta^t F(x_t, x_{t+1}) \\
+ \mbox{s.t.} \quad  x_{t+1} \in \Gamma(x_t)
+\]
+
+</p>
+</div>
+<div class="paragraph">
+<p>The <em>functional equation</em> of the previous problem is given by:
+
+\[
+ v(x) = \max_{y\in \Gamma(x)} \big[ F(x,y) + \beta v(y) \big]
+\]
+
+</p>
+</div>
+<div class="paragraph">
+<p>Introducing the <em>optimal policy function</em> \(g\), we can rewrite the previous expression:
+
+\[
+ v(x) = F\big[ x, g(x) + \beta v[g(x)] \big]
+\]
+
+</p>
+</div>
+<div class="paragraph">
+<p>The <em>first-order condition</em> and the <em>envelope condition</em> is defined as:
+\begin{eqnarray}
+ 0 &amp;=&amp; F_y[ x, g(x) ] + \beta v'[g(x)] \nonumber \\
+ v'(x) &amp;=&amp; F_x[ x, g(x) ] \nonumber
+\end{eqnarray}</p>
+</div>
+<div class="paragraph">
+<p>The <em>Euler equation</em> and the <em>transversality condition</em> is given by:
+\begin{eqnarray}
+ 0 &amp;=&amp; F_y(x_t, x_{t+1}) + \beta F_x (x_{t+1}, x_{t+2}), \quad t=0,1,2, \ldots \nonumber \\
+ 0 &amp;=&amp; \lim_{t\rightarrow \infty} \beta^t F_x(x_t, x_{t+1}) \cdot x_t \nonumber
+\end{eqnarray}</p>
+</div>
+<div class="sect2">
+<h3 id="_example_5">Example 5</h3>
+<div class="paragraph">
+<p>Let us consider the following functional equation:
+
+\[
+ v(k) = \max_{k'\geq 0} \big\{  U\big( f(k)-k' \big) + \beta v(k') \big\}
+\]
+
+
+with \(k'+c\leq f(k)\), \(c\geq 0\) and \(y=f(k)\)</p>
+</div>
+<div class="paragraph">
+<p>The model is specified as follows:
+
+\[
+  f(k) = k^{\alpha} \\
+  U(c) = \log(c)
+\]
+
+
+and it is parameterized as follows
+\begin{eqnarray}
+ \alpha &amp;=&amp; 0.3 \nonumber \\
+ \beta &amp;=&amp; 0.9 \nonumber
+\end{eqnarray}</p>
+</div>
+<div class="paragraph">
+<p>The numerical solution algorithm (value function iteration) is given by (<a href=https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1120686>Heer and Maussner, 2008</a>):</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Choose a grid
+\(\mathcal{K} = [ K_1, K_2, \ldots, K_n\)]  with  \(K_i < K_j\) and \(i < j = 1\),\(2\),\(\ldots\), \(n\)</p>
+</li>
+<li>
+<p>Initialize the value function: \(\forall i = 1, \ldots, n\) set
+
+\[
+ v_i^0 = \frac{u(f(K^*)-K^*)}{1-\beta}
+\]
+
+
+where \(K^*\) denotes the stationary solution to the initial problem</p>
+</li>
+<li>
+<p>Compute a new value function and the associated policy function, \(\underline{v}^1\) and \(\underline{h}^1\) respectively: Put \(j^*_0 \equiv 1\). For \(i=1,2,\ldots , n\) and \(j^*_{i-1}\) find the index \(j^*_i\) that maximizes
+
+\[
+ u\big( f(K_i)-K_j \big) + \beta v^0_j
+\]
+
+
+in the set of indices \(\{ j^*_{i-1}, j^*_{i-1}+1, \ldots, n \}\). Set \(h^1_i=j^*_i\) and \(v^1_i=u\big( f(K_i)-K_{j^*_i} \big) + \beta v^0_{j^*_i}\)</p>
+</li>
+<li>
+<p>Check for convergence: If \(\parallel \underline{v}^0-\underline{v}^1 \parallel_{\infty} < \epsilon (1-\beta)\), \(\epsilon \in \mathbb{R}_{++}\) stop, else replace \(\underline{v}^0\) with \(\underline{v}^1\) and \(\underline{h}^0\) with \(\underline{h}^1\) and return to step 3.</p>
+</li>
+</ol>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-Matlab" data-lang="Matlab">% Deterministic Growth model
+% Original code by Joao Ejarque and Russell Cooper
+% Tarik OCAKTAN - Paris - May 2009
+
+% State space dimension = 1
+
+% Notation:
+%  pName : structural parameters
+%  iName : total number of variables related to the algorithm
+%  idxName : indexation used in loops, i.e. idxName = 1,...,iName
+%  dName : integer of a specific value of a variable, i.e. dNamess=steady state
+%          of
+%							   variable 'Name'
+%  vName : vector containing values of variable 'Name'
+%  mName : matrix containing values of a variable 'Name'
+
+clear;clc;
+close all;
+
+% Structural parameters
+pAlpha	= .3;
+pBeta	= .9;
+
+% Algorithm parameters
+ iIter = 2000; % maximum number of iterations
+ iGridPoints = 300;
+ iToler	= 10e-6;  % convergence criterion
+% Steady state value
+ dKss = ( 1 / (pAlpha*pBeta) )^( 1 / (pAlpha-1) );
+% Bounds of state space
+ dKmin	= dKss * 0.9;
+ dKmax	= dKss * 1.1;
+% Construct a grid
+ iStep	= (dKmax-dKmin) / (iGridPoints-1);
+ vK	= dKmin:iStep:dKmax;
+ iGridPoints = size(vK,2); % overwriting iGridPoints in order to take into
+			   % account additional point
+
+vY = vK.^pAlpha;
+vIota = ones(iGridPoints,1);
+
+% Budget constraint
+mC = vIota*vY - vK'*vIota';
+
+% Eliminate negative or zero consumption values
+mCP	= mC &gt; 0;  % Matrix of ones where C&gt;0 and zeros elsewhere
+mPC	= 1 - mCP; % Matrix with ones where C&lt;=0. this is a penalty matrix
+z	= 10e-5;
+mC	= mC.*mCP + z*mPC;
+
+% Initialization
+ % Initializing the utility function mU
+ mU = log(mC);
+
+ % Initializing the value function vVNew
+ mCF = vIota*vY ;
+ mVNew = log(mCF);
+
+ % Initializing the value function vVOld
+ vVOld = max([ mU + pBeta*mVNew ]);
+
+%%% Main Iteration - BEGIN %%%
+for idxIter=1:iIter
+
+ idxIter
+
+ vVNew = max([ mU + pBeta*(vIota*vVOld)' ]);
+
+ iDiff = ( abs(vVOld-vVNew) ) / vVOld;
+ if iDiff &lt;= iToler
+  vVOld = vVNew;
+  break
+ else
+  vVOld = vVNew;
+ end
+
+end
+%%% Main Iteration - END %%%
+
+
+
+%break
+
+% Construct policy function
+[maxR,idxR] = max([ mU + pBeta*(vIota*vVOld)' ]);
+
+vKP  = vK(idxR);
+vInv = vKP;
+
+figure(1)
+plot(vK,vKP)
+figure(2)
+plot(vK,vY)
+disp(idxIter)</code></pre>
+</div>
+</div>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-10-31 18:28:48 +0100
+Last updated 2020-11-01 18:00:00 +0100
 </div>
 </div>
 <script type="text/x-mathjax-config">
