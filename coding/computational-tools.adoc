@@ -5,10 +5,10 @@
 
 You can use the following websites to run your (R, julia, Rust) code online, without having to install anything:
 
-* link:https://rextester.com/l/r_online_compiler[Compile R codes online]
+* link:https://rextester.com/l/r_online_compiler[Execute R codes online]
 * link:https://repl.it/languages/julia[Execute Julia code online]
-* link:https://www.tutorialspoint.com/compile_rust_online.php[Execute Rust code online]
-
+* link:https://www.tutorialspoint.com/compile_rust_online.php[Compile Rust code online]
+* link:https://rextester.com/l/octave_online_compiler[Execute Octave code online]
 
 == Slice sampler
 
@@ -635,6 +635,175 @@ plot(vK,vKP)
 figure(2)
 plot(vK,vY)
 disp(idxIter)
+
+
+----
+
+
+
+=== Example 6
+
+Let us consider the following _two-dimensional deterministic model_:
+\begin{eqnarray}
+ v(k,n) = \max_{ n',k',c }
+    \Bigg\{
+     U(c) - G(n) &+& \beta v(k',n')
+    \Bigg\}  \nonumber \\
+     \mbox{ s.t. } \quad f(k,n)-k'-c-(1-n) &\geq& 0 \quad [\lambda] \nonumber \nonumber \\
+     \quad \quad \quad (1-s)n + p(1-n) - n' &\geq& 0 \quad [\mu] \nonumber 
+\end{eqnarray}
+
+The first-order conditions describing the dynamics of this system are given by:
+
+\begin{eqnarray}
+k^{\theta} n^{1-\theta} - k' - c - 1 + n &=& 0 \nonumber \\
+(1-s)n + p(1-n) - n' &=& 0  \nonumber  
+\end{eqnarray}
+
+\[
+ \beta (c')^{-1} \theta k^{ \theta - 1 } n^{ 1 - \theta } = c^{ -1 }
+\]
+
+\[
+ \beta \Bigg[ -(n')^{-1} + (c')^{-1} \Bigg( 1+(1-\theta)k^{\theta}n^{-\theta} \Bigg) + \mu'(1-s-p)  \Bigg]  = \mu \nonumber 
+\]
+
+
+Using the previous equations, we can compute the steady state values for the four variables, which is given by:
+\[
+ k^* = \Bigg[ \frac{1}{\beta\theta\big( \frac{p}{s+p} \big)^{1-\theta}} \Bigg]^{\frac{1}{\theta-1}} \\
+ n^* = \frac{p}{s+p} \\
+ c^* = (k^*)^{\theta} (n^*)^{1-\theta} - k^* - 1 + n^* \\
+ \mu^* = \frac{ \beta\big[ -(n^*)^{-1} + (c^*)^{-1} \big( 1+(1-\theta)(k^*)^{\theta}(n^*)^{-\theta} \big) \big] }{1-\beta(1-s-p)}
+\]
+
+The model is parameterized as follows:
+[%header,cols=2*] 
+|===
+|Parameter
+|Value
+
+|$\beta$
+|0.95
+
+|$\theta$
+|0.2
+
+|$s$
+|0.3
+
+|$p$
+|0.75
+
+|===
+
+
+Using *Octave*
+
+[source,Octave]
+----
+
+clear;clc;
+close all;
+
+% Structural parameters
+Parameters.pBeta = .95;
+Parameters.pTheta = .2;
+Parameters.pS = .3;
+Parameters.pP = .75;
+
+% Algorithm parameters
+ iIter = 2000; % maximum number of iterations
+ Grid.nK = 3;
+ Grid.nN = 2;
+ iToler	= 10e-6;  % convergence criterion
+ 
+% Steady state value
+ dKss = ( 1 / (Parameters.pBeta*Parameters.pTheta*(Parameters.pP/(Parameters.pS+Parameters.pP))^(1-Parameters.pTheta)) )^( 1 / (Parameters.pTheta-1) );
+ dNss = Parameters.pP/(Parameters.pS+Parameters.pP);
+ dCss = (dKss)^(Parameters.pTheta)*(dNss)^(1-Parameters.pTheta)-dKss-1+dNss;
+ dMu = ( Parameters.pBeta*( -dNss^(-1)+dCss^(-1)*( 1+(1-Parameters.pTheta)*dKss^Parameters.pTheta * dNss^(-Parameters.pTheta) ) ) )/( 1-Parameters.pBeta*(1-Parameters.pS-Parameters.pP) );
+ 
+% Bounds of state space
+ dKmin	= dKss * 0.9;
+ dKmax	= dKss * 1.1;
+ dNmin = dNss * 0.9;
+ dNmax = dNss * 1.1;
+ 
+% Create a grid for K and N
+Grid.K = linspace(dKmin, dKmax,Grid.nK)'; 
+Grid.N = linspace(dNmin, dNmax,Grid.nN)'; 
+
+% Storage space for consumption
+mC = ones( (Grid.nN-1)*Grid.nK , Grid.nK);
+mY = ones( Grid.nN, Grid.nK );
+
+for iN=1:Grid.nN
+    for iKp=1:Grid.nK
+        for iK=1:Grid.nK
+            mY( iN, iK ) = Grid.K(iK)^Parameters.pTheta*Grid.N(iN)^(1-Parameters.pTheta);
+            mC( (iN-1)*Grid.nK+iKp, iK ) = Grid.K(iK)^Parameters.pTheta*Grid.N(iN)^(1-Parameters.pTheta) - Grid.K(iKp) - 1 + Grid.N(iN);
+        end
+    end
+end
+
+% Eliminate negative or zero consumption
+cp = mC > 0;
+pc = 1 - cp;
+z = 10e-5;
+mC = mC.*cp + z*pc;
+
+% Initialize the utility function
+mU = log( mC );
+
+
+% Initializing the value function vVNew
+mCF = ones( Grid.nN*Grid.nK, Grid.nN )*mY ;
+mVNew = log(mCF);
+
+
+% Initializing the value function vVOld
+vVOld = max([ mU + Parameters.pBeta*mVNew ]);
+
+
+%%% Main Iteration - BEGIN %%%
+for idxIter=1:iIter
+
+ idxIter
+
+ vVNew = max([ mU + Parameters.pBeta*( ones( Grid.nN*Grid.nK, 1 )*vVOld ) ]);
+
+ iDiff =  ( abs(vVOld-vVNew) ) / vVOld ;
+ 
+ 
+ if abs(iDiff) <= iToler
+  vVOld = vVNew;
+  break
+ else
+  vVOld = vVNew;
+ end
+
+end
+%%% Main Iteration - END %%%
+
+% Construct policy function
+[maxR,idxR] = max([ mU + Parameters.pBeta*( vVOld'*ones( 1, Grid.nK ) ) ]');
+
+
+% INCORRECT
+
+vKP  = Grid.K(idxR);
+vInv = vKP;
+
+
+figure(1)
+plot(Grid.K,vKP(1:Grid.nK))
+
+break
+figure(2)
+plot(Grid.K,mY(1,:))
+disp(idxIter)
+
 
 
 ----
