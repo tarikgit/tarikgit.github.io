@@ -697,6 +697,7 @@ The model is parameterized as follows:
 
 |===
 
+This model is a modified version of link:https://doi.org/10.1016/0304-3932(95)01216-8[Merz, 1995] and link:https://www.jstor.org/stable/2118258[Andolfatto, 1996]
 
 Using *Octave*
 
