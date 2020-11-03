@@ -610,7 +610,7 @@ for idxIter=1:iIter
  vVNew = max([ mU + pBeta*(vIota*vVOld)' ]);
 
  iDiff = ( abs(vVOld-vVNew) ) / vVOld;
- if iDiff <= iToler
+ if abs(iDiff) <= iToler
   vVOld = vVNew; 
   break
  else
@@ -786,14 +786,23 @@ for idxIter=1:iIter
 end
 %%% Main Iteration - END %%%
 
+
 % Construct policy function
-[maxR,idxR] = max([ mU + Parameters.pBeta*( vVOld'*ones( 1, Grid.nK ) ) ]');
+[maxR,idxR] = max([ mU + Parameters.pBeta*( ones( Grid.nN*Grid.nK, 1 )*vVOld ) ]');
 
+maxR
+idxR
 
-% INCORRECT
+break
+
+% INCORRECT - TBD
 
 vKP  = Grid.K(idxR);
 vInv = vKP;
+
+figure(1)
+plot(Grid.K,vKP(1:Grid.nK))
+print -dpng some_name.png;
 
 
 figure(1)
