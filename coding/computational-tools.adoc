@@ -830,7 +830,15 @@ Let us consider the following _two-dimensional deterministic model_:
      \quad \quad \quad (1-\rho_x)n + m(n,v) - n' &\geq& 0 \quad [\mu] \nonumber 
 \end{eqnarray}
 
-where $u(c,n)=u(c)-g(n)$ with $u(c)=\log(c)$ and $g(n) = \theta \frac{n^{1-\gamma_n}{1-\gamma_n}$; $m(n.v)=\mu_m v^{1-\alpha_m}[s(1-n)]^{\alpha_m}$; $c(s)=c_0 s^{\eta}$; $f(k,n)=k^{\alpha}n^{1-\alpha}$.
+where 
+$u(c,n)=u(c)-g(n)$ 
+with 
+$u(c)=\log(c)$ 
+and 
+$g(n)= \theta \frac{n^{1-\gamma_n}}{1-\gamma_n}$ ; 
+$m(n.v)=\mu_m v^{1-\alpha_m}[s(1-n)]^{\alpha_m}$ ; 
+$c(s)=c_0 s^{\eta}$ ; 
+$f(k,n)=k^{\alpha}n^{1-\alpha}$ .
 
 The model is parameterized as follows:
 [%header,cols=2*] 
