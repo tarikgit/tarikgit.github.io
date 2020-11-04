@@ -102,9 +102,11 @@ for iNp=1:Grid.nN
                   pBeta = REF(13);
                   %
                   y(1) = ( (np-(1-pRho_x)*n)*pMu_m^(-1)*( x(2)*(1-n) )^(-pAlpha_m) )^(1/(1-pAlpha_m)) - x(1);
-                  y(2) = ( pC0*pEta*pGamma^(-1)*pAlpha_m^(-1)*(1-pAlpha_m)*(1-n)*x(1)^(-1) - x(2)^(-pEta);
+                  y(2) =  pC0*pEta*pGamma^(-1)*pAlpha_m^(-1)*(1-pAlpha_m)*(1-n)*x(1)^(-1) - x(2)^(-pEta);
                 endfunction
-                [M, info] = fsolve ("functionVS", [0.03;1.9])
+                %[M, info] = fsolve ("functionVS", [0.03;1.9])
+                f = @(y) functionVS(y,REF); % function of dummy variable y
+                [M,fval]=fsolve(f,[0.03;1.9]);
                 dV = M(1);
                 dS = M(2);
                 % Compute the consumption
@@ -114,6 +116,58 @@ for iNp=1:Grid.nN
     end
 end
 
+
+
+
+% Eliminate negative or zero consumption
+cp = mC > 0;
+pc = 1 - cp;
+z = 10e-5;
+mC = mC.*cp + z*pc;
+
+
+% Initialize the utility function
+mU = log( mC );
+
+
+% Initializing the value function vVNew
+mCF = ones( Grid.nN*Grid.nK, Grid.nN )*mY ;
+mVNew = log(mCF);
+
+
+% Initializing the value function vVOld
+vVOld = max([ mU + pBeta*mVNew ]);
+
+
+%%% Main Iteration - BEGIN %%%
+for idxIter=1:iIter
+
+ %idxIter
+
+ vVNew = max([ mU + pBeta*( ones( Grid.nN*Grid.nK, 1 )*vVOld ) ]);
+
+ iDiff =  ( abs(vVOld-vVNew) ) / vVOld ;
+
+
+ if abs(iDiff) <= iToler
+  vVOld = vVNew;
+  break
+ else
+  vVOld = vVNew;
+ end
+
+end
+%%% Main Iteration - END %%%
+
+
+% Construct policy function
+[maxR,idxR] = max([ mU + pBeta*( ones( Grid.nN*Grid.nK, 1 )*vVOld ) ]');
+
+maxR
+idxR
+
+
+disp("done!")
 
 
 
