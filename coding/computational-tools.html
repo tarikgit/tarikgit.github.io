@@ -1345,7 +1345,7 @@ k^{\theta} n^{1-\theta} - k' - c - 1 + n &amp;=&amp; 0 \nonumber \\
 </tbody>
 </table>
 <div class="paragraph">
-<p>This model is a modified version of <a href=https://doi.org/10.1016/0304-3932(95)01216-8>Merz, 1995</a> and <a href=https://www.jstor.org/stable/2118258>Andolfatto, 1996</a></p>
+<p>This model is a modified version of <a href=https://doi.org/10.1016/0304-3932(95)01216-8>Merz, 1995</a> and <a href=https://www.jstor.org/stable/2118258>Andolfatto, 1996</a>.</p>
 </div>
 <div class="paragraph">
 <p>Using <strong>Octave</strong></p>
@@ -1464,12 +1464,429 @@ disp(idxIter)</code></pre>
 </div>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_example_7">Example 7</h3>
+<div class="paragraph">
+<p>Let us consider the following <em>two-dimensional deterministic model</em>:
+\begin{eqnarray}
+ w(k,n) = \max_{ c, v, s, k', n' }
+    \Bigg\{
+     u(c) - g(n) &amp;&amp; \beta v(k',n')
+    \Bigg\}  \nonumber \\
+     \mbox{ s.t. } \quad f(k,n) - k' + (1\delta) -c(s)\cdot (1-n) - \gamma v - c &amp;\geq&amp; 0 \quad [\lambda] \nonumber \nonumber \\
+     \quad \quad \quad (1-\rho_x)n + m(n,v) - n' &amp;\geq&amp; 0 \quad [\mu] \nonumber
+\end{eqnarray}</p>
+</div>
+<div class="paragraph">
+<p>where \(u(c,n)=u(c)-g(n)\) with \(u(c)=\log(c)\) and \(g(n) = \theta \frac{n^{1-\gamma_n}{1-\gamma_n}\); \(m(n.v)=\mu_m v^{1-\alpha_m}[s(1-n)^{\alpha_m}\)]; \(c(s)=c_0 s^{\eta}\); \(f(k,n)=k^{\alpha}n^{1-\alpha}\).</p>
+</div>
+<div class="paragraph">
+<p>The model is parameterized as follows:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Parameter</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\alpha\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.36</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\alpha_m\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.40</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\theta\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\gamma_n\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(-\frac{1}{1.25}\)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(c_0\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.005</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\delta\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.022</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\rho_x\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.07</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\mu_m\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\gamma\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.05</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\beta\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0,99</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>The steady state values for this model are:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Parameter</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(c\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.721</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(v\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.039</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(s\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.917</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(k\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">40.553</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(n\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.928</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>using <strong>Dynare</strong></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-Dynare" data-lang="Dynare">var c k n v i s f f_k f_n m m_v m_s m_n cs u_c g_n cs_s ;
+
+varexo z;
+
+parameters  	pAlpha pBeta pDelta pEta pGamma_n pAlpha_m
+		pRho_x pMu pA pC0 pRho pSigmaeps pMuz;
+
+pAlpha	= 0.36;
+pBeta 	= 0.99;
+pDelta 	= 0.022;
+pEta 	= 1;
+pGamma_n 	= -1/1.25;
+pAlpha_m	= 0.40;
+pRho_x 	= 0.07;
+pMu 	= 0.004;
+pA 	= 0.05;
+pC0 	= 0.005;
+pRho 	= 0.95;
+pSigmaeps = 0.007;
+
+pMuz	= 1;
+
+model;
+// Production function
+f = z*k(-1)^pAlpha*n(-1)^(1-pAlpha);
+// Marginal productivity of capital
+f_k = pAlpha*z*k(-1)^(pAlpha-1)*n(-1)^(1-pAlpha);
+// Marginal productivity of labor
+f_n = (1-pAlpha)*z*k(-1)^pAlpha*n(-1)^(-pAlpha);
+// Matching function
+m = v^(1-pAlpha_m)*( s*( 1-n(-1) ) )^pAlpha_m;
+// Matching function - derivative w.r.t. vacancy
+m_v = (1-pAlpha_m)*v^(-pAlpha_m)*( s*( 1-n(-1) ) )^pAlpha_m;
+// Matching function - derivative w.r.t. search effort
+m_s = pAlpha_m*( 1-n(-1) )*v^(1-pAlpha_m)*( s*(1-n(-1)) )^(pAlpha_m-1);
+// Matching function - derivative w.r.t. employment
+m_n = -pAlpha_m*s*v^(1-pAlpha_m)*( s*( 1-n(-1) ) )^(pAlpha_m-1);
+// Marginal utility for consumption
+u_c = 1/c;
+// Marginal utility for labor
+g_n = n(-1)^(-1/pGamma_n);
+// Cost for search effort
+cs = pC0*s^pEta;
+// Cost for search effort - derivative w.r.t. search effort
+cs_s = pEta*pC0*s^(pEta-1);
+// P1
+u_c = pBeta*( u_c(+1)*( f_k(+1) + (1-pDelta) ) );
+// P2
+( pA*u_c ) / m_v = pBeta*
+	(
+	 u_c(+1)*( f_n(+1)+cs(+1) )
+	 - g_n(+1)
+	 + ( ( pA*u_c(+1) ) / m_v(+1) ) * ( (1-pRho_x)+m_n(+1) )
+	);
+// P3
+( u_c*cs*( 1-n(-1) ) ) / m_s = pBeta*
+	(
+	 u_c(+1) * ( f_n(+1) + cs(+1) )
+	 - g_n(+1)
+	 + ( ( u_c(+1)*cs(+1)*( 1-n ) ) / m_s(+1) ) * ( (1-pRho_x)+m_n(+1) )
+	);
+// Budget constraint
+c = f - i - cs*( 1-n(-1) ) - pA*v;
+// Investment
+k = (1-pDelta)*k(-1) + i;
+// Employment dynamics
+n = (1-pRho_x)*n(-1) + m;
+end;
+
+initval;
+c    = 2.67327;
+k    = 39.8371;
+n    = 0.912013;
+z    = 1;
+v    = 0.0366684;
+i    = 0.876417;
+s    = 1.66683;
+f    = 3.55226;
+f_k  = 0.032101;
+f_n  = 2.49278;
+m    = 0.0638409;
+m_v  = 1.04462;
+m_s  = 0.0153203;
+m_n  = -0.290228;
+cs   = 0.00833414;
+u_c  = 0.374073;
+g_n  = 0.928968;
+cs_s =  0.005;
+end;
+
+steady;
+
+endval;
+ z = 1;
+end;
+
+check;
+
+// Declare a positive technological shock in period 1
+//shocks;
+//var z; stderr 0.001;
+//end;
+
+
+//stoch_simul(order=1);
+simul(periods=300);</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>using <strong>Octave</strong></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-Octave" data-lang="Octave">%pAlpha, pAlpha_m, pTheta, pGamma_n, pC0, pEta, pDelta, pRho_x, pMu_m, pGamma, pBeta
+
+% Structural parameters
+global pAlpha = 0.36;
+global pAlpha_m = 0.40;
+global pTheta = 1;
+global pGamma_n = -1/1.25;
+global pC0 = 0.005;
+global pEta = 1;
+global pDelta = 0.022;
+global pRho_x = 0.07;
+global pMu_m = 1;
+global pGamma = 0.05;
+global pBeta = 0.99;
+
+% Computing the steady state
+
+PARAMS = [pAlpha, pAlpha_m, pTheta, pGamma_n, pC0, pEta, pDelta, pRho_x, pMu_m, pGamma, pBeta];
+
+% 1  2  3  4  5    6     7
+% c, v, s, k, n, lambda, mu
+function y = f(x, PARAMS)
+
+% Model parameters
+%pAlpha = 0.36;
+%pAlpha_m = 0.40;
+%pTheta = 1;
+%pGamma_n = -1/1.25;
+%pC0 = 0.005;
+%pEta = 1;
+%pDelta = 0.022;
+%pRho_x = 0.07;
+%pMu_m = 1;
+%pGamma = 0.05;
+%pBeta = 0.99;
+
+
+pAlpha = PARAMS(1);
+pAlpha_m = PARAMS(2);
+pTheta = PARAMS(3);
+pGamma_n = PARAMS(4);
+pC0 = PARAMS(5);
+pEta = PARAMS(6);
+pDelta = PARAMS(7);
+pRho_x = PARAMS(8);
+pMu_m = PARAMS(9);
+pGamma = PARAMS(10);
+pBeta = PARAMS(11);
+
+
+ y(1) = x(4)^pAlpha*x(5)^(1-pAlpha) -pDelta*x(4) -pC0*x(3)^pEta*(1-x(5))-pGamma*x(2)-x(1);
+ y(2) = (1-pRho_x)*x(5) + pMu_m*x(2)^(1-pAlpha_m)*( x(3)*(1-x(5)) )^pAlpha_m - x(5);
+ y(3) = pBeta*( pAlpha*x(4)^(pAlpha-1)*x(5)^(1-pAlpha) + (1-pDelta) ) - 1;
+ y(4) = pBeta*( -pTheta*x(5)^(-pGamma_n) + x(6)*( (1-pAlpha)*x(4)^pAlpha*x(5)^(-pAlpha)+pC0*x(3)^pEta ) + x(7)*( (1-pRho_x)-pMu_m*pAlpha_m*x(2)^(1-pAlpha_m)*x(3)^pAlpha_m*(1-x(5))^(pAlpha_m-1) ) ) - x(7);
+ y(5) = 1/x(1) - x(6);
+ y(6) = x(7)*( pMu_m*(1-pAlpha_m)*x(2)^(-pAlpha_m)*( x(3)*(1-x(5)) )^(pAlpha_m) )-pGamma*x(6);
+ y(7) = x(7)*pMu_m*x(2)^(1-pAlpha_m)*pAlpha_m*x(3)^(pAlpha_m-1)*(1-x(5))^pAlpha_m-x(6)*pC0*pEta*x(3)^(pEta-1)*(1-x(5));
+
+endfunction
+
+%[x, info] = fsolve ("f", [2.5; 0.03; 1.9; 30; 0.8; 1; 0.1; 0.02; 1])
+f = @(y) f(y,PARAMS); % function of dummy variable y
+[x,fval]=fsolve(f,[2.5; 0.03; 1.9; 30; 0.8; 1; 0.1; 0.02; 1]);
+
+
+
+% The steady state values
+dCss = x(1);
+dVss = x(2);
+dSss = x(3);
+dKss = x(4);
+dNss = x(5);
+dLambda_ss = x(6);
+dMu_ss = x(7);
+
+
+% Algorithm parameters
+iIter = 2000; % maximum number of iterations
+Grid.nK = 30;
+Grid.nN = 20;
+iToler	= 10e-6;  % convergence criterion
+
+% Bounds of state space
+dKmin	= dKss * 0.99;
+dKmax	= dKss * 1.01;
+dNmin = dNss * 0.99;
+dNmax = dNss * 1.01;
+
+% Create a grid for K and N
+Grid.K = linspace(dKmin, dKmax,Grid.nK)';
+Grid.N = linspace(dNmin, dNmax,Grid.nN)';
+
+% Storage space for consumption
+mC = ones( (Grid.nN-1)*Grid.nK , Grid.nK);
+mY = ones( Grid.nN, Grid.nK );
+
+for iNp=1:Grid.nN
+    for iN=1:Grid.nN
+        for iKp=1:Grid.nK
+            for iK=1:Grid.nK
+                mY( iN, iK ) = Grid.K(iK)^pAlpha*Grid.N(iN)^(1-pAlpha);
+                % For given n and n', solve for v and s:
+                % 1 2
+                % v s
+                REF = [Grid.N(iNp), Grid.N(iN), pAlpha, pAlpha_m, pTheta, pGamma_n, pC0, pEta, pDelta, pRho_x, pMu_m, pGamma, pBeta];
+                function y = functionVS(x, REF)
+                  %
+                  np = REF(1);
+                  n = REF(2);
+                  pAlpha = REF(3);
+                  pAlpha_m = REF(4);
+                  pTheta = REF(5);
+                  pGamma_n = REF(6);
+                  pC0 = REF(7);
+                  pEta = REF(8);
+                  pDelta = REF(9);
+                  pRho_x = REF(10);
+                  pMu_m = REF(11);
+                  pGamma = REF(12);
+                  pBeta = REF(13);
+                  %
+                  y(1) = ( (np-(1-pRho_x)*n)*pMu_m^(-1)*( x(2)*(1-n) )^(-pAlpha_m) )^(1/(1-pAlpha_m)) - x(1);
+                  y(2) =  pC0*pEta*pGamma^(-1)*pAlpha_m^(-1)*(1-pAlpha_m)*(1-n)*x(1)^(-1) - x(2)^(-pEta);
+                endfunction
+                %[M, info] = fsolve ("functionVS", [0.03;1.9])
+                f = @(y) functionVS(y,REF); % function of dummy variable y
+                [M,fval]=fsolve(f,[0.03;1.9]);
+                dV = M(1);
+                dS = M(2);
+                % Compute the consumption
+                mC( (iN-1)*Grid.nK+iKp, iK ) = Grid.K(iK)^pAlpha*Grid.N(iN)^(1-pAlpha) - Grid.K(iKp) + (1-pDelta)*Grid.K(iK) - pC0*dS^pEta*(1-Grid.N(iN)) - pGamma*dV;
+            end
+        end
+    end
+end
+
+
+% Eliminate negative or zero consumption
+cp = mC &gt; 0;
+pc = 1 - cp;
+z = 10e-5;
+mC = mC.*cp + z*pc;
+
+
+% Initialize the utility function
+mU = log( mC );
+
+
+% Initializing the value function vVNew
+mCF = ones( Grid.nN*Grid.nK, Grid.nN )*mY ;
+mVNew = log(mCF);
+
+
+% Initializing the value function vVOld
+vVOld = max([ mU + pBeta*mVNew ]);
+
+
+%%% Main Iteration - BEGIN %%%
+for idxIter=1:iIter
+
+ %idxIter
+
+ vVNew = max([ mU + pBeta*( ones( Grid.nN*Grid.nK, 1 )*vVOld ) ]);
+
+ iDiff =  ( abs(vVOld-vVNew) ) / vVOld ;
+
+
+ if abs(iDiff) &lt;= iToler
+  vVOld = vVNew;
+  break
+ else
+  vVOld = vVNew;
+ end
+
+end
+%%% Main Iteration - END %%%
+
+
+% Construct policy function
+[maxR,idxR] = max([ mU + pBeta*( ones( Grid.nN*Grid.nK, 1 )*vVOld ) ]');
+
+maxR
+idxR
+
+
+disp("done!")</code></pre>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-11-03 20:57:32 +0100
+Last updated 2020-11-05 00:27:00 +0100
 </div>
 </div>
 <script type="text/x-mathjax-config">
