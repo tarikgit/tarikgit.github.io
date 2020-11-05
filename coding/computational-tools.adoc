@@ -1041,41 +1041,27 @@ PARAMS = [pAlpha, pAlpha_m, pTheta, pGamma_n, pC0, pEta, pDelta, pRho_x, pMu_m, 
 % 1  2  3  4  5    6     7
 % c, v, s, k, n, lambda, mu
 function y = f(x, PARAMS)
- 
-% Model parameters
-%pAlpha = 0.36;
-%pAlpha_m = 0.40;
-%pTheta = 1;
-%pGamma_n = -1/1.25;
-%pC0 = 0.005;
-%pEta = 1;
-%pDelta = 0.022;
-%pRho_x = 0.07;
-%pMu_m = 1;
-%pGamma = 0.05;
-%pBeta = 0.99;
- 
 
-pAlpha = PARAMS(1);
-pAlpha_m = PARAMS(2);
-pTheta = PARAMS(3);
-pGamma_n = PARAMS(4);
-pC0 = PARAMS(5);
-pEta = PARAMS(6);
-pDelta = PARAMS(7);
-pRho_x = PARAMS(8);
-pMu_m = PARAMS(9);
-pGamma = PARAMS(10);
-pBeta = PARAMS(11);
+    pAlpha = PARAMS(1);
+    pAlpha_m = PARAMS(2);
+    pTheta = PARAMS(3);
+    pGamma_n = PARAMS(4);
+    pC0 = PARAMS(5);
+    pEta = PARAMS(6);
+    pDelta = PARAMS(7);
+    pRho_x = PARAMS(8);
+    pMu_m = PARAMS(9);
+    pGamma = PARAMS(10);
+    pBeta = PARAMS(11);
 
- 
- y(1) = x(4)^pAlpha*x(5)^(1-pAlpha) -pDelta*x(4) -pC0*x(3)^pEta*(1-x(5))-pGamma*x(2)-x(1);
- y(2) = (1-pRho_x)*x(5) + pMu_m*x(2)^(1-pAlpha_m)*( x(3)*(1-x(5)) )^pAlpha_m - x(5);
- y(3) = pBeta*( pAlpha*x(4)^(pAlpha-1)*x(5)^(1-pAlpha) + (1-pDelta) ) - 1;
- y(4) = pBeta*( -pTheta*x(5)^(-pGamma_n) + x(6)*( (1-pAlpha)*x(4)^pAlpha*x(5)^(-pAlpha)+pC0*x(3)^pEta ) + x(7)*( (1-pRho_x)-pMu_m*pAlpha_m*x(2)^(1-pAlpha_m)*x(3)^pAlpha_m*(1-x(5))^(pAlpha_m-1) ) ) - x(7);
- y(5) = 1/x(1) - x(6);
- y(6) = x(7)*( pMu_m*(1-pAlpha_m)*x(2)^(-pAlpha_m)*( x(3)*(1-x(5)) )^(pAlpha_m) )-pGamma*x(6);
- y(7) = x(7)*pMu_m*x(2)^(1-pAlpha_m)*pAlpha_m*x(3)^(pAlpha_m-1)*(1-x(5))^pAlpha_m-x(6)*pC0*pEta*x(3)^(pEta-1)*(1-x(5));
+
+     y(1) = x(4)^pAlpha*x(5)^(1-pAlpha) -pDelta*x(4) -pC0*x(3)^pEta*(1-x(5))-pGamma*x(2)-x(1);
+     y(2) = (1-pRho_x)*x(5) + pMu_m*x(2)^(1-pAlpha_m)*( x(3)*(1-x(5)) )^pAlpha_m - x(5);
+     y(3) = pBeta*( pAlpha*x(4)^(pAlpha-1)*x(5)^(1-pAlpha) + (1-pDelta) ) - 1;
+     y(4) = pBeta*( -pTheta*x(5)^(-pGamma_n) + x(6)*( (1-pAlpha)*x(4)^pAlpha*x(5)^(-pAlpha)+pC0*x(3)^pEta ) + x(7)*( (1-pRho_x)-pMu_m*pAlpha_m*x(2)^(1-pAlpha_m)*x(3)^pAlpha_m*(1-x(5))^(pAlpha_m-1) ) ) - x(7);
+     y(5) = 1/x(1) - x(6);
+     y(6) = x(7)*( pMu_m*(1-pAlpha_m)*x(2)^(-pAlpha_m)*( x(3)*(1-x(5)) )^(pAlpha_m) )-pGamma*x(6);
+     y(7) = x(7)*pMu_m*x(2)^(1-pAlpha_m)*pAlpha_m*x(3)^(pAlpha_m-1)*(1-x(5))^pAlpha_m-x(6)*pC0*pEta*x(3)^(pEta-1)*(1-x(5));
  
 endfunction
 
@@ -1140,7 +1126,8 @@ for iNp=1:Grid.nN
                   pGamma = REF(12);
                   pBeta = REF(13);
                   %
-                  y(1) = ( (np-(1-pRho_x)*n)*pMu_m^(-1)*( x(2)*(1-n) )^(-pAlpha_m) )^(1/(1-pAlpha_m)) - x(1);
+                  y(1) = ( (np-(1-pRho_x)*n)*pMu_m^(-1)*( x(2)*(1-n) )^(-pAlpha_m) )^(1/(1-pAlpha_m)) ...
+                            - x(1);
                   y(2) =  pC0*pEta*pGamma^(-1)*pAlpha_m^(-1)*(1-pAlpha_m)*(1-n)*x(1)^(-1) - x(2)^(-pEta);
                 endfunction
                 %[M, info] = fsolve ("functionVS", [0.03;1.9])
@@ -1149,7 +1136,11 @@ for iNp=1:Grid.nN
                 dV = M(1);
                 dS = M(2);
                 % Compute the consumption
-                mC( (iN-1)*Grid.nK+iKp, iK ) = Grid.K(iK)^pAlpha*Grid.N(iN)^(1-pAlpha) - Grid.K(iKp) + (1-pDelta)*Grid.K(iK) - pC0*dS^pEta*(1-Grid.N(iN)) - pGamma*dV;
+                mC( (iN-1)*Grid.nK+iKp, iK ) = Grid.K(iK)^pAlpha*Grid.N(iN)^(1-pAlpha) ...
+                                                - Grid.K(iKp) ...
+                                                + (1-pDelta)*Grid.K(iK) ...
+                                                - pC0*dS^pEta*(1-Grid.N(iN)) ...
+                                                - pGamma*dV;
             end
         end
     end
