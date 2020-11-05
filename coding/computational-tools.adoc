@@ -903,6 +903,8 @@ The steady state values for this model are:
 |===
 
 
+The following code is an implementation of the _perturbation method_ for solving this model.
+
 using *Dynare*
 [source,Dynare]
 ----
@@ -1015,6 +1017,10 @@ simul(periods=300);
 
 ----
 
+The following code gives an implementation of the _value function iteration_. 
+For this we need to construct a grid for the _state space_ of the model, which is givven in the following diagram:
+
+image::dynamicprogramming/vfi2dgrid.png[VFIGRID,300,200]
 
 using *Octave*
 [source,Octave]
@@ -1198,7 +1204,8 @@ idxR
 disp("done!")
 
 
-
-
-
 ----
+
+
+
+

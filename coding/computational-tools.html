@@ -1583,6 +1583,9 @@ and
 </tbody>
 </table>
 <div class="paragraph">
+<p>The following code is an implementation of the <em>perturbation method</em> for solving this model.</p>
+</div>
+<div class="paragraph">
 <p>using <strong>Dynare</strong></p>
 </div>
 <div class="listingblock">
@@ -1693,6 +1696,15 @@ check;
 
 //stoch_simul(order=1);
 simul(periods=300);</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The following code gives an implementation of the <em>value function iteration</em>.
+For this we need to construct a grid for the <em>state space</em> of the model, which is givven in the following diagram:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="dynamicprogramming/vfi2dgrid.png" alt="VFIGRID" width="300" height="200">
 </div>
 </div>
 <div class="paragraph">
@@ -1885,7 +1897,7 @@ disp("done!")</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-11-05 07:14:38 +0100
+Last updated 2020-11-05 08:18:47 +0100
 </div>
 </div>
 <script type="text/x-mathjax-config">
