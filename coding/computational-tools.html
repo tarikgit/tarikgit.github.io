@@ -1804,7 +1804,7 @@ for iNp=1:Grid.nN
                 % For given n and n', solve for v and s:
                 % 1 2
                 % v s
-                REF = [Grid.N(iNp), Grid.N(iN), pAlpha, pAlpha_m, pTheta, pGamma_n, pC0, pEta, pDelta, pRho_x, pMu_m, pGamma, pBeta];
+                REF = [Grid.N(iNp), Grid.N(iN), PARAMS];
                 function y = functionVS(x, REF)
                   %
                   np = REF(1);
@@ -1894,7 +1894,7 @@ disp("done!")</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-11-05 00:33:32 +0100
+Last updated 2020-11-05 06:59:14 +0100
 </div>
 </div>
 <script type="text/x-mathjax-config">

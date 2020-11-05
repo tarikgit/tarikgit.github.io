@@ -1123,7 +1123,7 @@ for iNp=1:Grid.nN
                 % For given n and n', solve for v and s:
                 % 1 2
                 % v s
-                REF = [Grid.N(iNp), Grid.N(iN), pAlpha, pAlpha_m, pTheta, pGamma_n, pC0, pEta, pDelta, pRho_x, pMu_m, pGamma, pBeta];
+                REF = [Grid.N(iNp), Grid.N(iN), PARAMS];
                 function y = functionVS(x, REF)
                   %
                   np = REF(1); 
