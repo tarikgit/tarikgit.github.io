@@ -639,6 +639,8 @@ disp(idxIter)
 
 ----
 
+*Alternative version*
+TBD
 
 
 === Example 6
