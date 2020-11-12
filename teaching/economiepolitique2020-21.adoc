@@ -38,6 +38,12 @@
 link:https://tarikgit.github.io/teaching/economiepolitique/04-Demande.pdf[Résumé] +
 link:https://tarikgit.github.io/teaching/economiepolitique/05-Correction-de-l-activite-3-et-4.pdf[Éléments de correction de l'activité 3 et 4]
 
+
+|7
+|11/11/2020
+|
+|link:https://tarikgit.github.io/teaching/economiepolitique/06-Correction-DEC-I-1.pdf[Correction du devoir en classe I.1.]
+
 |===
 
 {blank} +
