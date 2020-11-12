@@ -1264,6 +1264,107 @@ disp(idxIter)</code></pre>
 <p><strong>Alternative version</strong>
 TBD</p>
 </div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-Octave" data-lang="Octave">% Deterministic Growth model
+% Original code by Eric Sims
+% Tarik OCAKTAN - Luxembourg - November 2020
+
+% State space dimension = 1
+
+% Notation:
+%  pName : structural parameters
+%  iName : total number of variables related to the algorithm
+%  idxName : indexation used in loops, i.e. idxName = 1,...,iName
+%  dName : integer of a specific value of a variable, i.e. dNamess=steady state
+%          of
+%							   variable 'Name'
+%  vName : vector containing values of variable 'Name'
+%  mName : matrix containing values of a variable 'Name'
+
+clear;clc;
+close all;
+
+global v0 pBeta pDelta pAlpha vK k0 s
+
+% Structural parameters
+pAlpha	=  .33;
+pBeta	=  .95;
+pDelta  = 0.1;
+s       = 2;
+
+% Value function
+function val=valfun(k)
+
+    % This program gets the value function for a neoclassical growth model with
+    % no uncertainty and CRRA utility
+    global v0 pBeta pDelta pAlpha vK k0 s
+    g = interp1(vK,v0,k,'linear'); % smooths out previous value function
+    c = k0^pAlpha-k + (1-pDelta)*k0; % consumption
+    if c&lt;=0
+        val =-888888888888888888-800*abs(c); % keeps it from going negative
+    else
+        val=(1/(1-s))*(c^(1-s)-1) + pBeta*g;
+    end
+    val =-val; % make it negative since we're maximizing and code is to minimize.
+
+endfunction
+
+
+% Algorithm parameters
+ iIter = 1000; % maximum number of iterations
+ iGridPoints = 4;
+ iToler	= 0.01;  % convergence criterion
+
+% Steady state value
+ dKss = (pAlpha/(1/pBeta-(1-pDelta)))^(1/(1-pAlpha));
+ dCss = dKss^(pAlpha)-pDelta*dKss;
+ dIss = pDelta*dKss;
+ dYss = dKss^pAlpha;
+
+% Bounds of state space
+ dKmin	= dKss * 0.25;
+ dKmax	= dKss * 1.75;
+% Construct a grid
+ iStep	= (dKmax-dKmin) / (iGridPoints-1);
+ vK	= [dKmin:iStep:dKmax]';
+ iGridPoints = size(vK,1); % overwriting iGridPoints in order to take into
+			   % account additional point
+
+ polfun = zeros(iGridPoints,1);
+
+ v0 = zeros(iGridPoints,1);
+
+ iDif = 10;
+ idxIter = 0;
+
+
+
+while iDif&gt;iToler &amp; idxIter&lt;iIter
+
+    for i = 1:iGridPoints
+
+        k0 = vK(i,1);
+        k1 = fminbnd(@valfun,dKmin,dKmax);
+        v1(i,1) = -valfun(k1);
+        k11(i,1) = k1;
+
+    end
+
+iDif = norm(v1-v0);
+v0 = v1;
+idxIter = idxIter+1;
+
+end
+
+break
+
+for i = 1:iGridPoints
+    con(i,1) = vK(i,1)^(pAlpha)-k11(i,1) + (1-pDelta)*vK(i,1);
+    polfun(i,1) = vK(i,1)^(pAlpha)-k11(i,1) + (1-pDelta)*vK(i,1);
+end</code></pre>
+</div>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_example_6">Example 6</h3>
@@ -1901,7 +2002,7 @@ disp("done!")</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-11-08 08:39:23 +0100
+Last updated 2020-11-11 19:01:09 +0100
 </div>
 </div>
 <script type="text/x-mathjax-config">
