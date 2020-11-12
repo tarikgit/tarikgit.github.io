@@ -719,7 +719,7 @@ endfunction
 
 
 
-while iDif>iToler & idxIter<iIter
+while iDif>iToler && idxIter<iIter
 
     for i = 1:iGridPoints
     
