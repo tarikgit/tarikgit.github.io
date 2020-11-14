@@ -744,17 +744,15 @@ for i = 1:iGridPoints
 end
 
 
-
-
-
-
-
-
- 
   
 ----
 
 
+
+*Alternative version*
+This julia code contains an error and will be fixed soon ...
+
+link:https://tarikgit.github.io/coding/dynamicprogramming/vfi-1D-julia.html[Julia code for value function iteration of a 1D problem.]
 
 === Example 6
 
