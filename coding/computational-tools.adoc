@@ -1320,5 +1320,24 @@ disp("done!")
 ----
 
 
+== Functional approximation: Piecewise linear interpolation
 
+If $(x_i, y_i)$ is the data, then the _piecewise linear interpolant_ $\hat{f}(x)$ is given by the formula:
+\begin{eqnarray}
+ \hat{f}(x) = y_i + \frac{x-x_i}{x_{i+1}-x_i} (y_{i+1}-y_i) \quad \quad x\in[x_i,x_{i+1}]
+ \nonumber
+\end{eqnarray}
+ The *julia code* for this interpolation is given by:
+
+[source,julia]
+----
+
+function interpolate1D(vX, vY, x)
+    imin = sum(vX.<x);
+    imax = sum(vX.<x)+1;
+    y = vY[imin]+( x-vX[imin] )/( vX[imax]-vX[imin] )*(vY[imax]-vY[imin]);
+    return y
+end
+
+----
 

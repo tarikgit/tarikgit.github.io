@@ -2006,10 +2006,33 @@ disp("done!")</code></pre>
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_functional_approximation_piecewise_linear_interpolation">Functional approximation: Piecewise linear interpolation</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If \((x_i, y_i)\) is the data, then the <em>piecewise linear interpolant</em> \(\hat{f}(x)\) is given by the formula:
+\begin{eqnarray}
+ \hat{f}(x) = y_i + \frac{x-x_i}{x_{i+1}-x_i} (y_{i+1}-y_i) \quad \quad x\in[x_i,x_{i+1}]
+ \nonumber
+\end{eqnarray}
+ The <strong>julia code</strong> for this interpolation is given by:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-julia" data-lang="julia">function interpolate1D(vX, vY, x)
+    imin = sum(vX.&lt;x);
+    imax = sum(vX.&lt;x)+1;
+    y = vY[imin]+( x-vX[imin] )/( vX[imax]-vX[imin] )*(vY[imax]-vY[imin]);
+    return y
+end</code></pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-11-14 09:37:38 +0100
+Last updated 2020-11-14 09:54:22 +0100
 </div>
 </div>
 <script type="text/x-mathjax-config">
