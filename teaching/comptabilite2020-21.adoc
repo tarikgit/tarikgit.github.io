@@ -109,7 +109,7 @@ Voir sur _Teams_ le corrigé de l'exercice 9 p.263.
 | 
 | 18/11/2020
 | Les amortissements (Exercices 4 et 6) 
-| link:https://tarikgit.github.io/teaching/comptabilite-cours/14-Exercice-4-p-354-et-exercice-6-p-355[Présentation]
+| link:https://tarikgit.github.io/teaching/comptabilite-cours/14-Exercice-4-p-354-et-exercice-6-p-355.pdf[Présentation]
 
 |
 |
