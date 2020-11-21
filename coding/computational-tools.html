@@ -429,7 +429,50 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
+
+<style>
+  .click .title { color: blue; }
+  .click {margin-top: 0.5em; margin-bottom: 0.5em;}
+  .openblock { margin-top: 1em; margin-bottom: 1em; }
+  .openblock>.box>.content { margin-top:1em;margin-bottom: 1em;margin-left:3em;margin-right:4em; }
+</style>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<script>
+
+
+
+var ready2;
+
+ready2 = function() {
+
+    $(document).ready(function(){
+
+        $('.openblock.click').click( function()  { $(this).find('.content').slideToggle('200'); } )
+        $('.openblock.click').find('.content').hide()
+
+
+        $('.listingblock.click').click( function()  { $(this).find('.content').slideToggle('200') }  )
+        $('.listingblock.click').find('.content').hide()
+
+    });
+
+}
+
+
+
+
+$(document).ready(ready2);
+$(document).on('page:load', ready2);
+
+
+</script>
+
 </head>
+
+
 <body class="article">
 <div id="header">
 <h1>Computational Tools</h1>
@@ -443,16 +486,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://rextester.com/l/r_online_compiler">Execute R codes online</a></p>
+<p><a href=https://rextester.com/l/r_online_compiler>Execute R codes online</a></p>
 </li>
 <li>
-<p><a href="https://repl.it/languages/julia">Execute Julia code online</a></p>
+<p><a href=https://repl.it/languages/julia>Execute Julia code online</a></p>
 </li>
 <li>
-<p><a href="https://www.tutorialspoint.com/compile_rust_online.php">Compile Rust code online</a></p>
+<p><a href=https://www.tutorialspoint.com/compile_rust_online.php>Compile Rust code online</a></p>
 </li>
 <li>
-<p><a href="https://rextester.com/l/octave_online_compiler">Execute Octave code online</a></p>
+<p><a href=https://rextester.com/l/octave_online_compiler>Execute Octave code online</a></p>
 </li>
 </ul>
 </div>
@@ -462,7 +505,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_slice_sampler">Slice sampler</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This part is taken from <a href="https://www.springer.com/gp/book/9780387212395">Robert and Casella (2004)</a>.</p>
+<p>This part is taken from <a href=https://www.springer.com/gp/book/9780387212395>Robert and Casella (2004)</a>.</p>
 </div>
 <div class="paragraph">
 <p>At iteration <em>t</em>, simulate:</p>
@@ -472,15 +515,18 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
  u^{(t+1)} &amp;\sim&amp; U_{[0,f(x^{(t)}]} \nonumber \\
  x^{(t+1)} &amp;\sim&amp; U_{A^{(t+1)}} \nonumber
 \end{eqnarray}
-with $A^{(t+1)} = \{ x: f(x) \geq u^{(t+1)} \}$</p>
+with \(A^{(t+1)} = \{ x: f(x) \geq u^{(t+1)} \}\)</p>
 </div>
 <div class="sect2">
 <h3 id="_example_1">Example 1</h3>
 <div class="paragraph">
 <p>In this example, the <em>slice sampler</em> will be used to simulate from the density:
+
 \[
 f(x)=\frac{1}{2}\exp( -\sqrt{x} )
-\]</p>
+\]
+
+</p>
 </div>
 <div class="paragraph">
 <p>At iteration <em>t</em>, simulate:
@@ -551,7 +597,7 @@ histogram(x)</code></pre>
 <div class="sect2">
 <h3 id="_example_2">Example 2</h3>
 <div class="paragraph">
-<p>Now we consider a truncated normal distribution $\mathcal{N}$(3,1), which is restricted to the interval [0,1].</p>
+<p>Now we consider a truncated normal distribution \(\mathcal{N}\)(3,1), which is restricted to the interval [0,1].</p>
 </div>
 <div class="paragraph">
 <p>In this example, the <em>slice sampler</em> will be used to simulate from the density:</p>
@@ -605,13 +651,19 @@ hist(obs,main="Slice sample",freq=F,col="green", breaks=25)</code></pre>
   \int^1_0 h(x) dx \nonumber
 \end{eqnarray}
 can be calculated by generating
+
 \[
    U_1, U_2, \ldots, U_n  \sim  iid \quad U(0,1)
 \]
-random variables, and approximate $\int h(x) dx$ with
+
+
+random variables, and approximate \(\int h(x) dx\) with
+
 \[
    \sum^n_{i=1} h(U_i)/n
-\]</p>
+\]
+
+</p>
 </div>
 <div class="paragraph">
 <p>Using <strong>R</strong></p>
@@ -644,37 +696,46 @@ lower &lt;- hplot-stdh/sqrt(den)</code></pre>
 <h2 id="_simulated_annealing">Simulated Annealing</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Given a <em>temperature</em> parameter $T&gt;0$, a sample $\theta^T_1, \theta^T_2, \ldots$ is generated from the distribution
+<p>Given a <em>temperature</em> parameter \(T>0\), a sample \(\theta^T_1, \theta^T_2, \ldots\) is generated from the distribution
+
 \[
  \pi(\theta) \varpropto \exp( h(\theta)/T )
-\]</p>
+\]
+
+</p>
 </div>
 <div class="sect2">
 <h3 id="_example_3">Example 3</h3>
 <div class="paragraph">
 <p>We are searching for the maximum of the following function
+
 \[
   h(x) = [ \cos(50x) + \sin(20x) ]^2
 \]
+
+
 Note: Variable</p>
 </div>
 <div class="paragraph">
-<p>At iteration <em>t</em> the algorithm is at $( x<sup>{(t)},h</sup>{(t)} )$:</p>
+<p>At iteration <em>t</em> the algorithm is at \(( x^{(t)},h^{(t)} )\):</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Simulate $u \sim U(a_t, b_t)$ where $a_t = \max( x^{(t)}-r,0 )$ and $b_t = \min( x^{(t)}+r,1 )$</p>
+<p>Simulate \(u \sim U(a_t, b_t)\) where \(a_t = \max( x^{(t)}-r,0 )\) and \(b_t = \min( x^{(t)}+r,1 )\)</p>
 </li>
 <li>
-<p>Accept $x^{(t+1)}=u$ with probability
+<p>Accept \(x^{(t+1)}=u\) with probability
+
 \[
   \rho^{(t)} = \min \big\{  \exp \big(  \frac{h(u)-h(x^{(t)})}{T_t} \big), 1  \big\}
 \]
-take $x<sup>{(t+1)}=x</sup>{(t)}$ otherwise.</p>
+
+
+take \(x^{(t+1)}=x^{(t)}\) otherwise.</p>
 </li>
 <li>
-<p>Update $T_t$ to $T_{t+1}$</p>
+<p>Update \(T_t\) to \(T_{t+1}\)</p>
 </li>
 </ol>
 </div>
@@ -712,31 +773,37 @@ plot(xval,mci(xval),type="l",lwd=2)</code></pre>
 <h2 id="_metropolis_hastings_algorithm">Metropolis-Hastings Algorithm</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Let $q(\theta, \vartheta)$ be a <em>proposal density</em> or a <em>candidate-generating density</em> (<a href="http://www2.stat.duke.edu/~scs/Courses/Stat376/Papers/Basic/ChibGreenberg1995.pdf">Chib and Greenberg, 1995</a>) such that
+<p>Let \(q(\theta, \vartheta)\) be a <em>proposal density</em> or a <em>candidate-generating density</em> (<a href=http://www2.stat.duke.edu/~scs/Courses/Stat376/Papers/Basic/ChibGreenberg1995.pdf>Chib and Greenberg, 1995</a>) such that
+
 \[
  \int q(\theta, \vartheta) d\vartheta = 1
 \]
-Also let $U(O, 1)$ denote the uniform distribution over $(0, 1)$. Then, a general version of the Metropolis- Hastings algorithm for sampling from the posterior distribution $\pi(\theta,D)$ can be described as follows:</p>
+
+
+Also let \(U(O, 1)\) denote the uniform distribution over \((0, 1)\). Then, a general version of the Metropolis- Hastings algorithm for sampling from the posterior distribution \(\pi(\theta,D)\) can be described as follows:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Choose an arbitrary starting point $\theta_0$ and set $i=0$.</p>
+<p>Choose an arbitrary starting point \(\theta_0\) and set \(i=0\).</p>
 </li>
 <li>
-<p>Generate a candidate point $\theta^*$ from $q(\theta_i,\cdot)$ and $u$ from $U(0,1)$.</p>
+<p>Generate a candidate point \(\theta^*\) from \(q(\theta_i,\cdot)\) and \(u\) from \(U(0,1)\).</p>
 </li>
 <li>
-<p>Set $\theta_{i+1}=\theta^<strong>$ if $u \leq a(\theta_i, \theta^</strong>)$ and $\theta_{i+1}=\theta_i$ otherwise, where the acceptance probability is given by
+<p>Set \(\theta_{i+1}=\theta^*\) if \(u \leq a(\theta_i, \theta^*)\) and \(\theta_{i+1}=\theta_i\) otherwise, where the acceptance probability is given by
+
 \[
  a(\theta,\vartheta) = \min\big\{
                         \frac{ \pi(\vartheta|D)q(\vartheta, \theta) }{ \pi(\theta|D)q(\theta, \vartheta) },
                         1
                         \big\}
-\]</p>
+\]
+
+</p>
 </li>
 <li>
-<p>Set $i=i+1$, and go to Step 2.</p>
+<p>Set \(i=i+1\), and go to Step 2.</p>
 </li>
 </ol>
 </div>
@@ -744,13 +811,16 @@ Also let $U(O, 1)$ denote the uniform distribution over $(0, 1)$. Then, a genera
 <h3 id="_example_4">Example 4</h3>
 <div class="paragraph">
 <p>Let us consider the following simple linear model:
+
 \[
  y_t = \alpha x_t + \beta + \epsilon_t
 \]
-where $\epsilon \sim N(0, \sigma^2)$.</p>
+
+
+where \(\epsilon \sim N(0, \sigma^2)\).</p>
 </div>
 <div class="paragraph">
-<p><em>Source</em>: R code taken from <a href="https://theoreticalecology.wordpress.com/2010/09/17/metropolis-hastings-mcmc-in-r/">A simple Metropolis-Hastings MCMC in R</a></p>
+<p><em>Source</em>: R code taken from <a href=https://theoreticalecology.wordpress.com/2010/09/17/metropolis-hastings-mcmc-in-r/>A simple Metropolis-Hastings MCMC in R</a></p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -873,27 +943,27 @@ summary(lm(y~x))</code></pre>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$\theta$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\theta\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">chain[,]</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$u$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(u\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">runif(1)</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$a(\theta_i, \theta^*)$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(a(\theta_i, \theta^*)\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">probab</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$\min \big\{  \frac{\pi(\vartheta|D)q(\vartheta,\theta)}{\pi(\theta|D)q(\theta,\vartheta)}  \big\}$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\min \big\{  \frac{\pi(\vartheta|D)q(\vartheta,\theta)}{\pi(\theta|D)q(\theta,\vartheta)}  \big\}\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">exp( posterior(proposal) - posterior(chain[i,]) )</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$\theta_0$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\theta_0\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">c(4,0,10)</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$\theta^*$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\theta^*\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">proposal</p></td>
 </tr>
 </tbody>
@@ -906,22 +976,31 @@ summary(lm(y~x))</code></pre>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Consider the following dynamic optimization problem:
+
 \[
- \max_{ \{ x_{t+1} \}^{\infty}_{t=0} } \Sigma<sup>{\infty}_{t=0}\beta</sup>t F(x_t, x_{t+1}) \\
+ \max_{ \{ x_{t+1} \}^{\infty}_{t=0} } \Sigma^{\infty}_{t=0}\beta^t F(x_t, x_{t+1}) \\
  \mbox{s.t.} \quad  x_{t+1} \in \Gamma(x_t)
-\]</p>
+\]
+
+</p>
 </div>
 <div class="paragraph">
 <p>The <em>functional equation</em> of the previous problem is given by:
+
 \[
  v(x) = \max_{y\in \Gamma(x)} \big[ F(x,y) + \beta v(y) \big]
-\]</p>
+\]
+
+</p>
 </div>
 <div class="paragraph">
-<p>Introducing the <em>optimal policy function</em> $g$, we can rewrite the previous expression:
+<p>Introducing the <em>optimal policy function</em> \(g\), we can rewrite the previous expression:
+
 \[
  v(x) = F\big[ x, g(x) + \beta v[g(x)] \big]
-\]</p>
+\]
+
+</p>
 </div>
 <div class="paragraph">
 <p>The <em>first-order condition</em> and the <em>envelope condition</em> is defined as:
@@ -944,17 +1023,23 @@ summary(lm(y~x))</code></pre>
 </div>
 <div class="paragraph">
 <p>Let us consider the following <em>functional equation</em>:
+
 \[
  v(k) = \max_{k'\geq 0} \big\{  U\big( f(k)-k' \big) + \beta v(k') \big\}
 \]
-with $k'+c\leq f(k)$, $c\geq 0$ and $y=f(k)$</p>
+
+
+with \(k'+c\leq f(k)\), \(c\geq 0\) and \(y=f(k)\)</p>
 </div>
 <div class="paragraph">
 <p>The model is specified as follows:
+
 \[
   f(k) = k^{\alpha} \\
   U(c) = \log(c)
 \]
+
+
 and it is parameterized as follows
 \begin{eqnarray}
  \alpha &amp;=&amp; 0.3 \nonumber \\
@@ -989,24 +1074,36 @@ and it is parameterized as follows
                                 \nonumber
 \end{eqnarray}
 which yields the <em>envelope condition</em>
+
 \[
  \boxed{ \frac{\partial v(k')}{\partial k'} = \lambda' \frac{\partial f(k')}{\partial k'} }
-\]</p>
+\]
+
+</p>
 </div>
 <div class="paragraph">
 <p>By combining the two boxed expressions, we get the <em>first-order condition</em>
+
 \[
  \boxed{ \lambda = \lambda' \beta \frac{\partial f(k')}{\partial k'} }
 \]
+
+
 and
+
 \[
  \frac{\partial v(k)}{\partial c} = 0 \iff \frac{\partial U(c)}{\partial c} - \lambda = 0
-\]</p>
+\]
+
+</p>
 </div>
 <div class="paragraph">
-<p>\[
+<p>
+\[
  \boxed{ \lambda = \frac{\partial U(c)}{\partial c} }
-\]</p>
+\]
+
+</p>
 </div>
 <div class="paragraph">
 <p><strong>Steady-state</strong></p>
@@ -1017,39 +1114,48 @@ and
  \frac{\partial U(c)}{\partial c} &amp;=&amp; c^{-1} \nonumber \\
  \frac{\partial f(k)}{\partial k} &amp;=&amp; \alpha k^{\alpha-1} \nonumber
 \end{eqnarray}
-we can find the <em>steady-state value</em> of $k$
+we can find the <em>steady-state value</em> of \(k\)
+
 \[
   k^* = \Bigg( \frac{1}{\alpha\beta} \Bigg)^{\frac{1}{\alpha-1}}
-\]</p>
+\]
+
+</p>
 </div>
 <div class="paragraph">
 <p><strong>Numerical Solution</strong></p>
 </div>
 <div class="paragraph">
-<p>The <em>numerical solution algorithm</em> (value function iteration) is given by (<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1120686">Heer and Maussner, 2008</a>):</p>
+<p>The <em>numerical solution algorithm</em> (value function iteration) is given by (<a href=https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1120686>Heer and Maussner, 2008</a>):</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
 <p>Choose a grid
-$\mathcal{K} = [ K_1, K_2, \ldots, K_n]$  with  $K_i &lt; K_j$ and $i &lt; j = 1$,$2$,$\ldots$, $n$</p>
+\(\mathcal{K} = [ K_1, K_2, \ldots, K_n\)]  with  \(K_i < K_j\) and \(i < j = 1\),\(2\),\(\ldots\), \(n\)</p>
 </li>
 <li>
-<p>Initialize the value function: $\forall i = 1, \ldots, n$ set
+<p>Initialize the value function: \(\forall i = 1, \ldots, n\) set
+
 \[
- v_i^0 = \frac{u(f(K<sup><strong>)-K</sup></strong>)}{1-\beta}
+ v_i^0 = \frac{u(f(K^*)-K^*)}{1-\beta}
 \]
-where $K^*$ denotes the stationary solution to the initial problem</p>
+
+
+where \(K^*\) denotes the stationary solution to the initial problem</p>
 </li>
 <li>
-<p>Compute a new value function and the associated policy function, $\underline{v}^1$ and $\underline{h}^1$ respectively: Put $j^*<em>0 \equiv 1$. For $i=1,2,\ldots , n$ and $j^*</em>{i-1}$ find the index $j^*<em>i$ that maximizes
+<p>Compute a new value function and the associated policy function, \(\underline{v}^1\) and \(\underline{h}^1\) respectively: Put \(j^*_0 \equiv 1\). For \(i=1,2,\ldots , n\) and \(j^*_{i-1}\) find the index \(j^*_i\) that maximizes
+
 \[
  u\big( f(K_i)-K_j \big) + \beta v^0_j
 \]
-in the set of indices $\{ j^*</em>{i-1}, j^*<em>{i-1}+1, \ldots, n \}$. Set $h<sup>1_i=j</sup>*_i$ and $v^1_i=u\big( f(K_i)-K</em>{j^*<em>i} \big) + \beta v<sup>0</em>{j</sup>*_i}$</p>
+
+
+in the set of indices \(\{ j^*_{i-1}, j^*_{i-1}+1, \ldots, n \}\). Set \(h^1_i=j^*_i\) and \(v^1_i=u\big( f(K_i)-K_{j^*_i} \big) + \beta v^0_{j^*_i}\)</p>
 </li>
 <li>
-<p>Check for convergence: If $\parallel \underline{v}<sup>0-\underline{v}</sup>1 \parallel_{\infty} &lt; \epsilon (1-\beta)$, $\epsilon \in \mathbb{R}_{++}$ stop, else replace $\underline{v}^0$ with $\underline{v}^1$ and $\underline{h}^0$ with $\underline{h}^1$ and return to step 3.</p>
+<p>Check for convergence: If \(\parallel \underline{v}^0-\underline{v}^1 \parallel_{\infty} < \epsilon (1-\beta)\), \(\epsilon \in \mathbb{R}_{++}\) stop, else replace \(\underline{v}^0\) with \(\underline{v}^1\) and \(\underline{h}^0\) with \(\underline{h}^1\) and return to step 3.</p>
 </li>
 </ol>
 </div>
@@ -1264,7 +1370,7 @@ end</code></pre>
 This julia code contains an error and will be fixed soon &#8230;&#8203;</p>
 </div>
 <div class="paragraph">
-<p><a href="https://tarikgit.github.io/coding/dynamicprogramming/vfi-1D-julia.html">Julia code for value function iteration of a 1D problem.</a></p>
+<p><a href=https://tarikgit.github.io/coding/dynamicprogramming/vfi-1D-julia.html>Julia code for value function iteration of a 1D problem.</a></p>
 </div>
 </div>
 <div class="sect2">
@@ -1290,23 +1396,32 @@ k^{\theta} n^{1-\theta} - k' - c - 1 + n &amp;=&amp; 0 \nonumber \\
 \end{eqnarray}</p>
 </div>
 <div class="paragraph">
-<p>\[
+<p>
+\[
  \beta (c')^{-1} \theta k^{ \theta - 1 } n^{ 1 - \theta } = c^{ -1 }
-\]</p>
+\]
+
+</p>
 </div>
 <div class="paragraph">
-<p>\[
- \beta \Bigg[ -(n')^{-1} + (c')^{-1} \Bigg( 1+(1-\theta)k<sup>{\theta}n</sup>{-\theta} \Bigg) + \mu'(1-s-p)  \Bigg]  = \mu \nonumber
-\]</p>
+<p>
+\[
+ \beta \Bigg[ -(n')^{-1} + (c')^{-1} \Bigg( 1+(1-\theta)k^{\theta}n^{-\theta} \Bigg) + \mu'(1-s-p)  \Bigg]  = \mu \nonumber
+\]
+
+</p>
 </div>
 <div class="paragraph">
 <p>Using the previous equations, we can compute the steady state values for the four variables, which is given by:
+
 \[
  k^* = \Bigg[ \frac{1}{\beta\theta\big( \frac{p}{s+p} \big)^{1-\theta}} \Bigg]^{\frac{1}{\theta-1}} \\
  n^* = \frac{p}{s+p} \\
- c^* = (k<sup><strong>)</sup>{\theta} (n<sup></strong>)</sup>{1-\theta} - k^* - 1 + n^* \\
- \mu^* = \frac{ \beta\big[ -(n<sup><strong>)</sup>{-1} + (c<sup></strong>)</sup>{-1} \big( 1+(1-\theta)(k<sup><strong>)</sup>{\theta}(n<sup></strong>)</sup>{-\theta} \big) \big] }{1-\beta(1-s-p)}
-\]</p>
+ c^* = (k^*)^{\theta} (n^*)^{1-\theta} - k^* - 1 + n^* \\
+ \mu^* = \frac{ \beta\big[ -(n^*)^{-1} + (c^*)^{-1} \big( 1+(1-\theta)(k^*)^{\theta}(n^*)^{-\theta} \big) \big] }{1-\beta(1-s-p)}
+\]
+
+</p>
 </div>
 <div class="paragraph">
 <p>The model is parameterized as follows:</p>
@@ -1324,25 +1439,25 @@ k^{\theta} n^{1-\theta} - k' - c - 1 + n &amp;=&amp; 0 \nonumber \\
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$\beta$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\beta\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0.95</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$\theta$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\theta\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0.2</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$s$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(s\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0.3</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$p$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(p\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0.75</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>This model is a modified version of <a href="https://doi.org/10.1016/0304-3932(95)01216-8">Merz, 1995</a> and <a href="https://www.jstor.org/stable/2118258">Andolfatto, 1996</a>.</p>
+<p>This model is a modified version of <a href=https://doi.org/10.1016/0304-3932(95)01216-8>Merz, 1995</a> and <a href=https://www.jstor.org/stable/2118258>Andolfatto, 1996</a>.</p>
 </div>
 <div class="paragraph">
 <p>Using <strong>Octave</strong></p>
@@ -1476,14 +1591,14 @@ disp(idxIter)</code></pre>
 </div>
 <div class="paragraph">
 <p>where
-$u(c,n)=u(c)-g(n)$
+\(u(c,n)=u(c)-g(n)\)
 with
-$u(c)=\log(c)$
+\(u(c)=\log(c)\)
 and
-$g(n)= \theta \frac{n^{1-\gamma_n}}{1-\gamma_n}$ ;
-$m(n.v)=\mu_m v<sup>{1-\alpha_m}[s(1-n)]</sup>{\alpha_m}$ ;
-$c(s)=c_0 s^{\eta}$ ;
-$f(k,n)=k<sup>{\alpha}n</sup>{1-\alpha}$ .</p>
+\(g(n)= \theta \frac{n^{1-\gamma_n}}{1-\gamma_n}\) ;
+\(m(n.v)=\mu_m v^{1-\alpha_m}[s(1-n)^{\alpha_m}\)] ;
+\(c(s)=c_0 s^{\eta}\) ;
+\(f(k,n)=k^{\alpha}n^{1-\alpha}\) .</p>
 </div>
 <div class="paragraph">
 <p>The model is parameterized as follows:</p>
@@ -1501,43 +1616,43 @@ $f(k,n)=k<sup>{\alpha}n</sup>{1-\alpha}$ .</p>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$\alpha$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\alpha\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0.36</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$\alpha_m$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\alpha_m\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0.40</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$\theta$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\theta\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$\gamma_n$</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$-\frac{1}{1.25}$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\gamma_n\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(-\frac{1}{1.25}\)</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$c_0$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(c_0\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0.005</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$\delta$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\delta\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0.022</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$\rho_x$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\rho_x\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0.07</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$\mu_m$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\mu_m\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$\gamma$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\gamma\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0.05</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$\beta$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(\beta\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0,99</p></td>
 </tr>
 </tbody>
@@ -1558,23 +1673,23 @@ $f(k,n)=k<sup>{\alpha}n</sup>{1-\alpha}$ .</p>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$c$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(c\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">2.721</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$v$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(v\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0.039</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$s$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(s\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">1.917</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$k$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(k\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">40.553</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">$n$</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">\(n\)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0.928</p></td>
 </tr>
 </tbody>
@@ -1890,7 +2005,7 @@ disp("done!")</code></pre>
 </div>
 <div class="paragraph">
 <p>This is julia implementation of a 2D value iteration algorithm (incomplete graph):
-<a href="https://tarikgit.github.io/coding/dynamicprogramming/vfi-2D-julia-rbc-matching.html">Julia code for value function iteration of a 2D problem.</a></p>
+<a href=https://tarikgit.github.io/coding/dynamicprogramming/vfi-2D-julia-rbc-matching.html>Julia code for value function iteration of a 2D problem.</a></p>
 </div>
 </div>
 </div>
@@ -1899,7 +2014,7 @@ disp("done!")</code></pre>
 <h2 id="_functional_approximation_piecewise_linear_interpolation">Functional approximation: Piecewise linear interpolation</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>If $(x_i, y_i)$ is the data, then the <em>piecewise linear interpolant</em> $\hat{f}(x)$ is given by the formula:
+<p>If \((x_i, y_i)\) is the data, then the <em>piecewise linear interpolant</em> \(\hat{f}(x)\) is given by the formula:
 \begin{eqnarray}
  \hat{f}(x) = y_i + \frac{x-x_i}{x_{i+1}-x_i} (y_{i+1}-y_i) \quad \quad x\in[x_i,x_{i+1}]
  \nonumber
