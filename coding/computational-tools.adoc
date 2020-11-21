@@ -1319,6 +1319,9 @@ disp("done!")
 
 ----
 
+This is julia implementation of a 2D value iteration algorithm (incomplete graph):
+link:https://tarikgit.github.io/coding/dynamicprogramming/vfi-2D-julia-rbc-matching.html[Julia code for value function iteration of a 2D problem.]
+
 
 == Functional approximation: Piecewise linear interpolation
 
