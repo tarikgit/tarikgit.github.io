@@ -82,10 +82,17 @@ Film: _Good Vibrations - Récréation_ auf link:https://educ.arte.tv/program/goo
   g. link:https://www.youtube.com/watch?v=lmFNkT9Km6c&t=2027[Was wünschten sich die Leute?] 
 
 
-|7
+|9
 |11/2020
 |
 |link:https://tarikgit.github.io/teaching/soziologie-cours/10-Soziale-Rolle-Sozialisation.pdf[Sozialisation]
+
+|10
+|2/12/2020
+|Soziale Konflikte, Gruppenintegration, Gruppenleistung
+|link:https://tarikgit.github.io/teaching/soziologie-cours/12-Soziale Konflikte.pdf[Soziale Konflikte]
+
+
 
 
 |===
