@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.8">
-<title>Coding Tutorials</title>
+<title>Using remote access in Linux</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -432,45 +432,60 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>Coding Tutorials</h1>
+<h1>Using remote access in Linux</h1>
 </div>
 <div id="content">
-<div class="paragraph">
-<p>The <em>MagPi</em> <a href="https://magpi.raspberrypi.org/issues/">magazines</a> and <a href="https://magpi.raspberrypi.org/books">books</a>
-are a valuable (but free) source to find inspiration for projects related to your <a href="https://www.raspberrypi.org/">Raspberry Pi</a>.</p>
+<div class="sect1">
+<h2 id="_using_ssh">Using SSH</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_client_side_installation">Client-Side Installation</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo apt update &amp;&amp; sudo apt upgrade
+
+sudo apt install openssh-client</code></pre>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-mathematica-on-raspberry.html">Using Mathematica on a RaspberryPi</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/asciidoctor.html">Using asciidoctor</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/compiling.html">Compiling in different environments</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-github.html">Using GitHub</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-sensehat.html">Using Sense HAT</a></p>
-</li>
-<li>
-<p><a href="https://www.overleaf.com/learn/latex/Main_Page">Using Overleaf to compile LaTeX code</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/computational-tools.html">Computational tools</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-ssh.html">Using remote access in Linux</a></p>
-</li>
-</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_server_side_installation_and_configuration">Server-Side Installation and Configuration</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo apt install openssh-server</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Check the installation:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo systemctl status ssh</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Your firewall may block SSH. In order to avoid this, use:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo ufw allow ssh</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>In case ssh is not activated on your server, use:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo systemctl enable ssh</code></pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-12-05 04:20:55 +0100
+Last updated 2020-12-05 04:18:57 +0100
 </div>
 </div>
 </body>

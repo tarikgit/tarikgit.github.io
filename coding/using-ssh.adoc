@@ -1,0 +1,50 @@
+= Using remote access in Linux
+
+== Using SSH
+
+=== Client-Side Installation
+
+[source,bash]
+----
+
+sudo apt update && sudo apt upgrade
+
+sudo apt install openssh-client
+
+----
+
+=== Server-Side Installation and Configuration
+
+[source,bash]
+----
+
+sudo apt install openssh-server
+
+----
+
+Check the installation:
+
+[source,bash]
+----
+
+sudo systemctl status ssh
+
+----
+
+Your firewall may block SSH. In order to avoid this, use:
+
+[source,bash]
+----
+
+sudo ufw allow ssh
+
+----
+
+In case ssh is not activated on your server, use:
+
+[source,bash]
+----
+
+sudo systemctl enable ssh
+
+----
