@@ -112,17 +112,20 @@ Voir sur _Teams_ le corrigé de l'exercice 9 p.263.
 | link:https://tarikgit.github.io/teaching/comptabilite-cours/14-Exercice-4-p-354-et-exercice-6-p-355.pdf[Présentation]
 
 |
-| 2/11/2020
+| 2/12/2020
 | Amortissements, escompte, vente, journal
 | link:https://tarikgit.github.io/teaching/comptabilite-cours/Devoir-a-domicile-Synthese.pdf[Exercice de synthèse.]
 
+|
+| 4/12/2020
+| Corrections de valeur probables et les provisions (1)
+| link:https://tarikgit.github.io/teaching/comptabilite-cours/18-CVprobable-1.pdf[Introduction, exercices]
 
 
-
 |
-|
-|
-|
+| 9/12/2020
+| Corrections de valeur probables et les provisions (2)
+| 
 
 | 
 | 
