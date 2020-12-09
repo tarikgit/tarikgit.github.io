@@ -125,7 +125,7 @@ Voir sur _Teams_ le corrigé de l'exercice 9 p.263.
 |
 | 9/12/2020
 | Corrections de valeur probables et les provisions (2)
-| 
+| link:https://tarikgit.github.io/teaching/comptabilite-cours/19-CVprobable.pdf[Clients douteux ou litigieux, exercices]
 
 | 
 | 

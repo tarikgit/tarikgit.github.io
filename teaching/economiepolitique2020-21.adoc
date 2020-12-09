@@ -44,6 +44,11 @@ link:https://tarikgit.github.io/teaching/economiepolitique/05-Correction-de-l-ac
 |
 |link:https://tarikgit.github.io/teaching/economiepolitique/06-Correction-DEC-I-1.pdf[Correction du devoir en classe I.1.]
 
+|
+|9/12/2020
+|
+|link:https://tarikgit.github.io/teaching/economiepolitique/07-Role-de-l-Etat.pdf[Rôle de l'Etat]
+
 |===
 
 {blank} +
