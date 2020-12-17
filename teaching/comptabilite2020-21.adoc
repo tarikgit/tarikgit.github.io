@@ -130,7 +130,7 @@ Voir sur _Teams_ le corrigé de l'exercice 9 p.263.
 |
 | 16/12/2020
 | Corrections de valeur probables et les provisions (3)
-| link:https://tarikgit.github.io/teaching/comptabilite-cours/20-CreancesDouteuses[Clients douteux ou litigieux, exercices]
+| link:https://tarikgit.github.io/teaching/comptabilite-cours/20-CreancesDouteuses.pdf[Clients douteux ou litigieux, exercices]
 
 |
 | 18/12/2020
