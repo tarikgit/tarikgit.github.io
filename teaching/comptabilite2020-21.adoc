@@ -127,6 +127,17 @@ Voir sur _Teams_ le corrigé de l'exercice 9 p.263.
 | Corrections de valeur probables et les provisions (2)
 | link:https://tarikgit.github.io/teaching/comptabilite-cours/19-CVprobable.pdf[Clients douteux ou litigieux, exercices]
 
+|
+| 16/12/2020
+| Corrections de valeur probables et les provisions (3)
+| link:https://tarikgit.github.io/teaching/comptabilite-cours/20-CreancesDouteuses[Clients douteux ou litigieux, exercices]
+
+|
+| 18/12/2020
+| Corrections de valeur probables et les provisions (4)
+| Titre de participation: vente, correction de valeur, plus-value (voir "Assignment" dans Teams)
+
+
 | 
 | 
 | Les corrections de valeur probables et les provisions 
