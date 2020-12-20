@@ -18,3 +18,5 @@ are a valuable (but free) source to find inspiration for projects related to you
 * link:https://tarikgit.github.io/coding/computational-tools.html[Computational tools]
 
 * link:https://tarikgit.github.io/coding/using-ssh.html[Using remote access in Linux]
+
+* link:https://tarikgit.github.io/coding/using-raspberry-samba-apache.html[Using Raspberry Pi as a Samba and Apache server]
