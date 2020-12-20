@@ -1,0 +1,131 @@
+= Using a Rspberry Pi as Apache and Samba server
+
+== Installing Raspbian OS
+
+link:https://www.raspberrypi.org/software/[Install Raspberry Pi using Raspberry Pi Imager]
+
+*Important*: In order to use tha Raspberry without a screen, mouse and keyboard, you must create an empty file named "ssh" into the "/boot" on your SD card. Remember that you have to connect your device to the network using an ethernet cable.
+
+== Update your OS
+
+[source,bash]
+----
+
+sudo apt-get update && sudo apt-get dist-upgrade
+
+----
+
+== Mount external hard drive
+
+First find your hardware:
+
+[source,bash]
+----
+
+sudo blkid
+
+----
+
+Next make your OS mount the external drive at boot
+
+[source,bash]
+----
+
+sudo nano -Bw /etc/fstab
+
+----
+
+You have to include the following lines (using the correct UUID)
+
+[source,bash]
+----
+
+UUID=0000000000000000 /media/externalUSB auto defaults,user,nofail 0 2
+
+----
+
+
+== Install Samba
+
+[source,bash]
+----
+
+sudo apt-get install samba samba-common-bin
+
+----
+
+
+=== Samba setup
+
+Open the samba configuration file
+
+[source,bash]
+----
+
+sudo nano /etc/samba/smb.conf
+
+----
+
+Simply add the following lines into that file:
+
+[source,bash]
+----
+
+[Files on external USB]
+comment = Files
+public = yes
+writable = yes
+browsable = yes
+path = /media/externalUSB
+create mask = 0777
+directory mask = 0777
+guest ok = yes
+only = no
+
+----
+
+== Install Apache
+
+[source,bash]
+----
+
+sudo apt-get install apache2
+
+----
+
+Change permissions
+
+[source,bash]
+----
+
+sudo chown -R $USER:$USER /var/www
+sudo chown -R 755 /var/www
+
+----
+
+Restart Apache
+
+[source,bash]
+----
+
+sudo service apache2 restart
+
+----
+
+
+
+
+
+
+== Put your device to sleep for 60 seconds
+
+This will not work on Raspberry since the device has no internal clock
+
+[source,bash]
+----
+
+sudo rtcwake -m disk -s 60
+
+----
+
+
