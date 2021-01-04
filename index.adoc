@@ -2,6 +2,9 @@
 
 == Économie de gestion et applications informatiques (2D & 2G)
 
+*Matières à couvrir*: Comptabilité, Droit, Mathématiques financières, Marketing, Applications informatiques.  
+
+
 [cols="1*"]
 |===
 
@@ -9,14 +12,9 @@
 
 |link:teaching/calendar-janvier-2021-ecoai.html[Calendrier: janvier 2021]
 
-| Droit
-
-| Mathématiques financières
-
-| Marketing
-
-| Applications informatiques
-
+| *Matières essentielles*: +
+_Comptabilité_: Les opérations d'inventaire (ch.9), les amortissements (corrections de valeur définitives, ch.10), les corrections de valeur probables et les provisions (ch.11), la régularisation des charges et des produits (ch.12). +
+_Mathématiques financières_: les annuités, l'emprunt indivis.
 
 |===
 
@@ -50,7 +48,9 @@
 [cols="1*"]
 |===
 
-|link:https://de4.schreibtrainer.com/index.php?r=typewriter/practise[S'entraîner à la frappe à l’aveugle (_touch typing_)]
+|link:https://de4.schreibtrainer.com/index.php?r=typewriter/practise[S'entraîner à la frappe à l’aveugle (_touch typing_)] 
+
+|link:teaching/word/calendar-2021.html[Les bases du traitement de texte]
 
 
 

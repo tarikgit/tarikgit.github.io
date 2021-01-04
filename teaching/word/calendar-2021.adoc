@@ -1,0 +1,63 @@
+= Les bases du traitement de texte
+
+[cols="5*", options="header"] 
+|===
+|Semaine
+|Date
+|Matières
+|Détail
+|Description
+
+
+| 14
+| 4/1 -- 8/1
+| 
+| 
+| 
+
+|  
+| 4/1 
+| *Rappel: Word*
+| 1. add, edit, save, +
+  2. line spacing, +
+  3. insert pictures, +
+  4. header and footer, +
+  5. page numbers, +
+  6. page break,  +
+  7. word count, +
+  8. Researcher, +
+  9. transcribe audio, +
+  10. share document,  
+| 
+
+
+|===
+
+
+== Vidéos
+
+* link:https://www.youtube.com/watch?v=2H5XG4ZNuD0[Insert or remove a page break in Microsoft Word (1:24)] 
+* link:https://www.youtube.com/watch?v=5_HdVz_lWjI[Add and edit text in Microsoft Word (1:00)] 
+* link:https://www.youtube.com/watch?v=uSMqYj4if10[Save a document in Microsoft Word (0:40)] 
+* link:https://www.youtube.com/watch?v=iZy8ShYKGbc[Check your word count in Microsoft Word (1:20)] 
+* link:https://www.youtube.com/watch?v=3BWEyN3G56c[Explore Researcher in Microsoft Word (1:20)] 
+* link:https://www.youtube.com/watch?v=ny-42b57Jao[How to record and transcribe audio in Microsoft Word for the web (1:35)] 
+* link:https://www.youtube.com/watch?v=kM-dvuKzf28[Change line spacing in Microsoft Word (1:20)] 
+* link:https://www.youtube.com/watch?v=uL-gEtDkmWY[Insert pictures in Word (1:00)] 
+* link:https://www.youtube.com/watch?v=G-DQf_HFXzs[Share your document in Microsoft Word (1:00)] 
+* link:https://www.youtube.com/watch?v=7_Y1x90g1IM[Insert a header or footer in Microsoft Word (1:20)] 
+* link:https://www.youtube.com/watch?v=LkBWAkDNcyk[Write a school report with Researcher in Word (1:00)]
+
+== Questions
+
+* How do you insert a manual _page break_? 
+* How do you show _paragraph marks_? 
+* How do you _quickly select a word_? 
+* How do you _select an entire line_? 
+* How do you _check your word count_?
+* How do you add _character count_?
+* How do you check _number of words_ in a selection?
+* Which _Word tool_ could you use to _structure a paper_ that you have to write? 
+* How to insert a _document title_ and _page number_ on every page of your document? 
+
+

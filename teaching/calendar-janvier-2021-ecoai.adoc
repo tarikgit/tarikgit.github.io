@@ -2,8 +2,6 @@
 = Calendrier de l'année scolaire 2020-2021
 
 
-
-
 [cols="5*", options="header"] 
 |===
 |Semaine
@@ -158,6 +156,32 @@
 
 |===
 
+
+
+
+
+
+link:https://www.youtube.com/watch?v=2H5XG4ZNuD0[Insert or remove a page break in Microsoft Word (1:24)]
+
+link:https://www.youtube.com/watch?v=5_HdVz_lWjI[Add and edit text in Microsoft Word (1:00)]
+
+link:https://www.youtube.com/watch?v=uSMqYj4if10[Save a document in Microsoft Word (0:40)]
+
+link:https://www.youtube.com/watch?v=iZy8ShYKGbc[Check your word count in Microsoft Word (1:20)]
+
+link:https://www.youtube.com/watch?v=3BWEyN3G56c[Explore Researcher in Microsoft Word (1:20)]
+
+link:https://www.youtube.com/watch?v=ny-42b57Jao[How to record and transcribe audio in Microsoft Word for the web (1:35)]
+
+link:https://www.youtube.com/watch?v=kM-dvuKzf28[Change line spacing in Microsoft Word (1:20)]
+
+link:https://www.youtube.com/watch?v=uL-gEtDkmWY[Insert pictures in Word (1:00)]
+
+link:https://www.youtube.com/watch?v=G-DQf_HFXzs[Share your document in Microsoft Word (1:00)]
+
+link:https://www.youtube.com/watch?v=7_Y1x90g1IM[Insert a header or footer in Microsoft Word (1:20)]
+
+link:https://www.youtube.com/watch?v=LkBWAkDNcyk[Write a school report with Researcher in Word (1:00)]
 
 
 
