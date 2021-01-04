@@ -1,0 +1,167 @@
+
+= Calendrier de l'année scolaire 2020-2021
+
+
+
+
+[cols="5*", options="header"] 
+|===
+|Semaine
+|Date
+|Matières
+|Détail
+|Description
+
+
+| 14
+| 4/1 -- 8/1
+| 
+| 
+| 
+
+| 
+| 4/1 
+| Mathématiques financières
+| link:mathfi/25-MathFi-InteretsComposes-Rappel.pdf[Les intérêts composés] +
+  (_Rappel de la 3DG_)
+| Valeur acquise +
+  Valeur actuelle +
+  Taux de placement +
+  Temps de placement +
+  Taux proportionnels +
+  Taux équivalents
+
+
+| 
+| 6/1 
+| Mathématiques financières
+| 
+| 
+
+| 
+| 8/1 
+| Comptabilité
+| 
+| 
+
+
+| 15
+| 11/1 --15/1
+| 
+| 
+| 
+
+| 
+| 11/1 
+| Mathématiques financières
+| 
+| 
+
+| 
+| 13/1 
+| Mathématiques financières
+| 
+| 
+
+| 
+| 15/1 
+| Comptabilité
+| 
+| 
+
+| 16
+| 18/1 -- 22/1
+| 
+| 
+| 
+
+| 
+| 18/1 
+| 
+| 
+| 
+
+| 
+| 20/1 
+| 
+| 
+| 
+
+| 
+| 22/1 
+| 
+| 
+| 
+
+| 17
+| 25/1 -- 29/1
+| 
+| 
+| 
+
+| 
+| 25/1 
+| 
+| 
+| 
+
+| 
+| 27/1 
+| *Devoir en classe*
+| 
+| 
+
+| 
+| 29/1 
+| 
+| 
+| 
+
+| 18
+| 1/2 -- 5/2
+| 
+| 
+| 
+
+| 
+| 1/2 
+| 
+| 
+| 
+
+| 
+| 3/2 
+| 
+| 
+| 
+
+| 
+| 5/2 
+| 
+| 
+| 
+
+
+| 19
+| 8/2 -- 12/2
+| 
+| 
+| pas de leçons
+
+| 
+| 15/2 -- 19/2
+| 
+| 
+| congé de Carnaval
+
+
+
+|===
+
+
+
+
+
+
+
+

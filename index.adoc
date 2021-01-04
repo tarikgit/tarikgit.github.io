@@ -5,7 +5,9 @@
 [cols="1*"]
 |===
 
-|link:teaching/comptabilite2020-21.html[Comptabilité]
+|link:teaching/comptabilite2020-21.html[Calendrier: Septembre à Décembre 2020]
+
+|link:teaching/calendar-janvier-2021-ecoai.html[Calendrier: Janvier 2021]
 
 | Droit
 
