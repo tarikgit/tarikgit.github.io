@@ -25,6 +25,8 @@ _Mathématiques financières_: les annuités, l'emprunt indivis.
 
 |link:teaching/soziologie2020-21.html[Soziologie]
 
+|link:teaching/soziologie-definitionen.html[Definitionen]
+
 |link:teaching/soziologie-resources.html[Ressourcen (Erklärvideos)] 
 
 |===
