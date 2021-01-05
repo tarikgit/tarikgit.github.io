@@ -61,3 +61,51 @@
 * How to insert a _document title_ and _page number_ on every page of your document? 
 
 
+[cols="5*", options="header"] 
+|===
+|Semaine
+|Date
+|Matières
+|Détail
+|Description
+
+|  
+| 6/1 
+| *Rappel: Word*
+| 1. insert table  +
+  2. edit PDF  +
+  3. table of contents  +
+  4. spellcheck  +
+  5. text styles  +
+  6. margins  +
+  7. Editor  +
+  8. check marks  +
+  9. ribbon  
+| 
+
+|===
+
+
+
+== Vidéos
+
+* link:https://www.youtube.com/watch?v=QbbprkeJbLM[Insert a table in Microsoft Word (1:30)]
+* link:https://www.youtube.com/watch?v=BpvM7gZrq1E[Edit a PDF in Microsoft Word (0:30)]
+* link:https://www.youtube.com/watch?v=PgwS6Y8wvMs[Add a Table of Contents in Word (1:25)]
+* link:https://www.youtube.com/watch?v=YZ2VUV6dSuM&t=20s[How to check spelling, grammar, and clarity with Microsoft Word 2016 (1:30)]
+* link:https://www.youtube.com/watch?v=iUJzijf9rUQ[Apply text styles in Microsoft Word (0:50)]
+* link:https://www.youtube.com/watch?v=Wt49UpBmnWI[How to change the margins in your Microsoft Word document (0:35)]
+* link:https://www.youtube.com/watch?v=xLLwZwndz3M[Bring out your best writer with Microsoft Editor (1:45)]
+* link:https://www.youtube.com/watch?v=uHIz-T_73y0[Insert a check mark (or other symbols) in Microsoft Office (3:40)]
+* link:https://www.youtube.com/watch?v=daWf-fzAqRA[How to Customize the Ribbon (2:30)]
+
+== Questions
+
+* How do you insert a table into a word document? 
+* How do you convert a structured text (separated by tabs, commas, ...) into a table? 
+* How do you insert a table of contents? 
+* How do you update a table of contents? 
+* What are the meanings of the three spellchecking variations: squiggly line, double underline, dotted line?
+* How do you change the Margin of a document?
+* How do you insert a check mark or other symbols into a word document?
+* How do you customize the ribbon? 

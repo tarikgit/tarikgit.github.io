@@ -1,0 +1,79 @@
+= Soziologie
+
+aus link:https://www.fischerverlage.de/buch/fischer-abiturwissen-sozialkunde-9783596156108[Fisch (2004)]
+
+== Definitionen
+
+
+[cols="2*", options="header"] 
+|===
+
+| Schlüsselwort 
+| Definition
+
+
+| Soziales Handeln
+| Handeln, das auf das Verhalten anderer bezogen ist und sich daran in seinem Ablauf orientiert
+
+
+| Soziale Normen 
+| Reglungsmechanismen, die von der sozialen Gewohnheit über Brauch und die Sitte bis zu der gesetzlichen Vorschrift reichen 
+
+| Sanktionen
+| Maßnahmen, die für die Einhaltung der Normen gesellschaftliche Vorteile (Belohnungen) sichern bzw. bei Nichteinhaltung Nachteile (also Strafen) androhen
+
+| Sitte
+| erwartetes _Mussverhalten_
+
+| Brauch
+| was durchschnittlich vom Einzelnen erwartet werden kann (weniger verpflichtend als Sitte); _Sollverhalten_; die Nichteinhaltung wird weniger formell bestraft (zBsp. Spott, Klatsch)
+
+| Gewohnheit
+| was sich schickt und was passend ist; _Kannverhalten_ (zBsp. Nachbar grüßen)
+
+| Abweichendes Handeln
+| Abweichung von Normen
+
+
+| Soziale Rollen
+| Der Mensch nimmt in seiner gesellschaftlichen Umwelt eine Reihe von Stellungen ein, die durch seine sozialen Beziehungen innerhalb seines gesellschaftlichen Lebensraumes fixiert werden (zBsp. Vater, Lehrer, Kirchenmitlied)
+
+| Rollenerwartung
+| Die Verhaltenserwartungen die mit der sozialen Rolle verknüpft sind (zBsp. _Von einem Schüler verlangt man, dass er regelmäßig die Schule besucht_)
+
+| Rollenkonflikt
+| Ein Rollenkonflikt kann auftreten wenn eine Person in einer Situation mehrere Rollen zu spielen hat (zBsp. ein Lehrer der seinen Sohn in der Klasse unterrichtet)
+
+| Werte
+| Werte können als _Einstellungen_ und _Maßstäbe_ betrachtet werden, die das Handeln von Menschen beeinflussen und _Entscheidungen_ bei verschiedenen _Handlungsalternativen_ ermöglichen
+
+| Sozialisation
+| Sozialisation stellt einen Lernprozess dar, durch den das Individuum zu einem sozialen Wesen wird und die Fähigkeit erlangt, selbst gesellschaftliche Funktionen zu übernehmen. 
+
+| Sozialisationsprozess
+| Der Prozess der Sozialisation wird in drei Phasen eingeteilt: +
+  1. _primäre_ Phase: erstreckt sich über die ersten fünf bis sechs Lebensjahre +
+  2. _sekundäre_ Phase: erstreckt sich auf die Zeit der Ausbildung und das Berufsleben +
+  3. _tertiäre_ Phase: umfasst den letzten Lebensabschnitt +
+
+| Faktoren der _primären_ Phase
+| Wichtige Faktoren der primären Phase sind: +
+  1. Athmosphäre in der das Kind aufwächst +
+  2. Sprache des Elternhauses +
+  3. Spiel: das Kind versetzt sich in andere Rollen 
+
+| 
+| 
+
+| 
+| 
+
+| 
+| 
+
+| 
+| 
+
+
+|===
+
