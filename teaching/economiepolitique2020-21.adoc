@@ -49,6 +49,11 @@ link:https://tarikgit.github.io/teaching/economiepolitique/05-Correction-de-l-ac
 |
 |link:https://tarikgit.github.io/teaching/economiepolitique/07-Role-de-l-Etat.pdf[Rôle de l'Etat]
 
+|
+|6/1/2021
+|Rappel: Formation des prix (marché concurrentiel)
+|link:https://tarikgit.github.io/teaching/economiepolitique/03-Rappel-Prix.pdf[]
+
 |===
 
 {blank} +
