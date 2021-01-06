@@ -62,6 +62,114 @@ aus link:https://www.fischerverlage.de/buch/fischer-abiturwissen-sozialkunde-978
   2. Sprache des Elternhauses +
   3. Spiel: das Kind versetzt sich in andere Rollen 
 
+| Soziale Interaktion 
+| gilt als Bezeichnung für das wechselseitig aufeinander bezogene Verhalten zwischen Menschen, für das Geschehen zwischen Personen, die agieren und wechselseitig aufeinander reagieren, sich gegenseitig beeinflussen und steuern
+
+| Soziale Kommunikation 
+| ist die Vermittlung, die Aufnahme und den Austausch von Informationen zwischen zwei oder mehreren Personen
+
+| Soziale Werte 
+| sind in einer Gesellschaft oder in einer ihrer Gruppen vorherrschende Vorstellungen über das Wünschens- und Erstrebenswerte und bilden allgemeine Orientierungsmaßstäbe für das Verhalten von Menschen
+
+| Anomie 
+| bezeichnet den Zustand, in welchem soziale Werte an Verbindlichkeit verlieren und es als Folge zu sozialer Orientierungs- und Bindungslosigkeit sowie abweichendem Verhalten und Kriminalität und letztlich zum Zusammenbruch der sozialen Struktur sowie des gesellschaftlichen Lebens kommen kann
+
+| Soziale Normen 
+| sind mehr oder weniger verbindliche Verhaltensvorschriften, die bestimmen, wie die Werte einer Gesellschaft oder Gruppe zu erfüllen und zu befolgen sind, und so das Tun und Lassen der Mitglieder dieser Gesellschaft oder Gruppe
+
+| Kann-Normen 
+| werden wenig verpflichtend erlebt (zBsp. Bräuche, Gewohnheiten)
+
+| Soll-Normen 
+| bezeichnen bestimmte Erwartungen an eine Person, ohne dass diese in Form von Rechtsregeln festgelegt sein müssen (zBsp. Sitten)
+
+| Muss-Normen 
+| sind rechtlich festgelegt und für jeden verbindlich (zBsp. Gesetze)
+
+| Soziale Position 
+| bezeichnet einen bestimmten Platz in einem sozialen Gebilde
+
+| Rollenkonflikte 
+| 
+
+| Intrarollenkonflikte 
+| wenn innerhalb einer sozialen Rolle unterschiedliche Verhaltenserwartungen zueinander in Widerspruch stehen
+
+| Rollendruck 
+| wenn der Rollenträger die Erwartungen, die an ihn herangetragen werden, zeitweilig oder dauernd als Belastung empfindet
+
+| Interrollenkonflikt 
+| wenn zwischen verschiedenen sozialen Rollen, die eine Person innehat, unterschiedliche Verhaltenserwartungen zueinander in Widerspruch stehen
+
+| Primäre Sozialisation 
+| siehe _Sozialisationsprozess_
+
+| Sekundäre Sozialisation 
+| siehe _Sozialisationsprozess_
+
+| Tertiäre Sozialisation 
+| siehe _Sozialisationsprozess_
+
+| Soziale Kontrolle 
+| bedeutet die Beaufsichtigung und Überwachung der Einhaltung von sozialen Normen und Erfüllung von sozialen Rollen
+
+| Sanktionen 
+| Maßnahmen, die für die Einhaltung von sozialen Normen und die Erfüllung von sozialen Rollen sorgen sollen
+
+| Konformität 
+| bezeichnet die Übereinstimmung eines Menschen mit den sozialen Wert- und Normvorstellungen des sozialen Gebildes, in welchem er "lebt"
+
+| Abweichendes Verhalten (oder _Devianz_) 
+| wenn ein Verhalten eines Individuums gegen soziale Normen bzw. Rollenerwartungen verstößt 
+
+| Devianz
+| siehe _Abweichendes Verhalten_
+
+| Kriminalität 
+| eine Form von Devianz und bezeichnet ein Verhalten, das gegen die Strafgesetze einer Gesellschaft verstößt
+
+| Minderheit 
+| eine Bevölkerungsgruppierung, die durch ein bestimmtes Merkmal, welches die Mehrheit nicht hat, abgegrenzt ist
+
+| Stigma 
+| eine Eigenschaft bzw. ein Merkmal eines Menschen, das von der Norm abweicht und mit einer negativen Bewertung und Diskreditierung des Stigmaträgers verbunden ist
+
+| Stigmatisierung 
+| das Verhalten aufgrund eines zu eigen gemachten Stigmas, welches mit einer negativen Bewertung und Diskreditierung des Betroffenen verbunden ist, der dadurch eine beschädigte Identität entwickelt
+
+| Etikettierung 
+| bezeichnet die Einordnung in eine bestimmte Kategorie durch Andere bzw. durch die Gesellschaft aufgrund eines bestimmten Verhaltens einer Person
+
+| Labeling-Approach 
+| besagt dass deviantes Verhalten aufgrund einer entsprechenden Zuschreibung durch Andere bzw. durch die Gesellschaft entsteht; diese Zuschreibung wird von dem Betroffenen als Etikettierung erlebt, vonihm übernommen und für sein Verhalten bestimmend
+
+| Gruppenidentifikation 
+| bedeutet ein emotionales Sich-Gleichsetzen mit der Gruppe, der man angehört
+
+| Gruppenkohäsion 
+| bezeichnet die Stärke des Zusammenhaltes einer Gruppe
+
+| Gruppe 
+| mehrere Personen, die miteinander über einen längeren Zeitraum in einer Wechselbeziehung stehen, ein Wir-Gefühl entwickeln und sich durch ein gewisses Bewusstsein für ein gemeinsames Ziel oder gemeinsames Interesse auszeichnen
+
+| Gruppenprozess 
+| wird die Gesamtheit der Veränderung bezeichnet, die im Gruppenleben geschehen
+
+| Sozialer Rang 
+| bedeutet dass ein Gruppenmitglied mit höherem Ansehen und höherer Stellung mehr Macht, Einfluss und Prestige besitzt als Mitglieder mit niedrigerem Ansehen und niedriger Stellung
+
+| Soziales Netzwerk 
+| bezeichnet das Geflecht von sozialen Beziehungen, in das eine Person einbezogen ist und das sich aus der Gesamtheit der Kontakte, die eine Person zu anderen Menschen hat, bildet
+
+| Soziale Unterstützung 
+| bzw. Unterstützungsnetzwerk meint den Austausch von Hilfsquellen zwischen den Mitgliedern eines sozialen Netzwerkes mit dem Ziel der gegenseitigen Aufrechterhaltung oder Verbesserung des Wohlbefindens
+
+| Gruppenpolarisierung 
+| bezeichnet den Prozess der Extremisierung der Meinung in der Gruppe im Verlauf einer Diskussion
+
+| Deindividuation 
+| bezeichnet des Zustand der Entpersönlichung eines Individuums
+
 | 
 | 
 
@@ -76,4 +184,29 @@ aus link:https://www.fischerverlage.de/buch/fischer-abiturwissen-sozialkunde-978
 
 
 |===
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
