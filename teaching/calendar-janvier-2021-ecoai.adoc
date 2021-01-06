@@ -33,7 +33,7 @@
 | 
 | 6/1 
 | Mathématiques financières
-| link:mathfi/26-MathFi-InteretsComposes-Exercice[Les intérêts composés et simples (exercices corrigés)]
+| link:mathfi/26-MathFi-InteretsComposes-Exercice.pdf[Les intérêts composés et simples (exercices corrigés)]
 | Valeur acquise +
   Taux de placement +
   Taux équivalents +
