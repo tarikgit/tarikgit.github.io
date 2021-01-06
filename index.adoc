@@ -50,6 +50,8 @@ _Mathématiques financières_: les annuités, l'emprunt indivis.
 [cols="1*"]
 |===
 
+|link:https://www.typelit.io/[Practice typing on classic literature]
+
 |link:https://de4.schreibtrainer.com/index.php?r=typewriter/practise[S'entraîner à la frappe à l’aveugle (_touch typing_)] 
 
 |link:teaching/word/calendar-2021.html[Les bases du traitement de texte]
