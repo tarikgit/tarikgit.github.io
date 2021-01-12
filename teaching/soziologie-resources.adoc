@@ -1,7 +1,29 @@
 = Soziologie
 
-== Videos
+== Erklärvideos
 
 link:https://www.youtube.com/watch?v=wMZwR6HEN9g[Max Weber: Einführung in seine Soziologie (Rationalität/Irrationalität, soziales Handeln)] + 
 link:https://www.youtube.com/watch?v=8gkSkkb6_-I[Emile Durkheim: Einführung in seine Soziologie (soziale Solidarität)]
 
+== Zusätzliche Ressourcen
+
+=== Zahlen & Statistiken
+
+link:https://statistiques.public.lu/[Statec]
+
+=== Zeitungen
+
+link:https://www.faz.net[Frankfurter Allgemeine Zeitung]
+
+=== Bundeszentrale für politische Bildung
+
+link:https://www.bpb.de/[BPB]
+
+=== Reportagen
+
+Arte, 3Sat, Educ'Arte
+
+. link:https://www.alternatives-economiques.fr/podcast/le-dialogue-social-nest-il-quune-histoire-de-ceinture-et-de-chemise-201510271107-00002413.html[Le dialogue social n’est-il qu’une histoire de ceinture et de chemise? (Alternatives Economiques)]
+
+
+image::soziologie-cours/mindmap-themen-soziologie.png[Themen,width=640,height=480]
