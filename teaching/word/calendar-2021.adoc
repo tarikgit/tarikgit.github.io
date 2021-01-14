@@ -109,3 +109,23 @@
 * How do you change the Margin of a document?
 * How do you insert a check mark or other symbols into a word document?
 * How do you customize the ribbon? 
+
+
+[cols="5*", options="header"] 
+|===
+|Semaine
+|Date
+|Matières
+|Détail
+|Description
+
+|  
+| 15/1 
+| *Word: Connaitre les méthodes pour travailler ensemble sur un même document*
+| 1. link:https://www.youtube.com/watch?v=ymBMonYehFA[Suivi des modifications (Track Changes)] +
+  2. Commentaires +
+| Travail à faire: +
+  Partager votre document avec une personne +
+  Corriger et commentez le document de votre collègue
+
+|===

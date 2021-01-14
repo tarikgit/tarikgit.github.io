@@ -52,7 +52,19 @@ link:https://tarikgit.github.io/teaching/economiepolitique/05-Correction-de-l-ac
 |
 |6/1/2021
 |Rappel: Formation des prix (marché concurrentiel)
-|link:https://tarikgit.github.io/teaching/economiepolitique/03-Rappel-Prix.pdf[]
+|link:https://tarikgit.github.io/teaching/economiepolitique/03-Rappel-Prix.pdf[Les conséquences de la guerre de Sécession aux États-Unis sur le prix mondial du coton]
+
+|
+|13/1/2021
+|Politique monétaire: +
+ Les fonctions de la monnaie +
+ Les formes de la monnaie +
+ L'inflation et la politique monétaire
+|link:https://tarikgit.github.io/teaching/economiepolitique/05-Economie-Politique-Monnaie.pdf[Politique monétaire]
+
+
+
+
 
 |===
 

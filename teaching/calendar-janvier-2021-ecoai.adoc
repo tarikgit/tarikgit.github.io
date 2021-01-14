@@ -42,8 +42,10 @@
 | 
 | 8/1 
 | Comptabilité
-| 
-| 
+| link:comptabilite-cours/27-Comptabilite-CVP.pdf[Rappel: Correction de valeur]
+| Amortissements +
+  Corrections de valeur probables +
+  Provisions
 
 
 | 15
@@ -55,20 +57,32 @@
 | 
 | 11/1 
 | Mathématiques financières
-| 
-| 
+| Annuités de capitalisation +
+  (_notes prises en classe_)
+| Valeur acquise +
+  Annuités en début de période +
+  Progression géométrique croissante
+  
 
 | 
 | 13/1 
 | Mathématiques financières
-| 
-| 
+| Annuités de capitalisation +
+  (_notes prises en classe_)
+| Valeur acquise +
+  Annuités en fin de période +
+  Valeur actuelle
+  
 
 | 
 | 15/1 
 | Comptabilité
-| 
-| 
+| Séance d'exercices +
+  (_notes prises en classe_)
+| Correction de valeurs +
+  Clients douteux +
+  Titres financiers +
+  Vente de terrain +
 
 | 16
 | 18/1 -- 22/1
