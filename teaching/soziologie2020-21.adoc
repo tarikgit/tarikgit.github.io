@@ -143,7 +143,7 @@ Film: _Good Vibrations - Récréation_ auf link:https://educ.arte.tv/program/goo
 |
 |
 |Bewertungscheckliste
-|link:https://tarikgit.github.io/teaching/soziologie-cours/02-Socio T1-2-CritereCorrection.pdf[Bewertungskriterien vom _Dossier_]
+| link:https://tarikgit.github.io/teaching/soziologie-cours/02-Socio-T1-2-CritereCorrection.pdf[Bewertungskriterien vom _Dossier_ ]
 
 
 
