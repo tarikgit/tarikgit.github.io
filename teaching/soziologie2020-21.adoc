@@ -128,7 +128,8 @@ Film: _Good Vibrations - Récréation_ auf link:https://educ.arte.tv/program/goo
 |13/1/2021
 |Soziale Konflikte: Air France +
  Film: link:https://www.youtube.com/watch?v=CCySCG5EDqw[_Air France - le DRH agressé par le personnel en colère_]  
-| link:https://tarikgit.github.io/teaching/soziologie-cours/19-Konflikt-Betrieb-BalancedEssay1.pdf[Konfliktsituation in einem Betrieb: Lösungen]
+| link:https://tarikgit.github.io/teaching/soziologie-cours/19-Konflikt-Betrieb-BalancedEssay1.pdf[Konfliktsituation in einem Betrieb: Lösungen] +
+  link:https://tarikgit.github.io/teaching/soziologie-cours/27-Social-conflict.pdf[_Social conflict_ in the literature]
 
 |15
 |15/1/2021
