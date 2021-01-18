@@ -92,9 +92,9 @@
 
 | 
 | 18/1 
-| 
-| 
-| 
+| Mathématiques financières
+| Annuités de capitalisation 
+| link:mathfi/29-MathFi-annuites.pdf[Exercices corrigés]
 
 | 
 | 20/1 
