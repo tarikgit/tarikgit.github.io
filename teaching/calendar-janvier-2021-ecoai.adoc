@@ -98,9 +98,9 @@
 
 | 
 | 20/1 
-| 
-| 
-| 
+| Mathématiques financières
+| Annuités de capitalisation, intérêts composés
+| Exercices corrigés: link:mathfi/30-MathFi-Ex5.pdf[ex.5], link:mathfi/30-MathFi-Ex7.pdf[ex.7] et détail du calcul de link:mathfi/30-MathFi-Ex3-calcul.pdf[ex.3]
 
 | 
 | 22/1 

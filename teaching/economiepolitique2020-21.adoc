@@ -62,6 +62,11 @@ link:https://tarikgit.github.io/teaching/economiepolitique/05-Correction-de-l-ac
  L'inflation et la politique monétaire
 |link:https://tarikgit.github.io/teaching/economiepolitique/05-Economie-Politique-Monnaie.pdf[Politique monétaire]
 
+|
+|20/1/2021
+|Politique monétaire:
+| 1. Pour cela vous devez d'abord lire le link:https://www.sciencespo.fr/department-economics/econofides/premiere-ses/text/05.html[texte sur Core-Econ]. +
+  2. Ensuite, vous devez répondre aux questions de la link:https://tarikgit.github.io/teaching/economiepolitique/05-Economie-Politique-Monnaie.pdf[dernière page des slides] du cours précédent. 
 
 
 
