@@ -1,0 +1,49 @@
+= Configuration de base
+
+== Home
+
+image::pics/01-word.png[Ribbon 1,300,200]
+
+
+. *Cursor* :toujours « cliqué » 
+. *Police d’écriture*: choisir Arial  
+. *Taille d’écriture*: 12  
+. *Lignes*: justifié 
+
+== Home/Paragraph
+
+image::pics/02-word.png[Ribbon 1,300,200]
+image::pics/03-word.png[Paragraph,300,200]
+
+. *Spacing Before et After*: 0 
+. *Line spacing*: Single 
+
+== Insert
+
+image::pics/04-word.png[Margins 1,300,200]
+
+. *Footer*: choisir le master prédéfini en classe 
+. *Nom*: MUSTERMANN Max / T0CM 
+. *Date* : Date, heures / minutes / secondes 
+
+(éventuellement à utiliser : Design) 
+
+== Page layout
+
+image::pics/05-word.png[Margins 2,300,200]
+image::pics/05-word.png[Margins 2,300,200]
+
+. *Margins* (Top, Left, Bottom, Right): 2 cm 
+
+== Review
+
+. *Language*: Globus A  
+. *Set proofing language*: Do not check spelling 
+
+== View
+
+. *Ruler*:toujours « cliqué » 
+
+== Print
+
+. Ctrl + P ou via file 

@@ -56,6 +56,6 @@ _Mathématiques financières_: les annuités, l'emprunt indivis.
 
 |link:teaching/word/calendar-2021.html[Les bases du traitement de texte]
 
-
+|link:teaching/texte/basic-configuration-word.html[Configuration de départ]
 
 |===
