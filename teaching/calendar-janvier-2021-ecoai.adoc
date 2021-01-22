@@ -78,7 +78,7 @@
 | 15/1 
 | Comptabilité
 | Séance d'exercices +
-  (_notes prises en classe_)
+  (_notes prises en classe_ et link:comptabilite-cours/01-Exercices-CVP-Provisions.pdf[exercices])
 | Correction de valeurs +
   Clients douteux +
   Titres financiers +
@@ -104,9 +104,12 @@
 
 | 
 | 22/1 
-| 
-| 
-| 
+| Comptabilité
+| Correction de valeurs +
+  Clients douteux +
+  Vente d'actif +
+  link:comptabilite-cours/01-Exercices-CVP-Provisions.pdf[exercices]
+| Exercices corrigés: link:comptabilite-cours/31-Comptabilite-CV-exercices-corriges.pdf[ex.5 et ex.6]
 
 | 17
 | 25/1 -- 29/1
