@@ -119,8 +119,8 @@
 
 | 
 | 25/1 
-| 
-| 
+| Mathématiques financières
+| Révision: link:mathfi/30-MathFi-Ex7.pdf[Ex.7], ex.6 et link:mathfi/30-MathFi-Ex3.pdf[ex.3]
 | 
 
 | 
