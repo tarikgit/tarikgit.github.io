@@ -131,9 +131,11 @@
 
 | 
 | 29/1 
-| 
-| 
-| 
+| Comptabilité
+| Amortissement +
+  Correction de valeur +
+  Actifs financiers
+| link:comptabilite-cours/32-CVP-Ex9-Ex13.pdf[Q2 du DEC I,2; Ex.9 p 400]
 
 | 18
 | 1/2 -- 5/2
