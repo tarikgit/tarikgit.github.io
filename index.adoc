@@ -12,6 +12,8 @@
 
 |link:teaching/calendar-janvier-2021-ecoai.html[Calendrier: janvier 2021]
 
+|link:teaching/calendar-fevrier-avril-2021-ecoai.html[Calendrier: février-avril 2021]
+
 | *Matières essentielles*: +
 _Comptabilité_: Les opérations d'inventaire (ch.9), les amortissements (corrections de valeur définitives, ch.10), les corrections de valeur probables et les provisions (ch.11), la régularisation des charges et des produits (ch.12). +
 _Mathématiques financières_: les annuités, l'emprunt indivis.
