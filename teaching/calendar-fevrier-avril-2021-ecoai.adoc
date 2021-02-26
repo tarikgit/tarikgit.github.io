@@ -22,7 +22,7 @@
 | 
 | 24/2
 | Mathématiques financières
-| Emprunts indivis: Théorie
+| Emprunts indivis: link:comptabilite-cours/35-MathFin-EmpruntIndivis.pdf[Théorie]
 
 | 
 | 
