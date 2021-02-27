@@ -63,3 +63,9 @@ _Mathématiques financières_: les annuités, l'emprunt indivis.
 |link:https://support.microsoft.com/fr-fr/office/mettre-en-retrait-la-premi%C3%A8re-ligne-d-un-paragraphe-b3721167-e1c8-40c3-8a97-3f046fc72d6d[Mettre en retrait la première ligne d'un paragraphe]
 
 |===
+
+
+
+== University studies
+
+link:teaching/universitystudies.html[Doing research in economics.]

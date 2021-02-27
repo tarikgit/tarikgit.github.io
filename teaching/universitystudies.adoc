@@ -1,0 +1,30 @@
+= University studies
+
+. *Bachelor*
+.. more or less same subjects taught in most universities; 
+.. you may find something that you are particularly interested in 
+. *Master*
+.. specialisation in the subject that you discovered
+.. chance/good idea to do your Master in another university
+.. once finished, you can either move to _work_ or pursue a _research degree_ 
+. *PhD*
+.. first year: graduate courses (in research methods, specialized courses, seminars, ...) and literature review
+.. second year: field work or you carry out your actual research
+.. third year: writing up, preparing publications
+.. opportunity to be a _visiting PhD_ in other universities or research institutes
+.. you may already be going to conferences (presentation, feedback from peers, meet people who are reviewing articles, ...)
+. *Research in Economics*
+.. Puzzles in Economics (link:https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_economics[see here for a list])
+.. Ongoing research projects: 
+.. Policy-oriented research (sustainable development, regulatory policy, ...)
+.. Public-private collaboration (collaboration with private sector or industry)
+. *Research environment*
+.. academic freedom
+.. you work on your own and you are responsible for your output
+.. _publish or perish_
+. *Choosing the research environment*
+* link:https://www.universityrankings.ch/en[UniversityRankings.ch]
+* link:www.timeshighereducation.com[World University Rankings (Times Higher Education)]
+* link:https://voxeu.org/[Research-based policy analysis and commentary from leading economists]
+* link:https://cwur.org[Center for World University Rankings (CWUR)]
+
