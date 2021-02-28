@@ -1,0 +1,4 @@
+= Teaching and Learning Methods
+
+. link:../posters/01_Poster_IFEN_Landscape.pdf[Open Source Media Content For Teaching Economics (poster)]
+. link:../posters/01_Poster_A_level.pdf[A-Level Economics Teaching Approach (poster)]
