@@ -1,6 +1,25 @@
 = Applications Informatiques
 
+== Les annuités, l'amortissement d'un emprunt indivis
+
+
+
 == Seuil de rentabilité
+
+Le seuil de rentabilité est le chiffre d'affaires ($CHIDA$) qui couvre exactement la totalité des charges. Au seuil de rentabilité, il n'y a ni bénéfice ni perte. Si le chiffre d'affaires est inférieur au seuil de rentabilité, l'entreprise réalise une perte. S'il est supérieur au seuil de rentabilité, il y a bénéfice.
+
+Le _résultat de l'exercice_ ($R$) est déterminé comme suite:
+\begin{eqnarray}
+ R &=& CHIDA - CT \\
+   &=& CHIDA - (CV + CF)
+\end{eqnarray}
+où $CT$, $CV$, $CF$ représentent le coût total, coût variable et coût fixe, respectivement.
+
+Une autre manière pour calculer le résultat est:
+\begin{eqnarray}
+ R &=& MSCV - CF
+\end{eqnarray}
+où $MSCV$ représente la marge sur coût variable.
 
 link:https://www.compta-facile.com/calcul-du-seuil-de-rentabilite/#1_Definition_du_seuil_de_rentabilite_SR[Définition]
 

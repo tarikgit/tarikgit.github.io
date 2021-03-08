@@ -33,7 +33,7 @@
 | 
 | 
 | 26/2 (Teams)
-| Applications informatiques
+| 
 | 
 
 
@@ -41,24 +41,24 @@
 | 1/3 -- 5/3
 | 1/3
 | Comptabilité
-| 
+| Régularisation des charges et produits (Théorie et illustration)
 
 | 
 | 
 | 3/3
 | Mathématiques financières
-| 
+| Emprunt indivis: exercices
 
 | 
 | 
 | 5/3
 | Mathématiques financières
-| 
+| Emprunt indivis: exercices
 
 | 
 | 
 | 5/3 (Teams)
-| Applications informatiques
+| 
 | 
 
 
@@ -66,13 +66,13 @@
 | 8/3 -- 12/3
 | 8/3
 | Comptabilité
-| 
+| Régularisation des charges et produits (Exercice 1 a-c )
 
 | 
 | 
 | 10/3
-| Droit
-| 
+| Comptabilité
+| Régularisation des charges et produits (Exercice 1 d-f)
 
 | 
 | 
