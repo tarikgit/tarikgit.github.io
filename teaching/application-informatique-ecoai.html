@@ -479,41 +479,105 @@ $(document).on('page:load', ready2);
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_les_annuités_lamortissement_dun_emprunt_indivis">Les annuités, l&#8217;amortissement d&#8217;un emprunt indivis</h2>
+<h2 id="_annuités">Annuités</h2>
 <div class="sectionbody">
+<div class="paragraph">
+<p>Formule de la <em>valeur actuelle</em> :
 
+\[
+ \boxed{ V_0 = a \cdot \frac{ (1+i)^{n} - 1 }{ i } (1+i)^{-n} }
+\]
+
+</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-julia" data-lang="julia"># Print Hello World
+# Input
+a = 80
+i = 0.06
+n = 5
+
+# Méthode 1
+## Année 1
+valeur_actualisee_t1 = a*(1+i)^(-1)
+## Année 2
+valeur_actualisee_t2 = a*(1+i)^(-2)
+## Année 3
+valeur_actualisee_t3 = a*(1+i)^(-3)
+## Année 4
+valeur_actualisee_t4 = a*(1+i)^(-4)
+## Année 5
+valeur_actualisee_t5 = a*(1+i)^(-5)
+
+print("Méthode 1")
+print("\n")
+print("t=1 : ")
+print(valeur_actualisee_t1)
+print("\n")
+print("t=2 : ")
+print(valeur_actualisee_t2)
+print("\n")
+print("t=3 : ")
+print(valeur_actualisee_t3)
+print("\n")
+print("t=4 : ")
+print(valeur_actualisee_t4)
+print("\n")
+print("t=5 : ")
+print(valeur_actualisee_t5)
+print("\n")
+print("V_0 = ")
+print(valeur_actualisee_t1+valeur_actualisee_t2+valeur_actualisee_t3+valeur_actualisee_t4+valeur_actualisee_t5)
+print("\n")
+print("\n")
+
+# Méthode 2
+V0 = a*( ( (1+i)^n - 1 ) / ( i ) ) * (1+i)^(-n)
+print("Méthode 2")
+print("\n")
+print("V_0 = ")
+print(V0)
+print("\n")
+print("\n")
+
+
+# Méthode 3
+function fnValeurActualisee(a, i, n)
+    V0 = a*( ( (1+i)^n - 1 ) / ( i ) )*(1+i)^(-n)
+    return V0
+end
+print("Méthode 3")
+print("\n")
+print("V_0 = ")
+print(fnValeurActualisee(a, i, n))</code></pre>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_seuil_de_rentabilité">Seuil de rentabilité</h2>
+<h2 id="_valeur_acquise">Valeur acquise</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Le seuil de rentabilité est le chiffre d&#8217;affaires (\(CHIDA\)) qui couvre exactement la totalité des charges. Au seuil de rentabilité, il n&#8217;y a ni bénéfice ni perte. Si le chiffre d&#8217;affaires est inférieur au seuil de rentabilité, l&#8217;entreprise réalise une perte. S&#8217;il est supérieur au seuil de rentabilité, il y a bénéfice.</p>
+<p>Formule de la <em>valeur acquise</em> :
+
+\[
+ \boxed{ A = a \cdot \frac{ (1+i)^{n} - 1 }{ i }  }
+\]
+
+</p>
 </div>
-<div class="paragraph">
-<p>Le <em>résultat de l&#8217;exercice</em> (\(R\)) est déterminé comme suite:
-\begin{eqnarray}
- R &amp;=&amp; CHIDA - CT \\
-   &amp;=&amp; CHIDA - (CV + CF)
-\end{eqnarray}
-où \(CT\), \(CV\), \(CF\) représentent le coût total, coût variable et coût fixe, respectivement.</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-julia" data-lang="julia">TBC</code></pre>
 </div>
-<div class="paragraph">
-<p>Une autre manière pour calculer le résultat est:
-\begin{eqnarray}
- R &amp;=&amp; MSCV - CF
-\end{eqnarray}
-où \(MSCV\) représente la marge sur coût variable.</p>
-</div>
-<div class="paragraph">
-<p><a href=https://www.compta-facile.com/calcul-du-seuil-de-rentabilite/#1_Definition_du_seuil_de_rentabilite_SR>Définition</a></p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-03-02 10:02:00 +0100
+Last updated 2021-03-30 15:44:57 +0200
 </div>
 </div>
 <script type="text/x-mathjax-config">

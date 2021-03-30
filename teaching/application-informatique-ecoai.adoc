@@ -1,6 +1,103 @@
 = Applications Informatiques
 
+== Annuités
+
+Formule de la _valeur actuelle_ :
+\[
+ \boxed{ V_0 = a \cdot \frac{ (1+i)^{n} - 1 }{ i } (1+i)^{-n} }
+\]
+
+
+[source,julia]
+----
+
+# Print Hello World
+# Input
+a = 80
+i = 0.06
+n = 5
+
+# Méthode 1
+## Année 1
+valeur_actualisee_t1 = a*(1+i)^(-1)
+## Année 2
+valeur_actualisee_t2 = a*(1+i)^(-2)
+## Année 3
+valeur_actualisee_t3 = a*(1+i)^(-3)
+## Année 4
+valeur_actualisee_t4 = a*(1+i)^(-4)
+## Année 5
+valeur_actualisee_t5 = a*(1+i)^(-5)
+
+print("Méthode 1")
+print("\n")
+print("t=1 : ")
+print(valeur_actualisee_t1)
+print("\n")
+print("t=2 : ")
+print(valeur_actualisee_t2)
+print("\n")
+print("t=3 : ")
+print(valeur_actualisee_t3)
+print("\n")
+print("t=4 : ")
+print(valeur_actualisee_t4)
+print("\n")
+print("t=5 : ")
+print(valeur_actualisee_t5)
+print("\n")
+print("V_0 = ")
+print(valeur_actualisee_t1+valeur_actualisee_t2+valeur_actualisee_t3+valeur_actualisee_t4+valeur_actualisee_t5)
+print("\n")
+print("\n")
+
+# Méthode 2
+V0 = a*( ( (1+i)^n - 1 ) / ( i ) ) * (1+i)^(-n)
+print("Méthode 2")
+print("\n")
+print("V_0 = ")
+print(V0)
+print("\n")
+print("\n")
+
+
+# Méthode 3
+function fnValeurActualisee(a, i, n)
+    V0 = a*( ( (1+i)^n - 1 ) / ( i ) )*(1+i)^(-n)
+    return V0
+end
+print("Méthode 3")
+print("\n")
+print("V_0 = ")
+print(fnValeurActualisee(a, i, n))
+
+
+----
+
+
+
+== Valeur acquise
+
+Formule de la _valeur acquise_ :
+\[
+ \boxed{ A = a \cdot \frac{ (1+i)^{n} - 1 }{ i }  }
+\]
+
+[source,julia]
+----
+TBC
+----
+
+
+
+
+
+
+////
+
+
 == Les annuités, l'amortissement d'un emprunt indivis
+
 
 
 
@@ -23,3 +120,4 @@ où $MSCV$ représente la marge sur coût variable.
 
 link:https://www.compta-facile.com/calcul-du-seuil-de-rentabilite/#1_Definition_du_seuil_de_rentabilite_SR[Définition]
 
+////

@@ -4,7 +4,7 @@
 
 
 
-[cols="5*", options="header"] 
+[cols="5*", options="header"]
 |===
 |Semaine
 |Date
@@ -18,23 +18,23 @@
 | Comptabilité
 | Rappel et exercice (link:comptabilite-cours/34-Titres-CV.pdf[présentation] et streaming sur Microsoft Stream)
 
-| 
-| 
+|
+|
 | 24/2
 | Mathématiques financières
 | Emprunts indivis: link:comptabilite-cours/35-MathFin-EmpruntIndivis.pdf[Théorie]
 
-| 
-| 
+|
+|
 | 26/2
 | Mathématiques financières
 | Emprunts indivis: Application
 
-| 
-| 
+|
+|
 | 26/2 (Teams)
-| 
-| 
+|
+|
 
 
 | 21 (homeschooling)
@@ -43,23 +43,23 @@
 | Comptabilité
 | Régularisation des charges et produits (Théorie et illustration)
 
-| 
-| 
+|
+|
 | 3/3
 | Mathématiques financières
 | Emprunt indivis: exercices
 
-| 
-| 
+|
+|
 | 5/3
 | Mathématiques financières
 | Emprunt indivis: exercices
 
-| 
-| 
+|
+|
 | 5/3 (Teams)
-| 
-| 
+|
+|
 
 
 | 22
@@ -68,67 +68,67 @@
 | Comptabilité
 | Régularisation des charges et produits (Exercice 1 a-c )
 
-| 
-| 
+|
+|
 | 10/3
 | Comptabilité
 | Régularisation des charges et produits (Exercice 1 d) et Mathématiques financières (Exercice 4)
 
-| 
-| 
+|
+|
 | 12/3
 | Mathématiques financières: Emprunt indivis (Exercice 5) et annuités (exercice de révision)
-| 
+|
 
-| 
-| 
+|
+|
 | 12/3 (Teams)
-| 
-| 
+|
+|
 
 
 | 23 (homeschooling)
 | 15/3 -- 19/3
 | 15/3
 | Comptabilité
-| 
+|
 
-| 
-| 
+|
+|
 | 17/3
 | Droit
-| 
+|
 
-| 
-| 
+|
+|
 | 19/3
 | Droit
-| 
+|
 
-| 
-| 
+|
+|
 | 19/3 (Teams)
 | Applications informatiques
-| 
+|
 
 
 | 24
 | 22/3 -- 26/3
 | 22/3
 | Révision
-| 
+|
 
-| 
-| 
+|
+|
 | 24/3
 | Révision
-| 
+|
 
-| 
-| 
+|
+|
 | 26/3
 | DEC II,1
-| 
+|
 
 
 | 25 (homeschooling)
@@ -137,34 +137,37 @@
 | Applications informatiques
 | link:applicationeconomique/39-Annuites-Excel.xlsx[Annuités et valeur future]
 
-| 
-| 
+|
+|
 | 31/3
 | Applications informatiques
-| 
+| link:application-informatique-ecoai.html[Codes dans]
+  link:https://julialang.org/[julia]. Vous pouvez exécuter le code dans
+  link:https://www.tutorialspoint.com/execute_julia_online.php[codingground].
+  link:applicationeconomique/39-Annuites-Excel-Solutions.xlsx[Solution du cours d 29/3].
 
-| 
-| 
+
+
+|
+|
+| 31/3
+| Applications informatiques
+|
+
+|
+|
 | 2/3
-| 
-| 
+|
+|
 
 
-| 
+|
 | 5/4 -- 18/4
-| 
-| 
-| vacances de Pâques 
+|
+|
+| vacances de Pâques
 
 
 
 
 |===
-
-
-
-
-
-
-
-
