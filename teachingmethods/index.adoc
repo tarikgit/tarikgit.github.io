@@ -2,5 +2,6 @@
 
 . link:../posters/01_Poster_IFEN_Landscape.pdf[Open Source Media Content For Teaching Economics (poster)]
 . link:../posters/01_Poster_A_level.pdf[A-Level Economics Teaching Approach (poster)]
-. link:../posters/03_Poster_Departement_Sciences_Economiques.pdf[Technicien en Administration et Commerce (poster)]
+. link:../posters/03_Poster_Departement_Sciences_Economiques_ESG.pdf[Enseignement secondaire général - Division administrative et commerciale (poster)]
+. link:../posters/03_Poster_Departement_Sciences_Economiques_TPCM.pdf[Technicien en Administration et Commerce (poster)]
 . link:../posters/03-EconomieExpliquee.pdf[Etudier les sciences économiques (slides)]
