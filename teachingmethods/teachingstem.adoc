@@ -488,3 +488,58 @@ pour une croissance totale de la productivité de 0,7 %.
 [quote]
 Source: link:https://www.strategie.gouv.fr/publications/effets-de-crise-covid-19-productivite-competitivite[le deuxième rapport du Conseil national de la productivité]
 . link:https://odc.gouvernement.lu/fr/publications.html?q=productivit%C3%A9[Publications de l'Observatoire de la compétitivité (Luxembourg) sur la productivité]
+. link:https://www.escoe.ac.uk/[Economic Statistics Centre of Excellence]
+[quote]
+ Low productivity is possibly the most important challenge that the UK
+ economy faces because it affects the living standards we can sustain.
+ Against this background, the disappointing productivity record of many UK
+ businesses has provoked significant concern amongst policy, academic and
+ business communities. The factors contributing to this picture remain the
+ subject of debate. Much can be learned from careful investigation of
+ firm-level micro data.
+. link:https://www.ft.com/content/8853d9be-af66-11e7-8076-0a4bdda92ca2[Trying to make sense of the UK productivity puzzle]
+[quote]
+ If we want to get richer, we must be more productive, so there’s a
+ “productivity crisis”. Never mind that unemployment is at a 42-year low,
+ we are miserably unproductive compared with other countries, and thus
+ doomed to stagnant standards of living. These figures imply that, instead
+ of getting more efficient, we are simply employing more people.
+ But what if we are measuring the wrong things? It’s simple to count cars
+ from a factory (although less simple to capture model improvements) but in
+ a service economy like Britain’s, measuring output is hard. Is a longer
+ newspaper article more productive than a shorter one? What about making
+ phone calls on the train? Search? Emails? Same day delivery? All short-circuit
+ problems which took hours or even days to solve in the pre-internet era.
+. link:https://www.ft.com/content/d8f5322a-5e19-11e8-ad91-e01af256df68[‘Solution’ to UK productivity puzzle is misconceived, study finds]
+[quote]
+ Low business investment, poor management skills, difficulties in measuring
+ the new digital economy and loose monetary policy prolonging the survival
+ of “zombie” companies all help to account for the UK’s “productivity puzzle”.
+ One other explanation that has heavily influenced policy — highlighted last
+ year by Andy Haldane, the Bank of England’s chief economist — is the fact
+ that the UK has an unusually long tail of productivity laggards that pull
+ down the national average.
+[quote]
+ The Treasury has also earmarked £20m for a pilot led by Jürgen Maier,
+ chief executive of Siemens’ UK operations, which *aims to help small
+ businesses in manufacturing supply chains adopt digital technology*.
+. link:https://www.centreforcities.org/blog/can-employment-training-help-address-uks-productivity-puzzle/[Can employment training help address the UK’s productivity puzzle?]
+[quote]
+There is evidence that employment training can be effective in tackling this
+issue by not only bringing people back into work but by also helping them
+acquire new skills and move up on the earnings ladder. In around half of the
+evaluations on this topic reviewed by the What Works Centre (WWC), employment
+training had a positive impact on wages and employment.
+[quote]
+But in terms of outcomes, the way the training is designed matters. Looking at
+the duration of trainings, the review found that short programmes are more
+effective for less formal training activity while longer programmes generate
+gains when the content is skill-intensive but the benefits take longer to
+materialize.
+[quote]
+When it comes to the format of the training, on-the-job training programmes
+tend to outperform classroom-based ones. This is because employers engage
+directly with the course and the participants tend to acquire skills that
+match more closely what employers need. This could also be due to the fact
+that the participants have already established a relationship with their
+potential employer.
