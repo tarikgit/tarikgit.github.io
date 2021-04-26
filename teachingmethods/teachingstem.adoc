@@ -91,7 +91,7 @@ sections or streams that have no or very light Mathematics in the curriculum.
 Those who are lucky to make it into sections/streams that requires Maths
 will systematically under-perform.
 
-[short presentation of the Luxembourg school system, use a simplified graphics from mengschoul.lu]
+_short presentation of the Luxembourg school system, use a simplified graphics from mengschoul.lu_
 
 And low-performing students can hamper productivity.
 Therefore one strategy would be for schools to adress maths and science literacy
@@ -543,3 +543,95 @@ directly with the course and the participants tend to acquire skills that
 match more closely what employers need. This could also be due to the fact
 that the participants have already established a relationship with their
 potential employer.
+. link:https://www.ft.com/content/6e5a5adc-80fe-11e8-bc55-50daf11b720d[UK’s dismal productivity record divides official agencies]
+[quote]
+The spat highlighted the widespread disagreements over the diagnosis and
+prognosis of Britain’s productivity problem. This issue is important because
+living standards can rise only if more people work, they work longer hours or
+they produce more for each hour worked.
+[quote]
+The statistical agents’ pessimism was contradicted by Bank of England
+staff members, however. They said contacts with business leaders suggested
+that tackling low productivity was becoming a priority and labour-saving
+machinery was beginning to be installed across the UK as labour became more
+scarce and more expensive.
+[quote]
+It also contradicts the ONS, which said that companies that import and export
+heavily are more likely to be productivity stars, reflecting work that suggests
+open borders and trade encourage greater efficiency.
+. link:https://www.ft.com/content/e6cc1948-6560-11e7-8526-7b38dcaef614[How banks could help solve the great productivity puzzle]
+[quote]
+One common assertion is that Britain’s economic reliance on financial
+services and related sectors, which boomed pre-2008 and then bust
+disastrously, is responsible for this “productivity puzzle”. But is that
+right?
+[quote]
+Logic suggests it is. The outsized revenues and profits that banks and other
+financial groups made in the run-up to the crash, much of it inflated by
+mis-selling and manipulation, have given way to lower income. At the same
+time, banks have had to employ thousands more back-office staff to cope with
+new compliance and regulatory demands. Such roles, while crucial, are the very
+definition of economically unproductive, unless you count the preventive
+benefits that the data struggle to capture.
+[quote]
+Do some digging and, sure enough, there are promising signs that some banks
+are becoming more productive, not less. (...)
+There is probably much further to go in the process of cutting overheads
+relative to revenues, as online banking usurps traditional branch banking. (...)
+. link:https://www.ft.com/content/5c47a7a4-4946-11e8-8ae9-4b5ddcca99b3[Forget about productivity, focus on resuming work]
+[quote]
+Lastly the concern over productivity is misguided anyway. The big issue
+is whether someone’s salary or wages reflect the value of their marginal
+productivity. There is nothing wrong with using less productive capital,
+including human capital, provided it is priced correctly. We should stop
+worrying about productivity in the UK and get back to work.
+. link:https://www.ft.com/content/d792879e-8046-11e8-af48-190d103e32a4[The Bank of England can and should do more to encourage lending]
+[quote]
+“Financing Investment,” the *report produced by GFC Economics and Clearpoint*
+for John McDonnell, the UK’s shadow chancellor of the exchequer, identified
+*two critical problems* in the so-called productivity puzzle.
+*Chronic under-investment* and a *financial system that fails to support
+UK company growth* are two obvious causes of Britain’s dismal record.
+[quote]
+Some argue it is not the job of a central bank to influence lending and to
+determine the allocation of funding. But the BoE already does that: by default,
+it takes deposits from companies in productive sectors and channels this into
+loans in the real estate sector, and towards consumer credit.
+[quote]
+The “long tail” of unproductive or “zombie” companies needs to be tackled
+by easier access to capital. Many small and medium-sized enterprises start
+out under-capitalised. Low interest rates are not the problem; but rather the
+failure to use effective levers to generate and direct investment at scale
+into the productive economy.
+. link:https://www.ft.com/content/442fb59c-d138-11e8-a9f2-7574db66bcd5[Germany shows how to tackle the puzzle of productivity]
+[quote]
+link:https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-eu.s3.amazonaws.com%2Fff79175c-d611-11e8-a854-33d6f82e62f8?dpr=2&fit=scale-down&quality=medium&source=next&width=700[low numeracy vs. low literacy]
+[quote]
+Comparing maths and reading skills of Luxembourg with respect to France, Germany and UK:
+link:https://data.oecd.org/chart/6mah[Mathematics performance (PISA)]
+link:https://data.oecd.org/chart/6maj[Reading performance (PISA)]
+[quote]
+Comparing the link:https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-eu.s3.amazonaws.com%2Ffddda278-d611-11e8-a854-33d6f82e62f8?dpr=2&fit=scale-down&quality=medium&source=next&width=700[skill level of younger and older generations]
+[quote]
+Although German managers are *less likely to have higher educational
+qualifications*, they have often received *vocational training* that
+builds workplace expertise. And despite the UK having *more
+tertiary-educated managers* than Germany, OECD data show their
+*actual skills, in literacy and data management, are lower*.
+[quote]
+In comparison, the *apprenticeship system in Germany is far more developed*
+than in the UK, which is still struggling to find a system that works.
+Half of German school leavers have a vocational qualification, and 327
+*different training occupations* are recognised within the country’s
+*dual vocational and educational scheme*.
+[quote]
+Employers themselves play a key role. While the government pays
+for vocational schools and the teaching in them, employers pay other
+*costs such as apprentices’ wages*.
+link:https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-eu.s3.amazonaws.com%2Ffc2fbc40-d611-11e8-a854-33d6f82e62f8?dpr=2&fit=scale-down&quality=medium&source=next&width=700[Total public spending on worker training]
+[quote]
+Mr Dollendorf estimates that more than a third of managers have some kind
+of vocational qualification.
+“Vocational training has a good image,” he says. “The heart and soul
+of the chamber is the vocational training programme.”
+[quote]
