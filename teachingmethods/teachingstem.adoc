@@ -635,3 +635,15 @@ of vocational qualification.
 “Vocational training has a good image,” he says. “The heart and soul
 of the chamber is the vocational training programme.”
 [quote]
+. link:https://www.ft.com/content/ef4e5479-42a9-3cbc-86b5-5f2426e2e7f5[ A financial enigma within a productivity puzzle
+]
+[quote]
+A footnote references a 1991 paper from Murphy, Shleifer and Vishny:
+_They argued that when rent-seeking rewards talent more than entrepreneurship
+or innovation, aggregate productivity suffers. They conjectured back then,
+and I quote literally, that “[t]he flow of some of the most talented people
+in the United States into law and financial services might be one of the
+sources of our low productivity growth”. If indeed most of our talent is
+applied to finance and law, rather than, say, engineering, health or
+potentially new areas of knowledge in which there is more scope for
+sustainable growth, aggregate productivity will inevitably suffer._
