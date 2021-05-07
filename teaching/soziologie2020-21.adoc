@@ -24,32 +24,32 @@
 | 2
 | 23/9/2020
 | Strukturierte Antwort
-| link:https://tarikgit.github.io/teaching/soziologie-cours/02-Grundbegriffe-Strurkturierte-Antwort-web.pdf[Strukturierte Antwort in der Soziologie] 
+| link:https://tarikgit.github.io/teaching/soziologie-cours/02-Grundbegriffe-Strurkturierte-Antwort-web.pdf[Strukturierte Antwort in der Soziologie]
 
 | 2
 | 25/9/2020
 | Soziale Gebilde, soziale Struktur und soziales System
-| link:https://tarikgit.github.io/teaching/soziologie-cours/03-Grundbegriffe.pdf[Soziales System] 
+| link:https://tarikgit.github.io/teaching/soziologie-cours/03-Grundbegriffe.pdf[Soziales System]
 
 | 3
 | 30/9/2020
 | Organisation, Institution, Film: link:https://www.youtube.com/watch?v=wp4JPxLFLBs[_Einfach gut leben – Die staatlose Gesellschaft_]
-| link:https://tarikgit.github.io/teaching/soziologie-cours/04-Grundbegriffe.pdf[Soziale Institutionen] 
+| link:https://tarikgit.github.io/teaching/soziologie-cours/04-Grundbegriffe.pdf[Soziale Institutionen]
 
 | 3
 | 2/10/2020
 | Organisation, Institution, Film: link:https://www.youtube.com/watch?v=wp4JPxLFLBs[_Einfach gut leben – Die staatlose Gesellschaft_]
-| link:https://tarikgit.github.io/teaching/soziologie-cours/05-Grundbegriffe.pdf[Merkmale einer Gesellschaft] 
+| link:https://tarikgit.github.io/teaching/soziologie-cours/05-Grundbegriffe.pdf[Merkmale einer Gesellschaft]
 
 | 4
 | 8/10/2020
 | Methoden der Soziologie, Soziometrie
-| link:https://tarikgit.github.io/teaching/soziologie-cours/06-Methoden-der-Soziologie.png[Methoden der Soziologie] 
+| link:https://tarikgit.github.io/teaching/soziologie-cours/06-Methoden-der-Soziologie.png[Methoden der Soziologie]
 
 | 5
 | 14/10/2020
 | Soziale Interaktion, soziale Kommunikation, soziales Verhalten, soziales Handeln, soziale Werte
-| link:https://tarikgit.github.io/teaching/soziologie-cours/07-Soziales-Handeln.pdf[Präsentationsfolien] 
+| link:https://tarikgit.github.io/teaching/soziologie-cours/07-Soziales-Handeln.pdf[Präsentationsfolien]
 
 | 5
 | 16/10/2020
@@ -62,14 +62,14 @@
 | 23/10/2020
 | Feedback
 | 1a. link:https://tarikgit.github.io/teaching/soziologie-cours/08-Mindmap-strukturierte-Antwort-2.pdf[Erläutern Sie am Beispiel der Bitnation, und im Vergleich mit unserer Gesellschaft, die Merkmale des Begriffs _Gesellschaft_] +
-  1b. link:https://tarikgit.github.io/teaching/soziologie-cours/08_MerkmaleEinerGesellschaft.png[Merkmale einer Gesellschaft] 
-  
+  1b. link:https://tarikgit.github.io/teaching/soziologie-cours/08_MerkmaleEinerGesellschaft.png[Merkmale einer Gesellschaft]
+
 |
 |
 |
 | 2 link:https://tarikgit.github.io/teaching/soziologie-cours/08-Mindmap-strukturierte-Antwort-3.pdf[a. Inwiefern ist dies ein Beispiel für _soziale Interaktion_?; b. Welche Arten (Beispiele) von _sozialer Kommunikation_ finden Sie hier?; c. Ist das ein Beispiel für _soziales Handeln_?] +
 Film: _Good Vibrations - Récréation_ auf link:https://educ.arte.tv/program/good-vibrations-recreation[Educ'Arte]
-  
+
 |
 |
 | Film: link:https://www.theguardian.com/tv-and-radio/2020/jul/13/once-upon-a-time-in-iraq-review-a-gripping-harrowing-masterpiece[_Once upon a time in Iraq_]
@@ -79,7 +79,7 @@ Film: _Good Vibrations - Récréation_ auf link:https://educ.arte.tv/program/goo
   d. link:https://www.youtube.com/watch?v=lmFNkT9Km6c&t=1736[Chaos (Plünderung)] +
   e. link:https://www.youtube.com/watch?v=lmFNkT9Km6c&t=1865[Neue Möglichkeiten ... und neue Herausforderungen] +
   f. link:https://www.youtube.com/watch?v=lmFNkT9Km6c&t=1958[Erstes Gefühl der Enttäuschung] +
-  g. link:https://www.youtube.com/watch?v=lmFNkT9Km6c&t=2027[Was wünschten sich die Leute?] 
+  g. link:https://www.youtube.com/watch?v=lmFNkT9Km6c&t=2027[Was wünschten sich die Leute?]
 
 
 |9
@@ -115,19 +115,19 @@ Film: _Good Vibrations - Récréation_ auf link:https://educ.arte.tv/program/goo
 |14
 |6/1/2021
 |Soziale Konflikte: Air France +
- Film: link:https://www.youtube.com/watch?v=CCySCG5EDqw[_Air France - le DRH agressé par le personnel en colère_]  
+ Film: link:https://www.youtube.com/watch?v=CCySCG5EDqw[_Air France - le DRH agressé par le personnel en colère_]
 | link:https://tarikgit.github.io/teaching/soziologie-cours/18-Konflikt-Betrieb.pdf[Konfliktsituation in einem Betrieb]
 
 |14
 |8/1/2021
 |Soziale Konflikte: Air France +
-| 
+|
 
 
 |15
 |13/1/2021
 |Soziale Konflikte: Air France +
- Film: link:https://www.youtube.com/watch?v=CCySCG5EDqw[_Air France - le DRH agressé par le personnel en colère_]  
+ Film: link:https://www.youtube.com/watch?v=CCySCG5EDqw[_Air France - le DRH agressé par le personnel en colère_]
 | link:https://tarikgit.github.io/teaching/soziologie-cours/19-Konflikt-Betrieb-BalancedEssay1.pdf[Konfliktsituation in einem Betrieb: Lösungen] +
   link:https://tarikgit.github.io/teaching/soziologie-cours/27-Social-conflict.pdf[_Social conflict_ in the literature]
 
@@ -149,6 +149,16 @@ Film: _Good Vibrations - Récréation_ auf link:https://educ.arte.tv/program/goo
 |Quiz (in _Assignments_)
 |Auf dem _Dossier_ weiterarbeiten .. +
 
+| 28
+| 7/5/2021
+| Gruppenarbeit: Die Schüler diskutieren in Gruppen zwei Fragen und stellen ihre Resultate vor:
+|   a. _Mit Bildung, Erwerbstätigkeit, Einkommen und Vermögen sind die *Kriterien sozialer Ungleichheiten* in unserer heutigen Zeit nicht vollständig erfasst._ (Frage 13 auf Seite 315) +
+    Finden Sie weitere Kriterien sozialer Ungleichheit in unserer heutigen Zeit. Kategorisieren Sie diese _neuen Ungleichheiten_. +
+    link:https://data.oecd.org/chart/6mah[Maths performance (PISA)]; link:https://www.oecd.org/luxembourg/Education-Policy-Outlook-Country-Profile-Luxembourg.pdf[Education Policy Outlook (OECD)] +
+    +
+    b. _Betrachtet man den Zusammen zwischen den *Leistungen der Schüler in Mathematik* und *sozialer Herkunft*, so hat die PISA-Studie festgestellt, dass in Luxemburg keine *Chancengleichheit* besteht._ (Frage 15 auf Seite 315) +
+    Überlegen Sie in Gruppen, was Sie tun würden, um Chancengleichheit in der Bildung herzustellen.
+|
 
 
 
@@ -161,16 +171,16 @@ Film: _Good Vibrations - Récréation_ auf link:https://educ.arte.tv/program/goo
 == Lehrplan (2GSO)
 
 
-. Einführung 
+. Einführung
 .. Grundbegriffe (Gesellschaft, System, Institution, ...)
 .. Der Gegenstand der Soziologie
-. Soziales Handeln 
-.. Das Zusammenwirken von Menschen 
+. Soziales Handeln
+.. Das Zusammenwirken von Menschen
 ... Die Begriffe _soziale Interaktion_ und _soziale Kommunikation_
-... Menschliches Zusammenleben als soziales Handeln 
-.. Die Wertbezogenheit sozialen Handelns 
+... Menschliches Zusammenleben als soziales Handeln
+.. Die Wertbezogenheit sozialen Handelns
 ... Soziale Werte
-... Der Wandel von Werten 
+... Der Wandel von Werten
 .. Die Regelung des Zusammenlebens
 ... Soziale Normen als Verhaltensvorschrift
 ... Arten von Normen
