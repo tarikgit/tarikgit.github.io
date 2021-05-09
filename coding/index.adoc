@@ -1,6 +1,6 @@
 = Coding Tutorials
 
-The _MagPi_ link:https://magpi.raspberrypi.org/issues/[magazines] and link:https://magpi.raspberrypi.org/books[books] 
+The _MagPi_ link:https://magpi.raspberrypi.org/issues/[magazines] and link:https://magpi.raspberrypi.org/books[books]
 are a valuable (but free) source to find inspiration for projects related to your link:https://www.raspberrypi.org/[Raspberry Pi].
 
 * link:https://tarikgit.github.io/coding/using-mathematica-on-raspberry.html[Using Mathematica on a RaspberryPi]
@@ -22,3 +22,5 @@ are a valuable (but free) source to find inspiration for projects related to you
 * link:https://tarikgit.github.io/coding/using-raspberry-samba-apache.html[Using Raspberry Pi as a Samba and Apache server]
 
 * link:https://sailfishos.org/wiki/Sailfish_OS_Cheat_Sheet#Package_Handling[Cheat sheet for Sailfish OS]
+
+* link:https://tarikgit.github.io/coding/using-raspberry-pico[Using Raspberry Pi Pico]

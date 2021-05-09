@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.8">
-<title>Coding Tutorials</title>
+<title>Raspberry Pico</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -432,54 +432,109 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>Coding Tutorials</h1>
+<h1>Raspberry Pico</h1>
 </div>
 <div id="content">
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph">
-<p>The <em>MagPi</em> <a href="https://magpi.raspberrypi.org/issues/">magazines</a> and <a href="https://magpi.raspberrypi.org/books">books</a>
-are a valuable (but free) source to find inspiration for projects related to your <a href="https://www.raspberrypi.org/">Raspberry Pi</a>.</p>
+<p>Check the <a href="https://www.raspberrypi.org/documentation/rp2040/getting-started/#getting-started-with-micropython"><em>Getting Started</em> page</a>.</p>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_turn_led_on_and_off">Turn LED on and off</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-python" data-lang="python">import machine
+import utime
+
+led_pin = machine.Pin(25, machine.Pin.OUT)
+
+while True:
+    led_pin.value(1)
+    utime.sleep(3)
+    led_pin.value(0)
+    utime.sleep(3)</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_read_temperature_from_sensor">Read temperature from sensor</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-python" data-lang="python">from machine import ADC
+import utime
+
+sensor_temp = ADC(4)
+conversion_factor = 3.3 / 65535
+
+while True:
+    reading = sensor_temp.read_u16() * conversion_factor
+
+    # The temperature sensor measures the Vbe voltage of a biased bipolar diode, connected to the fifth ADC channel
+    # Typically, Vbe = 0.706V at 27 degrees C, with a slope of -1.721mV (0.001721) per degree.
+    temperature = 27 - (reading - 0.706)/0.001721
+    print(temperature)
+    utime.sleep(2)</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_read_temperature_and_switch_on_led_if_threshold_is_reached">Read Temperature and switch on LED if threshold is reached</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-python" data-lang="python">from machine import ADC
+import utime
+
+sensor_temp = ADC(4)
+conversion_factor = 3.3 / 65535
+
+led_pin = machine.Pin(25, machine.Pin.OUT)
+
+while True:
+    reading = sensor_temp.read_u16() * conversion_factor
+
+    # The temperature sensor measures the Vbe voltage of a biased bipolar diode, connected to the fifth ADC channel
+    # Typically, Vbe = 0.706V at 27 degrees C, with a slope of -1.721mV (0.001721) per degree.
+    temperature = 27 - (reading - 0.706)/0.001721
+    print(temperature)
+    utime.sleep(2)
+
+    if temperature &gt; 28:
+        led_pin.value(1)
+        utime.sleep(3)
+    else:
+        led_pin.value(0)
+        utime.sleep(3)</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_sources">Sources</h2>
+<div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://tarikgit.github.io/coding/using-mathematica-on-raspberry.html">Using Mathematica on a RaspberryPi</a></p>
+<p><a href="https://www.youtube.com/watch?v=L03jT5slWnw" class="bare">https://www.youtube.com/watch?v=L03jT5slWnw</a></p>
 </li>
 <li>
-<p><a href="https://tarikgit.github.io/coding/asciidoctor.html">Using asciidoctor</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/compiling.html">Compiling in different environments</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-github.html">Using GitHub</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-sensehat.html">Using Sense HAT</a></p>
-</li>
-<li>
-<p><a href="https://www.overleaf.com/learn/latex/Main_Page">Using Overleaf to compile LaTeX code</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/computational-tools.html">Computational tools</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-ssh.html">Using remote access in Linux</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-raspberry-samba-apache.html">Using Raspberry Pi as a Samba and Apache server</a></p>
-</li>
-<li>
-<p><a href="https://sailfishos.org/wiki/Sailfish_OS_Cheat_Sheet#Package_Handling">Cheat sheet for Sailfish OS</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-raspberry-pico">Using Raspberry Pi Pico</a></p>
+<p><a href="https://www.theelectronics.co.in/2021/02/read-temperature-sensor-of-pico.html" class="bare">https://www.theelectronics.co.in/2021/02/read-temperature-sensor-of-pico.html</a></p>
 </li>
 </ul>
 </div>
 </div>
+</div>
+</div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-05-09 19:02:59 +0200
+Last updated 2021-05-09 18:59:42 +0200
 </div>
 </div>
 </body>
