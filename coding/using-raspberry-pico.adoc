@@ -2,7 +2,7 @@
 
 Check the link:https://www.raspberrypi.org/documentation/rp2040/getting-started/#getting-started-with-micropython[_Getting Started_ page].
 
-== Turn LED on and off
+== Turn onboard LED on and off
 
 [source,python]
 ----
