@@ -1,4 +1,4 @@
-= Raspberry Pico
+= Raspberry Pi Pico
 
 Check the link:https://www.raspberrypi.org/documentation/rp2040/getting-started/#getting-started-with-micropython[_Getting Started_ page].
 
@@ -68,8 +68,28 @@ while True:
         utime.sleep(3)
 ----
 
+== External LED on breadboard
+
+image::../img/led-breadboard.png[Blinking LED, 400, 200]
+
+[source,python]
+----
+import machine #library for hardware; allows us to access pins
+
+import time #for delays
+
+redLed = machine.Pin(1, machine.Pin.OUT) #initialize GPIO 1 as output for red LED
+
+while (1): #infinite loop; runs until manually stopped
+
+    redLed.toggle() #if LED is on, turn off. Else, turn on.
+
+    time.sleep(.5) #pause for 1/2 second
+----
 
 == Sources
 
 * https://www.youtube.com/watch?v=L03jT5slWnw
 * https://www.theelectronics.co.in/2021/02/read-temperature-sensor-of-pico.html
+* https://community.microcenter.com/discussion/7038/using-the-raspberry-pi-pico
+* https://electronoobs.com/eng_arduino_tut135.php

@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.8">
-<title>Raspberry Pico</title>
+<title>Raspberry Pi Pico</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -432,7 +432,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>Raspberry Pico</h1>
+<h1>Raspberry Pi Pico</h1>
 </div>
 <div id="content">
 <div id="preamble">
@@ -517,6 +517,31 @@ while True:
 </div>
 </div>
 <div class="sect1">
+<h2 id="_external_led_on_breadboard">External LED on breadboard</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="../img/led-breadboard.png" alt="Blinking LED" width="400" height="200">
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-python" data-lang="python">import machine #library for hardware; allows us to access pins
+
+import time #for delays
+
+redLed = machine.Pin(1, machine.Pin.OUT) #initialize GPIO 1 as output for red LED
+
+while (1): #infinite loop; runs until manually stopped
+
+    redLed.toggle() #if LED is on, turn off. Else, turn on.
+
+    time.sleep(.5) #pause for 1/2 second</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="_sources">Sources</h2>
 <div class="sectionbody">
 <div class="ulist">
@@ -527,6 +552,12 @@ while True:
 <li>
 <p><a href="https://www.theelectronics.co.in/2021/02/read-temperature-sensor-of-pico.html" class="bare">https://www.theelectronics.co.in/2021/02/read-temperature-sensor-of-pico.html</a></p>
 </li>
+<li>
+<p><a href="https://community.microcenter.com/discussion/7038/using-the-raspberry-pi-pico" class="bare">https://community.microcenter.com/discussion/7038/using-the-raspberry-pi-pico</a></p>
+</li>
+<li>
+<p><a href="https://electronoobs.com/eng_arduino_tut135.php" class="bare">https://electronoobs.com/eng_arduino_tut135.php</a></p>
+</li>
 </ul>
 </div>
 </div>
@@ -534,7 +565,7 @@ while True:
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-05-09 18:59:42 +0200
+Last updated 2021-05-10 23:51:14 +0200
 </div>
 </div>
 </body>
