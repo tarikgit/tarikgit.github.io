@@ -93,3 +93,4 @@ while (1): #infinite loop; runs until manually stopped
 * https://www.theelectronics.co.in/2021/02/read-temperature-sensor-of-pico.html
 * https://community.microcenter.com/discussion/7038/using-the-raspberry-pi-pico
 * https://electronoobs.com/eng_arduino_tut135.php
+* https://electronoobs.com/eng_arduino_tut138.php
