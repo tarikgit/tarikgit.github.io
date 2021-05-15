@@ -2,6 +2,8 @@
 
 Check the link:https://www.raspberrypi.org/documentation/rp2040/getting-started/#getting-started-with-micropython[_Getting Started_ page].
 
+image::../img/pico-ports.png[Pico Ports, 600, 300]
+
 == Turn onboard LED on and off
 
 [source,python]
@@ -87,6 +89,52 @@ while (1): #infinite loop; runs until manually stopped
     time.sleep(.5) #pause for 1/2 second
 ----
 
+
+== Data log of onboard temperature sensor
+
+This code logs data collected from the onboard temperature sensor, and
+the onboard led starts to blink as soon as the process has finished. 
+
+[source,python]
+----
+import machine
+import utime
+
+sensor_temp = machine.ADC(machine.ADC.CORE_TEMP)
+
+conversion_factor = 3.3 / (65535)
+file = open("temperature.txt", "w")
+
+counter = 0
+
+while counter < 10:
+    reading = sensor_temp.read_u16() * conversion_factor
+    temperature = 27 - (reading - 0.706)/0.001721
+    file.write( str(temperature) + "\n" )
+    file.flush()
+    utime.sleep(30)
+
+    print("Iteration no: ",counter)
+
+    counter +=  1 # increment by one
+
+print(" ")
+print("Temperature log: ")
+file = open("temperature.txt")
+print(file.read())
+file.close()
+
+# Blink onboard led when data log is done
+led_pin = machine.Pin(25, machine.Pin.OUT)
+
+while True:
+    led_pin.value(1)
+    utime.sleep(1)
+    led_pin.value(0)
+    utime.sleep(1)
+
+----
+
 == Sources
 
 * https://www.youtube.com/watch?v=L03jT5slWnw
@@ -94,3 +142,4 @@ while (1): #infinite loop; runs until manually stopped
 * https://community.microcenter.com/discussion/7038/using-the-raspberry-pi-pico
 * https://electronoobs.com/eng_arduino_tut135.php
 * https://electronoobs.com/eng_arduino_tut138.php
+* https://www.youtube.com/watch?v=dlAhGopKGpI
