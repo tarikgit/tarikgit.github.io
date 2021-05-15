@@ -595,6 +595,29 @@ while True:
 </div>
 </div>
 <div class="sect1">
+<h2 id="_adding_sound_to_your_pico">Adding sound to your Pico</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="../img/pico-sound.png" alt="Sound" width="400" height="200">
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>from machine import Pin, PWM
+from utime import sleep
+
+buzzer = PWM(Pin(15))
+
+buzzer.freq(500)
+buzzer.duty_u16(1000)
+sleep(1)
+buzzer.duty_u16(0)</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="_sources">Sources</h2>
 <div class="sectionbody">
 <div class="ulist">
@@ -617,6 +640,9 @@ while True:
 <li>
 <p><a href="https://www.youtube.com/watch?v=dlAhGopKGpI" class="bare">https://www.youtube.com/watch?v=dlAhGopKGpI</a></p>
 </li>
+<li>
+<p><a href="https://www.tomshardware.com/how-to/buzzer-music-raspberry-pi-pico" class="bare">https://www.tomshardware.com/how-to/buzzer-music-raspberry-pi-pico</a></p>
+</li>
 </ul>
 </div>
 </div>
@@ -624,7 +650,7 @@ while True:
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-05-14 17:46:56 +0200
+Last updated 2021-05-15 07:23:44 +0200
 </div>
 </div>
 </body>

@@ -93,7 +93,7 @@ while (1): #infinite loop; runs until manually stopped
 == Data log of onboard temperature sensor
 
 This code logs data collected from the onboard temperature sensor, and
-the onboard led starts to blink as soon as the process has finished. 
+the onboard led starts to blink as soon as the process has finished.
 
 [source,python]
 ----
@@ -135,6 +135,24 @@ while True:
 
 ----
 
+== Adding sound to your Pico
+
+image::../img/pico-sound.png[Sound, 400, 200]
+
+----
+from machine import Pin, PWM
+from utime import sleep
+
+buzzer = PWM(Pin(15))
+
+buzzer.freq(500)
+buzzer.duty_u16(1000)
+sleep(1)
+buzzer.duty_u16(0)
+----
+
+
+
 == Sources
 
 * https://www.youtube.com/watch?v=L03jT5slWnw
@@ -143,3 +161,4 @@ while True:
 * https://electronoobs.com/eng_arduino_tut135.php
 * https://electronoobs.com/eng_arduino_tut138.php
 * https://www.youtube.com/watch?v=dlAhGopKGpI
+* https://www.tomshardware.com/how-to/buzzer-music-raspberry-pi-pico
