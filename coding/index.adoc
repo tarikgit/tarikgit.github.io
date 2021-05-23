@@ -1,35 +1,36 @@
 = Coding Tutorials
 
-The _MagPi_ link:https://magpi.raspberrypi.org/issues/[magazines] and link:https://magpi.raspberrypi.org/books[books]
-are a valuable (but free) source to find inspiration for projects related to your link:https://www.raspberrypi.org/[Raspberry Pi].
 
-* link:https://tarikgit.github.io/coding/asciidoctor.html[Using asciidoctor]
+* link:https://tarikgit.github.io/coding/asciidoctor.html[Using asciidoctor]: _asciidoctor is the text processor and publishing too that is used on this website to convert basic ascii text to HTML5_.
 
-* link:https://tarikgit.github.io/coding/compiling.html[Compiling in different environments]
+* link:https://tarikgit.github.io/coding/compiling.html[Compiling in different environments]: _I have been using LaTeX over the past two decades and it still remains my favorite typesetting system. In this link there are some scripts for using LaTeX together with Tikz and ghostscript_.
 
-* link:https://tarikgit.github.io/coding/using-github.html[Using GitHub]
+* link:https://tarikgit.github.io/coding/using-github.html[Using GitHub]: _This entire website is published using Github. Here are the commands that can be used to create a repository in Github and make changes to the same repository_.
 
-* link:https://www.overleaf.com/learn/latex/Main_Page[Using Overleaf to compile LaTeX code]
+* link:https://www.overleaf.com/learn/latex/Main_Page[Using Overleaf to compile LaTeX code]: _Overleaf is an online documentation system that uses LaTeX. There is no need to install anything on your computer. You can simply run your LaTeX scripts on the website_.
 
-* link:https://tarikgit.github.io/coding/using-ssh.html[Using remote access in Linux]
+* link:https://tarikgit.github.io/coding/using-ssh.html[Using remote access in Linux]: _SSH is the Linux command that I rely on for accessing my local computers, servers and brickpi robots_.
 
-* link:https://tarikgit.github.io/coding/using-raspberry-samba-apache.html[Using Raspberry Pi as a Samba and Apache server]
+* link:https://tarikgit.github.io/coding/using-raspberry-samba-apache.html[Using Raspberry Pi as a Samba and Apache server]: _I setup a Raspberry Pi as a local Samba and Apache server. Here is how I did it ..._
 
-* link:https://sailfishos.org/wiki/Sailfish_OS_Cheat_Sheet#Package_Handling[Cheat sheet for Sailfish OS]
+* link:https://sailfishos.org/wiki/Sailfish_OS_Cheat_Sheet#Package_Handling[Cheat sheet for Sailfish OS]: _My phone is running Sailfish OS. Although not free, it is an open-source operating system for my phone. You have full control over your phone, in the same way as a linux computer. Here is a cheat sheet for the basic commands_.
 
 
 == Learning to code in Python
 
-* link:https://tarikgit.github.io/coding/using-sensehat.html[Using Sense HAT]
+The _MagPi_ link:https://magpi.raspberrypi.org/issues/[magazines] and link:https://magpi.raspberrypi.org/books[books]
+are a valuable (but free) source to find inspiration for projects related to your link:https://www.raspberrypi.org/[Raspberry Pi].
 
-* link:https://tarikgit.github.io/coding/using-raspberry-pico[Using Raspberry Pi Pico]
+* link:https://tarikgit.github.io/coding/using-sensehat.html[Using Sense HAT]: _The Sense HAT on the Raspberry Pi is an excellent tool for students to start scientific projects. Although it has been designed for the link:https://astro-pi.org/[Astro Pi] it can be used in so many other interesting projects_.
 
-* link:https://tarikgit.github.io/coding/using-microbit.html[Using BBC micro:bit]
+* link:https://tarikgit.github.io/coding/using-raspberry-pico[Using Raspberry Pi Pico]: _The link:https://www.raspberrypi.org/products/raspberry-pi-pico/[Raspberry Pi Pico] is a small, link:https://www.electronic-shop.lu/product/185605[cheap] and incredibly fast microcontroller board. The board is well-documented and extensions are cheap and simple to implement, as long as you have the link:https://www.electronic-shop.lu/search?q=kit[right kit] for your project_.
+
+* link:https://tarikgit.github.io/coding/using-microbit.html[Using BBC micro:bit]: _The BBC micro:bit is microcontroller board is link:https://www.electronic-shop.lu/product/164829[cheap] and has many build-in sensors and LED's. Using the PIO the board can be easily extended_.
 
 == Doing Maths on Raspberry Pi
 
-* link:https://tarikgit.github.io/coding/using-mathematica-on-raspberry.html[Using Mathematica on a RaspberryPi]
+* link:https://tarikgit.github.io/coding/using-mathematica-on-raspberry.html[Using Mathematica on a RaspberryPi]: _The Wolfram Language has been around for decades and it offers great tools. Now you can use the link:https://www.wolfram.com/raspberry-pi/[Wolfram language using Mathematica on your Raspberry] for free_.
 
 == Advanced Maths in a Linux environment
 
-* link:https://tarikgit.github.io/coding/computational-tools.html[Computational tools]
+* link:https://tarikgit.github.io/coding/computational-tools.html[Computational tools]:

@@ -1,4 +1,4 @@
-= Using a Rspberry Pi as Apache and Samba server
+= Using a Raspberry Pi as Apache and Samba server
 
 == Installing Raspbian OS
 
@@ -127,5 +127,3 @@ This will not work on Raspberry since the device has no internal clock
 sudo rtcwake -m disk -s 60
 
 ----
-
-
