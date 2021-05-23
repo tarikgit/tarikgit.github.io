@@ -31,6 +31,8 @@ are a valuable (but free) source to find inspiration for projects related to you
 
 * link:https://tarikgit.github.io/coding/using-mathematica-on-raspberry.html[Using Mathematica on a RaspberryPi]: _The Wolfram Language has been around for decades and it offers great tools. Now you can use the link:https://www.wolfram.com/raspberry-pi/[Wolfram language using Mathematica on your Raspberry] for free_.
 
+* link:https://tarikgit.github.io/coding/valueiteration-gridworld.html[Value iteration in the gridworld]: This page presents a simple example for value iteration in a 3-by-4 gridworld.
+
 == Advanced Maths in a Linux environment
 
 * link:https://tarikgit.github.io/coding/computational-tools.html[Computational tools]: _Here are more advanced topics taken from dynamic programming (or optimal control theory), econometrics and statistics_
