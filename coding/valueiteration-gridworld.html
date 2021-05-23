@@ -436,17 +436,31 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="content">
 <div class="paragraph">
-<p>We consider a rectangular gridworld representation of a simple finite MDP.
+<p>We consider a rectangular gridworld representation (see below) of a simple finite Markov Decision Process (MDP).
 The cells of the grid correspond to the states of the environment.
 At each cell, four actions are possible: north, south, east, and west, which
 deterministically cause the agent to move one cell in the respective direction
 on the grid. Actions that would take the agent off the grid leave its location
-unchanged, but also result in a reward of -1.</p>
+unchanged, but also result in a reward of -1. In other words, rewards are positive
+for goals, negative for running into undesirable states, and zero the rest of the time.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/vfi_gridworld.png" alt="Gridworld" width="200" height="100">
+</div>
 </div>
 <div class="paragraph">
 <p>Next we define the rewards for the states. Those will be of +1 for the state
 that is desirable, of -1 for states that have to be avoided and of 0 for all
 other states.</p>
+</div>
+<div class="paragraph">
+<p>The Bellman equation (see below) must hold for each state for the value function
+\$v_{pi}\$.</p>
+</div>
+<div class="paragraph">
+<p>\$ v_{pi}(s) = \sum_a \pi(a|s) \sum_{s'|r} p(s',r|s,a)  [ r + \gamma v_{\pi}(s') \$  ]
+, for all \$s \in S\$</p>
 </div>
 <div class="paragraph">
 <p>Suppose the agent selects all four actions with equal probability in all states.
@@ -456,8 +470,7 @@ This value function was computed by solving the system of linear equations in
 the expression below:</p>
 </div>
 <div class="paragraph">
-<p>\$ v_{pi}(s) = \sum_a \pi(a|s) \sum_{s'|r} p(s',r|s,a)  [ r + \gamma v_{\pi}(s') \$  ]
-, for all \$s \in S\$</p>
+<p><a href="dynamicprogramming/vfi-robot.py">Source code</a></p>
 </div>
 <div class="paragraph">
 <p>Source: Sutton and Barto. Reinforcement Learning</p>
@@ -465,7 +478,7 @@ the expression below:</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-05-22 00:05:18 +0200
+Last updated 2021-05-23 17:50:41 +0200
 </div>
 </div>
 <script type="text/x-mathjax-config">
