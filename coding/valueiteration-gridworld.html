@@ -435,6 +435,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h1>Value Iteration - Gridworld</h1>
 </div>
 <div id="content">
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph">
 <p>We consider a rectangular gridworld representation (see below) of a simple finite Markov Decision Process (MDP).
 The cells of the grid correspond to the states of the environment.
@@ -463,22 +465,57 @@ other states.</p>
 , for all \$s \in S\$</p>
 </div>
 <div class="paragraph">
+<p>where the actions, \$a\$, are taken from the set \$A(s)\$, that the next
+states, \$s'\$, are taken from the set \$S\$, and that the rewards,
+\$r\$, are taken from the set \$R\$.</p>
+</div>
+<div class="paragraph">
+<p>The Bellman equation expresses a relationship between the value of a state
+and the values of its successor states.</p>
+</div>
+<div class="paragraph">
 <p>Suppose the agent selects all four actions with equal probability in all states.
-Figure XX shows the value function, \$v_{pi}\$, for this policy, for the
-discounted reward case with \$\gamma = 0.9\$.
-This value function was computed by solving the system of linear equations in
-the expression below:</p>
+The figure below shows the value function, \$v_{pi}\$, for this policy, for the
+discounted reward case with \$\gamma = 0.9\$.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/vfi_gridworld_solution.png" alt="Gridworld" width="200" height="100">
+</div>
 </div>
 <div class="paragraph">
+<p>This value function was computed by solving the system of linear equations in
+the expression for the Bellman equation above.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/vfi_gridworld_arrows.png" alt="Gridworld" width="200" height="100">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_sources">Sources:</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
 <p><a href="dynamicprogramming/vfi-robot.py">Source code</a></p>
+</li>
+<li>
+<p><a href="../latex/main-vfi-gridworld.tex">LaTeX source code for the graphics</a></p>
+</li>
+<li>
+<p>Sutton and Barto. Reinforcement Learning</p>
+</li>
+</ul>
 </div>
-<div class="paragraph">
-<p>Source: Sutton and Barto. Reinforcement Learning</p>
+</div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-05-23 17:50:41 +0200
+Last updated 2021-05-23 20:35:53 +0200
 </div>
 </div>
 <script type="text/x-mathjax-config">

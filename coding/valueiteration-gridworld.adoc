@@ -21,17 +21,27 @@ stem:[v_{pi}].
 stem:[ v_{pi}(s) = \sum_a \pi(a|s) \sum_{s'|r} p(s',r|s,a)  [ r + \gamma v_{\pi}(s') ]  ]
 , for all stem:[s \in S]
 
+where the actions, stem:[a], are taken from the set stem:[A(s)], that the next
+states, stem:[s'], are taken from the set stem:[S], and that the rewards,
+stem:[r], are taken from the set stem:[R].
 
+The Bellman equation expresses a relationship between the value of a state
+and the values of its successor states.
 
 Suppose the agent selects all four actions with equal probability in all states.
-Figure XX shows the value function, stem:[v_{pi}], for this policy, for the
+The figure below shows the value function, stem:[v_{pi}], for this policy, for the
 discounted reward case with stem:[\gamma = 0.9].
+
+image::../img/vfi_gridworld_solution.png[Gridworld,200,100]
+
 This value function was computed by solving the system of linear equations in
-the expression below:
+the expression for the Bellman equation above.
+
+image::../img/vfi_gridworld_arrows.png[Gridworld,200,100]
 
 
-link:dynamicprogramming/vfi-robot.py[Source code]
+== Sources:
 
-
-
-Source: Sutton and Barto. Reinforcement Learning
+* link:dynamicprogramming/vfi-robot.py[Source code]
+* link:../latex/main-vfi-gridworld.tex[LaTeX source code for the graphics]
+* Sutton and Barto. Reinforcement Learning
