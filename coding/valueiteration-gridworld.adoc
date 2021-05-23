@@ -1,0 +1,27 @@
+= Value Iteration - Gridworld
+:stem:
+
+We consider a rectangular gridworld representation of a simple finite MDP.
+The cells of the grid correspond to the states of the environment.
+At each cell, four actions are possible: north, south, east, and west, which
+deterministically cause the agent to move one cell in the respective direction
+on the grid. Actions that would take the agent off the grid leave its location
+unchanged, but also result in a reward of -1.
+
+Next we define the rewards for the states. Those will be of +1 for the state
+that is desirable, of -1 for states that have to be avoided and of 0 for all
+other states.
+
+Suppose the agent selects all four actions with equal probability in all states.
+Figure XX shows the value function, stem:[v_{pi}], for this policy, for the
+discounted reward case with stem:[\gamma = 0.9].
+This value function was computed by solving the system of linear equations in
+the expression below:
+
+stem:[ v_{pi}(s) = \sum_a \pi(a|s) \sum_{s'|r} p(s',r|s,a)  [ r + \gamma v_{\pi}(s') ]  ]
+, for all stem:[s \in S]
+
+
+
+
+Source: Sutton and Barto. Reinforcement Learning

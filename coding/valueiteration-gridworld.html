@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.8">
-<title>Coding Tutorials</title>
+<title>Value Iteration - Gridworld</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -432,58 +432,57 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>Coding Tutorials</h1>
+<h1>Value Iteration - Gridworld</h1>
 </div>
 <div id="content">
 <div class="paragraph">
-<p>The <em>MagPi</em> <a href="https://magpi.raspberrypi.org/issues/">magazines</a> and <a href="https://magpi.raspberrypi.org/books">books</a>
-are a valuable (but free) source to find inspiration for projects related to your <a href="https://www.raspberrypi.org/">Raspberry Pi</a>.</p>
+<p>We consider a rectangular gridworld representation of a simple finite MDP.
+The cells of the grid correspond to the states of the environment.
+At each cell, four actions are possible: north, south, east, and west, which
+deterministically cause the agent to move one cell in the respective direction
+on the grid. Actions that would take the agent off the grid leave its location
+unchanged, but also result in a reward of -1.</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-mathematica-on-raspberry.html">Using Mathematica on a RaspberryPi</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/asciidoctor.html">Using asciidoctor</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/compiling.html">Compiling in different environments</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-github.html">Using GitHub</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-sensehat.html">Using Sense HAT</a></p>
-</li>
-<li>
-<p><a href="https://www.overleaf.com/learn/latex/Main_Page">Using Overleaf to compile LaTeX code</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/computational-tools.html">Computational tools</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-ssh.html">Using remote access in Linux</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-raspberry-samba-apache.html">Using Raspberry Pi as a Samba and Apache server</a></p>
-</li>
-<li>
-<p><a href="https://sailfishos.org/wiki/Sailfish_OS_Cheat_Sheet#Package_Handling">Cheat sheet for Sailfish OS</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-raspberry-pico">Using Raspberry Pi Pico</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-microbit.html">Using BBC micro:bit</a></p>
-</li>
-</ul>
+<div class="paragraph">
+<p>Next we define the rewards for the states. Those will be of +1 for the state
+that is desirable, of -1 for states that have to be avoided and of 0 for all
+other states.</p>
+</div>
+<div class="paragraph">
+<p>Suppose the agent selects all four actions with equal probability in all states.
+Figure XX shows the value function, \$v_{pi}\$, for this policy, for the
+discounted reward case with \$\gamma = 0.9\$.
+This value function was computed by solving the system of linear equations in
+the expression below:</p>
+</div>
+<div class="paragraph">
+<p>\$ v_{pi}(s) = \sum_a \pi(a|s) \sum_{s'|r} p(s',r|s,a)  [ r + \gamma v_{\pi}(s') \$  ]
+, for all \$s \in S\$</p>
+</div>
+<div class="paragraph">
+<p>Source: Sutton and Barto. Reinforcement Learning</p>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-05-23 12:43:08 +0200
+Last updated 2021-05-22 00:05:18 +0200
 </div>
 </div>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  messageStyle: "none",
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    ignoreClass: "nostem|nolatexmath"
+  },
+  asciimath2jax: {
+    delimiters: [["\\$", "\\$"]],
+    ignoreClass: "nostem|noasciimath"
+  },
+  TeX: { equationNumbers: { autoNumber: "none" } }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 </body>
 </html>

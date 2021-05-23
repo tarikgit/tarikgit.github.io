@@ -24,3 +24,5 @@ are a valuable (but free) source to find inspiration for projects related to you
 * link:https://sailfishos.org/wiki/Sailfish_OS_Cheat_Sheet#Package_Handling[Cheat sheet for Sailfish OS]
 
 * link:https://tarikgit.github.io/coding/using-raspberry-pico[Using Raspberry Pi Pico]
+
+* link:https://tarikgit.github.io/coding/using-microbit.html[Using BBC micro:bit]

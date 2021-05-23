@@ -1,0 +1,68 @@
+= Using BBC micro:bit
+
+The following page is an overview of teaching Python using the BBC micro:bit.
+The documentation can be found at the link:https://microbit-micropython.readthedocs.io/en/v2-docs/[MicroPython documentation]
+page.
+
+== Hello World !
+
+[source,micropython]
+----
+# Write your first Hello World
+# with a scrolling heart
+from microbit import *
+
+
+while True:
+    display.scroll('Hello, World!')
+    display.show(Image.HEART)
+    sleep(2000)
+----
+
+== Compass
+
+The micro:bit has a built-in compass. The following code lets you use the
+device as a compass. Before showing the magnetic north, the device will ask
+you to calibrate it by moving it around.
+
+[source,micropython]
+----
+from microbit import *
+
+
+# Start calibrating
+compass.calibrate()
+
+# Try to keep the needle pointed in (roughly) the correct direction
+while True:
+    sleep(100)
+    needle = ((15 - compass.heading()) // 30) % 12
+    display.show(Image.ALL_CLOCKS[needle])
+----
+
+== Speech
+
+Amazing! Your micro:bit can even talk ....
+
+[source,micropython]
+----
+# Your micro:bit can even talk!
+# Here it says "Hello World!""
+import speech
+import random
+from microbit import sleep
+
+
+
+# A sentence of your choice ...
+sentence = "hello world!"
+
+speech.say(sentence, speed=120, pitch=250, throat=200, mouth=200)
+----
+
+
+== Sources:
+
+* https://microbit-micropython.readthedocs.io/en/v2-docs/
+* https://microbit-micropython.readthedocs.io/en/v2-docs/tutorials/direction.html#compass
+* https://microbit-micropython.readthedocs.io/en/v2-docs/tutorials/music.html
