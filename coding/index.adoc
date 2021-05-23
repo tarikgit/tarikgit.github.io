@@ -33,4 +33,4 @@ are a valuable (but free) source to find inspiration for projects related to you
 
 == Advanced Maths in a Linux environment
 
-* link:https://tarikgit.github.io/coding/computational-tools.html[Computational tools]:
+* link:https://tarikgit.github.io/coding/computational-tools.html[Computational tools]: _Here are more advanced topics taken from dynamic programming (or optimal control theory), econometrics and statistics_
