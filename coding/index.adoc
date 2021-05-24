@@ -13,7 +13,7 @@
 
 * link:https://tarikgit.github.io/coding/using-raspberry-samba-apache.html[Using Raspberry Pi as a Samba and Apache server]: _I setup a Raspberry Pi as a local Samba and Apache server. Here is how I did it ..._
 
-* link:https://sailfishos.org/wiki/Sailfish_OS_Cheat_Sheet#Package_Handling[Cheat sheet for Sailfish OS]: _My phone is running Sailfish OS. Although not free, it is an open-source operating system for my phone. You have full control over your phone, in the same way as a linux computer. Here is a cheat sheet for the basic commands_.
+* link:https://sailfishos.org/wiki/Sailfish_OS_Cheat_Sheet#Package_Handling[Cheat sheet for Sailfish OS]: _My phone is running link:https://sailfishos.org/[Sailfish OS]. Although not free, it is an open-source operating system for my phone. You have full control over your phone, in the same way as a linux computer. Here is a cheat sheet for the basic commands_.
 
 
 == Learning to code in Python
