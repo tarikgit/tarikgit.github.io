@@ -27,6 +27,20 @@ are a valuable (but free) source to find inspiration for projects related to you
 
 * link:https://tarikgit.github.io/coding/using-microbit.html[Using BBC micro:bit]: _The BBC micro:bit is microcontroller board is link:https://www.electronic-shop.lu/product/164829[cheap] and has many build-in sensors and LED's. Using the PIO the board can be easily extended_.
 
+Here are useful ressources for teaching Python: 1. link:https://hourofcode.com/[Hour of Code],
+2. link:https://python.infobrisson.fr/[Using Python without installation],
+3. link:https://fr.vittascience.com/python[Learn to code using blocks and convert it into Python code]
+4. link:https://www.python.org/[Install Python on your computer]
+5. link:https://pyzo.org/[Free and open-source computing environment based on Python]
+6. link:https://docs.python.org/3/library/turtle.html[Use the Turtle to learn and teach Python]
+7. link:https://greenteapress.com/wp/think-python/[Think Python: Introduction to Python programming for beginners]
+8. link:https://inforef.be/swi/python.htm[Apprentissage de la programmation: Ressources didactiques Gérard Swinnen]
+9. link:https://www.pedagogie.ac-nantes.fr/mathematiques/enseignement/groupe-de-recherche/2017-2019/de-scratch-vers-python-1132341.kjsp?RH=1510509626265[Using Scratch knowledge of learners to teach Python  in class]
+10. link:https://edupython.tuxfamily.org/[EduPython]
+11. link:https://www.ac-clermont.fr/disciplines/fileadmin/user_upload/Mathematiques/pages/Telecharger/Une_demarche_pedagogique_pour_l_apprentissage_de_l_algorithmique.pdf[Teaching algorithms]
+12. link:http://pythontutor.com/visualize.html#mode=edit[Online debugging tool that helps you to visualize your code]
+
+
 == Doing Maths on Raspberry Pi
 
 * link:https://tarikgit.github.io/coding/using-mathematica-on-raspberry.html[Using Mathematica on a RaspberryPi]: _The Wolfram Language has been around for decades and it offers great tools. Now you can use the link:https://www.wolfram.com/raspberry-pi/[Wolfram language using Mathematica on your Raspberry] for free_.
