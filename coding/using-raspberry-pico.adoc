@@ -72,6 +72,8 @@ while True:
 
 == External LED on breadboard
 
+For this simple project, you will need a 1k resistor.
+
 image::../img/led-breadboard.png[Blinking LED, 400, 200]
 
 [source,python]

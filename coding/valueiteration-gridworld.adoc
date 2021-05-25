@@ -39,6 +39,9 @@ the expression for the Bellman equation above.
 
 image::../img/vfi_gridworld_arrows.png[Gridworld,200,100]
 
+
+
+
 == Source code
 
 [source,python]
