@@ -21,6 +21,8 @@
 The _MagPi_ link:https://magpi.raspberrypi.org/issues/[magazines] and link:https://magpi.raspberrypi.org/books[books]
 are a valuable (but free) source to find inspiration for projects related to your link:https://www.raspberrypi.org/[Raspberry Pi].
 
+* link:http://docs.micropython.org/en/latest/library/machine.html[MicroPython: the _machine_ library]
+
 * link:https://tarikgit.github.io/coding/using-sensehat.html[Using Sense HAT]: _The Sense HAT on the Raspberry Pi is an excellent tool for students to start scientific projects. Although it has been designed for the link:https://astro-pi.org/[Astro Pi] it can be used in so many other interesting projects_.
 
 * link:https://tarikgit.github.io/coding/using-raspberry-pico[Using Raspberry Pi Pico]: _The link:https://www.raspberrypi.org/products/raspberry-pi-pico/[Raspberry Pi Pico] is a small, link:https://www.electronic-shop.lu/product/185605[cheap] and incredibly fast microcontroller board. The board is well-documented and extensions are cheap and simple to implement, as long as you have the link:https://www.electronic-shop.lu/search?q=kit[right kit] for your project_.

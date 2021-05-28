@@ -275,6 +275,37 @@ playsong(song)
 ----
 
 
+== Operating a servo
+
+The following code will operate a link:https://www.electronic-shop.lu/product/158163[servo].
+Simply connect the the red wire to the _VBUS_ pin and the black ground wire to any GND pin.
+The third signal wire should be connected to _GP15_ of the Raspberry Pi Pico.
+
+[source,python]
+----
+from machine import Pin, PWM
+import utime
+
+MID = 1500000
+MIN = 600000
+MAX = 12000000
+
+led = Pin(25,Pin.OUT)
+pwm = PWM(Pin(15))
+
+pwm.freq(50)
+pwm.duty_ns(MID)
+
+while True:
+    pwm.duty_ns(MIN)
+    utime.sleep(1)
+    pwm.duty_ns(MID)
+    utime.sleep(1)
+    pwm.duty_ns(MAX)
+    utime.sleep(1)
+----
+
+
 == Sources
 
 * https://www.youtube.com/watch?v=L03jT5slWnw
@@ -284,3 +315,5 @@ playsong(song)
 * https://electronoobs.com/eng_arduino_tut138.php
 * https://www.youtube.com/watch?v=dlAhGopKGpI
 * https://www.tomshardware.com/how-to/buzzer-music-raspberry-pi-pico
+* https://docs.micropython.org/en/latest/library/machine.PWM.html?highlight=pwm
+* https://www.youngwonks.com/blog/How-to-use-a-servo-motor-with-the-Raspberry-Pi-Pico
