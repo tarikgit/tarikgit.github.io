@@ -72,7 +72,28 @@ link:https://tarikgit.github.io/teaching/economiepolitique/05-Correction-de-l-ac
 |
 |31/3/2021
 |Emploi
-| link:economiepolitique/04-Emploi.pdf[Application: _Pour les femmes, la pandémie est synonyme de régression sociale _] 
+| link:economiepolitique/04-Emploi.pdf[Application: _Pour les femmes, la pandémie est synonyme de régression sociale _]
+
+|
+|2/6/2021
+|Vue globale du cours de 2ième: les élèves vont présenter les chapitres et link:https://www.edutopia.org/article/using-student-generated-questions-promote-deeper-thinking[vont proposer des questions sur les extraits vidéos].
+|link:economiepolitique/08-ecopo-vue-globale-du-cours-de-2ieme.pdf[Support pour les élèves] (pdf) +
+ +
+ *Formation des prix* +
+  link:https://www.youtube.com/watch?v=cPr6q5E4PNw&t=147s&ab_channel=LeMondeLeMondeVerified[Coronavirus : la crise économique est unique, voici pourquoi (12 min)] +
+  link:https://www.youtube.com/watch?v=9x8k3nPVkug&ab_channel=FinancialTimes[Help to Buy sparks supply and demand fears (5 min)] +
+ +
+ *Rôle de l'Etat* +
+  link:https://www.youtube.com/watch?v=cJ1ihWeQT_0&ab_channel=LeMondeLeMondeVerified[Qu’est-ce que « l’effet multiplicateur », le mécanisme économique cher à Jean-Luc Mélenchon ? (2 min)] +
+ +
+ *Monnaie, politique monétaire, inflation* +
+ link:https://www.youtube.com/watch?v=2Dc32o5tyZ4&ab_channel=LeMondeLeMondeVerified[La crise au Venezuela expliqué en 5 minutes (5 min)] +
+ +
+ *Emploi et chômage* +
+ link:https://www.youtube.com/watch?v=1X5CtBHYj30&ab_channel=LeMondeLeMondeVerified[Pourquoi un faible taux de chômage n'est pas toujours bon signe (3 min)] +
+ +
+ *Comptabilité nationale* +
+link:https://www.youtube.com/watch?v=WTq-RgpNxN0[Combien une entreprise gagne-t-elle réellement ? (4 min)]
 
 
 
