@@ -1,0 +1,138 @@
+= Technology Entrepreneurship Education
+
+_Keywords:_ educational robotics, entrepreneurship, innovation, Arduino workshop, Raspberry Pi Pico, cross-disciplinary
+
+*Technology entrepreneurship* is the interface between the more established academic fields of entrepreneurship and technology based innovation.
+
+
+
+== Objectives for the learners
+
+- develop effective problem-solving skills
+- decompose problems into smaller parts
+- use pseudocode as a tool for sequencing actions
+- use existing code with attributes to recognise patterns
+- systematically identify and fix bugs
+- use conditions and compound conditions to program encoded devices
+
+== Key Objectives
+
+- use decomposition skills to break a complex problem down into smaller parts
+- identify and fix programming problems
+- develop their ability to recognise patterns and create effective programs
+- explore conditional programming
+- be able to explain the principle of digital security
+- use computational thinking skills to produce a complete solutions to a problem
+- create and follow a set of step-by-step pseudocode instructions
+- decompose, identify, and fix problems in the pseudo code
+
+== Projects
+
+. monitor temperature
+. monitor fan speed
+. switch power remotely
+. IoT
+. process automation
+. equipment management
+. collecting metrics
+. IoT of agriculture
+  * agtech
+  * food production practices
+  * monitoring crops, soil, fields, livestock, storage facilities
+  * smart agriculture vehicles, drones, autonomous robots, actuators
+  * connected agriculture spaces, smart greenhouses, hydroponics
+  * data analytics, visualization, management systems
+. thermal camera with Raspberry Pi
+. cybersecurity with Raspberry Pi
+. Christmas light decoration
+. portable security box
+. network performance monitor
+. Wordpress host
+. host an Apache server
+. chemical experiments facilitated with electronic microcontrollers (see link:https://doi-org.proxy.bnl.lu/10.1038/s41596-019-0272-1[Nature Protocols])
+. systems biology (see link:https://doi-org.proxy.bnl.lu/10.1038/s41598-021-89676-5[Nature Scientific Reports])
+. healthcare (see link:https://doi-org.proxy.bnl.lu/10.1038/s41598-021-87177-z[Nature Scientific Reports])
+. logistics
+
+== Lesson plan
+
+The following table is taken from link:https://education.lego.com/en-gb/lessons/prime-kickstart-a-business[Kickstart a business (Lego Education)]
+
+[cols="1,1,1,1,1,1,1"]
+|===
+
+|
+| Prepare
+| Engage
+| Explore
+| Explain
+| Elaborate
+| Evaluate
+
+| 1. Placing your order
+|
+|
+|
+|
+|
+|
+
+| 2. Out of order
+|
+|
+|
+|
+|
+|
+
+| 3. Track your parcels
+|
+|
+|
+|
+|
+|
+
+| 4. Keep it safe
+|
+|
+|
+|
+|
+|
+
+| 5. Keep it really safe!
+|
+|
+|
+|
+|
+|
+
+| 6. Automate it!
+|
+|
+|
+|
+|
+|
+
+| 7. Back to back
+|
+|
+|
+|
+|
+|
+
+|===
+
+
+
+== Sources:
+
+* link:https://a-z.lu/primo-explore/fulldisplay?docid=TN_informaworld_s10_1111_jsbm_12514&context=PC&vid=BIBNET&search_scope=All_content&tab=all_content&lang=fr_FR[The Learning Process in Technology Entrepreneurship Education]
+* link:https://a-z.lu/primo-explore/fulldisplay?docid=EBOOKMMEBOOKCENTRALANNUALEBC275471&context=L&vid=BIBNET&search_scope=All_content&tab=all_content&lang=fr_FR[Entrepreneurship education]
+* link:https://a-z.lu/primo-explore/fulldisplay?docid=EBOOKMMEBOOKCENTRALDDAEBC5982452&context=L&vid=BIBNET&search_scope=All_content&tab=all_content&lang=fr_FR[Entrepreneurship Education : Begriff - Theorie - Verständnis]
+* link:https://a-z.lu/primo-explore/fulldisplay?docid=EBOOKMMDOAB43510&context=L&vid=BIBNET&search_scope=All_content&tab=all_content&lang=fr_FR[ The Change Laboratory for Teacher Training in Entrepreneurship Education]
+* link:https://a-z.lu/primo-explore/fulldisplay?docid=TN_proquest1848485342&context=PC&vid=BIBNET&search_scope=All_content&tab=all_content&lang=fr_FR[Teaching and research opportunities in technology entrepreneurship]

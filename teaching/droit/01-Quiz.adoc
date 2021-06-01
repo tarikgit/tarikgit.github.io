@@ -1,0 +1,87 @@
+= Droit: Questionnaire
+
+. Le mot droit a deux significations ou sens. Lesquelles?
+// Sens subjectif et sens objectif
+
+. Expliquez le _sens subjectif_ du droit.
+// Désigne le pouvoir accordé au titulaire du droit d’en user et d’exiger qu’il soit respecté
+
+. Expliquez le _sens objectif_ du droit.
+// Désigne l’ensemble des règles juridiques édictées par une autorité publique don’t le respect est assuré par la contrainte publique
+
+. De quoi est constitué le droit naturel
+// Constitué d’un certain nombre de principes intangibles, universels et non codifiés, qui s’imposent de manière purement morale
+
+. Expliquez la signification du terme _droit positif_.
+// L'ensemble des règles applicables à un moment donné dans une société déterminée
+
+. Quelles sont les branches du droit positif?
+// Droit national, le droit international et le droit communautaire
+
+. Le _droit national_ est subdivisé en deux. Expliquez.
+// Droit public et droit privé
+
+. Expliquez ce que l'on entend par le _droit public_?
+// Régit l’organisation de l’Etat et les rapports entre les particuliers et l’Etat
+
+. En quoi consiste le _droit public_?
+// Le droit constitutionnel, le droit administratif, le droit fiscal, le droit pénal
+
+. Quelle est la fonction du droit constitutionnel?
+// Règle l’organisation de l’Etat
+
+. Les cas suivants représentent-ils des droits objectifs ou subjectifs?
+  * Un homme décède et ses deux enfants héritent sa fortune.
+// Réponse: Droit subjectif: seulement les enfants ont droitau patrimoine du défunt.
+
+  * Les personnes coupables d’avoir contrefait des billets de banque risquent une peine de prison pouvant aller de cinq à dix ans.
+// Droit objectif: s’applique à toutes les personnes sans exception.
+
+  * Pedro Diaz exige que Jeanne Dumont lui rembourse les 500 € prêtés il y a deux mois.
+// Droit subjectif: seulement le créancier peut exiger le remboursement de cette somme.
+
+  * Les femmes et les hommes sont égaux en droits et en devoirs.
+// Droit objectif: la loi s’applique à tous
+
+. Quelle affirmation est fausse: Le droit privé se compose de:
+  * Droit civil
+  * Droit commercial
+  * Droit du travail
+  * Droit fiscal
+// Réponse: Droit fiscal
+
+. Les règlementations relatives à une matière particulière sont reprises dans un recueil structuré de loi appelé ...
+  * Code
+  * Loi
+  * Règlement
+  * Droit
+// Réponse: Code
+
+. Le code civil comprend l’ensemble des règles applicables aux rapports entre ...
+  * Particuliers
+  * Particuliers et l'Etat
+  * Administration de l'Etat
+  * Aucune option correcte
+// Réponse: Particuliers
+
+. Indiquez pour chacune des situations suivantes la _branche de droit_ concernée ainsi que les droits spécialisés!
+  * On ne peut contracter un second mariage avant la dissolution du premier.
+  ** Droit civil
+  ** Droit constitutionnel
+  ** Droit administratif
+  ** Droit commercial
+// Réponse: Droit civil
+
+  * Le Grand-Duché de Luxembourg est un Etat démocratique, libre, indépendant et indivisible.
+  ** Droit constitutionnel
+  ** Droit administratif
+  ** Droit pénal
+  ** Droit civil
+// Réponse: Droit constitutionnel
+
+  * L’impôt commercial est calculé en fonction dubénéfice d’exploitation.
+  ** Droit fiscal
+  ** Droit commercial
+  ** Droit administratif
+  ** Droit pénal
+// Réponse: Droit fiscal  

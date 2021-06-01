@@ -22,7 +22,7 @@
 |
 | 19/4
 | Droit: Rappel (Kahoot)
-|
+| link:droit/01-Quiz.html[Quelques exemples] de questions ...
 
 |
 |
@@ -89,12 +89,25 @@
 | Marketing (link:marketing/47-RedactionMarketingMix.pdf[exemple de structure])
 | voir la leçon enregistrée sur Teams (10/5 --> _Posts_)
 
+|
+|
+| 12/5
+| Marketing: _Discutez_ ...
+| link:marketing/48-Discutez.pdf[Comment structurer une réponse à une question de type _Discutez ..._]
+
 
 | 30
 | 17/5 -- 21/5
-| DEC II,2
 |
 |
+|
+
+|
+|
+| 17/5
+| Marketing: _Expliquez ..._, _Conseillez ..._, _Analysez ..._
+| link:marketing/49-Expliquez-Conseillez-Analysez.pdf[Comment structurer une réponse à une question de type _Expliquez ..._, _Conseillez ..._, _Analysez ..._]
+
 
 |
 | 24/5 -- 28/5
@@ -104,9 +117,25 @@
 
 | 31
 | 31/5 -- 4/6
+| DEC II,2
 |
 |
+
 |
+|
+| 31/5
+| 1. link:comptabilite/Comptabilite-Fiche-1-6.pdf[Fiches de résumé: ] +
+   - Les _comptes de bilan_ et les _comptes de gestion_ +
+   - La _taxe sur la valeur ajoutée_ +
+   - La _facturation_ et les _réductions de prix_ +
+   - Les _salaires_ +
+   - Les _amortissements_: corrections de valeur définitives +
+   - Les _corrections de valeur probables_ et les _provisions_ +
+  2. link:marketing/08-ExempleRéponseDiscutez.pdf[Exemple d'une réponse type dans le cas d'une question _Discutez ..._]  
+
+|
+
+
 
 | 32
 | 7/6 -- 11/6
