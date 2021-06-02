@@ -115,6 +115,9 @@ who can be technically challenged by a fast changing environment. A similar stud
 must be undertaken for Luxembourg. We must identify which sectors are concerned
 and rapidly adapt our education system to fix these issues.
 
+link:https://www.nber.org/papers/w28257[Acemoglu AI paper].+ 
+AI is a collection of algorithms that act, _intelligently_
+
 
 == Concluding Remarks
 
@@ -136,6 +139,8 @@ to avoid losing them.
 For this we must make use of all the tools designed in STEM teaching. Coding
 robots has to be part of the curriculum in Maths. Students must be introduced
 to mathematical concepts together with applied maths in robotics/Python.
+
+
 
 
 == References
