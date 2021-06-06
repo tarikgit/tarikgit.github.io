@@ -1,6 +1,6 @@
 = Technology Entrepreneurship Education
 
-_Keywords:_ educational robotics, entrepreneurship, innovation, Arduino workshop, Raspberry Pi Pico, cross-disciplinary
+_Keywords:_ technology entrepreneurship, educational robotics, entrepreneurship, innovation, Arduino workshop, Raspberry Pi Pico, cross-disciplinary
 
 *Technology entrepreneurship* is the interface between the more established academic fields of entrepreneurship and technology based innovation.
 
@@ -127,6 +127,55 @@ The following table is taken from link:https://education.lego.com/en-gb/lessons/
 
 |===
 
+== Notes:
+
+"
+Technology entrepreneurship focuses on the commercialization of emerging
+products and services based on novel technology inventions in either nascent
+or established markets. It is an inherently interdisciplinary field of study
+as it is closely related to entrepreneurship as a discipline in terms of
+methods and tools, while the context is that of science and engineering.
+"
+
+"... the respective researchers have oftentimes neither experience nor interest in entrepreneurial activities as it is not part of their profession and training ..."
+
+"... while engineering education had a clear focus on the development and application of technology without any  relation  to  market  contexts,  entrepreneurship  education  pursued  the  objective  to  create  new products,  services,  and  ultimately  ventures. Technology  entrepreneurship  education  aims  to  bridge this  gap  between  the  disciplines  with  the  objective  to  develop  entrepreneurial  knowledge  and competences along in-depth understanding of technology."
+
+"It is undisputed that context has a major impact on learning outcomes in educational activities of any kind. (...)"
+
+"The  context-dependency  of  educational  specifics  (such  as  the  pedagogical  approach, teaching  activities,  desired  learning  outcomes,  etc.)  deserve  special  attention  when  educational activities that were developed in the context of a specific discipline get transferred to the context of a different discipline."
+
+"pedagogical   specifics   of engineering  education  need  to  be  considered  in  this  alignment  as  the  interdisciplinary  nature  of technology entrepreneurship and related education objectives call for interdisciplinary approaches in the design of suitable pedagogy."
+
+"Engineering education typically assumes a problem-based and application-oriented approach in the design  of  pedagogical  methods. This  is  primarily  due  to  the  requirement  of  application-related understanding and  hands-on  experience  of  engineering  graduates."
+
+"The  introduction  of  entrepreneurship  content  in  engineering  education generates new pedagogical models for achieving desired learning outcomes that can in turn greatly enrich entrepreneurship education."
+
+"An important contextual element of engineering education is the use of laboratories and workshops in the development and application of technical products and systems."
+
+"The use of spaces, e.g. laboratories and workshops, creates a reference to real-world problems and contextualizes learning content and objectives  in  application-oriented  scenarios. This  happens  for  instance  through  the  use  of  novel technical equipment, software development, and exercises in prototype development that mirror the activities and tasks of potential future engineering professions."
+
+"Even more important than the impact of specific spaces is the contact and collaboration of communities of practice related to those spaces. For example, the feedback and support from professional engineers regarding the development of a technical  prototype  creates  an  in-depth  learning  experience for  students that  exceeds  classroom learning."
+
+"The  need  for  professional  input  from  both  the  engineering  and  the entrepreneurship disciplines calls for a close interdisciplinary collaboration of academic staff such as researchers  and  lecturers."
+
+" the introduction of entrepreneurship content and methods in the engineering context leads to a change of education outcomes, such as knowledge, skills and capabilities, but potentially also to entrepreneurial engagement of academic staff that has previously been  unaware  and/or  uninterested  in  entrepreneurship."
+
+" (...) technology  entrepreneurship  plays  a conducive role in universities’ socio-economic engagement, because it offers alternative models for transferring knowledge and technology from academia to society and economy."
+
+-- link:https://link.springer.com/referenceworkentry/10.1007/978-981-13-2262-4_172-1[Technology Entrepreneurship - Enriching Entrepreneurship Education]
+
+link:https://www.youtube.com/watch?v=hbP9SgteURM[Technology Entrepreneurship: Lab to Market (HarvardX and edx.org)]
+
+"... they can freely exchange ideas and network with their fellow ..."
+
+"... designed  to  provide  a  rich  and  supportive environment for learning about entrepreneurship, forming   teams,   starting   companies   and   sharing   lessons learned ..."
+
+"The course is team-taught by instructors with substantial technology  and  business  teaching experience ..."
+
+"Topics that are taught include: "
+
+-- link:https://ieeexplore.ieee.org/abstract/document/1263299[Holistic approach for technology entrepreneurship education in engineering]
 
 
 == Sources:

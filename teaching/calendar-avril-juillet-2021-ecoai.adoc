@@ -131,7 +131,7 @@
    - Les _salaires_ +
    - Les _amortissements_: corrections de valeur définitives +
    - Les _corrections de valeur probables_ et les _provisions_ +
-  2. link:marketing/08-ExempleRéponseDiscutez.pdf[Exemple d'une réponse type dans le cas d'une question _Discutez ..._]  
+  2. link:marketing/08-ExempleRéponseDiscutez.pdf[Exemple d'une réponse type dans le cas d'une question _Discutez ..._]
 
 |
 
@@ -141,6 +141,14 @@
 | 7/6 -- 11/6
 |
 |
+|
+
+|
+|
+| 7/6
+| 1. link:https://www.youtube.com/watch?v=u-8-QbDpqqw[Wirecard and the missing €1.9bn: my story (video, 9 min)] +
+  2. link:https://www.ft.com/content/6e0c6b5f-3461-463d-b49b-f572dbc39c26[Wirecard inquiry: Germany’s political and financial elite exposed]
+
 |
 
 | 33
