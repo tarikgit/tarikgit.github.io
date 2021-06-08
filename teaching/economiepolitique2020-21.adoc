@@ -95,7 +95,17 @@ link:https://tarikgit.github.io/teaching/economiepolitique/05-Correction-de-l-ac
  *Comptabilité nationale* +
 link:https://www.youtube.com/watch?v=WTq-RgpNxN0[Combien une entreprise gagne-t-elle réellement ? (4 min)]
 
-
+|
+| 9/6/2021
+| Vue globale du cours de 2ième: les élèves vont présenter les chapitres. +
+  Lecture et analyse d'link:https://www.faz.net/aktuell/wirtschaft/lars-feld-ueber-die-modernitaet-der-sozialen-marktwirtschaft-17295199.html[un article].
+| link:economiepolitique/09-ecopo-vue-globale-du-cours-de-2ieme.pdf[Support pour les élèves] (pdf) +
+  +
+  1. Formation des prix +
+  2. Rôle de l'Etat +
+  3. Monnaie, politique monétaire, inflation +
+  4. Emploi et chômage +
+  5. Comptabilité nationale +
 
 |===
 
