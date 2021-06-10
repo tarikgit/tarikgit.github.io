@@ -210,6 +210,17 @@ Film: _Good Vibrations - Récréation_ auf link:https://educ.arte.tv/program/goo
   définition de soi par rapport à l’art. Quelle est selon vous la principale
   différence ? Le “je” des protagonistes gagne-t-il en force ? Quel est le rôle
   de l’art ici ?
+
+|
+| 11/6/2021
+| Gleichberechtigung: unbewusste Voreingenommenheit (_unconscious bias_) +
+  1. link:https://implicit.harvard.edu/implicit/[Project Implicit] : _Gender-Science IAT_ +
+  2. link:https://royalsociety.org/topics-policy/publications/2015/unconscious-bias/[Unconscious bias explained] +
+  3. link:https://upgrader.gapminder.org/t/sdg-world-un-goals/10/[Misconceptions ...]  
+|
+
+
+
 |===
 
 {blank} +
