@@ -216,8 +216,8 @@ Film: _Good Vibrations - Récréation_ auf link:https://educ.arte.tv/program/goo
 | Gleichberechtigung: unbewusste Voreingenommenheit (_unconscious bias_) +
   1. link:https://implicit.harvard.edu/implicit/[Project Implicit] : _Gender-Science IAT_ +
   2. link:https://royalsociety.org/topics-policy/publications/2015/unconscious-bias/[Unconscious bias explained] +
-  3. link:https://upgrader.gapminder.org/t/sdg-world-un-goals/10/[Misconceptions ...]  
-|
+  3. link:https://upgrader.gapminder.org/t/sdg-world-un-goals/10/[Misconceptions ...]
+| Le biais inconscient est propre au cerveau humain. Ce processus nous permet de prendre des décisions plus rapidement grâce à une série de raccourcis. Il influence notre perception du monde et des êtres humains, et peut nous inciter à prendre des décisions contestables. En d'autres termes, notre relation aux autres et notre expérience au monde se basent sur des généralisations inconscientes et des idées préconçues, tandis que nous devrions faire appel à un ensemble de paramètres, tant qualitatifs que quantitatifs, objectifs. (link:https://www.elsevier.com/fr-fr/open-science/science-and-society/unconscious-bias[source])
 
 
 
