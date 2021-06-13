@@ -149,7 +149,6 @@
 | 1. link:https://www.youtube.com/watch?v=u-8-QbDpqqw[Wirecard and the missing €1.9bn: my story (video, 9 min)] +
   2. link:https://www.ft.com/content/6e0c6b5f-3461-463d-b49b-f572dbc39c26[Wirecard inquiry: Germany’s political and financial elite exposed] +
   3. link:https://www.ft.com/content/284fb1ad-ddc0-45df-a075-0709b36868db[Wirecard: the timeline]
-
 |
 
 |
@@ -162,6 +161,12 @@
 | 14/6 -- 18/6
 |
 |
+|
+
+|
+|
+| 14/6
+| link:comptabilite-cours/14-Wirecard-Data4Essay.pdf[Wirecard: Données utilisées par les élèves pour la rédaction.]
 |
 
 | 34
