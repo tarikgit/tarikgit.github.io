@@ -167,7 +167,10 @@
 |
 | 14/6
 | link:comptabilite-cours/14-Wirecard-Data4Essay.pdf[Wirecard: Données utilisées par les élèves pour la rédaction.]
-|
+| Trois sujets _au choix_: +
+  1. Les faiblesses des [red]#autorités de regulation# financière dans l'affaire _Wirecard_. +
+  2. Le [red]#gouvernement Merkel# touché par l'affaire _Wirecard_. +
+  3. Des [red]#soupçons de fraude# jusqu'à l'effondrement de _Wirecard_.
 
 | 34
 | 21/6 -- 25/6
