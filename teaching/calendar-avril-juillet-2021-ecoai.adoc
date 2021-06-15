@@ -172,6 +172,12 @@
   2. Le [red]#gouvernement Merkel# touché par l'affaire _Wirecard_. +
   3. Des [red]#soupçons de fraude# jusqu'à l'effondrement de _Wirecard_.
 
+|
+|
+| 16/6
+| link:mathfi/15-MathFi-Application-Simples.pdf[Applications en Mathématiques financières (niveau facile)]
+|
+
 | 34
 | 21/6 -- 25/6
 |
