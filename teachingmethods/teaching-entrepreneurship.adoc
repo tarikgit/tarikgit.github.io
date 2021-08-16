@@ -14,6 +14,7 @@ _Keywords:_ technology entrepreneurship, educational robotics, entrepreneurship,
 - use existing code with attributes to recognise patterns
 - systematically identify and fix bugs
 - use conditions and compound conditions to program encoded devices
+- prepare learners to participate in international competitions
 
 == Key Objectives
 
@@ -31,7 +32,7 @@ _Keywords:_ technology entrepreneurship, educational robotics, entrepreneurship,
 . monitor temperature
 . monitor fan speed
 . switch power remotely
-. IoT
+. IoT : link:https://www.oracle.com/internet-of-things/what-is-iot/[What is IoT?]
 . process automation
 . equipment management
 . collecting metrics
@@ -175,8 +176,33 @@ link:https://www.youtube.com/watch?v=hbP9SgteURM[Technology Entrepreneurship: La
 
 "Topics that are taught include: "
 
+-- link:https://www-sciencedirect-com.proxy.bnl.lu/science/article/pii/S0166497216302619?pds=1582021112447187012537751707846154[Teaching and research opportunities in technology entrepreneurship]
+
+"An example is the link:http://www.universitas21.com/[Universitas 21 Global Ingenuity Challenge]. Here globally dispersed students are invited to work in virtual cross-disciplinary teams to address grand societal challenges."
+
+"Technology entrepreneurship is defined as the interface between the more established academic fields of entrepreneurship and technology based innovation (Beckman et al., 2012)."
+
+-- link:https://onlinelibrary-wiley-com.proxy.bnl.lu/doi/full/10.1002/sej.1134[Technology entrepreneurship]
+
 -- link:https://ieeexplore.ieee.org/abstract/document/1263299[Holistic approach for technology entrepreneurship education in engineering]
 
+"Central to the study of entrepreneurship is its focus on the creation and discovery of novel opportunities."
+
+"... technology entrepreneurship is critically concerned with technical innovations and the nascent markets and novel products they often enable."
+
+link:https://www-tandfonline-com.proxy.bnl.lu/doi/full/10.1111/jsbm.12514[The Learning Process in Technology Entrepreneurship Education—Insights from an Engineering Degree]
+
+"While engineering education in the technical faculties focused on technology creation, entrepreneurship education in the business management faculty promoted the commercialization of products or services through the creation of new ventures."
+
+"According to Robinson et al. (2016), the behavioral learning perspective is aligned with the objective of “learning about” entrepreneurship, while the constructivist learning perspective emphasizes “learning through” entrepreneurship."
+
+"Teaching models for technology entrepreneurship should therefore reflect the specific nature of the technology entrepreneurship process. As discussed by Thrane et al. (2016), such teaching models should not only reflect the intended entrepreneurship learning process, but also the understanding of the elements that build the entrepreneurial process."
+
+"Using the case study of a degree program at the North Carolina State University, Barr et al. (2009) identified four characteristics that are necessary for an effective teaching model in technology entrepreneurship education. "
+
+"While some entrepreneurship education programs focused on the individual with the aim to shape an entrepreneurial mind‐set, others emphasized the generation of new start‐ups and thereby attempted to effectively accelerate the intention‐to‐behavior transition (Nabi et al. 2017)."
+
+image::img/learning-paradigm.png[]
 
 == Sources:
 
