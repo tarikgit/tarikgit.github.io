@@ -1,0 +1,22 @@
+= Gérer les documents d'approvisionnement et de vente (GESAV - 2021-22)
+
+
+*Matières à couvrir*: _1._ Calculs de base,
+                      _2._ Calcul du prix de vente brut à partir du prix d’achat brut,
+                      _3._ La gestion des achats,
+                      _4._ La gestion des ventes
+                      .
+
+*Nombre de leçons*: 6h x 18 sem. = 108h
+
+*Programme de Formation*: link:syllabus/PGMFOR_2020_2021_DT_CM_PROCO1_GESAV_15_F.pdf[2020-21]
+
+*Evaluation*: link:syllabus/REFEVAL_2020_2021_DT_CM_PROCO1_GESAV_15_F.pdf[2020-2021]
+
+
+[cols="1*"]
+|===
+
+|
+
+|===

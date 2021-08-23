@@ -1,0 +1,21 @@
+= Appliquer les bases du traitement de texte (TEXTE - 2021-22)
+
+
+*Matières à couvrir*: _1._ Frappe à l’aveugle (clavier QWERTZ),
+                      _2._ Fonctions de base du logiciel de traitement de textes,
+                      _3._ Sauvegarde et enregistrement de fichiers, création de répertoires
+                      .
+
+*Nombre de leçons*: 6h x 18 sem. = 108h
+
+*Programme de Formation*: link:syllabus/PGMFOR_2020_2021_DT_CMF_BACOM_TEXTE_177_F.pdf[2020-21]
+
+*Evaluation*: link:syllabus/REFEVAL_2020_2021_DT_CMF_BACOM_TEXTE_177_F.pdf[2020-2021]
+
+
+[cols="1*"]
+|===
+
+|
+
+|===

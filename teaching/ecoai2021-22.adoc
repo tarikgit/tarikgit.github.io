@@ -1,0 +1,28 @@
+= Economie de gestion et applications informatiques (ECOAI - 2021-22)
+
+
+*Matières à couvrir*: *Comptabilité*
+                      _1._ Révision,
+                      _2._ Les opérations d’inventaire,
+                      *Droit*
+                      _3._ Introduction au droit,
+                      _4._ Le droit civil,
+                      *Mathématiques financières*
+                      _5._ Les annuités,
+                      _6._ L’emprunt indivis,
+                      *Marketing*
+                      *Applications informatiques*
+                      .
+
+*Nombre de leçons*: 4h/sem.
+
+*Programme*: link:syllabus/PROG_2CD_ECOAI.pdf[2020-21]
+
+
+
+[cols="1*"]
+|===
+
+|
+
+|===

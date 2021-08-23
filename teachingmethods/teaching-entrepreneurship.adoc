@@ -1,6 +1,6 @@
 = Technology Entrepreneurship Education
 
-_Keywords:_ technology entrepreneurship, educational robotics, entrepreneurship, innovation, Arduino workshop, Raspberry Pi Pico, cross-disciplinary
+_Keywords:_ technology entrepreneurship, educational robotics, entrepreneurship, innovation, Arduino workshop, Raspberry Pi Pico, cross-disciplinary, academic entrepreneurship, science and technology entrepreneurship education (STEE)
 
 *Technology entrepreneurship* is the interface between the more established academic fields of entrepreneurship and technology based innovation.
 
@@ -203,6 +203,45 @@ link:https://www-tandfonline-com.proxy.bnl.lu/doi/full/10.1111/jsbm.12514[The Le
 "While some entrepreneurship education programs focused on the individual with the aim to shape an entrepreneurial mind‐set, others emphasized the generation of new start‐ups and thereby attempted to effectively accelerate the intention‐to‐behavior transition (Nabi et al. 2017)."
 
 image::img/learning-paradigm.png[]
+
+-- link:https://link.springer.com/article/10.1007/s10961-020-09787-5[Addressing academic researcher priorities through science and technology entrepreneurship education]
+
+"... incentivizing researchers to move discoveries beyond the laboratory and into society."
+
+"... additional expectations on Ph.D. students and faculty in science and engineering disciplines, who are encouraged to explore the commercialization of their research to promote the role of universities in innovation and job creation."
+
+".. we propose a course model for science and technology entrepreneurship education that has been designed to enable academic researchers to play a more active and informed role in the commercialization of their discovery."
+
+"... traditional Ph.D. training is not designed to prepare researchers to participate in entrepreneurial activity, and therefore its relevance to scientific work may not be evident ..."
+
+"Conventional science and technology entrepreneurship education (STEE) models often position the activity of commercialization (i.e., business) as separate from discovery (i.e., science), resulting in gaps in knowledge across disciplines (Libecap and Thursby 2008)."
+
+"... most scientists lack an understanding of business and commercial opportunities, resulting in university startups that are more technology-driven, rather than market-driven (Druilhe and Garnsey 2004)."
+
+"It has been suggested that entrepreneurship education can be an efficient and effective way to build the transferable skills that are necessary for employment in both academic and non-academic contexts (Duval-Couetil and Wheadon 2014)."
+
+"The academic field of entrepreneurship education tends to differentiate course and program offerings based on whether they are “education about entrepreneurship” (i.e., learning) or “education for entrepreneurship” (i.e., doing) (Mauri Laukkanen 2000). "
+
+"Research suggests that these types of authentic, interdisciplinary, and immersive experiences can bridge the transition from an idea or concept to the introduction of product for those who choose to participate (Barr et al. 2009; Thursby et al. 2009). They benefit scientists and engineers who, without training, may be less likely to engage in commercialization. They also provide aspects of business education that prepare scientists for management roles early in their careers (Barr et al. 2009)."
+
+"However, some scholars have indicated that too much emphasis on practical experience may have negative consequences because “the mental models that such pedagogies create can quickly become obsolete, particularly in light of the fast evolving technologies the curricula are supposed to address” (Locke and Schöne 2004, p. 332). This means that these immersive experiences may inspire students to become more entrepreneurially-oriented, but neglect their development of “critical thinking skills, such as the ability to assess risk, and recognize the inevitable downsides of entrepreneurial activity” (Phan et al. 2009, p. 332)."
+
+"Business decisions are data driven but are often made with incomplete information, and can be influenced by stakeholder interests (Mintzberg et al. 1976)."
+
+"In business, you often need to make educated guesses. This is hard for scientists, who are used to making evidence-based predictions. (Pierce 2008)"
+
+link:https://polytechnic.purdue.edu/profile/natduval[Nathalie Duval-Couetil],
+link:https://engineering.purdue.edu/LORRE_Dev?_ga=2.4911478.433935425.1629276304-1124182012.1629276304[Michael Ladisch],
+link:https://www.depts.ttu.edu/education/our-people/Faculty/soohyun_yi.php[Soohyun Yi] (Her scholarly trajectory aims to improve education for underserved and underchallenged students with impactful research and evidence-based interventions.)
+
+"To clearly differentiate our course from other campus offerings and its emphasis on university-based startups, we titled the course: “Life of a Faculty Entrepreneur: Discovery, Development & Translation” (abbreviated as LFE)."
+
+"The purpose as stated in the syllabus is: The intent of the course is to complement graduate student research activities and not detract from them in terms of content and time. Students are challenged to think systematically and analytically about processes that move research beyond publications, papers, and patents in order to initiate commercialization. We do not expect that all participants will have a technology that is ready for commercialization, which is often the case in other programs. Rather, our goal is to provide frameworks that will help university entrepreneurs define possible entry points to the commercialization process, and determine their best options prior to getting started."
+
+image::img/gap-commercialisation-technology.webp[Bridging the commercialization valley of death through STEE directed at researchers.]
+
+"Readings and videos from Harvard Business Review, The Wall Street Journal, Science, and Nature serve as the foundation for discussions on technology-based businesses, business models, investments, and leadership."
+
 
 == Sources:
 

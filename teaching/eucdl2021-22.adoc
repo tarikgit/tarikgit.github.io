@@ -1,0 +1,23 @@
+= European Computer Driving License (EUCDL - 2021-22)
+
+
+*Matières à couvrir*: _1._ L’essentiel sur l’ordinateur,
+                      _2._ L’essentiel sur le Web et la Communication,
+                      _3._ Traitement de texte,
+                      _4._ Tableur
+                      _5._ Présentation
+                      .
+
+*Nombre de leçons*: 18h
+
+*Programme de Formation*: link:syllabus/PGMFOR_2020_2021_DT_CM_PROCO2_EUCDL_15_F.pdf[2020-21]
+
+*Evaluation*: link:syllabus/REFEVAL_2020_2021_DT_CM_PROCO2_EUCDL_15_F.pdf[2020-2021]
+
+
+[cols="1*"]
+|===
+
+|
+
+|===

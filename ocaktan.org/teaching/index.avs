@@ -1,8 +1,12 @@
-= Teaching 
+= Teaching
+
+2021-22
+
+link:https://tarikgit.github.io/[Formation professionnelle, sociologie, économie (4TPCM,3TPCM,2GSO,1GSO,2DG)]
 
 2020-21
 
-link:https://tarikgit.github.io[Économie politique, économie de gestion et applications informatiques, sociologie, ... (2D, 2G, 2GCM, 2GSO, 3FP, 4FP)  ]
+link:https://tarikgit.github.io/index-2020-2021.html[Économie politique, économie de gestion et applications informatiques, sociologie, ... (2DG, 2GSO, 4TPCM)  ]
 
 2019-20
 
@@ -27,4 +31,3 @@ link:../documents/teaching/business.html[Business (1iec and 2iec)]  +
 
 
 //link:index2016-17.html[Academic year 2016-17]  +
-

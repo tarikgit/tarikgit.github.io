@@ -1,0 +1,29 @@
+= Sociologie (SOCIO - 2021-22)
+
+
+*Matières à couvrir*: *2ème*
+                      _1._ Einführung,
+                      _2._ Soziales Handeln,
+                      _3._ Soziale Kontrolle und Abweichung,
+                      _4._ Soziale Gruppe,
+                      *1ère*
+                      _5._ Soziale Ungleichheit,
+                      _6._ Sozialstruktur und soziale Schichtung,
+                      _7._ Migration
+                      .
+
+*Nombre de leçons*: 2h/sem.
+
+*Programme (2ème)*: link:syllabus/PROG_2GSO_SOCIO.pdf[2020-21]
+
+*Programme (1ère)*: link:syllabus/PROG_1GSO_SOCIO.pdf[2020-21]
+
+*Examen (1ère)*: link:syllabus/EXAM_1GSO_SOCIO.pdf[2020-2021]
+
+
+[cols="1*"]
+|===
+
+|
+
+|===

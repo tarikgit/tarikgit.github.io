@@ -1,0 +1,22 @@
+= Mettre en oeuvre les bases de l'administration générale (BASOR - 2021-22)
+
+
+*Matières à couvrir*: _1._ Réalisation de documents,
+                      _2._ Le classement de documents et de fichiers,
+                      _3._ La gestion du temps,
+                      _4._ Introduction à la communication professionnelle orale (téléphone et conversations simples)
+                      .
+
+*Nombre de leçons*: 6h x 18 sem. = 108h
+
+*Programme de Formation*: link:syllabus/PGMFOR_2020_2021_DT_CMF_BACOM_BASOR_177_F.pdf[2020-21]
+
+*Evaluation*: link:syllabus/REFEVAL_2020_2021_DT_CMF_BACOM_BASOR_177_F.pdf[2020-2021]
+
+
+[cols="1*"]
+|===
+
+|
+
+|===
