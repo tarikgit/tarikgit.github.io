@@ -15,8 +15,46 @@
 
 
 [cols="1*"]
+[cols="4,2", options="header"]
 |===
 
+|
+|
+| *Chapitre 1*: L'entreprise _De Suedel sàrl_
+|
+| Les activités et services de l'entreprise
+|
+| Les conditions générales de l'entreprise
+|
+| Mise en place des dossiers
+|
+| Analyse des documents et formulaires
+|
+| *Chapitre 2*: L'activité principale de _De Suedel sàrl_
+|
+| Fonctionnement des schémas de déroulement
+|
+| Calcul du prix de vente sur base d'une demande d'offre
+|
+| Tableau de comparaison des offres
+|
+| Cas concrets: 5 cas (voir link:https://tarikgit.github.io/teaching/syllabus/PGMFOR_2020_2021_DT_CM_PROCO2_ENAP1_15_F.pdf[programme])
+|
+| *Chapitre 3*: Le dossier _De Suedel sàrl_
+|
+| Contrôle des documents et formulaires
+|
+| Contrôle du classement du dossiers
+|
+| Contrôle final
+|
+| *Chapitre 4*: Le travail dans la société _De Suedel sàrl_
+|
+| Lettres
+|
+| Formulaires
+|
+| Calculs
 |
 
 |===
