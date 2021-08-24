@@ -14,9 +14,22 @@
 *Evaluation*: link:syllabus/REFEVAL_2020_2021_DT_CM_PROCO1_GESAV_15_F.pdf[2020-2021]
 
 
-[cols="1*"]
+[cols="4,2", options="header"]
 |===
 
+|
+|
+
+| *Chapitre 1*: Calculs de base
+| _Les bases du calcul arithmétique_: calcul de pourcentages, règle de trois, variations et taux en %, pourcentage par tranches, ...
+
+| *Chapitre 2*: Calcul du prix de vente brut à partir du prix d’achat brut
+| _Prix d’achat brut_: remise obtenue, prix d'achat à terme, l'escompte obtenu, prix d'achat net, frais d'achat, coût d'achat, frais de gestion, coût de revient, bénéfice, prix de vente net, escompte accordé, prix de vente à terme, remise accordé, prix de vente brut, taux de frais de gestion à partir du coût d'achat, taux de bénéfice, coefficients multiplicateurs
+
+| *Chapitre 3*: La gestion des achats
+|
+
+| *Chapitre 4*: La gestion des ventes
 |
 
 |===
