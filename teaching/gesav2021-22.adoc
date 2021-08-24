@@ -27,9 +27,9 @@
 | _Prix d’achat brut_: remise obtenue, prix d'achat à terme, l'escompte obtenu, prix d'achat net, frais d'achat, coût d'achat, frais de gestion, coût de revient, bénéfice, prix de vente net, escompte accordé, prix de vente à terme, remise accordé, prix de vente brut, taux de frais de gestion à partir du coût d'achat, taux de bénéfice, coefficients multiplicateurs
 
 | *Chapitre 3*: La gestion des achats
-|
+| Gestion des stocks, demande d'approvisionnement, gestion des fichiers fournisseurs, établissement de l'appel d'offre, analyse des conditions générales de vente, conditions de livraison, conditions de paiement, conditions de prix, majorations, reconnaissance des offres non conformes, tableau de comparaison, comparaison des offres, choix argumenté d'un fournisseur, documents pour la commande, suivi des commandes, contrôle des livraisons, modalités de réception, livraison et fiche de stock, échéancier fournisseur, paiement des dettes
 
 | *Chapitre 4*: La gestion des ventes
-|
+| gestion du fichier client, offres aux clients, commande client, livraison au client, factures et notes de crédit au client, suivi des créances, paiement des créances
 
 |===

@@ -14,10 +14,23 @@
 
 *Evaluation*: link:syllabus/REFEVAL_2020_2021_DT_CM_PROCO2_EUCDL_15_F.pdf[2020-2021]
 
+*Syllabus ECDL Base*: link:https://www.ecdl.ch/fileadmin/ECDL/CH/Dokumente/Franzoesisch/ECDL-Syllabus-Base-fr.pdf[Contenu des tests des modules Base]
 
 [cols="1*"]
 |===
 
-|
+| link:eucdl/ICDL-Computer-Essentials-Win-10-Quick-Reference.pdf[Quick Reference - Computer Essentials]
+
+| link:https://www.computerkurs.com/computer-grundlagen-kurs/[Computer Grundlagen - Übungsbeispiele & Lernvideos]
+
+| link:https://www.youtube.com/watch?v=XyG9W9l62Pc&ab_channel=Let%27sTalkICDL[Computer Essentials (Practice test - 43 min)]
+
+| link:https://www.youtube.com/watch?v=MN2OAZeQ6xU&ab_channel=Let%27sTalkICDL[Online Essentials (Practice test - 44 min)]
+
+| link:https://www.youtube.com/watch?v=IqoGXk_azMc&ab_channel=Let%27sTalkICDL[Documents (Practice test - 43 min)]
+
+| link:https://www.youtube.com/watch?v=VoXORa_m3hs&ab_channel=Let%27sTalkICDL[Spreadsheets (Practice test (56 min)]
+
+| link:https://www.youtube.com/watch?v=wuKD5GDl9gs&ab_channel=Let%27sTalkICDL[Presentation (Practice test - 47 min)]
 
 |===
