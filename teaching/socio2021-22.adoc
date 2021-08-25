@@ -1,11 +1,12 @@
 = Sociologie (SOCIO - 2021-22)
 
 
-*Matières à couvrir*: *2ème*
+*Matières à couvrir*: +
+                      *2ème*
                       _1._ Einführung,
                       _2._ Soziales Handeln,
                       _3._ Soziale Kontrolle und Abweichung,
-                      _4._ Soziale Gruppe,
+                      _4._ Soziale Gruppe, +
                       *1ère*
                       _5._ Soziale Ungleichheit,
                       _6._ Sozialstruktur und soziale Schichtung,
@@ -21,9 +22,34 @@
 *Examen (1ère)*: link:syllabus/EXAM_1GSO_SOCIO.pdf[2020-2021]
 
 
-[cols="1*"]
+[cols="1,2", options="header"]
 |===
 
+| Année
 |
+
+| Juin 2016
+| link:examen/2016_SOCIO_juin_DE.pdf[DE], link:examen/2016_SOCIO_juin_FR.pdf[FR]
+
+| Mai 2017
+| link:examen/2017_SOCIO_mai.pdf[DE]
+
+| Juin 2018
+| link:examen/2018_SOCIO_DE_juin.pdf[DE], link:examen/2018_SOCIO_DE_repechage.pdf[DE2], link:examen/2018_SOCIO_FR_juin.pdf[FR], link:examen/2018_SOCIO_FR_repechage.pdf[FR2]
+
+| Septembre 2018
+| link:examen/2018_SOCIO_DE_septembre_2018.pdf[DE], link:examen/20180919_SOCIO_FR_septembre.pdf[FR]
+
+| Juin 2019
+| link:examen/20190524_SOCIO_DE_juin.pdf[DE], link:examen/20190607_SOCIO_DE_repechage.pdf[DE2], link:examen/20190524_SOCIO_FR_juin.pdf[FR], link:examen/20190607_SOCIO_FR_repechage.pdf[FR2]
+
+| Septembre 2019
+| link:examen/20190920_SOCIO_DE_septembre.pdf[DE], link:examen/20190920_SOCIO_FR_septembre.pdf[FR]
+
+| Juin 2020
+| link:examen/20200608_SOCIO_DE_juin_epreuve.pdf[DE], link:examen/20200611_SOCIO_DE_juin_repechage.pdf[DE2], link:examen/20200608_SOCIO_FR_juin_epreuve.pdf[FR]
+
+| Septembre 2020
+| link:examen/20200921_SOCIO_DE_septembre_ajournement.pdf[DE], link:examen/20200921_SOCIO_FR_septembre_ajournement.pdf[FR]
 
 |===
