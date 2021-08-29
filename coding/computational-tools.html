@@ -1583,10 +1583,10 @@ disp(idxIter)</code></pre>
 \begin{eqnarray}
  w(k,n) = \max_{ c, v, s, k', n' }
     \Bigg\{
-     u(c) - g(n) &amp;&amp; \beta v(k',n')
+     u(c) - g(n) &amp;&amp; + \hspace{1cm} \beta v(k',n')
     \Bigg\}  \nonumber \\
-     \mbox{ s.t. } \quad f(k,n) - k' + (1\delta) -c(s)\cdot (1-n) - \gamma v - c &amp;\geq&amp; 0 \quad [\lambda] \nonumber \nonumber \\
-     \quad \quad \quad (1-\rho_x)n + m(n,v) - n' &amp;\geq&amp; 0 \quad [\mu] \nonumber
+     \mbox{ s.t. } \quad f(k,n) - k' + (1 + \delta) - c(s)\cdot (1 - n) - \gamma v - c &amp;\geq&amp; 0 \quad [\lambda] \nonumber \nonumber \\
+     \quad \quad \quad (1 - \rho_x) n + m(n,v) - n' &amp;\geq&amp; 0 \quad [\mu] \nonumber
 \end{eqnarray}</p>
 </div>
 <div class="paragraph">
@@ -2033,10 +2033,99 @@ end</code></pre>
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_finite_state_markov_chain_approximation_of_ar1_process">Finite State Markov Chain Approximation of AR(1) Process</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>For further details see <a href=https://a-z.lu/primo-explore/fulldisplay?docid=EBOOKMMSPRINGERLINK9783540856856&amp;context=L&amp;vid=BIBNET&amp;search_scope=All_content&amp;tab=all_content&amp;lang=fr_FR>Heer and Maussner, 2009 p.222</a></p>
+</div>
+<div class="paragraph">
+<p>Consider the process:
+\begin{eqnarray}
+  z_{t+1} = \rho z_t + \epsilon_t, \hspace{1cm} \epsilon_t \sim N(0, \sigma^{2}_{\epsilon}) \nonumber
+\end{eqnarray}</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select the <em>size</em> of the grid by choosing \(\lambda \in R_{++}\) so that
+\[
+ z_1 = - \frac{\lambda \sigma_{\epsilon}}{\sqrt{1 - \rho^2}}
+\]</p>
+</li>
+<li>
+<p>Choose the number of grid points \(m\)</p>
+</li>
+<li>
+<p>Put  \[ step= - \frac{2 z_1}{(m-1)}  \] and for \( i=1, 2, \ldots , m  \) compute \[ z_i = z_1 + (i-1) step \]</p>
+</li>
+<li>
+<p>Compute the <em>transition matrix</em> \( P=(p_{ij}) \). Let \( \pi(\cdot) \) denote the <em>cumulative distribution function</em> of the standard normal distribution. For \( i=1, 2, \ldots, m \) put
+\begin{equation}
+   p_{i1} = \pi \left( \frac{z_1 - \rho z_i}{ \sigma_{\epsilon} }  + \frac{step}{2 \sigma_{\epsilon}} \right) \nonumber \\
+   p_{ij} = \pi \left( \frac{z_j - \rho z_i}{\sigma_{\epsilon}} + \frac{step}{2 \sigma_{\epsilon}} \right) - \pi \left( \frac{z_j - \rho z_i}{\sigma_{\epsilon}} - \frac{step}{2 \sigma_{\epsilon}} \right) \mbox{ , } j=2,3,\ldots,m-1 \nonumber \\
+   p_{im} = 1 - \Sigma^{m-1}_{j=1} p_{ij} \nonumber
+\end{equation}</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>The following Julia function takes \(\rho\), \(\sigma_{\epsilon}\), \(\lambda\) and \(m\) as input and returns the vector \(z=[z_1, z_2, \ldots, z_m'\)] and the transition matrix \(P\).</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-Julia" data-lang="Julia">function fnTauchen(pRho, pSigmaEps, pLambda, pM)
+
+    pSigmaZ = sqrt( pSigmaEps^2/(1-pRho^2) )
+    zBar = pLambda*pSigmaZ
+    zt = collect( -zBar:( 2*zBar/(pM-1) ):( -zBar+(pM-1)*( 2*zBar/(pM-1) ) ) )
+
+
+    mP = ones(pM,pM)
+
+    i = 1
+
+    while i &lt;= pM
+
+        mP[i,1]   = Distributions.cdf( Normal(), (zt[1]-pRho*zt[i]+(zt[2]-zt[1])/2)/pSigmaEps );
+
+        j = 2
+
+        while j &lt;= (pM-1)
+
+            mP[i, j] =  Distributions.cdf(Normal(), (zt[j]-pRho*zt[i]+(zt[j]-zt[j-1])/2)/pSigmaEps )
+                      - Distributions.cdf(Normal(), (zt[j]-pRho*zt[i]-(zt[j]-zt[j-1])/2)/pSigmaEps );
+            j = j + 1
+
+        end
+
+        i = i + 1
+
+    end
+
+
+    mP[1:pM, pM]=mP[1:pM, pM]-sum( mP[1:pM,1:(pM-1)], dims=2 )
+
+    return zt, mP
+
+
+end</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This function can be used as follows:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-Julia" data-lang="Julia">zt, mP = fnTauchen(0.95, 0.005, 3, 4)</code></pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-11-21 18:23:57 +0100
+Last updated 2021-08-29 21:28:12 +0200
 </div>
 </div>
 <script type="text/x-mathjax-config">

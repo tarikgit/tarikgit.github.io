@@ -18,7 +18,7 @@ At iteration _t_, simulate:
 
 \begin{eqnarray}
  u^{(t+1)} &\sim& U_{[0,f(x^{(t)}]} \nonumber \\
- x^{(t+1)} &\sim& U_{A^{(t+1)}} \nonumber 
+ x^{(t+1)} &\sim& U_{A^{(t+1)}} \nonumber
 \end{eqnarray}
 with $A^{(t+1)} = \{ x: f(x) \geq u^{(t+1)} \}$
 
@@ -30,10 +30,10 @@ In this example, the _slice sampler_ will be used to simulate from the density:
 f(x)=\frac{1}{2}\exp( -\sqrt{x} )
 \]
 
-At iteration _t_, simulate: 
+At iteration _t_, simulate:
 \begin{eqnarray}
  u^{(t+1)} &\sim& U_{[0,\frac{1}{2}\exp( -\sqrt{x} )]} \nonumber \\
- x^{(t+1)} &\sim& U_{[0,(-\log(2u))^2]} \nonumber 
+ x^{(t+1)} &\sim& U_{[0,(-\log(2u))^2]} \nonumber
 \end{eqnarray}
 
 Using *R*
@@ -72,7 +72,7 @@ Using *julia*
 using Random, Distributions
 
 # Setting the seed
-Random.seed!(123) 
+Random.seed!(123)
 
 function f(y)
     exp( -sqrt(y) ) / 2
@@ -98,7 +98,7 @@ histogram(x)
 
 
 === Example 2
-Now we consider a truncated normal distribution $\mathcal{N}$(3,1), which is restricted to the interval [0,1]. 
+Now we consider a truncated normal distribution $\mathcal{N}$(3,1), which is restricted to the interval [0,1].
 
 In this example, the _slice sampler_ will be used to simulate from the density:
 [stem]
@@ -108,7 +108,7 @@ f(x) \varpropto f_1(x) = \exp\big( -(x+3)^2/2 \big) \mathbb{1}_{[0,1]}{(x)}
 
 
 
-At iteration _t_, simulate: 
+At iteration _t_, simulate:
 \begin{eqnarray}
  u^{(t+1)} &\sim& \exp\big( -(x+3)^2/2 \big) U_{[0,1]} \nonumber \\
  x^{(t+1)} &\sim& U_{[0,(-3+\sqrt{-2\log(u)})]} \nonumber
@@ -131,7 +131,7 @@ for (i in 2:nsim){
  obs[i,2] = exp(-0.5*(obs[i-1,1]+3)^2)*runif(1)
  obs[i,1] = runif(1)*min(1,-3+sqrt(-2*log(obs[i,2])))
  }
-    
+
 hist(obs,main="Slice sample",freq=F,col="green", breaks=25)
 
 ----
@@ -151,7 +151,7 @@ The integral,
 \end{eqnarray}
 can be calculated by generating
 \[
-   U_1, U_2, \ldots, U_n  \sim  iid \quad U(0,1) 
+   U_1, U_2, \ldots, U_n  \sim  iid \quad U(0,1)
 \]
 random variables, and approximate $\int h(x) dx$ with
 \[
@@ -171,7 +171,7 @@ den <- 1:(nsim)
 mci.ex <- function(x){(cos(50*x)+sin(20*x))^2}
 par(mfrow=c(1,3))
 plot(function(x)mci.ex(x), xlim=c(0,1),ylim=c(0,4),xlab="Function",ylab="")
-    
+
 # The Monte Carlo sum
 ## Generated Values of Function
 hint <- mci.ex(u)
@@ -189,7 +189,7 @@ lower <- hplot-stdh/sqrt(den)
 
 Given a _temperature_ parameter $T>0$, a sample $\theta^T_1, \theta^T_2, \ldots$ is generated from the distribution
 \[
- \pi(\theta) \varpropto \exp( h(\theta)/T ) 
+ \pi(\theta) \varpropto \exp( h(\theta)/T )
 \]
 
 
@@ -199,7 +199,7 @@ We are searching for the maximum of the following function
 \[
   h(x) = [ \cos(50x) + \sin(20x) ]^2
 \]
-Note: Variable 
+Note: Variable
 
 At iteration _t_ the algorithm is at $( x^{(t)},h^{(t)} )$:
 
@@ -237,7 +237,7 @@ mci(xval[nsim])
 # Plot the trajectory of the optimization path
 plot(function(x)mci(x), xlim=c(0,1),ylim=c(0,4),xlab="Function",ylab="")
 plot(xval,mci(xval),type="l",lwd=2)
- 
+
 
 ----
 
@@ -254,7 +254,7 @@ Also let $U(O, 1)$ denote the uniform distribution over $(0, 1)$. Then, a genera
 . Generate a candidate point $\theta^*$ from $q(\theta_i,\cdot)$ and $u$ from $U(0,1)$.
 . Set $\theta_{i+1}=\theta^*$ if $u \leq a(\theta_i, \theta^*)$ and $\theta_{i+1}=\theta_i$ otherwise, where the acceptance probability is given by
 \[
- a(\theta,\vartheta) = \min\big\{ 
+ a(\theta,\vartheta) = \min\big\{
                         \frac{ \pi(\vartheta|D)q(\vartheta, \theta) }{ \pi(\theta|D)q(\theta, \vartheta) },
                         1
                         \big\}
@@ -282,12 +282,12 @@ trueA <- 5
 trueB <- 0
 trueSd <- 10
 sampleSize <- 31
- 
-# create independent x-values 
+
+# create independent x-values
 x <- (-(sampleSize-1)/2):((sampleSize-1)/2)
 # create dependent values according to ax + b + N(0,sd)
 y <-  trueA * x + trueB + rnorm(n=sampleSize,mean=0,sd=trueSd)
- 
+
 plot(x,y, main="Test Data")
 
 
@@ -296,13 +296,13 @@ likelihood <- function(param){
     a = param[1]
     b = param[2]
     sd = param[3]
-     
+
     pred = a*x + b
     singlelikelihoods = dnorm(y, mean = pred, sd = sd, log = T)
     sumll = sum(singlelikelihoods)
-    return(sumll)   
+    return(sumll)
 }
- 
+
 # Example: plot the likelihood profile of the slope a
 slopevalues <- function(x){return(likelihood(c(x, trueB, trueSd)))}
 slopelikelihoods <- lapply(seq(3, 7, by=.05), slopevalues )
@@ -329,17 +329,17 @@ posterior <- function(param){
 
 
 ######## Metropolis algorithm ################
- 
+
 proposalfunction <- function(param){
     return(rnorm(3,mean = param, sd= c(0.1,0.5,0.3)))
 }
- 
+
 run_metropolis_MCMC <- function(startvalue, iterations){
     chain = array(dim = c(iterations+1,3))
     chain[1,] = startvalue
     for (i in 1:iterations){
         proposal = proposalfunction(chain[i,])
-         
+
         probab = exp(posterior(proposal) - posterior(chain[i,]))
         if (runif(1) < probab){
             chain[i+1,] = proposal
@@ -349,16 +349,16 @@ run_metropolis_MCMC <- function(startvalue, iterations){
     }
     return(chain)
 }
- 
+
 startvalue = c(4,0,10)
 chain = run_metropolis_MCMC(startvalue, 10000)
- 
+
 burnIn = 5000
 acceptance = 1-mean(duplicated(chain[-(1:burnIn),]))
 
 
 ### Summary: #######################
- 
+
 par(mfrow = c(2,3))
 hist(chain[-(1:burnIn),1],nclass=30, , main="Posterior of a", xlab="True value = red line" )
 abline(v = mean(chain[-(1:burnIn),1]))
@@ -375,7 +375,7 @@ plot(chain[-(1:burnIn),2], type = "l", xlab="True value = red line" , main = "Ch
 abline(h = trueB, col="red" )
 plot(chain[-(1:burnIn),3], type = "l", xlab="True value = red line" , main = "Chain values of sd", )
 abline(h = trueSd, col="red" )
- 
+
 # for comparison:
 summary(lm(y~x))
 
@@ -384,7 +384,7 @@ summary(lm(y~x))
 
 The following table gives the equivalence of the variables used in the pseudo-code to the variables used in the R code:
 
-[%header,cols=2*] 
+[%header,cols=2*]
 |===
 |Theory
 |Code
@@ -481,7 +481,7 @@ and it is parameterized as follows
 
 
 \begin{eqnarray}
- \frac{\partial v(k)}{\partial k} &=& \beta \frac{\partial v(k')}{\partial k'} 
+ \frac{\partial v(k)}{\partial k} &=& \beta \frac{\partial v(k')}{\partial k'}
                                         + \lambda \big[ \frac{\partial f(k)}{\partial k} - \frac{k'}{k} \big]
                                         \nonumber \\
                                 &=& \underbrace{\big[ \beta \frac{\partial v(k')}{\partial k'} - \lambda \big]}_{=0} \frac{k'}{\partial k} + \lambda \frac{\partial f(k)}{\partial k}
@@ -512,7 +512,7 @@ By combining the _first-order condition_ with the following expressions
  \frac{\partial U(c)}{\partial c} &=& c^{-1} \nonumber \\
  \frac{\partial f(k)}{\partial k} &=& \alpha k^{\alpha-1} \nonumber
 \end{eqnarray}
-we can find the _steady-state value_ of $k$ 
+we can find the _steady-state value_ of $k$
 \[
   k^* = \Bigg( \frac{1}{\alpha\beta} \Bigg)^{\frac{1}{\alpha-1}}
 \]
@@ -534,7 +534,7 @@ where $K^*$ denotes the stationary solution to the initial problem
  u\big( f(K_i)-K_j \big) + \beta v^0_j
 \]
 in the set of indices $\{ j^*_{i-1}, j^*_{i-1}+1, \ldots, n \}$. Set $h^1_i=j^*_i$ and $v^1_i=u\big( f(K_i)-K_{j^*_i} \big) + \beta v^0_{j^*_i}$
-. Check for convergence: If $\parallel \underline{v}^0-\underline{v}^1 \parallel_{\infty} < \epsilon (1-\beta)$, $\epsilon \in \mathbb{R}_{++}$ stop, else replace $\underline{v}^0$ with $\underline{v}^1$ and $\underline{h}^0$ with $\underline{h}^1$ and return to step 3. 
+. Check for convergence: If $\parallel \underline{v}^0-\underline{v}^1 \parallel_{\infty} < \epsilon (1-\beta)$, $\epsilon \in \mathbb{R}_{++}$ stop, else replace $\underline{v}^0$ with $\underline{v}^1$ and $\underline{h}^0$ with $\underline{h}^1$ and return to step 3.
 
 Using *Octave*
 
@@ -547,23 +547,23 @@ Using *Octave*
 
 % State space dimension = 1
 
-% Notation:  
+% Notation:
 %  pName : structural parameters
 %  iName : total number of variables related to the algorithm
 %  idxName : indexation used in loops, i.e. idxName = 1,...,iName
-%  dName : integer of a specific value of a variable, i.e. dNamess=steady state 
+%  dName : integer of a specific value of a variable, i.e. dNamess=steady state
 %          of
 %							   variable 'Name'
-%  vName : vector containing values of variable 'Name' 
+%  vName : vector containing values of variable 'Name'
 %  mName : matrix containing values of a variable 'Name'
 
-clear;clc; 
+clear;clc;
 close all;
 
 % Structural parameters
 pAlpha	= .3;
 pBeta	= .9;
-     
+
 % Algorithm parameters
  iIter = 2000; % maximum number of iterations
  iGridPoints = 300;
@@ -576,7 +576,7 @@ pBeta	= .9;
 % Construct a grid
  iStep	= (dKmax-dKmin) / (iGridPoints-1);
  vK	= dKmin:iStep:dKmax;
- iGridPoints = size(vK,2); % overwriting iGridPoints in order to take into 
+ iGridPoints = size(vK,2); % overwriting iGridPoints in order to take into
 			   % account additional point
 
 vY = vK.^pAlpha;
@@ -611,11 +611,11 @@ for idxIter=1:iIter
 
  iDiff = ( abs(vVOld-vVNew) ) / vVOld;
  if abs(iDiff) <= iToler
-  vVOld = vVNew; 
+  vVOld = vVNew;
   break
  else
   vVOld = vVNew;
- end 
+ end
 
 end
 %%% Main Iteration - END %%%
@@ -627,7 +627,7 @@ end
 % Construct policy function
 [maxR,idxR] = max([ mU + pBeta*(vIota*vVOld)' ]);
 
-vKP  = vK(idxR); 
+vKP  = vK(idxR);
 vInv = vKP;
 
 figure(1)
@@ -644,24 +644,24 @@ TBD
 
 [source,Octave]
 ----
-  
+
 % Deterministic Growth model
 % Original code by Eric Sims
 % Tarik OCAKTAN - Luxembourg - November 2020
 
 % State space dimension = 1
 
-% Notation:  
+% Notation:
 %  pName : structural parameters
 %  iName : total number of variables related to the algorithm
 %  idxName : indexation used in loops, i.e. idxName = 1,...,iName
-%  dName : integer of a specific value of a variable, i.e. dNamess=steady state 
+%  dName : integer of a specific value of a variable, i.e. dNamess=steady state
 %          of
 %							   variable 'Name'
-%  vName : vector containing values of variable 'Name' 
+%  vName : vector containing values of variable 'Name'
 %  mName : matrix containing values of a variable 'Name'
 
-clear;clc; 
+clear;clc;
 close all;
 
 global v0 pBeta pDelta pAlpha vK k0 s
@@ -672,7 +672,7 @@ pBeta	=  .95;
 pDelta  = 0.1;
 s       = 2;
 
-% Value function     
+% Value function
 function val=valfun(k)
 
     % This program gets the value function for a neoclassical growth model with
@@ -689,29 +689,29 @@ function val=valfun(k)
 
 endfunction
 
-     
+
 % Algorithm parameters
  iIter = 1000; % maximum number of iterations
  iGridPoints = 4;
  iToler	= 0.01;  % convergence criterion
- 
+
 % Steady state value
  dKss = (pAlpha/(1/pBeta-(1-pDelta)))^(1/(1-pAlpha));
  dCss = dKss^(pAlpha)-pDelta*dKss;
  dIss = pDelta*dKss;
  dYss = dKss^pAlpha;
- 
+
 % Bounds of state space
  dKmin	= dKss * 0.25;
  dKmax	= dKss * 1.75;
 % Construct a grid
  iStep	= (dKmax-dKmin) / (iGridPoints-1);
  vK	= [dKmin:iStep:dKmax]';
- iGridPoints = size(vK,1); % overwriting iGridPoints in order to take into 
+ iGridPoints = size(vK,1); % overwriting iGridPoints in order to take into
 			   % account additional point
- 
+
  polfun = zeros(iGridPoints,1);
- 
+
  v0 = zeros(iGridPoints,1);
 
  iDif = 10;
@@ -722,12 +722,12 @@ endfunction
 while iDif>iToler && idxIter<iIter
 
     for i = 1:iGridPoints
-    
+
         k0 = vK(i,1);
         k1 = fminbnd(@valfun,dKmin,dKmax);
         v1(i,1) = -valfun(k1);
         k11(i,1) = k1;
-    
+
     end
 
 iDif = norm(v1-v0);
@@ -744,7 +744,7 @@ for i = 1:iGridPoints
 end
 
 
-  
+
 ----
 
 
@@ -763,14 +763,14 @@ Let us consider the following _two-dimensional deterministic model_:
      U(c) - G(n) &+& \beta v(k',n')
     \Bigg\}  \nonumber \\
      \mbox{ s.t. } \quad f(k,n)-k'-c-(1-n) &\geq& 0 \quad [\lambda] \nonumber \nonumber \\
-     \quad \quad \quad (1-s)n + p(1-n) - n' &\geq& 0 \quad [\mu] \nonumber 
+     \quad \quad \quad (1-s)n + p(1-n) - n' &\geq& 0 \quad [\mu] \nonumber
 \end{eqnarray}
 
 The first-order conditions describing the dynamics of this system are given by:
 
 \begin{eqnarray}
 k^{\theta} n^{1-\theta} - k' - c - 1 + n &=& 0 \nonumber \\
-(1-s)n + p(1-n) - n' &=& 0  \nonumber  
+(1-s)n + p(1-n) - n' &=& 0  \nonumber
 \end{eqnarray}
 
 \[
@@ -778,7 +778,7 @@ k^{\theta} n^{1-\theta} - k' - c - 1 + n &=& 0 \nonumber \\
 \]
 
 \[
- \beta \Bigg[ -(n')^{-1} + (c')^{-1} \Bigg( 1+(1-\theta)k^{\theta}n^{-\theta} \Bigg) + \mu'(1-s-p)  \Bigg]  = \mu \nonumber 
+ \beta \Bigg[ -(n')^{-1} + (c')^{-1} \Bigg( 1+(1-\theta)k^{\theta}n^{-\theta} \Bigg) + \mu'(1-s-p)  \Bigg]  = \mu \nonumber
 \]
 
 
@@ -791,7 +791,7 @@ Using the previous equations, we can compute the steady state values for the fou
 \]
 
 The model is parameterized as follows:
-[%header,cols=2*] 
+[%header,cols=2*]
 |===
 |Parameter
 |Value
@@ -831,22 +831,22 @@ Parameters.pP = .75;
  Grid.nK = 3;
  Grid.nN = 2;
  iToler	= 10e-6;  % convergence criterion
- 
+
 % Steady state value
  dKss = ( 1 / (Parameters.pBeta*Parameters.pTheta*(Parameters.pP/(Parameters.pS+Parameters.pP))^(1-Parameters.pTheta)) )^( 1 / (Parameters.pTheta-1) );
  dNss = Parameters.pP/(Parameters.pS+Parameters.pP);
  dCss = (dKss)^(Parameters.pTheta)*(dNss)^(1-Parameters.pTheta)-dKss-1+dNss;
  dMu = ( Parameters.pBeta*( -dNss^(-1)+dCss^(-1)*( 1+(1-Parameters.pTheta)*dKss^Parameters.pTheta * dNss^(-Parameters.pTheta) ) ) )/( 1-Parameters.pBeta*(1-Parameters.pS-Parameters.pP) );
- 
+
 % Bounds of state space
  dKmin	= dKss * 0.9;
  dKmax	= dKss * 1.1;
  dNmin = dNss * 0.9;
  dNmax = dNss * 1.1;
- 
+
 % Create a grid for K and N
-Grid.K = linspace(dKmin, dKmax,Grid.nK)'; 
-Grid.N = linspace(dNmin, dNmax,Grid.nN)'; 
+Grid.K = linspace(dKmin, dKmax,Grid.nK)';
+Grid.N = linspace(dNmin, dNmax,Grid.nN)';
 
 % Storage space for consumption
 mC = ones( (Grid.nN-1)*Grid.nK , Grid.nK);
@@ -888,8 +888,8 @@ for idxIter=1:iIter
  vVNew = max([ mU + Parameters.pBeta*( ones( Grid.nN*Grid.nK, 1 )*vVOld ) ]);
 
  iDiff =  ( abs(vVOld-vVNew) ) / vVOld ;
- 
- 
+
+
  if abs(iDiff) <= iToler
   vVOld = vVNew;
   break
@@ -937,24 +937,24 @@ Let us consider the following _two-dimensional deterministic model_:
 \begin{eqnarray}
  w(k,n) = \max_{ c, v, s, k', n' }
     \Bigg\{
-     u(c) - g(n) &+& \beta v(k',n')
+     u(c) - g(n) && + \hspace{1cm} \beta v(k',n')
     \Bigg\}  \nonumber \\
-     \mbox{ s.t. } \quad f(k,n) - k' + (1+\delta) -c(s)\cdot (1-n) - \gamma v - c &\geq& 0 \quad [\lambda] \nonumber \nonumber \\
-     \quad \quad \quad (1-\rho_x)n + m(n,v) - n' &\geq& 0 \quad [\mu] \nonumber 
+     \mbox{ s.t. } \quad f(k,n) - k' + (1 + \delta) - c(s)\cdot (1 - n) - \gamma v - c &\geq& 0 \quad [\lambda] \nonumber \nonumber \\
+     \quad \quad \quad (1 - \rho_x) n + m(n,v) - n' &\geq& 0 \quad [\mu] \nonumber
 \end{eqnarray}
 
-where 
-$u(c,n)=u(c)-g(n)$ 
-with 
-$u(c)=\log(c)$ 
-and 
-$g(n)= \theta \frac{n^{1-\gamma_n}}{1-\gamma_n}$ ; 
-$m(n.v)=\mu_m v^{1-\alpha_m}[s(1-n)]^{\alpha_m}$ ; 
-$c(s)=c_0 s^{\eta}$ ; 
+where
+$u(c,n)=u(c)-g(n)$
+with
+$u(c)=\log(c)$
+and
+$g(n)= \theta \frac{n^{1-\gamma_n}}{1-\gamma_n}$ ;
+$m(n.v)=\mu_m v^{1-\alpha_m}[s(1-n)]^{\alpha_m}$ ;
+$c(s)=c_0 s^{\eta}$ ;
 $f(k,n)=k^{\alpha}n^{1-\alpha}$ .
 
 The model is parameterized as follows:
-[%header,cols=2*] 
+[%header,cols=2*]
 |===
 |Parameter
 |Value
@@ -993,7 +993,7 @@ The model is parameterized as follows:
 
 The steady state values for this model are:
 
-[%header,cols=2*] 
+[%header,cols=2*]
 |===
 |Parameter
 |Value
@@ -1042,7 +1042,7 @@ pRho 	= 0.95;
 pSigmaeps = 0.007;
 
 pMuz	= 1;
-            
+
 model;
 // Production function
 f = z*k(-1)^pAlpha*n(-1)^(1-pAlpha);
@@ -1076,7 +1076,7 @@ u_c = pBeta*( u_c(+1)*( f_k(+1) + (1-pDelta) ) );
 	 + ( ( pA*u_c(+1) ) / m_v(+1) ) * ( (1-pRho_x)+m_n(+1) )
 	);
 // P3
-( u_c*cs*( 1-n(-1) ) ) / m_s = pBeta* 
+( u_c*cs*( 1-n(-1) ) ) / m_s = pBeta*
 	(
 	 u_c(+1) * ( f_n(+1) + cs(+1) )
 	 - g_n(+1)
@@ -1084,10 +1084,10 @@ u_c = pBeta*( u_c(+1)*( f_k(+1) + (1-pDelta) ) );
 	);
 // Budget constraint
 c = f - i - cs*( 1-n(-1) ) - pA*v;
-// Investment 
+// Investment
 k = (1-pDelta)*k(-1) + i;
 // Employment dynamics
-n = (1-pRho_x)*n(-1) + m;                                 
+n = (1-pRho_x)*n(-1) + m;
 end;
 
 initval;
@@ -1130,7 +1130,7 @@ simul(periods=300);
 
 ----
 
-The following code gives an implementation of the _value function iteration_. 
+The following code gives an implementation of the _value function iteration_.
 For this we need to construct a grid for the _state space_ of the model, which is givven in the following diagram:
 
 image::dynamicprogramming/vfi2dgrid.png[VFIGRID,300,200]
@@ -1181,7 +1181,7 @@ function y = f(x, PARAMS)
      y(5) = 1/x(1) - x(6);
      y(6) = x(7)*( pMu_m*(1-pAlpha_m)*x(2)^(-pAlpha_m)*( x(3)*(1-x(5)) )^(pAlpha_m) )-pGamma*x(6);
      y(7) = x(7)*pMu_m*x(2)^(1-pAlpha_m)*pAlpha_m*x(3)^(pAlpha_m-1)*(1-x(5))^pAlpha_m-x(6)*pC0*pEta*x(3)^(pEta-1)*(1-x(5));
- 
+
 endfunction
 
 %[x, info] = fsolve ("f", [2.5; 0.03; 1.9; 30; 0.8; 1; 0.1; 0.02; 1])
@@ -1211,7 +1211,7 @@ dKmin	= dKss * 0.99;
 dKmax	= dKss * 1.01;
 dNmin = dNss * 0.99;
 dNmax = dNss * 1.01;
- 
+
 % Create a grid for K and N
 Grid.K = linspace(dKmin, dKmax,Grid.nK)';
 Grid.N = linspace(dNmin, dNmax,Grid.nN)';
@@ -1231,7 +1231,7 @@ for iNp=1:Grid.nN
                 REF = [Grid.N(iNp), Grid.N(iN), PARAMS];
                 function y = functionVS(x, REF)
                   %
-                  np = REF(1); 
+                  np = REF(1);
                   n = REF(2);
                   pAlpha = REF(3);
                   pAlpha_m = REF(4);
@@ -1344,3 +1344,76 @@ end
 
 ----
 
+
+== Finite State Markov Chain Approximation of AR(1) Process
+
+For further details see link:https://a-z.lu/primo-explore/fulldisplay?docid=EBOOKMMSPRINGERLINK9783540856856&context=L&vid=BIBNET&search_scope=All_content&tab=all_content&lang=fr_FR[Heer and Maussner, 2009 p.222]
+
+Consider the process:
+\begin{eqnarray}
+  z_{t+1} = \rho z_t + \epsilon_t, \hspace{1cm} \epsilon_t \sim N(0, \sigma^{2}_{\epsilon}) \nonumber
+\end{eqnarray}
+
+. Select the _size_ of the grid by choosing $\lambda \in R_{++}$ so that
+  \[
+   z_1 = - \frac{\lambda \sigma_{\epsilon}}{\sqrt{1 - \rho^2}}
+  \]
+. Choose the number of grid points $m$
+. Put  \[ step= - \frac{2 z_1}{(m-1)}  \] and for \( i=1, 2, \ldots , m  \) compute \[ z_i = z_1 + (i-1) step \]
+. Compute the _transition matrix_ \( P=(p_{ij}) \). Let \( \pi(\cdot) \) denote the _cumulative distribution function_ of the standard normal distribution. For \( i=1, 2, \ldots, m \) put
+  \begin{equation}
+     p_{i1} = \pi \left( \frac{z_1 - \rho z_i}{ \sigma_{\epsilon} }  + \frac{step}{2 \sigma_{\epsilon}} \right) \nonumber \\
+     p_{ij} = \pi \left( \frac{z_j - \rho z_i}{\sigma_{\epsilon}} + \frac{step}{2 \sigma_{\epsilon}} \right) - \pi \left( \frac{z_j - \rho z_i}{\sigma_{\epsilon}} - \frac{step}{2 \sigma_{\epsilon}} \right) \mbox{ , } j=2,3,\ldots,m-1 \nonumber \\
+     p_{im} = 1 - \Sigma^{m-1}_{j=1} p_{ij} \nonumber
+  \end{equation}
+
+The following Julia function takes $\rho$, $\sigma_{\epsilon}$, $\lambda$ and $m$ as input and returns the vector $z=[z_1, z_2, \ldots, z_m]'$ and the transition matrix $P$.
+
+[source,Julia]
+----
+
+function fnTauchen(pRho, pSigmaEps, pLambda, pM)
+
+    pSigmaZ = sqrt( pSigmaEps^2/(1-pRho^2) )
+    zBar = pLambda*pSigmaZ
+    zt = collect( -zBar:( 2*zBar/(pM-1) ):( -zBar+(pM-1)*( 2*zBar/(pM-1) ) ) )
+
+
+    mP = ones(pM,pM)
+
+    i = 1
+
+    while i <= pM
+
+        mP[i,1]   = Distributions.cdf( Normal(), (zt[1]-pRho*zt[i]+(zt[2]-zt[1])/2)/pSigmaEps );
+
+        j = 2
+
+        while j <= (pM-1)
+
+            mP[i, j] =  Distributions.cdf(Normal(), (zt[j]-pRho*zt[i]+(zt[j]-zt[j-1])/2)/pSigmaEps )
+                      - Distributions.cdf(Normal(), (zt[j]-pRho*zt[i]-(zt[j]-zt[j-1])/2)/pSigmaEps );
+            j = j + 1
+
+        end
+
+        i = i + 1
+
+    end
+
+
+    mP[1:pM, pM]=mP[1:pM, pM]-sum( mP[1:pM,1:(pM-1)], dims=2 )
+
+    return zt, mP
+
+
+end
+
+----
+
+This function can be used as follows:
+
+[source,Julia]
+----
+zt, mP = fnTauchen(0.95, 0.005, 3, 4)
+----
