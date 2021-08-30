@@ -29,6 +29,8 @@ are a valuable (but free) source to find inspiration for projects related to you
 
 * link:https://tarikgit.github.io/coding/using-microbit.html[Using BBC micro:bit]: _The BBC micro:bit is microcontroller board is link:https://www.electronic-shop.lu/product/164829[cheap] and has many build-in sensors and LED's. Using the PIO the board can be easily extended_. This microcontroller can be turned into a robot by using the link:https://www.electronic-shop.lu/product/166029[:Move mini] and then be controlled using a link:https://makecode.microbit.org/pkg/kitronikltd/pxt-kitronik-servo-lite[simple extension] to the MakeCode.
 
+* link:https://pinout.xyz/[The Raspberry Pi GPIO pinout guide]
+
 Here are useful ressources for teaching Python: 1. link:https://hourofcode.com/[Hour of Code],
 2. link:https://python.infobrisson.fr/[Using Python without installation],
 3. link:https://fr.vittascience.com/python[Learn to code using blocks and convert it into Python code]
