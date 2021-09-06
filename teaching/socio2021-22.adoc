@@ -21,6 +21,7 @@
 
 *Examen (1ère)*: link:syllabus/EXAM_1GSO_SOCIO.pdf[2020-2021]
 
+*Outils*: link:https://www.oasys4schools.lu/conceptmaps/[Concept Maps (mindmaps)] 
 
 [cols="1,2", options="header"]
 |===

@@ -1,5 +1,6 @@
 = Teaching and Learning Methods
 
+. *Technology Entrepreneurship* (link:../posters/04_Technology_Entrepreneurship_Education.pdf[poster]): This poster gives an overview of a first attempt to confront young learners with _entrepreneurship_ and technology through the _makerspace_. Relevant tutorials and other sources can be found in this link:https://docs.google.com/spreadsheets/d/1EYiVXnArmv5ou1BTaaZGYh9QgV_grjzNWdl6x1dn64w/edit?usp=sharing[database].
 . *Open Source Media Content For Teaching Economics* (link:../posters/01_Poster_IFEN_Landscape.pdf[poster]): _This link:https://drive.google.com/file/d/1G6oxgboywzi4rEmuShdcNWmS6MlX__Vf/view?usp=sharing[media database] collects all the material that I am using in class as a support for teaching._
 . *A-Level Economics Teaching Approach* (link:../posters/01_Poster_A_level.pdf[poster]): _This poster provides an overview of the teaching approach for the international A level system._
 . *Enseignement secondaire général - Division administrative et commerciale* (link:../posters/03_Poster_Departement_Sciences_Economiques_ESG.pdf[poster]): _This poster provides an overview of the secondary school system in Luxembourg with focus on the trade specialisation. These are learners who are on average aged between 14 and 18._
