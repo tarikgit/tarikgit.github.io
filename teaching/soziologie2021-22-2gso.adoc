@@ -1,0 +1,115 @@
+= Soziologie 2GSO (2021-22)
+
+{blank} +
+
+
+
+
+== Überblick
+
+
+{blank} +
+
+
+[cols="1,1,4,3,3", options="header"]
+//[%autowidth, options="header"]
+|===
+|Woche |Datum |Themen | Aufgaben | Lernziele
+
+| 1
+| 20/9/21
+| 1.1.1 - 1.1.3 : +
+  _sozial_, [red]#Wert- u. Normvorstellungen#, _Ordnung, Zusammenleben_ +
+  _Sozialnatur des Menschen, Zusammenleben, soziales Wesen, soziale Beziehung, kulturelles Wesen_ +
+  [red]#wissenschaftliche Disziplin#, _sozialer Wandel der Gesellschaft, Industriegesellschaft, kulturelle Unterschiede, politische u. geistige Umwälzung_
+| Aufgaben 1, 2, 3, 4 (Seite 48)
+| - Bedeutung der Soziologie. +
+  - Die Sozialnatur des Menschen.
+
+
+| 2
+| 27/9/21
+| 1.2.1 - 1.2.3 : +
+  [red]#soziales Handeln/Verhalten#, _Max Weber, soziale Prozesse_ +
+  _soziale Einheit_, [red]#soziale Gebilde#, mikrosoziologisches Gebilde, makrosoziologisches Gebilde, Gruppe, Organisation, [red]#soziale Struktur# +
+  [red]#soziales System#, wechselseitige Beziehung, [red]#Merkmale eines sozialen Systems#, Systeme/Subsysteme, [red]#geschlossene u. offene Systeme#, Systemtheorien
+| Aufgaben 5, 6, 7, 8 (Seite 48)
+| - soziales Handeln +
+  - soziales Gebilde +
+  - soziale Struktur +
+  - soziales System
+
+| 3
+| 4/10/21
+| 1.2.4 - 1.3.1 : +
+  Bedürfnisse in einem sozialen Gebilde, [red]#Ordnungs- und Verhaltensmuster#,[red]#Institutionen#, [red]#Funktionen der Institutionen#, Émile Durkheim, [red]#Organisation#
+  soziale Wirklichkeit, beobachten-beschreiben-verstehen-erklären, gesellschaftliche Fehlentwicklungen, Organisationssoziologie, [red]#zukunftsfähige (_sustainable_) Gesellschaft#, die Gesellschaft verbessern +
+  allgemeine u. spezielle Soziologie, Sozialforschung
+| Aufgaben 9, 10, _Artikel_
+| - soziale Institution +
+  - Organisation
+
+|===
+
+{blank} +
+
+
+
+== Lehrplan (2GSO)
+
+
+. Einführung
+.. Grundbegriffe (Gesellschaft, System, Institution, ...)
+.. Der Gegenstand der Soziologie
+. Soziales Handeln
+.. Das Zusammenwirken von Menschen
+... Die Begriffe _soziale Interaktion_ und _soziale Kommunikation_
+... Menschliches Zusammenleben als soziales Handeln
+.. Die Wertbezogenheit sozialen Handelns
+... Soziale Werte
+... Der Wandel von Werten
+.. Die Regelung des Zusammenlebens
+... Soziale Normen als Verhaltensvorschrift
+... Arten von Normen
+... Soziale Rolle als Verhaltenserwartung
+... Rollenkonflikte
+.. Das Erlernen des sozialen Verhaltens (in Absprache mit PEDAG)
+... Der Begriff _Sozialisation_
+... Sozialisation als lebenslanger Prozess
+... Theorien der Sozialisation
+. Soziale Kontrolle und Abweichung
+.. Die Gewährleistung normengerechten Verhaltens
+... Soziale Kontrolle als Überwachung
+... Sanktionen als Überwachungsmaßnahmen
+.. Anpassung und Abweichung
+... Sozialangepasstes Verhalten / Sozialabweichendes Verhalten
+.. Die Problematik abweichenden Verhaltens
+... Die Norm als Beurteilungsmaßstab
+... Die normorientierte Einschätzung abweichenden Verhaltens
+... Theorie der Zuschreibung
+.. Sozialer Konflikt
+... Der Begriff _sozialer Konflikt_
+... Formen des Konfliktes
+... Ursachen und Funktionen des sozialen Konfliktes
+... Konfliktmanagement
+. Soziale Gruppe
+.. Die Gruppe als soziales Gebilde
+... Der Begriff _Gruppe_
+... Der Prozess der Gruppe
+.. Die Bedeutung von Gruppen
+... Funktionen der Gruppe
+... Das Konzept des sozialen Netzwerkes
+... Gefahren einer Gruppe
+.. Arten von Gruppen
+... Primär-und Sekundärgruppe
+... Eigen-und Fremdgruppe
+... Formelle und informelle Gruppe
+
+
+== Strukturierte Antwort
+
+image::https://tarikgit.github.io/latex/images/06-strukturierte-antwort-mindmap-figure1.png[Abbildung 1: Struktur in drei Teilen]
+
+
+
+link:https://www.youtube.com/watch?v=J8KczQ3b44o[Was ist Soziologie? Max Weber Teil 1: Der Handlungsbegriff (soziales Handeln, irrationales Verhalten)]
