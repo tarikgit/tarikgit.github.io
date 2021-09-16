@@ -1,5 +1,6 @@
 = Cours (2021-22)
 
+////
 
 == Formation professionnelle (3TPCM et 4TPM)
 
@@ -8,13 +9,13 @@
 
 |link:teaching/gesav2021-22.html[Gérer les documents d'approvisionnement et de vente (GESAV)]
 
+|link:teaching/texte2021-22.html[Appliquer les bases du traitement de texte (TEXTE)]
+
 |link:teaching/enap12021-22.html[
 Mettre en pratique l'acquis de l'approvisionnement et de la vente dans le cadre d'une entreprise d'apprentissage
 (ENAP1)]
 
 |link:teaching/eucdl2021-22.html[European Computer Driving License (EUCDL)]
-
-|link:teaching/texte2021-22.html[Appliquer les bases du traitement de texte (TEXTE)]
 
 |link:teaching/basor2021-22.html[Mettre en oeuvre les bases de l'administration générale (BASOR)]
 
@@ -22,6 +23,7 @@ Mettre en pratique l'acquis de l'approvisionnement et de la vente dans le cadre 
 
 |===
 
+////
 
 == Sociologie (2GSO et 1GSO)
 

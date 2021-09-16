@@ -44,10 +44,52 @@
 | 1.2.4 - 1.3.1 : +
   Bedürfnisse in einem sozialen Gebilde, [red]#Ordnungs- und Verhaltensmuster#,[red]#Institutionen#, [red]#Funktionen der Institutionen#, Émile Durkheim, [red]#Organisation#
   soziale Wirklichkeit, beobachten-beschreiben-verstehen-erklären, gesellschaftliche Fehlentwicklungen, Organisationssoziologie, [red]#zukunftsfähige (_sustainable_) Gesellschaft#, die Gesellschaft verbessern +
-  allgemeine u. spezielle Soziologie, Sozialforschung
+
 | Aufgaben 9, 10, _Artikel_
 | - soziale Institution +
   - Organisation
+
+|
+|
+| [purple]#*Schriftliche Arbeit*#
+|
+|
+
+| 4
+| 11/10/21
+| 1.3.2 - 1.4.2 : +
+  allgemeine u. spezielle Soziologie, Sozialforschung +
+  [red]#Gesellschaft#, gemeinsame Gebiete, eigenständige soziale Einheit, soziale Bedürfnisse, Ordnungs- o. Verhaltensmuster, soziale Struktur, Kultur, [red]#Merkmale von Gesellschaften#, makrosoziologisches Gebilde, [red]#gesellschaftlicher Individualisierungsschub#, [red]#Einteilungskriterien einer Gesellschaft# +
+  Kultur u. Natur, Regelungen zum Zusammenleben, Wert- u. Normvorstellungen
+| Aufgaben 11, 12, 13, _Artikel_
+| - Bereiche der Soziologie +
+  - Merkmale einer Gesellschaft +
+  - Kultur u. Gesellschaft
+
+| 5
+| 18/10/21
+| 1.4.3 - 1.5.2 : +
+  [red]#*Erwartungen* in der Gesellschaft#, Auffassungen, Nachwuchs u. Ausbildung, homo sociologicus, freie Entfaltung der individuellen Persönlichkeit, [red]#Gesellschaft u. Individuum# +
+  Wirklichkeit, [red]#Wissenschaft#, [red]#wissenschaftliche Methoden#, Beobachtung, Experimente, [red]#Theorie#, Formulierung von Aussagen +
+  Gesetze, Auguste Comte, empirische Wissenschaft, erfahrbare soziale Wirklichkeit, [red]#Sinn- u. Bedeutungszusammenhänge von Gegebenheiten erkennen u. aufdecken#, Max Weber, [red]#Auffassungen von Wissenschaft#
+| Aufgaben 14, 15, 16, 17, 18
+| - Individuum u. Gesellschaft +
+  - Soziologie u. Wissenschaft
+
+| 6
+| 25/10/21
+| 1.5.3 - 1.5.4 : +
+  Methodisches Vorgehen, planmässig/gezielt/systematisch, empirische Methoden, Geisteswissenschaftliche Methoden +
+  Soziometrie, Messverfahren, zwischenmenschliche Präferenzen
+| Aufgaben 19, 20
+| - wissenschaftliche Methoden +
+  - Soziometrie
+
+|
+|
+|[purple]#*DEC I,1*# 
+|
+|
 
 |===
 
