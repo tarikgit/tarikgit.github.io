@@ -1,20 +1,30 @@
 = Comprendre les sciences économiques et sociales pour comprendre le monde (OPTECO - 2021-22)
 
 
-*Matières à couvrir*: _1._ Du budget familial au budget de l'État ,
-                      _2._ Économie et écologie ,
-                      _3._ Actualité politique, économique et sociale
-                      .
+*Matières à couvrir*: +
+_1._ Du budget familial au budget de l'État , +
+_2._ Économie et écologie , +
+_3._ Actualité politique, économique et sociale
 
-*Nombre de leçons*: 4h/sem.
+Ce cours est basé sur le matériel fournit par le projet link:https://www.core-econ.org/[CORE].
 
-*Programme*: 
+*Nombre de leçons*: 2h/sem.
+
+*Programme*:
 
 
-
-[cols="1*"]
+[cols="1,1,4,3,3", options="header"]
+//[cols="1*"]
 |===
+|Semaine |Date |Sujets | Source | Lernziele
 
-|
+| 1
+| 20/9/21
+| La monnaie
+| link:https://www.sciencespo.fr/department-economics/econofides/premiere-stmg/text/03.html#36-les-diff%C3%A9rentes-fonctions-et-formes-de-la-monnaie[Les différentes fonctions et formes de la monnaie] +
+  link:https://www.ft.com/content/424b29c4-07bf-4612-b7d6-76aecf8e1528[What are cryptocurrencies and stablecoins and how do they work?]
+| *Compétences*: présentation, terminologie +
+  *Notions*: monnaie scripturale, monnaie centrale +
+
 
 |===

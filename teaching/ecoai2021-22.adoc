@@ -2,17 +2,17 @@
 
 
 *Matières à couvrir*: +
-                      *A. Comptabilité* +
+                      *A. [maroon]#Comptabilité#* +
                       _1._ Révision, +
                       _2._ Les opérations d’inventaire, +
-                      *B. Mathématiques financières* +
+                      *B. [red]#Mathématiques financières#* +
                       _3._ Les annuités, +
                       _4._ L’emprunt indivis, +
-                      *C. Droit* +
+                      *C. [blue]#Droit#* +
                       _5._ Introduction au droit, +
                       _6._ Le droit civil, +
-                      *D. Marketing* +
-                      *E. Applications informatiques* +
+                      *D. [purple]#Marketing#* +
+                      *E. [green]#Applications informatiques#* +
 
 
 *Nombre de leçons*: 4h/sem.
@@ -20,10 +20,24 @@
 *Programme*: link:syllabus/PROG_2CD_ECOAI.pdf[2021-22]
 
 
-
-[cols="1*"]
+[cols="1,1,4,3,3", options="header"]
+//[cols="1*"]
 |===
+|Semaine |Date |Sujet | Devoir | Objectif
 
+| 1
+| 17/9/21
+| *[maroon]#Comptabilité#* +
+  link:comptabilite/Comptabilite-Fiche-1-comptes-de-bilan-comptes-de-gestion-2021.pdf[Fiche de révision 1]
+| -
+| Révision: +
+  - Comptes de bilan +
+  - Comptes de gestion
+
+| 2
+| 20/9/21
+| *[red]#Mathématiques financières#*
+|
 |
 
 |===
