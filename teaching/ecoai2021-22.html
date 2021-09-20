@@ -429,7 +429,50 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
+
+<style>
+  .click .title { color: blue; }
+  .click {margin-top: 0.5em; margin-bottom: 0.5em;}
+  .openblock { margin-top: 1em; margin-bottom: 1em; }
+  .openblock>.box>.content { margin-top:1em;margin-bottom: 1em;margin-left:3em;margin-right:4em; }
+</style>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<script>
+
+
+
+var ready2;
+
+ready2 = function() {
+
+    $(document).ready(function(){
+
+        $('.openblock.click').click( function()  { $(this).find('.content').slideToggle('200'); } )
+        $('.openblock.click').find('.content').hide()
+
+
+        $('.listingblock.click').click( function()  { $(this).find('.content').slideToggle('200') }  )
+        $('.listingblock.click').find('.content').hide()
+
+    });
+
+}
+
+
+
+
+$(document).ready(ready2);
+$(document).on('page:load', ready2);
+
+
+</script>
+
 </head>
+
+
 <body class="article">
 <div id="header">
 <h1>Economie de gestion et applications informatiques (ECOAI - 2021-22)</h1>
@@ -453,7 +496,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p><strong>Nombre de leçons</strong>: 4h/sem.</p>
 </div>
 <div class="paragraph">
-<p><strong>Programme</strong>: <a href="syllabus/PROG_2CD_ECOAI.pdf">2021-22</a></p>
+<p><strong>Programme</strong>: <a href=syllabus/PROG_2CD_ECOAI.pdf>2021-22</a></p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -477,7 +520,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">17/9/21</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong><span class="maroon">Comptabilité</span></strong><br>
-  <a href="comptabilite/Comptabilite-Fiche-1-comptes-de-bilan-comptes-de-gestion-2021.pdf">Fiche de révision 1</a></p></td>
+  <a href=comptabilite/Comptabilite-Fiche-1-comptes-de-bilan-comptes-de-gestion-2021.pdf>Fiche de révision 1</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Révision:<br>
   - Comptes de bilan<br>
@@ -487,16 +530,39 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">20/9/21</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong><span class="red">Mathématiques financières</span></strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Construire le schéma pour (p.4):<br>
+  \(n=15\)<br>
+  \(a=6500€\)<br>
+  \(i=7,5\%\)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Introduction:<br>
+  - Annuités: \(a\)<br>
+  - Suite d&#8217;annuités<br>
+  - Valeur acquise: \(A\)<br>
+  - Durée de placement: \(n\)</p></td>
 </tr>
 </tbody>
 </table>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-09-19 20:22:00 +0200
+Last updated 2021-09-20 20:51:31 +0200
 </div>
 </div>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  messageStyle: "none",
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    ignoreClass: "nostem|nolatexmath"
+  },
+  asciimath2jax: {
+    delimiters: [["\\$", "\\$"]],
+    ignoreClass: "nostem|noasciimath"
+  },
+  TeX: { extensions: ["mhchem.js"] }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 </body>
 </html>

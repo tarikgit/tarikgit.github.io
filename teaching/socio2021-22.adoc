@@ -15,13 +15,16 @@
 
 *Nombre de leçons*: 2h/sem.
 
-*Programme (2ème)*: link:syllabus/PROG_2GSO_SOCIO.pdf[2020-21]
+*Programme (2ème)*: link:syllabus/PROG_2GSO_SOCIO.pdf[programme (2020-21)] et link:soziologie2021-22-2gso.html[*cours*] de 2GSO
 
 *Programme (1ère)*: link:syllabus/PROG_1GSO_SOCIO.pdf[2020-21]
 
 *Examen (1ère)*: link:syllabus/EXAM_1GSO_SOCIO.pdf[2020-2021]
 
-*Outils*: link:https://www.oasys4schools.lu/conceptmaps/[Concept Maps (mindmaps)] 
+*Outils*: link:https://www.oasys4schools.lu/conceptmaps/[Concept Maps (mindmaps)]
+
+
+
 
 [cols="1,2", options="header"]
 |===

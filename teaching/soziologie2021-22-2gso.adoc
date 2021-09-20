@@ -18,6 +18,14 @@
 
 | 1
 | 20/9/21
+| link:https://www.faz.net/aktuell/wissen/geist-soziales/die-morgenroete-der-twitter-soziologie-17308098.html[_Die Morgenröte der Twitter-Soziologie_]
+| Synthese
+| - Wissenschaft +
+  - Forschung in der Soziologie +
+  - Rolle der sozialen Medien in der Soziologie
+
+| 1
+| 22/9/21
 | 1.1.1 - 1.1.3 : +
   _sozial_, [red]#Wert- u. Normvorstellungen#, _Ordnung, Zusammenleben_ +
   _Sozialnatur des Menschen, Zusammenleben, soziales Wesen, soziale Beziehung, kulturelles Wesen_ +
@@ -26,6 +34,12 @@
 | - Bedeutung der Soziologie. +
   - Die Sozialnatur des Menschen.
 
+
+|===
+
+{blank} +
+
+////
 
 | 2
 | 27/9/21
@@ -87,15 +101,11 @@
 
 |
 |
-|[purple]#*DEC I,1*# 
+|[purple]#*DEC I,1*#
 |
 |
 
-|===
-
-{blank} +
-
-
+////
 
 == Lehrplan (2GSO)
 

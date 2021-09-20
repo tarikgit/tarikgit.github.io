@@ -37,7 +37,14 @@
 | 2
 | 20/9/21
 | *[red]#Mathématiques financières#*
-|
-|
+| Construire le schéma pour (p.4): +
+  $n=15$ +
+  $a=6500€$ +
+  $i=7,5\%$
+| Introduction: +
+  - Annuités: $a$ +
+  - Suite d'annuités +
+  - Valeur acquise: $A$ +
+  - Durée de placement: $n$
 
 |===
