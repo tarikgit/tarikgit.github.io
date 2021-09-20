@@ -24,7 +24,7 @@ Ce cours est basé sur le matériel fournit par le projet link:https://www.core-
 | 1. link:https://www.sciencespo.fr/department-economics/econofides/premiere-stmg/text/03.html#36-les-diff%C3%A9rentes-fonctions-et-formes-de-la-monnaie[Les différentes fonctions et formes de la monnaie] +
   2. link:https://www.ft.com/content/424b29c4-07bf-4612-b7d6-76aecf8e1528[What are cryptocurrencies and stablecoins and how do they work?]
 | *Compétences*: synthèse, présentation, terminologie +
-  *Notions*: monnaie scripturale, monnaie centrale, bitcoin +
+  *Notions*: monnaie scripturale, monnaie centrale, cryptocurrency, rôle de la banque centrale, taux d'intérêt, inflation +
 
 
 |===
