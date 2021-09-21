@@ -1,0 +1,45 @@
+= Soziologie 1GSO (2021-22)
+
+{blank} +
+
+
+
+
+== Überblick
+
+
+{blank} +
+
+
+[cols="1,1,4,3,3", options="header"]
+//[%autowidth, options="header"]
+|===
+|Woche |Datum |Themen | Aufgaben | Lernziele
+
+| 1
+| 22/9/21
+| 9.1.1 - 9.1.2 : +
+  soziale Ungleichheiten, individuelle vs. soziale Unterschiede, biologische u. soziale Merkmale, Bewertung sozialer Unterschiede, Kriterien zur Bewertung sozialer Unterschiede, ungleiche Verteilung von Lebenschancen, 3 Voraussetzungen der sozialen Ungleichheiten
+| Aufgaben : +
+  - 1, 2 (S. 314) +
+  - Kommentiere schriftlich Materialien 1 u. 2 (S. 303)
+| - soziale Ungleichheiten (_kn_, _app_) +
+  - Tabellen u. Graphiken interpretieren (_app_, _an_)
+
+
+
+
+|===
+
+{blank} +
+
+
+
+
+== Strukturierte Antwort
+
+image::https://tarikgit.github.io/latex/images/06-strukturierte-antwort-mindmap-figure1.png[Abbildung 1: Struktur in drei Teilen]
+
+
+
+link:https://www.youtube.com/watch?v=J8KczQ3b44o[Was ist Soziologie? Max Weber Teil 1: Der Handlungsbegriff (soziales Handeln, irrationales Verhalten)]

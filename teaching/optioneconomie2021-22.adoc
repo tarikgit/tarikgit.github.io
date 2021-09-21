@@ -13,7 +13,7 @@ Ce cours est basé sur le matériel fournit par le projet link:https://www.core-
 *Programme*:
 
 
-[cols="1,1,4,3,3", options="header"]
+[cols="1,1,2,4,5", options="header"]
 //[cols="1*"]
 |===
 |Semaine |Date |Sujets | Source | Lernziele
@@ -25,6 +25,7 @@ Ce cours est basé sur le matériel fournit par le projet link:https://www.core-
   2. link:https://www.ft.com/content/424b29c4-07bf-4612-b7d6-76aecf8e1528[What are cryptocurrencies and stablecoins and how do they work?]
 | *Compétences*: synthèse, présentation, terminologie +
   *Notions*: monnaie scripturale, monnaie centrale, cryptocurrency, rôle de la banque centrale, taux d'intérêt, inflation; +
-  voir aussi link:https://www.ecb.europa.eu/explainers/tell-me-more/html/what_is_money.fr.html[Banque centrale européenne]
+  _voir_ aussi link:https://www.ecb.europa.eu/explainers/tell-me-more/html/what_is_money.fr.html[Banque centrale européenne] +
+  _The Big Read_ link:https://www.ft.com/content/4da3060c-8e1a-439f-a1d7-a6a4688ad6ca[1], link:https://www.ft.com/content/a10c297f-c8dd-48b1-9744-09d4ff2e89ca[2], link:https://www.ft.com/content/beeb2f8c-99ec-494b-aa76-a7be0bf9dae6[3], link:https://www.ft.com/content/1ea829ed-5dde-4f6e-be11-99392bdc0788[4]
 
 |===
