@@ -1,0 +1,6 @@
+set P := memorization, exercise;
+
+param:           a     c     u    :=
+ memorization    20    25    600
+ exercise        14    30    400;
+param b := 40;

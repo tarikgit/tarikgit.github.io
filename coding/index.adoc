@@ -55,3 +55,5 @@ Here are useful ressources for teaching Python: 1. link:https://hourofcode.com/[
 * link:https://tarikgit.github.io/coding/computational-tools.html[Computational tools]: _Here are more advanced topics taken from dynamic programming (or optimal control theory), econometrics and statistics_
 
 * link:https://tarikgit.github.io/coding/valueiteration-gridworld.html[Value iteration in the gridworld]: This page presents a simple example for value iteration in a 3-by-4 gridworld.
+
+* link:https://tarikgit.github.io/coding/neos-server/neos-server.html[A work-in-progess to model the decision-making of learners and teachers in the classroom.]

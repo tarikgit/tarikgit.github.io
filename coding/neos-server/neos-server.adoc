@@ -1,0 +1,173 @@
+= Optimization
+
+This page contains simple optimization examples, which are applied to the
+modeling of the learning process.
+
+
+
+== Simple two-dimensional optimization
+
+_The focus in this section is on the decision making of the learner. It has been adapted from Fourer et al. (1990)._
+
+A learner must decide how to allocate next week's studying time.
+She assimilates two types of competencies: knowledge and application.
+
+For achieving these skills, the learner must _memorize_ the knowledge and
+make _exercises_, in which the knowledge is applied.
+
+The learner is constrained to the limited number of _pages_ that she can
+achieve _in an hour_:
+
+. _Memorization_ of knowledge: 20 pages per hour
+. _Exercises_: 14 pages per hour
+
+These two elements have different levels of _profitabilities_, meaning that
+the outcome or final mark in a test is not affected in the same way. We assume
+that the _profit per page_ is given by:
+
+. _Memorization_ of knowledge: 25 mark
+. _Exercises_: 30 marks
+
+The following weekly studying amounts are the most that can be achieved in
+the light of the time constraints:
+
+. _Memorization_ of knowledge: 600 pages
+. _Exercises_: 400 pages
+
+The question that the learner faces is: If 40 hours of studying time are
+available this week, how many pages of _memorization_ and how many _pages_ of
+exercises should be studied to bring the greatest total _profit_ or outcome
+in terms of final marks?
+
+While we are given numeric values for number of pages that can be studied and
+marks that can be achieved per page, the pages of memorization and of exercises
+to be produced are as yet unknown. These quantities are the _decision variables_
+whose values we must determine so as to maximize profits.
+
+The purpose of the linear program is to specify the profits and production
+limitations as explicit formulas involving the variables, so that the desired
+values of the variables can be determined systematically.
+
+We will write $X_M$ for the number of _pages of memorization_ to be studied, and
+$X_E$ for _pages of exercises_. The total hours to study all these pages is then given by:
+
+\begin{equation}
+ (\mbox{hours to study one page of memorization}) \times X_M
+ + (\mbox{hours to study one page of exercises}) \times X_E \nonumber
+\end{equation}
+
+This number cannot exceed the 40 hours available.
+Since hours per page is the reciprocal of the pages per hour given above,
+we have a constraint on the variables:
+
+\begin{equation}
+ \frac{1}{20} X_M + \frac{1}{14} X_E \leq 40 \nonumber
+\end{equation}
+
+Pages that can be studied per week are also limited:
+
+\begin{equation}
+ 0 \leq X_M \leq 600 \nonumber \\
+ 0 \leq X_E \leq 400 \nonumber
+\end{equation}
+
+In this problem, the upper limits were specified, but the lower limits were
+assumed. It is obvious that a negative number of pages that can be studied
+would be meaningless. For computational reasons, a lower limit has to be defined.
+
+By analogy with the formula for total hours, the total outcome in marks must be:
+
+\begin{equation}
+ (\mbox{outcome per page of memorization}) \times X_M +
+ (\mbox{outcome per page of exercises}) \times X_E \nonumber
+\end{equation}
+
+That is, our objective is to maximize $25 X_M + 30 X_E$.
+Putting this all together, we have the following linear program:
+
+\begin{equation}
+ \max 25 X_M + 30 X_E \nonumber \\
+ \hspace{1cm}\mbox{s.t.} \frac{1}{20} X_M + \frac{1}{14} X_E \leq 40 \nonumber \\
+ \hspace{2cm} 0 \leq X_M \leq 600 \nonumber \\
+ \hspace{2cm} 0 \leq X_E \leq 400 \nonumber
+\end{equation}
+
+[INSERT GRAPHIC HERE]
+
+The horizontal line represents the studying limit on memorization, the
+vertical on exercises. The diagonal line is the constraint on hours, each
+point on that line represents a combination of memorization and exercises that
+requires exactly 40 hours of studying time, and any point downward and to the
+left requires less than 40 hours.
+
+The shaded region bounded by the axes and these three lines corresponds
+exactly to the feasible solutions - those that satisfy all three constraints.
+Among all the feasible solutions represented in this region, we seek the one
+that maximizes the profit.
+
+For this problem, a line of slope $-\frac{25}{30}$ represents combinations
+that produce the same profit, for example, the line from (0, 450) to (540, 0)
+represents combinations that yield ??? points of outcome.
+
+Different total marks of outcome give different but parallel lines in the figure,
+with higher total marks of outcome giving lines that are higher and further
+to the right.
+
+[INSERT GRAPHIC HERE]
+
+The following block gives the Ampl code for the previous problem, which
+should be saved in a separate file (`study0.mod`)
+
+[source,ampl]
+----
+include::study0.mod[]
+----
+
+Create another file that contains the following instructions (`study0.run`)
+
+[source,ampl]
+----
+include::study0.run[]
+----
+
+These two files can be uploaded to the link:https://neos-server.org/neos/solvers/milp:CPLEX/AMPL.html[NEOS server].
+*Note*: You must register to the Website (it won't cost you anything).
+
+This code can be written in a more general form as follows:
+
+The file that contains the model will look like this (`study.mod`):
+
+[source,ampl]
+----
+include::study.mod[]
+----
+
+The parameter values can be stored in a separate file (`study.dat`):
+
+[source,ampl]
+----
+include::study.dat[]
+----
+
+And finally the instructions for the optimizer can be collected in a separate
+file (`study.run`):
+
+[source,ampl]
+----
+include::study.run[]
+----
+
+Running this general specification can be done by uploading the three files on
+the link:https://neos-server.org/neos/solvers/milp:CPLEX/AMPL.html[NEOS server].
+
+
+
+
+
+
+== References
+
+Fourer, Robert, David M. Gay, and Brian W. Kernighan. "link:https://ampl.com/resources/the-ampl-book/chapter-downloads/[A modeling language for mathematical programming]." _Management Science_ 36, no. 5 (1990): 519-554.
+
+
+Hongwei, Jin. link:https://www.cs.uic.edu/~hjin/files/ampl_tutorial.pdf[_A Tutorial of AMPL for Linear Programming_]
