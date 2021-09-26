@@ -28,4 +28,12 @@ Ce cours est basé sur le matériel fournit par le projet link:https://www.core-
   _voir_ aussi link:https://www.ecb.europa.eu/explainers/tell-me-more/html/what_is_money.fr.html[Banque centrale européenne] +
   _The Big Read_ link:https://www.ft.com/content/4da3060c-8e1a-439f-a1d7-a6a4688ad6ca[1], link:https://www.ft.com/content/a10c297f-c8dd-48b1-9744-09d4ff2e89ca[2], link:https://www.ft.com/content/beeb2f8c-99ec-494b-aa76-a7be0bf9dae6[3], link:https://www.ft.com/content/1ea829ed-5dde-4f6e-be11-99392bdc0788[4]
 
+| 2
+| 27/9/21
+| Les prix et le rôle des marchés
+| 1. link:https://www.ft.com/content/84c0727b-b35b-4115-8e19-1474eef6b2be[Italy’s poor feel the pain from surging energy costs] +
+  2. link:https://www.ft.com/content/7c31ca15-aa4f-4a32-bb90-ebc1341ed374[Why Europe fears a gas crunch even before winter demand begins]
+  3. link:https://www.sciencespo.fr/department-economics/econofides/premiere-ses/text/01.html#12-pourquoi-le-march%C3%A9-est-il-une-construction-sociale[Comment un marché concurrentiel fonctionne-t-il ?]
+| *Compétences*: synthèse, présentation +
+
 |===
