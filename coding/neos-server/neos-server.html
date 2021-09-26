@@ -714,6 +714,35 @@ display X;</code></pre>
 <p>Running this general specification can be done by uploading the three files on
 the <a href=https://neos-server.org/neos/solvers/milp:CPLEX/AMPL.html>NEOS server</a>.</p>
 </div>
+<div class="paragraph">
+<p>This will give the following message from NEOS:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-neos server log" data-lang="neos server log">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Checking ampl.mod for cplex_options...
+Checking ampl.com for cplex_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-5.neos-server.org
+
+Presolve eliminates 2 constraints.
+Adjusted problem:
+2 variables, all linear
+1 constraint, all linear; 2 nonzeros
+	1 inequality constraint
+1 linear objective; 2 nonzeros.
+
+CPLEX 20.1.0.0: threads=4
+CPLEX 20.1.0.0: optimal solution; objective 19200
+1 dual simplex iterations (0 in phase I)
+X [*] :=
+    exercise  140
+memorization  600
+;</code></pre>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -730,7 +759,7 @@ the <a href=https://neos-server.org/neos/solvers/milp:CPLEX/AMPL.html>NEOS serve
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-09-26 15:37:39 +0200
+Last updated 2021-09-26 16:49:59 +0200
 </div>
 </div>
 <script type="text/x-mathjax-config">

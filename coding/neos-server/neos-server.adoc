@@ -160,7 +160,34 @@ include::study.run[]
 Running this general specification can be done by uploading the three files on
 the link:https://neos-server.org/neos/solvers/milp:CPLEX/AMPL.html[NEOS server].
 
+This will give the following message from NEOS:
 
+[source,neos server log]
+----
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Checking ampl.mod for cplex_options...
+Checking ampl.com for cplex_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-5.neos-server.org
+
+Presolve eliminates 2 constraints.
+Adjusted problem:
+2 variables, all linear
+1 constraint, all linear; 2 nonzeros
+	1 inequality constraint
+1 linear objective; 2 nonzeros.
+
+CPLEX 20.1.0.0: threads=4
+CPLEX 20.1.0.0: optimal solution; objective 19200
+1 dual simplex iterations (0 in phase I)
+X [*] :=
+    exercise  140
+memorization  600
+;
+----
 
 
 
