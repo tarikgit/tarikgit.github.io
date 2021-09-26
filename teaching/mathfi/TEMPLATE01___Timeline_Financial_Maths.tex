@@ -1,0 +1,66 @@
+%%%
+%%% Financial Maths - Secondary School Teaching
+%%% Tarik Ocaktan - 26/9/2021 - Luxembourg
+%%%
+
+\documentclass[a4paper,landscape]{article}
+\usepackage{tikz}
+\usetikzlibrary{snakes}
+\usepackage[official]{eurosym}
+
+\begin{document}
+
+\section*{Calcul de la valeur acquise ($A$)}
+
+
+  \begin{tikzpicture}[snake=zigzag, line before snake = 5mm, line after snake = 5mm]
+    % draw horizontal line
+    \draw (0,0) -- (8,0);
+    \draw[snake] (8,0) -- (10,0);
+    \draw (10,0) -- (16,0);
+
+    % draw vertical line
+    \draw (14,-1) -- (14,-9);
+
+    % draw lines spanning from each period to final period
+    \draw (2, -1) -- (2, -8); \draw[-stealth] (2, -8) -- (14, -8);
+    \draw (4, -1) -- (4, -7); \draw[-stealth] (4, -7) -- (14, -7);
+    \draw (6, -1) -- (6, -6); \draw[-stealth] (6, -6) -- (14, -6);
+    %\draw (8, -1) -- (8, -5); \draw[-stealth] (8, -5) -- (14, -5);
+    \draw (10, -1) -- (10, -4); \draw[-stealth] (10, -4) -- (14, -4);
+    \draw (12, -1) -- (12, -3); \draw[-stealth] (12, -3) -- (14, -3);
+
+    % insert formulas into plot
+    \node[draw] at (13, -2.5) {$\cdot (1+i)^1$};
+    \node[draw] at (13, -3.5) {$\cdot (1+i)^2$};
+    %\node[draw,align=above] at (13, -4.5) {$\cdot (1+i)^{n-3}$};
+    \node[draw] at (13, -5.5) {$\cdot (1+i)^{n-3}$};
+    \node[draw] at (13, -6.5) {$\cdot (1+i)^{n-2}$};
+    \node[draw] at (13, -7.5) {$\cdot (1+i)^{n-1}$};
+
+    % add the "+" sign
+    \node[draw] at (15, -3) {$+$};
+    \node[draw] at (15, -4) {$+$};
+    \node[draw] at (15, -6) {$+$};
+    \node[draw] at (15, -7) {$+$};
+    \node[draw] at (15, -8) {$+$};
+
+    % add the general formula
+    \node[draw] at (14, -10) {$A = a \cdot \frac{(1+i)^n-1}{i}$};
+
+    % draw vertical lines
+    \foreach \x in {0,2,4,6,8,10,12,14}
+      \draw (\x cm,3pt) -- (\x cm,-3pt);
+
+    % draw nodes
+    \draw (0,0) node[below=3pt] {$  $} node[above=3pt] {$  0 $};
+    \draw (2,0) node[below=3pt] {$ a $\euro{}} node[above=3pt] {\small{fin pér.}$1$};
+    \draw (4,0) node[below=3pt] {$ a $\euro{}} node[above=3pt] {\small{fin pér.}$2$};
+    \draw (6,0) node[below=3pt] {$ a $\euro{}} node[above=3pt] {\small{fin pér.}$3$};
+    \draw (8,0) node[below=3pt] {$ a $\euro{}} node[above=3pt] {\small{fin pér.}$\ldots$};
+    \draw (10,0) node[below=3pt] {$ a $\euro{}} node[above=3pt] {\small{fin pér.}$n-2$};
+    \draw (12,0) node[below=3pt] {$ a $\euro{}} node[above=3pt] {\small{fin pér.}$n-1$};
+    \draw (14,0) node[below=3pt] {$ a $\euro{}} node[above=3pt] {\small{fin pér.}$n$};
+  \end{tikzpicture}
+
+\end{document}
