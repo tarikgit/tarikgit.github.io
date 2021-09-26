@@ -34,6 +34,17 @@
 | - Bedeutung der Soziologie. +
   - Die Sozialnatur des Menschen.
 
+  | 2
+  | 27/9/21
+  | 1.2.1 - 1.2.3 : +
+    [red]#soziales Handeln/Verhalten#, _Max Weber, soziale Prozesse_ +
+    _soziale Einheit_, [red]#soziale Gebilde#, mikrosoziologisches Gebilde, makrosoziologisches Gebilde, Gruppe, Organisation, [red]#soziale Struktur# +
+    [red]#soziales System#, wechselseitige Beziehung, [red]#Merkmale eines sozialen Systems#, Systeme/Subsysteme, [red]#geschlossene u. offene Systeme#, Systemtheorien
+  | Aufgaben 5, 6, 7, 8 (Seite 48)
+  | - soziales Handeln +
+    - soziales Gebilde +
+    - soziale Struktur +
+    - soziales System
 
 |===
 
@@ -41,17 +52,7 @@
 
 ////
 
-| 2
-| 27/9/21
-| 1.2.1 - 1.2.3 : +
-  [red]#soziales Handeln/Verhalten#, _Max Weber, soziale Prozesse_ +
-  _soziale Einheit_, [red]#soziale Gebilde#, mikrosoziologisches Gebilde, makrosoziologisches Gebilde, Gruppe, Organisation, [red]#soziale Struktur# +
-  [red]#soziales System#, wechselseitige Beziehung, [red]#Merkmale eines sozialen Systems#, Systeme/Subsysteme, [red]#geschlossene u. offene Systeme#, Systemtheorien
-| Aufgaben 5, 6, 7, 8 (Seite 48)
-| - soziales Handeln +
-  - soziales Gebilde +
-  - soziale Struktur +
-  - soziales System
+
 
 | 3
 | 4/10/21

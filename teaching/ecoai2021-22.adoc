@@ -47,4 +47,32 @@
   - Valeur acquise: $A$ +
   - Durée de placement: $n$
 
+| 1
+| 22/9/21
+| *[red]#Mathématiques financières#*
+| Assimiler la théorie (p.3-5)
+| link:mathfi/TEMPLATE01___Timeline_Financial_Maths.pdf[Construction d'une formule générale, de la _valeur acquise_], à partir d'un cas spécial: +
+  \begin{equation}
+   A = a \cdot \frac{(1+i)^n-1}{i}
+  \end{equation}
+
+| 1
+| 24/9/21
+| *[maroon]#Comptabilité#* +
+| Exercices 1,2,3
+| Révision: +
+  - Grand-Livre +
+  - Journal +
+  - Ouverture des comptes +
+  - Clôture des comptes
+
+| 2
+| 27/9/21
+| *[red]#Mathématiques financières#*
+| Exercices 1, 2
+| Construction d'une formule générale, de la _valeur actuelle_, à partir de la formule de la v_valeur acquise_: +
+  \begin{equation}
+   V_0 = a \cdot \frac{1-(1+i)^{-n}}{i}
+  \end{equation}
+
 |===
