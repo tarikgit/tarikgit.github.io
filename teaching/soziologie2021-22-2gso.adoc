@@ -30,7 +30,7 @@
   _sozial_, [red]#Wert- u. Normvorstellungen#, _Ordnung, Zusammenleben_ +
   _Sozialnatur des Menschen, Zusammenleben, soziales Wesen, soziale Beziehung, kulturelles Wesen_ +
   [red]#wissenschaftliche Disziplin#, _sozialer Wandel der Gesellschaft, Industriegesellschaft, kulturelle Unterschiede, politische u. geistige Umwälzung_
-| Aufgaben 1, 2, 3, 4 (Seite 48)
+| Aufgaben 1, 2, 3, 4 (Seite 48) --> link:soziologie-cours/20-aufgaben-kap1-1-2.pdf[Hinweise ...]
 | - Bedeutung der Soziologie. +
   - Die Sozialnatur des Menschen.
 
