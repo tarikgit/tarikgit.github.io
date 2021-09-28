@@ -196,5 +196,6 @@ memorization  600
 
 Fourer, Robert, David M. Gay, and Brian W. Kernighan. "link:https://ampl.com/resources/the-ampl-book/chapter-downloads/[A modeling language for mathematical programming]." _Management Science_ 36, no. 5 (1990): 519-554.
 
-
 Hongwei, Jin. link:https://www.cs.uic.edu/~hjin/files/ampl_tutorial.pdf[_A Tutorial of AMPL for Linear Programming_]
+
+Wright, Stephen, and Jorge Nocedal. " link:https://medusa.teodesian.net/docs/mathematics/Numerical%20Optimization%20-%20J.%20Nocedal,%20S.%20Wright%20(1999)%20WW.pdf[Numerical optimization]." Springer Science 35, no. 67-68 (1999): 7.
