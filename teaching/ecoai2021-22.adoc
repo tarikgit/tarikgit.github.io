@@ -51,7 +51,7 @@
 | 22/9/21
 | *[red]#Mathématiques financières#*
 | Assimiler la théorie (p.3-5)
-| link:mathfi/TEMPLATE01___Timeline_Financial_Maths.pdf[Construction d'une formule générale, de la _valeur acquise_], à partir d'un cas spécial: +
+| link:mathfi/TEMPLATE01___Timeline_Financial_Maths.pdf[Construction d'une formule générale, de la _valeur acquise_ (versement *fin de période*)], à partir d'un cas spécial: +
   \begin{equation}
    A = a \cdot \frac{(1+i)^n-1}{i}
   \end{equation}
@@ -70,9 +70,18 @@
 | 27/9/21
 | *[red]#Mathématiques financières#*
 | Exercices 1, 2
-| Construction d'une formule générale, de la _valeur actuelle_, à partir de la formule de la v_valeur acquise_: +
+| Construction d'une formule générale, de la _valeur actuelle_, à partir de la formule de la _valeur acquise_: +
   \begin{equation}
    V_0 = a \cdot \frac{1-(1+i)^{-n}}{i}
+  \end{equation}
+
+| 2
+| 29/9/21
+| *[red]#Mathématiques financières#*
+| Exercices 3, 4
+| link:mathfi/TEMPLATE02___Timeline_Financial_Maths.pdf[Construction d'une formule générale, de la _valeur acquise_ (versement *début de période*)], à partir d'un cas spécial: +
+  \begin{equation}
+   A = a (1+i) \cdot \frac{(1+i)^n-1}{i}
   \end{equation}
 
 |===
