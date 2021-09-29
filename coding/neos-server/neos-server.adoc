@@ -196,6 +196,10 @@ memorization  600
 
 Fourer, Robert, David M. Gay, and Brian W. Kernighan. "link:https://ampl.com/resources/the-ampl-book/chapter-downloads/[A modeling language for mathematical programming]." _Management Science_ 36, no. 5 (1990): 519-554.
 
+Gelman, Andrew, John B. Carlin, Hal S. Stern, and Donald B. Rubin. link:https://users.aalto.fi/~ave/BDA3.pdf[Bayesian data analysis]. Chapman and Hall/CRC, 1995.
+
 Hongwei, Jin. link:https://www.cs.uic.edu/~hjin/files/ampl_tutorial.pdf[_A Tutorial of AMPL for Linear Programming_]
+
+Lunn, David, Christopher Jackson, Nicky Best, Andrew Thomas, and David Spiegelhalter. "link:https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.1201/b13613&type=googlepdf[The BUGS book]." A Practical Introduction to Bayesian Analysis, Chapman Hall, London (2013).
 
 Wright, Stephen, and Jorge Nocedal. " link:https://medusa.teodesian.net/docs/mathematics/Numerical%20Optimization%20-%20J.%20Nocedal,%20S.%20Wright%20(1999)%20WW.pdf[Numerical optimization]." Springer Science 35, no. 67-68 (1999): 7.
