@@ -1,14 +1,26 @@
+Model:
 
 model {
-
-  for (i in 1:4) {
-
-    y[i] ~ dbin( p[i], n[i] )
-    logit(p[i]) <- alpha + beta * ( x[i] - mean(x[]) )
-
-    phat[i] <- y[i]/n[i]
-    yhat[i] <- n[i]*p[i]
-
-  }
-
+for (i in 1:4) {
+y[i] ~ dbin(p[i], n[i])
+logit(p[i]) <- alpha + beta*(x[i] - mean(x[]))
+phat[i] <- y[i]/n[i]
+yhat[i] <- n[i]*p[i]
 }
+alpha ~ dnorm(0, 0.0001)
+beta ~ dnorm(0, 0.0001)
+}
+
+
+
+Data:
+
+list(x = c(-0.92, -0.69, -0.36, 0.40),
+n = c(10, 10, 10, 10),
+y = c(2, 4, 6, 8))
+
+
+
+Inits:
+
+list(alpha = 50, beta = 0)
