@@ -1,7 +1,7 @@
-= Optimization
+= Decision-making in the classroom ([red]#work in progress!!#)
 
-This page contains simple optimization examples, which are applied to the
-modeling of the learning process.
+This page contains basic models, which are applied to the
+modeling of the learning process and to decision-making in the classroom.
 
 
 
@@ -190,6 +190,180 @@ memorization  600
 ----
 
 
+== Simple Model: Inference
+
+_The focus in this section is on the decision making of the teacher. It has
+been adapted from Gelman et al. (1995) and Lunn et al. (2013)._
+
+When designing a lesson, the teacher has to decide on the ratio knowledge
+to application,
+$kn/app$, treated in a lesson. The learner's responses are typically
+characterized by a dichotomous outcome: for example,
+"has acquired the competency" or "failed to acquire the competency".
+
+Qn experimental lesson of this kind gives rise to data of the form
+\begin{equation}
+ (x_i, n_i, y_i); i=1, \ldots, k,
+\end{equation}
+where $x_i$ represents the i$th$ of $k$ lessons with different ratios $kn/app$.
+$n_i$ represents the number of learners present in the lesson, of which $y_i$
+subsequently respond with positive outcome.
+
+An example is shown in the table below: a sequence of four lessons with ten learners
+in each lesson has been tried.
+
+[cols="2,2,2", options="header"]
+//[%autowidth, options="header"]
+|===
+| Ratio, $x_i$ +
+  (log ($kn(min)/app(min)$) )
+| Number of learners +
+  in the lesson
+| Number of learners +
+  who failed to acquire +
+	the competency
+
+| -0.92
+| 10
+| 2
+
+| -0.69
+| 10
+| 4
+
+| -0.36
+| 10
+| 6
+
+| 0.40
+| 10
+| 8
+
+|===
+
+If we assume that 15 min of a 50 min lesson is dedicated to presenting theory
+and knowledge, and 35 min is dedicated to applying that knowledge, we will
+have a ratio $15/35$ or $3/7$, which would be: log($3/7$)=-0.85$\equiv x_i$.
+
+We will model the outcomes of the ten learners within each group $i$ as
+exchangeable, and it seems reasonable (if we assume that these are different classes)
+to model them as independent with equal probabilities, which implies that the
+data points $y_i$ are binomially distributed:
+
+\begin{equation}
+ y_i | \theta_i \sim Bin(n_i, \theta_i) \nonumber
+\end{equation}
+
+where $\theta_i$ is the probability of failing the targeted competency for the
+learner exposed to a lesson of type $x_i$.
+
+It should be noted that a situation in which independence and the binomial model
+would not be appropriate is if the learners are solving problems in
+groups - meaning with knowledge transfer from one learner to the other.
+
+For the case described above, we assume that there is no groupwork and that
+the four classes are different classes with different (not overlapping) learners,
+given the parameters $\theta_1, \ldots, \theta_4$.
+
+The simplest analysis would treat the four parameters $\theta_i$ as exchangeable
+in their prior distribution, perhaps using a noninformative density such as
+$p(\theta_1, \ldots, \theta_4) \propto 1$, in which case the parameters $\theta_i$
+would have independent beta posterior distributions. The exchangeable prior model
+for the $\theta_i$ parameters has a serious flaw, however; we know the ratio
+level $x_i$ for each group $i$, and one would expect the probability of failing
+to vary systematically as a function of the ratio.
+
+The simplest model of ratio-response relation -- that is, the realtion
+of :$\theta_i$ to $x_i$ -- is linear: $\theta_i = \alpha + \beta x_i$.
+
+Unfortunately, this model has the flaw that at low or high values of the ratio,
+$x_i$ approaches $\pm \infty$, whereas $\theta_i$, being a probability, must
+be constrained to lie between 0 and 1.
+
+The standard solution is to use a transformation of the $\theta_i$'s, such as a
+logistic, in the ratio-response relation:
+
+\begin{equation}
+ logit(\theta_i) = \alpha + \beta x_i
+\end{equation}
+
+where $logit(\theta_i) = log( \theta_i / (1+\theta_i) )$. This is called
+a logistic regression model.
+
+One approach to estimate th eparameters of this model is to use the BUGS
+software.
+
+We fit the following logistic regression model:
+
+\begin{equation}
+ y_i \sim Binomial(p_i, n_i) \\
+ logit(p_i) = \alpha + \beta(x_i - \bar{x})
+\end{equation}
+
+with vague $Normal(0, 100^2)$ priors for $\alpha$ and $\beta$.
+
+Note that, the covariate (ratio) is centred, by subtracting $\bar{x}=N^{-1} \sum x_i$.
+This is because serious MCMC convergence issues arise when the $x_i$'s are used
+directly, due to very high posterior correlation between $\alpha$ and $\beta$.
+
+Centering essentially relocates the $y$-axis to $x=\bar{x}$, which, in this case,
+vastly reduces the dependence of the intercept $\alpha$ on $\beta$.
+
+The likelihood is specified as follows:
+
+[source,BUGS]
+----
+	for (i in 1:4) {
+		y[i] ~ dbin( p[i], n[i] )
+		logit(p[i]) <- alpha + beta * ( x[i] - mean(x[]) )
+		}
+----
+
+If we want to assess the model fit visually then we will need to either
+transform the data onto the same scale as the linear model or transform the
+model fit onto the same scale as the observations.
+
+We insert the following code in the loop above so that we can examine both:
+
+[source,BUGS]
+----
+	phat[i] <- y[i]/n[i]
+	yhat[i] <- n[i]*p[i]
+----
+
+Under the model described earlier, we can write the sampling distribution, or
+likelihood, for each group $i$ in terms of the parameters $\alpha$ and $\beta$
+as
+
+\begin{equation}
+ p(y_i \mid \alpha, \beta, n_i, x_i) \propto [logit^{-1}(\alpha + \beta x_i)]^{y_i}
+ [1-logit^{-1}(\alpha + \beta x_i)]^{n_i-y_i}
+\end{equation}
+
+The model (link:teacher0.txt[BUGS code]) is characterized by the parameters $\alpha$ and $\beta$, whose joint
+posterior distribution is
+
+\begin{equation}
+ p(\alpha, \beta \mid y, n, x) \propto
+ p(\alpha, \beta \mid n, x)
+ p(y \mid \alpha, \beta, n, x) \\
+ \propto p(\alpha, \beta) \prod_{i=1}^{k} p(y_i \mid \alpha, \beta, n_i, x_i)
+\end{equation}
+
+We consider the sample sizes $n_i$ and ratio levels $x_i$ as fixed for this
+analysis and suppress the conditioning on $(n, x)$ in subsequent notation.
+
+We present an analysis based on a prior distribution for $(\alpha, \beta)$
+that is independent and locally uniform in two parameters; that is $p(\alpha, \beta) \propto 1$.
+In practice, we might use a uniform prior distribution if we really have no
+prior knowledge about the parameters, or if we want to present a simple
+analysis of this experiment alone.
+
+If the analysis using noninformative prior distribution is insufficiently
+precise, we may consider using other sources of substantive information
+(for example, from other classroom experiments) to construct an informative prior distribution.
+
+
 
 
 == References
@@ -202,4 +376,9 @@ Hongwei, Jin. link:https://www.cs.uic.edu/~hjin/files/ampl_tutorial.pdf[_A Tutor
 
 Lunn, David, Christopher Jackson, Nicky Best, Andrew Thomas, and David Spiegelhalter. "link:https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.1201/b13613&type=googlepdf[The BUGS book]." A Practical Introduction to Bayesian Analysis, Chapman Hall, London (2013).
 
+Stan Development Team. YEAR. Stan Modeling Language Users Guide and Reference Manual, VERSION. link:https://mc-stan.org/[https://mc-stan.org]
+
 Wright, Stephen, and Jorge Nocedal. " link:https://medusa.teodesian.net/docs/mathematics/Numerical%20Optimization%20-%20J.%20Nocedal,%20S.%20Wright%20(1999)%20WW.pdf[Numerical optimization]." Springer Science 35, no. 67-68 (1999): 7.
+
+
+link:https://github.com/StanJulia/Stan.jl[A collection of examples demonstrating the use Stan's cmdstan from Julia.]

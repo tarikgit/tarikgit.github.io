@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.8">
-<title>Optimization</title>
+<title>Decision-making in the classroom (work in progress!!)</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -475,14 +475,14 @@ $(document).on('page:load', ready2);
 
 <body class="article">
 <div id="header">
-<h1>Optimization</h1>
+<h1>Decision-making in the classroom (<span class="red">work in progress!!</span>)</h1>
 </div>
 <div id="content">
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>This page contains simple optimization examples, which are applied to the
-modeling of the learning process.</p>
+<p>This page contains basic models, which are applied to the
+modeling of the learning process and to decision-making in the classroom.</p>
 </div>
 </div>
 </div>
@@ -746,6 +746,225 @@ memorization  600
 </div>
 </div>
 <div class="sect1">
+<h2 id="_simple_model_inference">Simple Model: Inference</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><em>The focus in this section is on the decision making of the teacher. It has
+been adapted from Gelman et al. (1995) and Lunn et al. (2013).</em></p>
+</div>
+<div class="paragraph">
+<p>When designing a lesson, the teacher has to decide on the ratio knowledge
+to application,
+\(kn/app\), treated in a lesson. The learner&#8217;s responses are typically
+characterized by a dichotomous outcome: for example,
+"has acquired the competency" or "failed to acquire the competency".</p>
+</div>
+<div class="paragraph">
+<p>Qn experimental lesson of this kind gives rise to data of the form
+\begin{equation}
+ (x_i, n_i, y_i); i=1, \ldots, k,
+\end{equation}
+where \(x_i\) represents the i\(th\) of \(k\) lessons with different ratios \(kn/app\).
+\(n_i\) represents the number of learners present in the lesson, of which \(y_i\)
+subsequently respond with positive outcome.</p>
+</div>
+<div class="paragraph">
+<p>An example is shown in the table below: a sequence of four lessons with ten learners
+in each lesson has been tried.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Ratio, \(x_i\)<br>
+  (log (\(kn(min)/app(min)\)) )</th>
+<th class="tableblock halign-left valign-top">Number of learners<br>
+  in the lesson</th>
+<th class="tableblock halign-left valign-top">Number of learners<br>
+  who failed to acquire<br>
+	the competency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">-0.92</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">-0.69</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">-0.36</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.40</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>If we assume that 15 min of a 50 min lesson is dedicated to presenting theory
+and knowledge, and 35 min is dedicated to applying that knowledge, we will
+have a ratio \(15/35\) or \(3/7\), which would be: log(\(3/7\))=-0.85\(\equiv x_i\).</p>
+</div>
+<div class="paragraph">
+<p>We will model the outcomes of the ten learners within each group \(i\) as
+exchangeable, and it seems reasonable (if we assume that these are different classes)
+to model them as independent with equal probabilities, which implies that the
+data points \(y_i\) are binomially distributed:</p>
+</div>
+<div class="paragraph">
+<p>\begin{equation}
+ y_i | \theta_i \sim Bin(n_i, \theta_i) \nonumber
+\end{equation}</p>
+</div>
+<div class="paragraph">
+<p>where \(\theta_i\) is the probability of failing the targeted competency for the
+learner exposed to a lesson of type \(x_i\).</p>
+</div>
+<div class="paragraph">
+<p>It should be noted that a situation in which independence and the binomial model
+would not be appropriate is if the learners are solving problems in
+groups - meaning with knowledge transfer from one learner to the other.</p>
+</div>
+<div class="paragraph">
+<p>For the case described above, we assume that there is no groupwork and that
+the four classes are different classes with different (not overlapping) learners,
+given the parameters \(\theta_1, \ldots, \theta_4\).</p>
+</div>
+<div class="paragraph">
+<p>The simplest analysis would treat the four parameters \(\theta_i\) as exchangeable
+in their prior distribution, perhaps using a noninformative density such as
+\(p(\theta_1, \ldots, \theta_4) \propto 1\), in which case the parameters \(\theta_i\)
+would have independent beta posterior distributions. The exchangeable prior model
+for the \(\theta_i\) parameters has a serious flaw, however; we know the ratio
+level \(x_i\) for each group \(i\), and one would expect the probability of failing
+to vary systematically as a function of the ratio.</p>
+</div>
+<div class="paragraph">
+<p>The simplest model of ratio-response relation&#8201;&#8212;&#8201;that is, the realtion
+of :\(\theta_i\) to \(x_i\)&#8201;&#8212;&#8201;is linear: \(\theta_i = \alpha + \beta x_i\).</p>
+</div>
+<div class="paragraph">
+<p>Unfortunately, this model has the flaw that at low or high values of the ratio,
+\(x_i\) approaches \(\pm \infty\), whereas \(\theta_i\), being a probability, must
+be constrained to lie between 0 and 1.</p>
+</div>
+<div class="paragraph">
+<p>The standard solution is to use a transformation of the \(\theta_i\)'s, such as a
+logistic, in the ratio-response relation:</p>
+</div>
+<div class="paragraph">
+<p>\begin{equation}
+ logit(\theta_i) = \alpha + \beta x_i
+\end{equation}</p>
+</div>
+<div class="paragraph">
+<p>where \(logit(\theta_i) = log( \theta_i / (1+\theta_i) )\). This is called
+a logistic regression model.</p>
+</div>
+<div class="paragraph">
+<p>One approach to estimate th eparameters of this model is to use the BUGS
+software.</p>
+</div>
+<div class="paragraph">
+<p>We fit the following logistic regression model:</p>
+</div>
+<div class="paragraph">
+<p>\begin{equation}
+ y_i \sim Binomial(p_i, n_i) \\
+ logit(p_i) = \alpha + \beta(x_i - \bar{x})
+\end{equation}</p>
+</div>
+<div class="paragraph">
+<p>with vague \(Normal(0, 100^2)\) priors for \(\alpha\) and \(\beta\).</p>
+</div>
+<div class="paragraph">
+<p>Note that, the covariate (ratio) is centred, by subtracting \(\bar{x}=N^{-1} \sum x_i\).
+This is because serious MCMC convergence issues arise when the \(x_i\)'s are used
+directly, due to very high posterior correlation between \(\alpha\) and \(\beta\).</p>
+</div>
+<div class="paragraph">
+<p>Centering essentially relocates the \(y\)-axis to \(x=\bar{x}\), which, in this case,
+vastly reduces the dependence of the intercept \(\alpha\) on \(\beta\).</p>
+</div>
+<div class="paragraph">
+<p>The likelihood is specified as follows:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-BUGS" data-lang="BUGS">	for (i in 1:4) {
+		y[i] ~ dbin( p[i], n[i] )
+		logit(p[i]) &lt;- alpha + beta * ( x[i] - mean(x[]) )
+		}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If we want to assess the model fit visually then we will need to either
+transform the data onto the same scale as the linear model or transform the
+model fit onto the same scale as the observations.</p>
+</div>
+<div class="paragraph">
+<p>We insert the following code in the loop above so that we can examine both:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-BUGS" data-lang="BUGS">	phat[i] &lt;- y[i]/n[i]
+	yhat[i] &lt;- n[i]*p[i]</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Under the model described earlier, we can write the sampling distribution, or
+likelihood, for each group \(i\) in terms of the parameters \(\alpha\) and \(\beta\)
+as</p>
+</div>
+<div class="paragraph">
+<p>\begin{equation}
+ p(y_i \mid \alpha, \beta, n_i, x_i) \propto [logit^{-1}(\alpha + \beta x_i)]^{y_i}
+ [1-logit^{-1}(\alpha + \beta x_i)]^{n_i-y_i}
+\end{equation}</p>
+</div>
+<div class="paragraph">
+<p>The model (<a href=teacher0.txt>BUGS code</a>) is characterized by the parameters \(\alpha\) and \(\beta\), whose joint
+posterior distribution is</p>
+</div>
+<div class="paragraph">
+<p>\begin{equation}
+ p(\alpha, \beta \mid y, n, x) \propto
+ p(\alpha, \beta \mid n, x)
+ p(y \mid \alpha, \beta, n, x) \\
+ \propto p(\alpha, \beta) \prod_{i=1}^{k} p(y_i \mid \alpha, \beta, n_i, x_i)
+\end{equation}</p>
+</div>
+<div class="paragraph">
+<p>We consider the sample sizes \(n_i\) and ratio levels \(x_i\) as fixed for this
+analysis and suppress the conditioning on \((n, x)\) in subsequent notation.</p>
+</div>
+<div class="paragraph">
+<p>We present an analysis based on a prior distribution for \((\alpha, \beta)\)
+that is independent and locally uniform in two parameters; that is \(p(\alpha, \beta) \propto 1\).
+In practice, we might use a uniform prior distribution if we really have no
+prior knowledge about the parameters, or if we want to present a simple
+analysis of this experiment alone.</p>
+</div>
+<div class="paragraph">
+<p>If the analysis using noninformative prior distribution is insufficiently
+precise, we may consider using other sources of substantive information
+(for example, from other classroom experiments) to construct an informative prior distribution.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="_references">References</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -761,14 +980,20 @@ memorization  600
 <p>Lunn, David, Christopher Jackson, Nicky Best, Andrew Thomas, and David Spiegelhalter. "<a href=https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&amp;identifierValue=10.1201/b13613&amp;type=googlepdf>The BUGS book</a>." A Practical Introduction to Bayesian Analysis, Chapman Hall, London (2013).</p>
 </div>
 <div class="paragraph">
+<p>Stan Development Team. YEAR. Stan Modeling Language Users Guide and Reference Manual, VERSION. <a href=https://mc-stan.org/>https://mc-stan.org</a></p>
+</div>
+<div class="paragraph">
 <p>Wright, Stephen, and Jorge Nocedal. " <a href=https://medusa.teodesian.net/docs/mathematics/Numerical%20Optimization%20-%20J.%20Nocedal,%20S.%20Wright%20(1999)%20WW.pdf>Numerical optimization</a>." Springer Science 35, no. 67-68 (1999): 7.</p>
+</div>
+<div class="paragraph">
+<p><a href=https://github.com/StanJulia/Stan.jl>A collection of examples demonstrating the use Stan&#8217;s cmdstan from Julia.</a></p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-09-29 06:48:02 +0200
+Last updated 2021-09-30 14:00:13 +0200
 </div>
 </div>
 <script type="text/x-mathjax-config">

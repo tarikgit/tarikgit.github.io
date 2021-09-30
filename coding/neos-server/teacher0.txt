@@ -1,0 +1,14 @@
+
+model {
+
+  for (i in 1:4) {
+
+    y[i] ~ dbin( p[i], n[i] )
+    logit(p[i]) <- alpha + beta * ( x[i] - mean(x[]) )
+
+    phat[i] <- y[i]/n[i]
+    yhat[i] <- n[i]*p[i]
+
+  }
+
+}
