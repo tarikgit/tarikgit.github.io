@@ -13,7 +13,7 @@ Ce cours est basé sur le matériel fournit par le projet link:https://www.core-
 *Programme*:
 
 
-[cols="1,1,2,4,5", options="header"]
+[cols="1,1,2,4,6", options="header"]
 //[cols="1*"]
 |===
 |Semaine |Date |Sujets | Source | Lernziele
@@ -35,6 +35,8 @@ Ce cours est basé sur le matériel fournit par le projet link:https://www.core-
   2. link:https://www.ft.com/content/7c31ca15-aa4f-4a32-bb90-ebc1341ed374[Why Europe fears a gas crunch even before winter demand begins]
   3. link:https://www.sciencespo.fr/department-economics/econofides/premiere-ses/text/01.html#12-pourquoi-le-march%C3%A9-est-il-une-construction-sociale[Comment un marché concurrentiel fonctionne-t-il ?]
 | *Compétences*: synthèse, présentation +
+  *Notions*: prix de l'énergie,, rôle des marchés, pauvreté
+  link:https://www.youtube.com/watch?v=Tq1cRCwQfU8&ab_channel=FinancialTimes[How to present like a professional]
 
 | 3
 | 4/10/21
@@ -47,7 +49,11 @@ Ce cours est basé sur le matériel fournit par le projet link:https://www.core-
   5. link:https://www.ft.com/content/3fce907b-e68a-4b96-8bea-a798c6694908[How to prepare financially for the unexpected] (5 élèves) +
 | *Compétences*: analyse (lecture et interprétation des graphiques), synthèse, présentation +
   *Notions*: Salaires, revenus, consommation, épargne, budget des ménages +
-  - Impact de l'indexation sur les dépenses des ménages +
-  - Se préparer à une éventuelle baisse des revenus
+  - L'indexation des salaires (0)  +
+  - Hausse des salaires (1, macroéconomie) +
+  - Dépenses moyennes par ménage (2, statistiques) +
+  - Comportement du consommateur - A (3, microéconomie) +
+  - Comportement du consommateur - B (4, graphiques) +
+  - Comportement des ménages (5, investissement)
 
 |===
