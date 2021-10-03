@@ -36,4 +36,18 @@ Ce cours est basé sur le matériel fournit par le projet link:https://www.core-
   3. link:https://www.sciencespo.fr/department-economics/econofides/premiere-ses/text/01.html#12-pourquoi-le-march%C3%A9-est-il-une-construction-sociale[Comment un marché concurrentiel fonctionne-t-il ?]
 | *Compétences*: synthèse, présentation +
 
+| 3
+| 4/10/21
+| Les revenus et la consommation
+| 0. link:https://statistiques.public.lu/fr/methodologie/definitions/I/indexation/index.html[Indexation] des salaires [link:https://statistiques.public.lu/fr/actualites/economie-finances/prix/2021/10/20211001/20210110-stn48_Tranche-indiciaire.pdf[fr], link:https://statistiques.public.lu/fr/actualites/economie-finances/prix/2021/10/20211001/20210110-stn48_Tranche-indiciaire.pdf[en] ] (1 élève) +
+  1. link:https://www.alternatives-economiques.fr/hausse-salaires-debat/00088842[La hausse des salaires fait débat] (2 élèves). +
+  2. link:https://statistiques.public.lu/stat/TableViewer/tableView.aspx?ReportId=12967&IF_Language=fra&MainTheme=3&FldrName=1&RFPath=28[Dépenses moyennes par ménage] (2 élèves). +
+  3. link:https://www.alternatives-economiques.fr/visages-de-consommation/00061890[Les nouveaux visages de la consommation] (1 élève) +
+  4. link:https://www.alternatives-economiques.fr/radiographie-de-consommation-aujourdhui/00067310[Radiographie de la consommation aujourd'hui] (1 élève). +
+  5. link:https://www.ft.com/content/3fce907b-e68a-4b96-8bea-a798c6694908[How to prepare financially for the unexpected] (5 élèves) +
+| *Compétences*: analyse (lecture et interprétation des graphiques), synthèse, présentation +
+  *Notions*: Salaires, revenus, consommation, épargne, budget des ménages +
+  - Impact de l'indexation sur les dépenses des ménages +
+  - Se préparer à une éventuelle baisse des revenus
+
 |===
