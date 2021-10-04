@@ -10,23 +10,23 @@ modeling of the learning process and to decision-making in the classroom.
 _The focus in this section is on the decision making of the learner. It has been adapted from Fourer et al. (1990)._
 
 A learner must decide how to allocate next week's studying time.
-She assimilates two types of competencies: knowledge and application.
-
+She has to assimilate two types of competencies: _knowledge_ and _application_.
+The first skill (_knowledge_) requires that the learner knows the terminology,
+theory, and techniques in a given subject. The second skill (_application_)
+requires the learner to apply the knowledge to particular problems or issues.
+Learners have to recognise which terms or concepts apply to a particular problem
+or situation.
 For achieving these skills, the learner must _memorize_ the knowledge and
 make _exercises_, in which the knowledge is applied.
 
-The learner is constrained to the limited number of _pages_ that she can
-achieve _in an hour_:
+The learner is constrained to a limited number of _pages_ that she can
+study _in an hour_. This means that the representative learner cannot
+_memorize_ more than 20 pages per hour. Similarly, she cannot study more than
+14 pages of _exerises_ per hour.
 
-. _Memorization_ of knowledge: 20 pages per hour
-. _Exercises_: 14 pages per hour
-
-These two elements have different levels of _profitabilities_, meaning that
-the outcome or final mark in a test is not affected in the same way. We assume
-that the _profit per page_ is given by:
-
-. _Memorization_ of knowledge: 25 mark
-. _Exercises_: 30 marks
+The two skills will affect the final mark in different ways. We assume
+that the _profitability_ obtained per page _memorized_ and _applied_ is
+respectively given by: 25 marks and 30 marks.
 
 The following weekly studying amounts are the most that can be achieved in
 the light of the time constraints:
