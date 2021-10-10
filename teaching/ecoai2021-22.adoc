@@ -69,7 +69,7 @@
 | 2
 | 27/9/21
 | *[red]#Mathématiques financières#*
-| Exercices 1, 2
+| Exercices 1, 2 (p.6)
 | Construction d'une formule générale, de la _valeur actuelle_, à partir de la formule de la _valeur acquise_: +
   \begin{equation}
    V_0 = a \cdot \frac{1-(1+i)^{-n}}{i}
@@ -78,10 +78,43 @@
 | 2
 | 29/9/21
 | *[red]#Mathématiques financières#*
-| Exercices 3, 4
+|
 | link:mathfi/TEMPLATE02___Timeline_Financial_Maths.pdf[Construction d'une formule générale, de la _valeur acquise_ (versement *début de période*)], à partir d'un cas spécial: +
   \begin{equation}
    A = a (1+i) \cdot \frac{(1+i)^n-1}{i}
   \end{equation}
+
+| 2
+| 1/10/21
+| *[maroon]#Comptabilité#* +
+| Exercices 4,5,6
+|
+
+| 3
+| 4/10/21
+| *[red]#Mathématiques financières#*
+| Exercices 3 (p.6)
+| _Valeur actuelle_: +
+  \begin{equation}
+   V_0 = (1-i)^{-n} A
+  \end{equation}
+
+| 3
+| 6/10/21
+| -
+|
+|
+
+| 3
+| 8/10/21
+| *[maroon]#Comptabilité#* +
+| Exercices 7,8. Chapitre 2: La facturation et la TVA.
+|
+
+| 4
+| 11/10/21
+| *[red]#Mathématiques financières#*
+| Exercices 4, 5 (p.6)
+|
 
 |===
