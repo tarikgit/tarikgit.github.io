@@ -52,28 +52,18 @@
   - soziale Struktur +
   - soziales System
 
-  | 3
-  | 4/10/21
-  | 1.2.4 - 1.3.1 : +
-    Bedürfnisse in einem sozialen Gebilde, [red]#Ordnungs- und Verhaltensmuster#,[red]#Institutionen#, [red]#Funktionen der Institutionen#, Émile Durkheim, [red]#Organisation#
-    soziale Wirklichkeit, beobachten-beschreiben-verstehen-erklären, gesellschaftliche Fehlentwicklungen, Organisationssoziologie, [red]#zukunftsfähige (_sustainable_) Gesellschaft#, die Gesellschaft verbessern +
+| 3
+| 4/10/21
+| 1.2.4 - 1.3.1 : +
+  Bedürfnisse in einem sozialen Gebilde, [red]#Ordnungs- und Verhaltensmuster#,[red]#Institutionen#, [red]#Funktionen der Institutionen#, Émile Durkheim, [red]#Organisation#
+  soziale Wirklichkeit, beobachten-beschreiben-verstehen-erklären, gesellschaftliche Fehlentwicklungen, Organisationssoziologie, [red]#zukunftsfähige (_sustainable_) Gesellschaft#, die Gesellschaft verbessern +
 
-  | Aufgaben 9, 10 --> link:soziologie-cours/1-2-4_1-3-1.pdf[1.2.4-1.3.1]
-  | - soziale Institution +
-    - Organisation
+| Aufgaben 9, 10 --> link:soziologie-cours/1-2-4_1-3-1.pdf[1.2.4-1.3.1]
+| - soziale Institution +
+  - Organisation
 
-
-|===
-
-{blank} +
-
-////
-
-
-
-
-|
-|
+| 3
+| 6/10/21
 | [purple]#*Schriftliche Arbeit*#
 |
 |
@@ -84,10 +74,20 @@
   allgemeine u. spezielle Soziologie, Sozialforschung +
   [red]#Gesellschaft#, gemeinsame Gebiete, eigenständige soziale Einheit, soziale Bedürfnisse, Ordnungs- o. Verhaltensmuster, soziale Struktur, Kultur, [red]#Merkmale von Gesellschaften#, makrosoziologisches Gebilde, [red]#gesellschaftlicher Individualisierungsschub#, [red]#Einteilungskriterien einer Gesellschaft# +
   Kultur u. Natur, Regelungen zum Zusammenleben, Wert- u. Normvorstellungen
-| Aufgaben 11, 12, 13, _Artikel_
+| Aufgaben 11, 12, 13 --> link:soziologie-cours/1-3-2_1-4-2.pdf[1.3.2-1.4.2]
 | - Bereiche der Soziologie +
   - Merkmale einer Gesellschaft +
   - Kultur u. Gesellschaft
+
+
+|===
+
+{blank} +
+
+////
+
+
+
 
 | 5
 | 18/10/21
