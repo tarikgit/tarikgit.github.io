@@ -40,7 +40,7 @@ Ce cours est basé sur le matériel fournit par le projet link:https://www.core-
 
 | 3
 | 4/10/21
-| Les revenus et la consommation
+| Les revenus et la consommation (1/2)
 | 0. link:https://statistiques.public.lu/fr/methodologie/definitions/I/indexation/index.html[Indexation] des salaires [link:https://statistiques.public.lu/fr/actualites/economie-finances/prix/2021/10/20211001/20210110-stn48_Tranche-indiciaire.pdf[fr], link:https://statistiques.public.lu/fr/actualites/economie-finances/prix/2021/10/20211001/20210110-stn48_Tranche-indiciaire.pdf[en] ] (1 élève) +
   1. link:https://www.alternatives-economiques.fr/hausse-salaires-debat/00088842[La hausse des salaires fait débat] (2 élèves). +
   2. link:https://statistiques.public.lu/stat/TableViewer/tableView.aspx?ReportId=12967&IF_Language=fra&MainTheme=3&FldrName=1&RFPath=28[Dépenses moyennes par ménage] (2 élèves). +
@@ -54,6 +54,20 @@ Ce cours est basé sur le matériel fournit par le projet link:https://www.core-
   - Dépenses moyennes par ménage (2, statistiques) +
   - Comportement du consommateur - A (3, microéconomie) +
   - Comportement du consommateur - B (4, graphiques) +
-  - Comportement des ménages (5, investissement)
+  - Comportement des ménages (5, investissement) +
+  link:option-economie/consommation-epargne.pdf[Contributions des élèves]
+
+| 4
+| 11/10/21
+| Les revenus et la consommation (2/2)
+| 1. Wages and disposable income +
+  2. To start working +
+  3. Consumption and cost of living +
+  4. Taxes +
+  5. Pension saving +
+  6. Money
+| *Compétences*: présentation, rédaction +
+  *Notions*: Salaires, revenus, consommation, épargne, budget des ménages +
+  _Source_: link:https://fjarmalavit.is/namsefni/[First Steps in Finance] by G. Baldvinsson.
 
 |===
