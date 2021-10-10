@@ -17,7 +17,7 @@ For the following steps, you have to ssh into your Respberry Pi:
 ssh pi@raspberrypi
 ----
 
-The default password for user *pi* is *raspberry*. You can change this following the link:https://www.raspberrypi.org/documentation/linux/usage/users.md[procedure described at the Raspberry Pi page]. 
+The default password for user *pi* is *raspberry*. You can change this following the link:https://www.raspberrypi.org/documentation/linux/usage/users.md[procedure described at the Raspberry Pi page].
 
 * First create a new repository:
 
@@ -56,7 +56,7 @@ Open id_rsa.pub:
 
 [source,bash]
 ----
-cat ../.ssh/id_rsa.pub 
+cat ../.ssh/id_rsa.pub
 # assuming that the current folder is /home/pi/sensehat
 ----
 
@@ -122,8 +122,72 @@ hostname -I
 
 You can then install on your laptop, tablet or desktop a link:https://www.realvnc.com/en/connect/download/vnc/raspberrypi/[VNC viewer].
 
-== 
+== Temperature and Humidity Sensor
+
+Use your SenseHat to get the temperature and humidity using the joystick of the device.
+
+[source,python]
+----
+from sense_hat import SenseHat
+from time import sleep
+
+sense = SenseHat()
+
+#sense.set_rotation(270)
+sense.clear()
+
+red = (255,0,0)
+green = (0,255,0)
+blue = (0,0,255)
 
 
 
+def temperature():
+    temp = sense.get_temperature()
+    print(temp)
+    if temp > 34:
+        sense.clear(red)
+    elif temp < 34 and temp > 24:
+        sense.clear(green)
+    elif temp < 24 and temp > 0:
+        sense.clear(blue)
+    sleep(1)
 
+    sense.show_message(str(round(temp,2)))
+
+
+
+def humidity():
+    humidity = sense.get_humidity()
+    print(humidity)
+    if humidity > 40:
+        sense.clear(blue)
+    elif humidity < 40 and humidity > 30:
+        sense.clear(green)
+    elif humidity < 30 and humidity > 0:
+        sense.clear(red)
+    sleep(1)
+
+    sense.show_message(str(round(humidity,2)))
+
+
+try:
+    while True:
+        for event in sense.stick.get_events():
+            if event.action == "pressed":
+                if event.direction =="up":
+                    temperature()
+                elif event.direction == "down":
+                    humidity()
+                sleep(0.5)
+
+
+except KeyboardInterrupt:
+    sense.show_message("Bye!")
+
+----
+
+
+Sources:
+
+* https://www.electromaker.io/tutorial/blog/sensehat-part-1-temperature-and-humidity
