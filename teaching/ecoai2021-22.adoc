@@ -87,18 +87,19 @@
 | 2
 | 1/10/21
 | *[maroon]#Comptabilité#* +
-| Exercices 4,5,6
+| Exercices 4, 5, 6
 |
 
 | 3
 | 4/10/21
 | *[red]#Mathématiques financières#*
 | Exercices 3 (p.6)
-| _Valeur actuelle_: +
+|0. link:mathfi/03-Revision-A.pdf[Révision (1/4)] +
+ 1. _Valeur actuelle_ en $t_0$ de la valeur acquise en $t_n$: +
   \begin{equation}
    V_0 = (1+i)^{-n} A
   \end{equation}
-
+ 2. Manipulation d'une formule de base pour isoler la variable d'intérêt.
 | 3
 | 6/10/21
 | -
