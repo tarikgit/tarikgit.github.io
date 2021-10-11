@@ -96,7 +96,7 @@
 | Exercices 3 (p.6)
 | _Valeur actuelle_: +
   \begin{equation}
-   V_0 = (1-i)^{-n} A
+   V_0 = (1+i)^{-n} A
   \end{equation}
 
 | 3
