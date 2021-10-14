@@ -124,7 +124,7 @@
 | Exercices 5 (p.6)
 |
 
-| 3
+| 4
 | 15/10/21
 | *[maroon]#Comptabilité#* +
 | Chapitre 2: La facturation et la TVA.
