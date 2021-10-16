@@ -115,6 +115,8 @@ to the right.
 
 [INSERT GRAPHIC HERE]
 
+=== Solving the Model using AMPL language in NEOS
+
 The following block gives the Ampl code for the previous problem, which
 should be saved in a separate file (`study0.mod`)
 
@@ -187,6 +189,24 @@ X [*] :=
     exercise  140
 memorization  600
 ;
+----
+
+=== Solving the Model using JuMP in Julia
+
+The same problem can be solved using the link:https://jump.dev/[JuMP package] in Julia (link:study0-glpk.jl[Julia code]):
+[source,julia]
+----
+include::study0-glpk.jl[]
+
+----
+
+The previous code will give the following results:
+
+[source,julia output]
+----
+Value of objective function : 19200.0
+Value of XM (memorization) : 600.0
+Value of XE (exercise) : 140.0
 ----
 
 

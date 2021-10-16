@@ -623,6 +623,8 @@ represents combinations that yield ??? points of outcome.</p>
 with higher total marks of outcome giving lines that are higher and further
 to the right.</p>
 </div>
+<div class="sect2">
+<h3 id="_solving_the_model_using_ampl_language_in_neos">Solving the Model using AMPL language in NEOS</h3>
 <div class="paragraph">
 <p>The following block gives the Ampl code for the previous problem, which
 should be saved in a separate file (<code>study0.mod</code>)</p>
@@ -726,6 +728,51 @@ X [*] :=
     exercise  140
 memorization  600
 ;</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_solving_the_model_using_jump_in_julia">Solving the Model using JuMP in Julia</h3>
+<div class="paragraph">
+<p>The same problem can be solved using the <a href=https://jump.dev/>JuMP package</a> in Julia (<a href=study0-glpk.jl>Julia code</a>):</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-julia" data-lang="julia"># Launch the script from Tearminal: include("scriptname.jl")
+# Source: https://hackernoon.com/linear-optimization-using-julia-40311c0ad98c
+
+using JuMP
+using GLPK
+
+# Create model
+lpModel = Model(GLPK.Optimizer)
+
+@variable(lpModel, XM &lt;= 600)
+@variable(lpModel, XE &lt;= 400)
+
+# Create an objective
+@objective(lpModel, Max, 25*XM + 30*XE)
+
+# Create constraints
+@constraint(lpModel, (1/20)*XM+(1/14)*XE &lt;= 40)
+
+# Solve and read the answer
+optimize!(lpModel)
+
+println("Value of objective function : $(objective_value(lpModel))"  )
+println("Value of XM (memorization) : $(getvalue(XM))")
+println("Value of XE (exercise) : $(getvalue(XE))")</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The previous code will give the following results:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-julia output" data-lang="julia output">Value of objective function : 19200.0
+Value of XM (memorization) : 600.0
+Value of XE (exercise) : 140.0</code></pre>
+</div>
 </div>
 </div>
 </div>
@@ -978,7 +1025,7 @@ precise, we may consider using other sources of substantive information
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-10-04 20:20:38 +0200
+Last updated 2021-10-16 10:11:46 +0200
 </div>
 </div>
 <script type="text/x-mathjax-config">
