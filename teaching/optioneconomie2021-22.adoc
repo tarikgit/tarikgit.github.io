@@ -70,4 +70,15 @@ Ce cours est basé sur le matériel fournit par le projet link:https://www.core-
   *Notions*: Salaires, revenus, consommation, épargne, budget des ménages +
   _Source_: link:https://fjarmalavit.is/namsefni/[First Steps in Finance] by G. Baldvinsson.
 
+| 5
+| 18/10/21
+| Les inégalités
+| 1. link:https://www.ft.com/video/d2c09344-b30c-4f77-8419-cc3b410d4722?playlist-name=editors-picks&playlist-offset=2[Mapping inequality in the UK from the Victorian era to the 2019 election] +
+     - Leigh Park +
+     - couleur foncée: +
+     - couleur claire: +
+ 2. link:option-economie/CohesionSocialeLuxembourg-Graphiques.pdf[Support graphique] (link:https://liser.elsevierpure.com/en/publications/coh%C3%A9sion-sociale-et-territoriale-au-luxembourg-regards-crois%C3%A9s-2[Marlier et al., 2014])
+| *Compétences*: Analyse graphique, synthèse vidéo +
+  *Notions*: Sources des inégalités, inégalités spatiales
+
 |===
