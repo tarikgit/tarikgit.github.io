@@ -57,10 +57,19 @@
 
 | 5
 | 18/10/21
-| link:soziologie-cours/9-2-1_9-2-3.pdf[9.2.1 - 9.2.3]; 9.2.4 - 9.2.5 :
+| link:soziologie-cours/9-2-1_9-2-3.pdf[9.2.1 - 9.2.3]; +++<del>+++9.2.4 - 9.2.5+++<del>+++ :
 | Aufgaben : +
-  - Aufgabe 6d - (_an_, _ev_)
+  - +++<del>+++Aufgabe 6d - (_an_, _ev_)+++<del>+++
 | Feedback: _Analyse_
+
+| 5
+| 20/10/21
+| link:soziologie-cours/9-2-4_9-2-5.pdf[9.2.4 - 9.2.5]
+| Aufgaben : +
+  - 6d (S. 314) - (_an_, _ev_) +
+  - 7 (S. 314) - (_kn_, _app_) +
+  - 8 (S. 314) - (_kn_, _app_)
+|
 
 |===
 
