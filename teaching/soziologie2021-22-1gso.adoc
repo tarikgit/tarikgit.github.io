@@ -64,7 +64,7 @@
 
 | 5
 | 20/10/21
-| link:soziologie-cours/9-2-4_9-2-5.pdf[9.2.4 - 9.2.5]
+| link:soziologie-cours/9-2-4_9-2-5.pdf[9.2.4 - 9.2.5] und link:option-economie/CohesionSocialeLuxembourg-Graphiques.pdf[Illustration für Luxemburg].
 | Aufgaben : +
   - 6d (S. 314) - (_an_, _ev_) +
   - 7 (S. 314) - (_kn_, _app_) +
