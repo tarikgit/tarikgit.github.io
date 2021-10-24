@@ -57,18 +57,39 @@
 
 | 5
 | 18/10/21
-| link:soziologie-cours/9-2-1_9-2-3.pdf[9.2.1 - 9.2.3]; +++<del>+++9.2.4 - 9.2.5+++<del>+++ :
+| link:soziologie-cours/9-2-1_9-2-3.pdf[9.2.1 - 9.2.3]; +++<del>+++9.2.4 - 9.2.5+++<del>+++ : +
+  [red]#Parameter sozialer Strukturen#: [red]#Bildung#, Bildungsexpansion, Bildungsarmut, Bildungsverlierer;
+  [red]#Beruf#, Arbeitslosigkeit, gering Qualifizierte, hochqualifiziertes Humankapital, Region oder geographische Lage;
+  [red]#Einkommen#, Wohlstandsvermehrung, Vermögen vs. Einkommen, Arbeitsmarkt, Wirtschaftswachstum, Auseinandergehen der Schere beim Einkommen, arm, Äquivalenzeinkommen, absolute Armut, relative Armut, gefühlte Armut, Median, Niedriglohn, Billiglohn
 | Aufgaben : +
   - +++<del>+++Aufgabe 6d - (_an_, _ev_)+++<del>+++
 | Feedback: _Analyse_
 
 | 5
 | 20/10/21
-| link:soziologie-cours/9-2-4_9-2-5.pdf[9.2.4 - 9.2.5] und link:option-economie/CohesionSocialeLuxembourg-Graphiques.pdf[Illustration für Luxemburg].
+| link:soziologie-cours/9-2-4_9-2-5.pdf[9.2.4 - 9.2.5] und link:option-economie/CohesionSocialeLuxembourg-Graphiques.pdf[Illustration für Luxemburg]. +
+    [red]#Vermögen#, Finanzvermögen, reales Vermögen, reich, Globalisierung, Proletariat;
+      [red]#Macht#, Elite, Machtelite, Einfluss
 | Aufgaben : +
   - 6d (S. 314) - (_an_, _ev_) +
   - 7 (S. 314) - (_kn_, _app_) +
   - 8 (S. 314) - (_kn_, _app_)
+|
+
+| 6
+| 25/10/21
+| 9.3.1 : +
+  [red]#soziale Mobilität#, Wechsel zwischen sozialen Positionen, vertikale u. horizontale soziale Mobilität, sozialer Status, strukturelle Mobilität, offene Gesellschaft
+| Aufgaben : +
+  - 9 (S. 314) - (_kn_, _app_)
+|
+
+| 6
+| 27/10/21
+| 9.3.2 : +
+  [red]#soziale Randgruppen#
+| Aufgaben : +
+  - 10 (S. 314) - (_kn_, _app_)
 |
 
 |===
