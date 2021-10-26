@@ -383,7 +383,8 @@ If the analysis using noninformative prior distribution is insufficiently
 precise, we may consider using other sources of substantive information
 (for example, from other classroom experiments) to construct an informative prior distribution.
 
-Another tool for solving this problem is the link:https://mc-stan.org/[Stan software] (`cmdstan
+Another tool for solving this problem is the link:https://mc-stan.org/[Stan software] (`cmdstan`).
+
 The previous model can be implemented as follows:
 
 [source,stan]
