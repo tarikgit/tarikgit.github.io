@@ -78,19 +78,22 @@
 
 | 6
 | 25/10/21
-| 9.3.1 : +
-  [red]#soziale Mobilität#, Wechsel zwischen sozialen Positionen, vertikale u. horizontale soziale Mobilität, sozialer Status, strukturelle Mobilität, offene Gesellschaft
+| 9.3.1 - 9.3.2 : +
+  [red]#soziale Mobilität#, Wechsel zwischen sozialen Positionen, vertikale u. horizontale soziale Mobilität, sozialer Status, strukturelle Mobilität, offene Gesellschaft; [red]#soziale Randgruppen#
 | Aufgaben : +
   - 9 (S. 314) - (_kn_, _app_)
 |
 
 | 6
 | 27/10/21
-| 9.3.2 : +
-  [red]#soziale Randgruppen#
-| Aufgaben : +
-  - 10 (S. 314) - (_kn_, _app_)
+| *Examen* : +
+Textanalyse (link:https://tarikgit.github.io/teaching/examen/20200921_SOCIO_DE_septembre_ajournement.pdf[Examen 2020]): +
+  - 1. _Wie der Traum von der ersten Million wahr wird_  +
+  - 2. _EU-Rentner in Portugal - Ende der Steuerfreiheit_
+| 1. -> P,Sa,H,Sa,Le,C +
+  2. -> H,D,Se,Lo,J
 |
+
 
 |===
 
