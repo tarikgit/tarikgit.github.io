@@ -421,6 +421,7 @@ g++ -O0 -DNDEBUG $(CPPFLAGS) study_logit.cpp -o study $(LIBFLAGS)
 ----
 
 Note: On my Mac, STAN_HOME is located at /Users/.../opt/anaconda3/envs/stan-env/ . And the `stanc` binary is located at /Users/.../opt/anaconda3/envs/stan-env/bin/cmdstan/bin/ .
+For more details on link:https://mc-stan.org/docs/2_27/cmdstan-guide/cmdstan-installation.html#checking-the-stan-compiler[checking the Stan compiler].
 
 == To Do
 
@@ -441,6 +442,8 @@ Lunn, David, Christopher Jackson, Nicky Best, Andrew Thomas, and David Spiegelha
 Stan Development Team. YEAR. Stan Modeling Language Users Guide and Reference Manual, VERSION. link:https://mc-stan.org/[https://mc-stan.org]
 
 Stan Development Team. link:https://github.com/stan-dev/example-models/blob/master/bugs_examples/vol2/beetles/makefile[stan-dev at Github]
+
+StanJulia. link:https://stanjulia.github.io/Stan.jl/v2.0.2/INSTALLATION.html[CmdStan Installation]
 
 Wright, Stephen, and Jorge Nocedal. " link:https://medusa.teodesian.net/docs/mathematics/Numerical%20Optimization%20-%20J.%20Nocedal,%20S.%20Wright%20(1999)%20WW.pdf[Numerical optimization]." Springer Science 35, no. 67-68 (1999): 7.
 
