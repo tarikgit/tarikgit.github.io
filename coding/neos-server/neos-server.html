@@ -1066,6 +1066,25 @@ r &lt;- c(2, 4, 6, 8)
 N &lt;- 4</code></pre>
 </div>
 </div>
+<div class="paragraph">
+<p>Running the previous code in the Terminal can be done as follows:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">STAN_HOME = ../../../../..
+BOOSTPATH = pass:[\((shell find \)](STAN_HOME)/lib -path '*lib/boost_*' -regex '.*lib\/boost_[^/]*')
+EIGENPATH = pass:[\((shell find \)](STAN_HOME)/lib -path '*lib/eigen_*' -regex '.*lib\/eigen_[^/]*')
+CPPFLAGS = -I pass:[\((BOOSTPATH)  -I\)](EIGENPATH) -I $(STAN_HOME)/src
+LIBFLAGS = -L$(STAN_HOME)/bin -lstan
+
+$(STAN_HOME)/bin/stanc --name=study  study.stan
+g++ -O0 -DNDEBUG pass:[\((CPPFLAGS) study_logit.cpp -o study \)](LIBFLAGS)
+./study data=study-stan-logit-data.R sample</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Note: On my Mac, STAN_HOME is located at /Users/&#8230;&#8203;/opt/anaconda3/envs/stan-env/ . And the <code>stanc</code> binary is located at /Users/&#8230;&#8203;/opt/anaconda3/envs/stan-env/bin/cmdstan/bin/ .</p>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -1074,10 +1093,13 @@ N &lt;- 4</code></pre>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>The data and initial values in the Stan code are in R &#8594; Convert into Julia!</p>
+<p><del>The data and initial values in the Stan code are in R &#8594; Convert into Julia!<del></p>
 </li>
 <li>
-<p>Explain how to read data when running cmdstan in the Terminal</p>
+<p><del>Explain how to read data when running cmdstan in the Terminal<del></p>
+</li>
+<li>
+<p>How to read the initial values when running cmdstan?</p>
 </li>
 </ol>
 </div>
@@ -1102,6 +1124,9 @@ N &lt;- 4</code></pre>
 <p>Stan Development Team. YEAR. Stan Modeling Language Users Guide and Reference Manual, VERSION. <a href=https://mc-stan.org/>https://mc-stan.org</a></p>
 </div>
 <div class="paragraph">
+<p>Stan Development Team. <a href=https://github.com/stan-dev/example-models/blob/master/bugs_examples/vol2/beetles/makefile>stan-dev at Github</a></p>
+</div>
+<div class="paragraph">
 <p>Wright, Stephen, and Jorge Nocedal. " <a href=https://medusa.teodesian.net/docs/mathematics/Numerical%20Optimization%20-%20J.%20Nocedal,%20S.%20Wright%20(1999)%20WW.pdf>Numerical optimization</a>." Springer Science 35, no. 67-68 (1999): 7.</p>
 </div>
 <div class="paragraph">
@@ -1112,7 +1137,7 @@ N &lt;- 4</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-10-26 08:39:03 +0200
+Last updated 2021-10-26 10:39:26 +0200
 </div>
 </div>
 <script type="text/x-mathjax-config">

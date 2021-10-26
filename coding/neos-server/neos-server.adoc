@@ -406,11 +406,27 @@ Finally, the data is also stored in a separate file:
 include::study-stan-logit-data.R[]
 ----
 
+Running the previous code in the Terminal can be done as follows:
+[source,bash]
+----
+STAN_HOME = ../../../../..
+BOOSTPATH = $(shell find $(STAN_HOME)/lib -path '*lib/boost_*' -regex '.*lib\/boost_[^/]*')
+EIGENPATH = $(shell find $(STAN_HOME)/lib -path '*lib/eigen_*' -regex '.*lib\/eigen_[^/]*')
+CPPFLAGS = -I $(BOOSTPATH)  -I$(EIGENPATH) -I $(STAN_HOME)/src
+LIBFLAGS = -L$(STAN_HOME)/bin -lstan
+
+$(STAN_HOME)/bin/stanc --name=study  study.stan
+g++ -O0 -DNDEBUG $(CPPFLAGS) study_logit.cpp -o study $(LIBFLAGS)
+./study data=study-stan-logit-data.R sample
+----
+
+Note: On my Mac, STAN_HOME is located at /Users/.../opt/anaconda3/envs/stan-env/ . And the `stanc` binary is located at /Users/.../opt/anaconda3/envs/stan-env/bin/cmdstan/bin/ .
 
 == To Do
 
-. The data and initial values in the Stan code are in R -> Convert into Julia!
-. Explain how to read data when running cmdstan in the Terminal
+. +++<del>+++The data and initial values in the Stan code are in R -> Convert into Julia!+++<del>+++
+. +++<del>+++Explain how to read data when running cmdstan in the Terminal+++<del>+++
+. How to read the initial values when running cmdstan?
 
 == References
 
@@ -423,6 +439,8 @@ Hongwei, Jin. link:https://www.cs.uic.edu/~hjin/files/ampl_tutorial.pdf[_A Tutor
 Lunn, David, Christopher Jackson, Nicky Best, Andrew Thomas, and David Spiegelhalter. "link:https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.1201/b13613&type=googlepdf[The BUGS book]." A Practical Introduction to Bayesian Analysis, Chapman Hall, London (2013).
 
 Stan Development Team. YEAR. Stan Modeling Language Users Guide and Reference Manual, VERSION. link:https://mc-stan.org/[https://mc-stan.org]
+
+Stan Development Team. link:https://github.com/stan-dev/example-models/blob/master/bugs_examples/vol2/beetles/makefile[stan-dev at Github]
 
 Wright, Stephen, and Jorge Nocedal. " link:https://medusa.teodesian.net/docs/mathematics/Numerical%20Optimization%20-%20J.%20Nocedal,%20S.%20Wright%20(1999)%20WW.pdf[Numerical optimization]." Springer Science 35, no. 67-68 (1999): 7.
 
