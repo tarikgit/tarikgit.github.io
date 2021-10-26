@@ -383,8 +383,33 @@ If the analysis using noninformative prior distribution is insufficiently
 precise, we may consider using other sources of substantive information
 (for example, from other classroom experiments) to construct an informative prior distribution.
 
+Another tool for solving this problem is the link:https://mc-stan.org/[Stan software] (`cmdstan
+The previous model can be implemented as follows:
+
+[source,stan]
+----
+include::study.stan[]
+----
+
+The initial values are given in a separate file:
+
+[source,stan]
+----
+include::study-stan-logit-init.R[]
+----
+
+Finally, the data is also stored in a separate file:
+
+[source,stan]
+----
+include::study-stan-logit-data.R[]
+----
 
 
+== To Do
+
+. The data and initial values in the Stan code are in R -> Convert into Julia!
+. Explain how to read data when running cmdstan in the Terminal
 
 == References
 

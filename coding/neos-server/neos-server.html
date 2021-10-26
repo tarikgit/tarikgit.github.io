@@ -994,6 +994,91 @@ analysis of this experiment alone.</p>
 precise, we may consider using other sources of substantive information
 (for example, from other classroom experiments) to construct an informative prior distribution.</p>
 </div>
+<div class="paragraph">
+<p>Another tool for solving this problem is the <a href=https://mc-stan.org/>Stan software</a> (`cmdstan
+The previous model can be implemented as follows:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-stan" data-lang="stan">data {
+    int&lt;lower=0&gt; N;
+    int&lt;lower=0&gt; n[N];
+    int&lt;lower=0&gt; r[N];
+    vector[N] x;
+}
+
+transformed data {
+    vector[N] centered_x;
+    real mean_x;
+    mean_x &lt;- mean(x);
+    centered_x &lt;- x - mean_x;
+}
+
+parameters {
+    real alpha_star;
+    real beta;
+}
+
+transformed parameters {
+    vector[N] m;
+    m &lt;- alpha_star + beta * centered_x;
+}
+
+model {
+  alpha_star ~ normal(0.0, 1.0E4);
+  beta ~ normal(0.0, 1.0E4);
+  r ~ binomial_logit(n, m);
+}
+
+generated quantities {
+  real alpha;
+  real p[N];
+  real llike[N];
+  real rhat[N];
+  for (i in 1:N)  {
+    p[i] &lt;- inv_logit(m[i]);
+    llike[i]  &lt;- r[i]*log(p[i]) + (n[i]-r[i])*log(1-p[i]);
+    rhat[i] &lt;- p[i]*n[i];  // fitted values
+  }
+  alpha &lt;- alpha_star - beta*mean_x;
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The initial values are given in a separate file:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-stan" data-lang="stan">alpha_star &lt;- 0
+beta &lt;- 0</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Finally, the data is also stored in a separate file:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-stan" data-lang="stan">x &lt;- c(-0.92, -0.69, -0.36, 0.40)
+n &lt;- c(10, 10, 10, 10)
+r &lt;- c(2, 4, 6, 8)
+N &lt;- 4</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_to_do">To Do</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>The data and initial values in the Stan code are in R &#8594; Convert into Julia!</p>
+</li>
+<li>
+<p>Explain how to read data when running cmdstan in the Terminal</p>
+</li>
+</ol>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -1025,7 +1110,7 @@ precise, we may consider using other sources of substantive information
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-10-16 10:11:46 +0200
+Last updated 2021-10-26 08:37:15 +0200
 </div>
 </div>
 <script type="text/x-mathjax-config">
