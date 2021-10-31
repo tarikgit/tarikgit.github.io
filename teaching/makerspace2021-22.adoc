@@ -1,0 +1,83 @@
+=  STEM Teaching -- 2021-22
+
+
+
+
+
+
+[cols="1,2", options="header"]
+|===
+
+| Resource
+| Description
+
+| link:https://www.computingatschool.org.uk/custom_pages/400-learning-activities-secondary[Computing at School]
+| Learning Activities for Secondary Students
+
+| link:https://projects.raspberrypi.org/en/codeclub[codeclub and Raspberry Pi]
+| Code Club is a global network of free coding clubs for 9- to 13-year-olds.
+
+| link:https://curriculum.raspberrypi.org/[Raspberry Pi - Curriculum]
+| Curriculum design
+
+| link:https://projects.raspberrypi.org/en[Raspberry Pi - Projects]
+| Collection of projects using Raspberry Pi
+
+| link:https://www.stem.org.uk/climate-change-educational-partnership[STEM Learning]
+| Climate Change Educational Partnership
+
+| link:https://raspberrypi-education.s3-eu-west-1.amazonaws.com/Pedagogy+Assets/NCCE_pedagogy_principles.pdf[NCCE and Raspberry Pi]
+| How to teach computing
+
+| link:https://blog.teachcomputing.org/tag/quickread/[NCCE and Raspberry Pi]
+| Pedagogy Quick Reads - Main page
+
+| link:https://raspberrypi-education.s3.eu-west-1.amazonaws.com/Quick+Reads/Pedagogy+Quick+Read+16+-+Physical+Computing.pdf[NCCE and Raspberry Pi]
+| Pedagogy _Quick Reads_ - Physical computing
+
+| link:https://raspberrypi-education.s3-eu-west-1.amazonaws.com/Quick+Reads/Pedagogy+Quick+Read+15+-+Project-based+learning.pdf[NCCE and Raspberry Pi]
+| Pedagogy _Quick Reads_ - Using project-based learning to apply programming knowledge to real-world scenarios
+
+| link:https://raspberrypi-education.s3-eu-west-1.amazonaws.com/Quick+Reads/Pedagogy+Quick+Read+14+-+Code+Tracing.pdf[NCCE and Raspberry Pi]
+| Pedagogy _Quick Reads_ - Code tracing
+
+| link:https://raspberrypi-education.s3-eu-west-1.amazonaws.com/Quick+Reads/Pedagogy+Quick+Read+13+-+Parson's+Problems.pdf[NCCE and Raspberry Pi]
+| Pedagogy _Quick Reads_ - Improving program comprehension through Parson’s Problems
+
+| link:https://raspberrypi-education.s3-eu-west-1.amazonaws.com/Quick+Reads/Pedagogy+Quick+Read+12+-+Block+Model.pdf[NCCE and Raspberry Pi]
+| Pedagogy _Quick Reads_ - Understanding program comprehension using the block model
+
+| link:https://raspberrypi-education.s3-eu-west-1.amazonaws.com/Quick+Reads/Pedagogy+Quick+Read+11+-+PRIMM.pdf[NCCE and Raspberry Pi]
+| Pedagogy _Quick Reads_ - Using PRIMM to structure programming lessons
+
+| link:https://raspberrypi-education.s3-eu-west-1.amazonaws.com/Quick+Reads/Pedagogy+Quick+Read+9+-+Surveys+%26+Interviews.pdf[NCCE and Raspberry Pi]
+| Pedagogy _Quick Reads_ - Planning effective surveys and interviews for research or evaluation
+
+| link:https://raspberrypi-education.s3-eu-west-1.amazonaws.com/Quick+Reads/Pedagogy+Quick+Read+10+-+Observations.pdf[NCCE and Raspberry Pi]
+| Pedagogy _Quick Reads_ - Using observation techniques to record student behaviour for research or evaluation
+
+| link:https://raspberrypi-education.s3-eu-west-1.amazonaws.com/Quick+Reads/Pedagogy+Quick+Read+8+-+Distance+learning.pdf[NCCE and Raspberry Pi]
+| Pedagogy _Quick Reads_ - Planning and reflecting on distance learning
+
+| link:https://raspberrypi-education.s3-eu-west-1.amazonaws.com/Quick+Reads/Pedagogy+Quick+Read+7+-+Concept+Maps.pdf[NCCE and Raspberry Pi]
+| Pedagogy _Quick Reads_ - Using concept maps to capture, communicate, construct, and assess knowledge
+
+| link:https://raspberrypi-education.s3-eu-west-1.amazonaws.com/Quick+Reads/Pedagogy+Quick+Read+6+-+Semantic+Waves.pdf[NCCE and Raspberry Pi]
+| Pedagogy _Quick Reads_ - Using semantic waves to improve explanations and learning activities in computing
+
+| link:https://raspberrypi-education.s3-eu-west-1.amazonaws.com/Quick+Reads/Pedagogy+Quick+Read+5+-+Live+Coding.pdf[NCCE and Raspberry Pi]
+| Pedagogy _Quick Reads_ - Using live coding to bring coding to life
+
+| link:https://raspberrypi-education.s3-eu-west-1.amazonaws.com/Quick+Reads/Pedagogy+Quick+Read+4+-+Peer+Instruction.pdf[NCCE and Raspberry Pi]
+| Pedagogy _Quick Reads_ - Using peer instruction to discuss computing concepts
+
+| link:https://raspberrypi-education.s3-eu-west-1.amazonaws.com/Quick+Reads/Pedagogy+Quick+Read+3+-+Pair+Programming.pdf[NCCE and Raspberry Pi]
+| Pedagogy _Quick Reads_ - Using pair programming to support learners
+
+| link:https://raspberrypi-education.s3-eu-west-1.amazonaws.com/Quick+Reads/Pedagogy+Quick+Read+2+-+Worked+examples.pdf[NCCE and Raspberry Pi]
+| Pedagogy _Quick Reads_ - Using Worked examples to support novice learners
+
+| link:https://raspberrypi-education.s3-eu-west-1.amazonaws.com/Quick+Reads/Pedagogy+Quick+Read+1+-+Cognitive+Load+Theory.pdf[NCCE and Raspberry Pi]
+| Pedagogy _Quick Reads_ - Thoughtful instructional design reduces learners’ cognitive load in computing
+
+|===
