@@ -121,11 +121,14 @@
 | 8/11/21
 | 2.1.1 - 2.1.2 : +
   soziales Handeln, [red]#soziale Interaktion#, [red]#soziale Kommunikation#, Aufnahme/Austausch von Informationen, interpersonale Kommunikation, intrapersonale Kommunikation, Theorie des symbolischen Interaktionismus +
-  _Film_ : Good Vibrations - Récréation auf Educ’Arte. Soziale Interaktion, soziale Kommunikation, soziales Verhalten, soziales Handeln.
+   +
+  _Video-Ausschnitt_ : link:https://educ.arte.tv/program/good-vibrations-recreation[Good Vibrations - Récréation] auf Educ’Arte. Soziale Interaktion, soziale Kommunikation, soziales Verhalten, soziales Handeln.
 | 1. Inwiefern ist dies ein Beispiel für soziale Interaktion? +
   2. Welche Arten (Beispiele) von sozialer Kommunikation finden sie hier? +
   3. Ist das ein Beispiel für soziales Handeln?
-|
+| - Soziale Interaktion +
+  - Wissen (Kn) +
+  - Anwendung (App)
 
 
 |===
