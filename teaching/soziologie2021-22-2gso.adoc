@@ -130,6 +130,13 @@
   - Wissen (Kn) +
   - Anwendung (App)
 
+| 7
+| 10/11/21
+| 2.1.1 - 2.2.2 : +
+  soziales Handeln, [red]#soziale Interaktion#, [red]#soziale Kommunikation#, Aufnahme/Austausch von Informationen, Zusammenleben, [red]#soziale Werte#, Regeln, Anomie, Wandel von Werten, Enstehung von Werten, [red]#Bedingungen für einen Wandel von Werten#
+| Aufgaben 1, 2, 3, 4, 5, 6 (S. 76) -> link:soziologie-cours/2-1-1_2-2-2.pdf[2.1.1-2.2.2]
+| - Grundlagen des Zusammenlebens +
+  - Bedingungen des Wandels von sozialen Werten
 
 |===
 
