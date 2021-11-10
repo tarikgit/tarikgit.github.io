@@ -127,6 +127,7 @@
 | 4
 | 15/10/21
 | *[maroon]#Comptabilité#* +
+    link:comptabilite/Comptabilite-Fiche-2-tva.pdf[Fiche de révision 2]
 | Chapitre 2: La facturation et la TVA.
 | Exercice 1, 2, 3 (p.35 - 44)
 
@@ -156,14 +157,38 @@
 
 | 6
 | 29/10/21
-| *[maroon]#Comptabilité#*
-|
+| *[maroon]#Comptabilité#* +
+  link:comptabilite/Comptabilite-Fiche-3-reductions-de-prix.pdf[Fiche de révision 3]
+| Chapitre 3: Les réductions de prix.
 |
 
 | 7
 | 8/11/21
 | *[red]#Mathématiques financières#*
-| Introduction au chapitre 2: Emprunt indivis
-| Exercices: Théorie (p.8-11), application résolue (p.11), exercice 1 (p.14)
+| Introduction au chapitre 2: _Emprunt indivis_ +
+  - emprunt indivis +
+  - décomposition par l'artifice +
+  - calcul des fonds d'amortissement ($D_n$) +
+  - graphique de la loi d'amortissement +
+  - tableau d'amortissement +
+  $annuité = intérêt + amortissement$
+| Théorie (p.8-11), application résolue (p.11)
+
+| 7
+| 10/11/21
+| *[red]#Mathématiques financières#*
+| Exercices 1, 2, 3 (p.14)
+| Annuité, intérêt et amortissement:
+  \begin{equation}
+   a = \underbrace{V_0 i}_{intérêt} + \underbrace{ \frac{ V_0 i }{ (1+i)^n - 1 } }_{amortissement}
+  \end{equation}
+  Amortissement:
+  \begin{equation}
+   D_q = D_1 (1+i)^{q-1}
+  \end{equation}
+  ou
+  \begin{equation}
+   D_q = \frac{V_0 i}{ (1+i)^n - 1 } (1+i)^{q-1}
+  \end{equation}
 
 |===
