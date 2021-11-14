@@ -7,6 +7,10 @@
 * link:https://probability4datascience.com/[Introduction to Probability for Data Science (Stanley H. Chan)]
 * link:https://maleadt.github.io/NewPkgEval.jl/detail/MathOptInterface.html[MathOptInterface] and the link:https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2021.1067[paper].
 * link:https://medium.com/@logankilpatrick/working-with-flux-jl-models-on-the-hugging-face-hub-b95af2b80a47[Flux.jl model (the 100% Julia Machine Learning package)]
+* link:https://juliacomputing.com/case-studies/[Julia Computing: Case Studies]
+* link:https://a-z.lu/primo-explore/fulldisplay?docid=TN_cdi_jstor_primary_4132849&context=PC&vid=BIBNET&search_scope=All_content&tab=all_content&lang=fr_FR[The Boston Public School Match]. link:https://a-z.lu/primo-explore/fulldisplay?docid=TN_cdi_crossref_primary_10_1257_000282803322157061&context=PC&vid=BIBNET&search_scope=All_content&tab=all_content&lang=fr_FR[School choice: a mechanism design approach]. link:https://arxiv.org/abs/2104.08485[Mechanism Design Approach to School Choice: One versus Many]. link:https://adelarue.github.io/files/school-buses-to-bell-times.pdf[From School Buses to Start Times:
+Driving Policy With Optimization].
+
 
 == Sources:
 
