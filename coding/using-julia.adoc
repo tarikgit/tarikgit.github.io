@@ -1,0 +1,14 @@
+= Using Julia
+
+* link:https://julia.quantecon.org/intro.html[Quantitative Economics with Julia]
+* link:https://computationalthinking.mit.edu/Spring21/[Introduction to Computational Thinking (MIT)]
+* link:https://jump.dev/[JuMP is a modeling language and collection of supporting packages for mathematical optimization in Julia]
+* link:https://genieframework.github.io/Genie.jl/dev/[Genie is a full-stack MVC (link:https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller[model-view-controller]) web framework that provides a streamlined and efficient workflow for developing modern web applications.]
+* link:https://probability4datascience.com/[Introduction to Probability for Data Science (Stanley H. Chan)]
+* link:https://maleadt.github.io/NewPkgEval.jl/detail/MathOptInterface.html[MathOptInterface] and the link:https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2021.1067[paper].
+* link:https://medium.com/@logankilpatrick/working-with-flux-jl-models-on-the-hugging-face-hub-b95af2b80a47[Flux.jl model (the 100% Julia Machine Learning package)]
+
+== Sources:
+
+* https://probability4datascience.com/
+* https://julia.quantecon.org/intro.html
