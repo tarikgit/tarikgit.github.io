@@ -107,6 +107,14 @@ Textanalyse (link:https://tarikgit.github.io/teaching/examen/20200921_SOCIO_DE_s
 | Aufgabe: S.206-207 lesen
 |
 
+| 8
+| 17/11/21
+| link:soziologie-cours/7-2-1_7-2-2.pdf[7.2.1 - 7.2.2] : +
+  Kernaussagen des historischen Materialismus, Hegel vs. Marx, Arbeit, Produktion, Produktivität, Erwerbsarbeit
+| _Schülervortrag_ : Der theoretische Hintergrund des historischen Materialismus
+| - Kernaussagen des historischen Materialismus +
+  - Theoretischer Hintergrund des historischen Materialismus 
+
 |===
 
 {blank} +
