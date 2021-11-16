@@ -138,6 +138,19 @@
 | - Grundlagen des Zusammenlebens +
   - Bedingungen des Wandels von sozialen Werten
 
+| 8
+| 15/11/21
+| Verbesserung DEC I,1
+|
+|
+
+| 8
+| 17/11/21
+| link:soziologie-cours/2-3-1_2-3-2.pdf[2.3.1 - 2.3.2] : +
+  Regelung des Zusammenlebens, soziale Normen, soziale Werte, Arten von Normen, Kann-Normen, Soll-Normen, Muss-Normen
+| Aufgaben (S.76) : 7, 8, 9
+|
+
 |===
 
 {blank} +
