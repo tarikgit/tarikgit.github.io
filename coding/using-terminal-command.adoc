@@ -10,49 +10,49 @@
 | Displays the username of the current user when this command is invoked.
 
 | `rmdir`
-|
+| remove empty directories
 
 | `tail`
-|
+| output the last part of files
 
 | `uniq`
-|
+| report or omit repeated lines
 
 | `ps`
-|
+| report a snapshot of the current processes
 
 | `sleep`
-|
+| delay for a specified amount of time
 
 | `ln`
-|
+| make links between files
 
 | `man`
-|
+| an interface to the on-line reference manuals
 
 | `rm`
-|
+| remove files or directories
 
 | `date`
-|
+ print or set the system date and time
 
 | `diff`
-|
+| compare files line by line
 
 | `top`
-|
+| display Linux processes
 
 | `gzip`
-|
+| compress or expand files
 
 | `who`
-|
+| show who is logged on
 
 | `clear`
-|
+| clear the terminal screen
 
 | `touch`
-|
+| change file timestamps
 
 | `cat`
 |  Used to list the contents of a file. +
@@ -61,37 +61,37 @@
 
 
 | `find`
-|
+| search for files in a directory hierarchy
 
 | `kill`
-|
+| send a signal to a process
 
 | `gunzip`
-|
+| compress or expand files
 
 | `su`
-|
+| run a command with substitute user and group ID
 
 | `pwd`
-|
+| print name of current/working directory
 
 | `open`
-|
+| open and possibly create a file
 
 | `less`
-|
+| opposite of more
 
 | `grep`
-|
+| print lines that match patterns
 
 | `killall`
-|
+| kill processes by nam
 
 | `tar`
-|
+| an archiving utility
 
 | `sudo`
-|
+| execute a command as another user
 
 | `ls`
 | Used to view the contents of a directory. +
@@ -100,34 +100,34 @@
 - `ls -al` will list the files and directories with detailed information like the permissions, size, owner, etc.
 
 | `mv`
-|
+| move (rename) files
 
 | `echo`
-|
+| display a line of text
 
 | `du`
-|
+| estimate file space usage
 
 | `jobs`
 |
 
 | `nano`
-|
+| Nano's ANOther editor, an enhanced free Pico clone
 
 | `passwd`
-|
+| change user password
 
 | `cd`
 | Allows to navigate through the Linux files and directories.
 
 | `cp`
-|
+| copy files and directories
 
 | `wc`
-|
+| print newline, word, and byte counts for each file
 
 | `df`
-|
+| report file system disk space usage
 
 | `fg`
 |
@@ -136,28 +136,28 @@
 |
 
 | `chown`
-|
+| change file owner and group
 
 | `mkdir`
-|
+| make directories
 
 | `head`
-|
+| output the first part of files
 
 | `sort`
-|
+| sort lines of text files
 
 | `history`
-|
+| GNU History Library
 
 | `bg`
 |
 
 | `xargs`
-|
+| build and execute command lines from standard input
 
 | `chmod`
-|
+| change file mode bits
 
 | `pwd`
 | Find out the path of the current working directory (folder) you’re in.
