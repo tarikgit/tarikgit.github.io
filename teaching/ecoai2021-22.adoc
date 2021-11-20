@@ -195,4 +195,16 @@
    D_q = D_r (1+i)^{q-r}
   \end{equation}
 
+| 7
+| 12/11/21
+| *[maroon]#Comptabilité#* +
+| Chapitre 3: Les réductions de prix. Exercices 1 et 2.
+|
+
+| 8
+| 15/11/21
+| *[red]#Mathématiques financières#*
+|
+|
+
 |===
