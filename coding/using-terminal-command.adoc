@@ -34,7 +34,7 @@
 | remove files or directories
 
 | `date`
- print or set the system date and time
+| print or set the system date and time
 
 | `diff`
 | compare files line by line
