@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.8">
-<title>Using Terminal Command in Linux</title>
+<title>Using Terminal in Linux</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -432,9 +432,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>Using Terminal Command in Linux</h1>
+<h1>Using Terminal in Linux</h1>
 </div>
 <div id="content">
+<div class="sect1">
+<h2 id="_linux_commands">Linux commands</h2>
+<div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -493,7 +496,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>top</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">display Linux processes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">display Linux processes in dynamic real time view</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>uname</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">+ prints the OS name (ex. Linux, Darwin)<br>
+  <code>uname -a</code> : prints all system information, including machine name, kernel name, version &#8230;&#8203;</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>gzip</code></p></td>
@@ -552,6 +560,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>pipe</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">pipes help combine two or more commands and are used as input/output concepts in a command.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>free</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">display the amount of free and used physical and swap memory in the system<br>
+  <code>free -m</code> : gives the information using megabytes</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>grep</code></p></td>
@@ -614,7 +627,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>df</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">report file system disk space usage</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">report file system disk space usage for all partitions<br>
+  <code>df -h</code> : display <em>human-readable</em> disk space usage</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>fg</code></p></td>
@@ -660,6 +674,38 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>pwd</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Find out the path of the current working directory (folder) you’re in.</p></td>
 </tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>ps</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">view all the processes running on the machine</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_other_command_line_tools_from_third_parties">Other command-line tools from third parties</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 66.6667%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Command</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>youtube-dl</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">download videos on Youtube and other video portals<br>
+  1) <code>youtube-dl <a href="https://www.youtube.com/watch?v=Film-ID" class="bare">https://www.youtube.com/watch?v=Film-ID</a></code><br>
+  2) <code>youtube-dl -o</code> ' <code>~/videos/film.mp4</code> ' <code>Film-URL</code><br>
+  3) <code>youtube-dl -F Film-URL</code><br>
+  4) <code>youtube-dl -f Number Film-URL</code><br>
+  5) <code>youtube-dl --playlist-start 3 --playlist-end 5 Playlist-URL</code></p></td>
+</tr>
 </tbody>
 </table>
 <div class="ulist">
@@ -673,9 +719,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p><a href="https://www.youtube.com/watch?v=ZtqBQ68cfJc&amp;ab_channel=freeCodeCamp.org" class="bare">https://www.youtube.com/watch?v=ZtqBQ68cfJc&amp;ab_channel=freeCodeCamp.org</a></p>
 </div>
 </div>
+</div>
+</div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-11-21 13:39:04 +0100
+Last updated 2021-11-21 15:12:46 +0100
 </div>
 </div>
 </body>

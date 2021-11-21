@@ -1,4 +1,6 @@
-= Using Terminal Command in Linux
+= Using Terminal in Linux
+
+== Linux commands
 
 [cols="1,2", options="header"]
 |===
@@ -40,7 +42,11 @@
 | compare files line by line
 
 | `top`
-| display Linux processes
+| display Linux processes in dynamic real time view
+
+| `uname`
+|  + prints the OS name (ex. Linux, Darwin) +
+  `uname -a` : prints all system information, including machine name, kernel name, version ...
 
 | `gzip`
 | compress or expand files
@@ -58,7 +64,6 @@
 |  Used to list the contents of a file. +
 - `cat > filename` creates a new file +
 - `cat filename1 filename2>filename3` joins two files (1 and 2) and stores the output of them in a new file (3) +
-
 
 | `find`
 | search for files in a directory hierarchy
@@ -86,6 +91,10 @@
 
 | `pipe`
 | pipes help combine two or more commands and are used as input/output concepts in a command.
+
+| `free`
+| display the amount of free and used physical and swap memory in the system +
+  `free -m` : gives the information using megabytes
 
 | `grep`
 | print lines that match patterns
@@ -133,7 +142,8 @@
 | print newline, word, and byte counts for each file
 
 | `df`
-| report file system disk space usage
+| report file system disk space usage for all partitions +
+  `df -h` : display _human-readable_ disk space usage
 
 | `fg`
 |
@@ -168,7 +178,31 @@
 | `pwd`
 | Find out the path of the current working directory (folder) you’re in.
 
+| `ps`
+| view all the processes running on the machine
+
 |===
+
+
+
+== Other command-line tools from third parties
+
+[cols="1,2", options="header"]
+|===
+
+| Command
+| Description
+
+| `youtube-dl`
+| download videos on Youtube and other video portals +
+  1) `youtube-dl https://www.youtube.com/watch?v=Film-ID` +
+  2) `youtube-dl -o` ' `~/videos/film.mp4` ' `Film-URL` +
+  3) `youtube-dl -F Film-URL` +
+  4) `youtube-dl -f Number Film-URL` +
+  5) `youtube-dl --playlist-start 3 --playlist-end 5 Playlist-URL`
+
+|===
+
 
 
 
