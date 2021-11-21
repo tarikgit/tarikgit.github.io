@@ -151,6 +151,15 @@
 | Aufgaben (S.76) : 7, 8, 9
 |
 
+| 9
+| 22/11/21
+| link:soziologie-cours/2-3-3_2-3-4.pdf[2.3.3 - 2.3.4] : +
+  Verhaltenserwartung, soziale Position, Positionsstruktur, soziale Rolle, Intrarollenkonflikt, Rollendruck, Interrollenkonflikt
+| Aufgaben (S.76) : 10, *[red]#11#*, 12
+| - soziale Position u. soziale Rolle +
+  - Problematik von sozialen Rollen +
+  - Rollenkonflikte
+
 |===
 
 {blank} +
