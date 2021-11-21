@@ -78,8 +78,14 @@
 | `open`
 | open and possibly create a file
 
+| `more`
+| view the text files in the command prompt, displaying one screen at a time in case the file is large
+
 | `less`
 | opposite of more
+
+| `pipe`
+| pipes help combine two or more commands and are used as input/output concepts in a command.
 
 | `grep`
 | print lines that match patterns
