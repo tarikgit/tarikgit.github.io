@@ -113,7 +113,26 @@ Textanalyse (link:https://tarikgit.github.io/teaching/examen/20200921_SOCIO_DE_s
   Kernaussagen des historischen Materialismus, Hegel vs. Marx, Arbeit, Produktion, Produktivität, Erwerbsarbeit
 | _Schülervortrag_ : Der theoretische Hintergrund des historischen Materialismus
 | - Kernaussagen des historischen Materialismus +
-  - Theoretischer Hintergrund des historischen Materialismus 
+  - Theoretischer Hintergrund des historischen Materialismus
+
+| 9
+| 22/11/21
+| link:soziologie-cours/7-2-4_7-2-5.pdf[7.2.3 - 7.2.5] : +
+  Produktivkräfte, Produktion, Arbeitskräfte, Produktionsverhältnisse, Produktionsmittel, Eigentumsverhältnisse, Herrschaftsverhältnisse, Arbeitsverhältnisse, Konsumationsverhältnisse +
+  ideologischer Überbau, Basis
+| Aufgabe : +
+  [red]#7.2.3 lesen# +
+  2a, 2b, 3a, 3b (S. 246)
+| - gesellschaftliche Bedingungen die zum _historischen Materialismus_ führten +
+  - Grundannahmen der Theorie des historischen Materialismus +
+  - gesellschaftliche Struktur nach Marx +
+  - Zukunftsprognosen der Gesellschaft
+
+| 9
+| 24/11/21
+| 7.2.5 - 7.2.6 :
+|
+|
 
 |===
 
