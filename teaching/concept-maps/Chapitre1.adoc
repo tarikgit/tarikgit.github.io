@@ -1,0 +1,72 @@
+= Chapitre 1: L'activité économique et niveau de vie
+
+*Note*: chaque élément (les hyperliens en bleu) représente une unité de leçon de 50 minutes.
+
+== 1. Introduction : La richesse d’une nation
+
+. link:https://www.core-econ.org/the-economy/book/fr/text/01.html[Comprendre les _faits_ économique ...]
+. link:https://www.core-econ.org/the-economy/book/fr/text/01.html#11-in%C3%A9galit%C3%A9s-de-revenus[Inégalités de revenus]
+
+
+== 2. Le Produit intérieur brut
+
+. link:https://www.core-econ.org/the-economy/book/fr/text/01.html#12-mesurer-les-revenus-et-le-niveau-de-vie[Mesurer les revenus et le niveau de vie]
+. link:https://www.core-econ.org/the-economy/book/fr/text/01.html#13-la-crosse-de-hockey-de-lhistoire-croissance-des-revenus[La croissance des revenus]
+
+
+
+== 3. La révolution technologique
+
+. link:https://www.core-econ.org/the-economy/book/fr/text/01.html#14-la-r%C3%A9volution-technologique-permanente[La révolution technologique permanente]
+
+
+== 4. Propriété privée, marchés et entreprises
+
+. link:https://www.core-econ.org/the-economy/book/fr/text/01.html#16-une-d%C3%A9finition-du-capitalisme-propri%C3%A9t%C3%A9-priv%C3%A9e-march%C3%A9s-et-entreprises[Propriété privée, marchés et entreprises]
+. link:https://www.core-econ.org/the-economy/book/fr/text/01.html#17-le-capitalisme-en-tant-que-syst%C3%A8me-%C3%A9conomique[Le capitalisme en tant que système économique]
+. link:https://www.core-econ.org/the-economy/book/fr/text/01.html#18-les-gains-de-la-sp%C3%A9cialisation[Les gains de spécialisation]
+
+== 5. La croissance économique
+
+. link:https://www.core-econ.org/the-economy/book/fr/text/01.html#19-capitalisme-causalit%C3%A9-et-la-crosse-de-hockey-de-lhistoire[La causalité dans les sciences économiques]
+. link:https://www.core-econ.org/the-economy/book/fr/text/01.html#110-les-diff%C3%A9rents-capitalismes-institutions-%C3%A9tat-et-%C3%A9conomie[Le rôle des institutions, les innovations et la croissance économique]
+
+== 6. Les sciences économiques et l'économie
+
+. link:https://www.core-econ.org/the-economy/book/fr/text/01.html#111-les-sciences-%C3%A9conomiques-et-l%C3%A9conomie[Les sciences économiques et l'économie]
+
+== 7. Fiche Méthode: Taux de variation, coefficient multiplicateur
+
+. Formules
+. Définitions
+. Graphiques
+
+== Conclusion
+
+Les concepts introduits dans le chapitre 1:
+
+. Économie
+. Révolution industrielle
+. Technologie
+. Système économique
+. Capitalisme
+. Institutions
+. Propriété privée
+. Marché
+. Entreprise
+. Révolution capitaliste
+. Démocratie
+
+== Bibliographie
+
+. CORE Econ
+
+
+== Annexe: Questions pour Évaluation
+
+=== Dissertation économique
+
+=== Questions et réponses
+
+. Croissance économique
+. Inégalités
