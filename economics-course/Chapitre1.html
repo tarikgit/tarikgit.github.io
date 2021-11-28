@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.8">
-<title>Using remote access in Linux</title>
+<title>Chapitre 1: L&#8217;activité économique et niveau de vie</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -432,135 +432,204 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>Using remote access in Linux</h1>
+<h1>Chapitre 1: L&#8217;activité économique et niveau de vie</h1>
 </div>
 <div id="content">
-<div class="sect1">
-<h2 id="_using_ssh">Using SSH</h2>
+<div id="preamble">
 <div class="sectionbody">
-<div class="sect2">
-<h3 id="_client_side_installation">Client-Side Installation</h3>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">sudo apt update &amp;&amp; sudo apt upgrade
-
-sudo apt install openssh-client</code></pre>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_server_side_installation_and_configuration">Server-Side Installation and Configuration</h3>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">sudo apt install openssh-server</code></pre>
-</div>
-</div>
 <div class="paragraph">
-<p>Check the installation:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">sudo systemctl status ssh</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Your firewall may block SSH. In order to avoid this, use:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">sudo ufw allow ssh</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>In case ssh is not activated on your server, use:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">sudo systemctl enable ssh</code></pre>
-</div>
-</div>
+<p><strong>Note</strong>: chaque élément (les hyperliens en bleu) représente une unité de leçon de 50 minutes.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_using_vnc">Using VNC</h2>
+<h2 id="_1_introduction_la_richesse_dune_nation">1. Introduction : La richesse d’une nation</h2>
 <div class="sectionbody">
-<div class="sect2">
-<h3 id="_installing_and_starting_the_vnc_server">Installing and starting the VNC server</h3>
-<div class="paragraph">
-<p>The following part explains how to set up a Rspberryy Pi (RPi) VNC server.</p>
-</div>
-<div class="paragraph">
-<p>Connect remotely to your RPi through <code>ssh</code> access.</p>
-</div>
-<div class="paragraph">
-<p>First install the latest version:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">sudo apt-get update
-sudo apt-get install realvnc-vnc-server</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Identify the IP adress of your RPi server using <code>ifconfig</code>.</p>
-</div>
-<div class="paragraph">
-<p>In order to <strong>start the VNC server</strong> use the following command:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">sudo systemctl start vncserver-x11-serviced.service</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>If you want to start the VNC server at boot or if you want to modify the resolution, follow the instructions given at the <a href="https://help.realvnc.com/hc/en-us/articles/360002249917-VNC-Connect-and-Raspberry-Pi#operating-vnc-server-at-the-command-line-0-6">official RealVNC page</a>.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_running_vncserver_as_user">Running vncserver as user</h3>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Login to target linux user (user that you want to connect with vnc) via ssh (ex: TARGETUSER). `[root@localhost ~]$ su - TARGETUSER.</p>
+<p><a href="https://www.core-econ.org/the-economy/book/fr/text/01.html">Comprendre les <em>faits</em> économique &#8230;&#8203;</a></p>
 </li>
 <li>
-<p>Run following command to change vnc password. <code>[TARGETUSER@localhost ~]$ vncpasswd</code></p>
+<p><a href="https://www.core-econ.org/the-economy/book/fr/text/01.html#11-in%C3%A9galit%C3%A9s-de-revenus">Inégalités de revenus</a></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_2_le_produit_intérieur_brut">2. Le Produit intérieur brut</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="https://www.core-econ.org/the-economy/book/fr/text/01.html#12-mesurer-les-revenus-et-le-niveau-de-vie">Mesurer les revenus et le niveau de vie</a></p>
 </li>
 <li>
-<p>Start vnc server from within target user to create new session for current user. `[TARGETUSER@localhost ~]$ vncserver.</p>
+<p><a href="https://www.core-econ.org/the-economy/book/fr/text/01.html#13-la-crosse-de-hockey-de-lhistoire-croissance-des-revenus">La croissance des revenus</a></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_3_la_révolution_technologique">3. La révolution technologique</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="https://www.core-econ.org/the-economy/book/fr/text/01.html#14-la-r%C3%A9volution-technologique-permanente">La révolution technologique permanente</a></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_4_propriété_privée_marchés_et_entreprises">4. Propriété privée, marchés et entreprises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="https://www.core-econ.org/the-economy/book/fr/text/01.html#16-une-d%C3%A9finition-du-capitalisme-propri%C3%A9t%C3%A9-priv%C3%A9e-march%C3%A9s-et-entreprises">Propriété privée, marchés et entreprises</a></p>
 </li>
 <li>
-<p>Previous command will be created a new session with a number after existing sessions (in this example: 1).
-New 'localhost.localdomain:1 (TARGETUSER)' desktop is localhost.localdomain:1</p>
+<p><a href="https://www.core-econ.org/the-economy/book/fr/text/01.html#17-le-capitalisme-en-tant-que-syst%C3%A8me-%C3%A9conomique">Le capitalisme en tant que système économique</a></p>
 </li>
 <li>
-<p>Connect to it via VNC Viewer (ex:SERVER_IP:1) with above created password.</p>
+<p><a href="https://www.core-econ.org/the-economy/book/fr/text/01.html#18-les-gains-de-la-sp%C3%A9cialisation">Les gains de spécialisation</a></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_5_la_croissance_économique">5. La croissance économique</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="https://www.core-econ.org/the-economy/book/fr/text/01.html#19-capitalisme-causalit%C3%A9-et-la-crosse-de-hockey-de-lhistoire">La causalité dans les sciences économiques</a></p>
+</li>
+<li>
+<p><a href="https://www.core-econ.org/the-economy/book/fr/text/01.html#110-les-diff%C3%A9rents-capitalismes-institutions-%C3%A9tat-et-%C3%A9conomie">Le rôle des institutions, les innovations et la croissance économique</a></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_6_les_sciences_économiques_et_léconomie">6. Les sciences économiques et l&#8217;économie</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="https://www.core-econ.org/the-economy/book/fr/text/01.html#111-les-sciences-%C3%A9conomiques-et-l%C3%A9conomie">Les sciences économiques et l&#8217;économie</a></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_7_fiche_méthode_taux_de_variation_coefficient_multiplicateur">7. Fiche Méthode: Taux de variation, coefficient multiplicateur</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Formules</p>
+</li>
+<li>
+<p>Définitions</p>
+</li>
+<li>
+<p>Graphiques</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_conclusion">Conclusion</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Les concepts introduits dans le chapitre 1:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Économie</p>
+</li>
+<li>
+<p>Révolution industrielle</p>
+</li>
+<li>
+<p>Technologie</p>
+</li>
+<li>
+<p>Système économique</p>
+</li>
+<li>
+<p>Capitalisme</p>
+</li>
+<li>
+<p>Institutions</p>
+</li>
+<li>
+<p>Propriété privée</p>
+</li>
+<li>
+<p>Marché</p>
+</li>
+<li>
+<p>Entreprise</p>
+</li>
+<li>
+<p>Révolution capitaliste</p>
+</li>
+<li>
+<p>Démocratie</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_bibliographie">Bibliographie</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>CORE Econ</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_annexe_questions_pour_évaluation">Annexe: Questions pour Évaluation</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_dissertation_économique">Dissertation économique</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_questions_et_réponses">Questions et réponses</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Croissance économique</p>
+</li>
+<li>
+<p>Inégalités</p>
 </li>
 </ol>
 </div>
 </div>
 </div>
 </div>
-<div class="sect1">
-<h2 id="_source">Source</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://help.realvnc.com/hc/en-us/articles/360002249917-VNC-Connect-and-Raspberry-Pi#transferring-files-to-and-from-your-raspberry-pi-0-3">RealVNC: VNC Connect and Raspberry Pi </a></p>
-</li>
-<li>
-<p><a href="https://unix.stackexchange.com/questions/208610/how-to-run-vncserver-as-a-user-not-root">Unix \&amp; Linux: How to run vncserver as a user (not root)?</a></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-11-28 10:33:03 +0100
+Last updated 2021-11-26 07:52:43 +0100
 </div>
 </div>
 </body>

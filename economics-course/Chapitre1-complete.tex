@@ -1,0 +1,736 @@
+%% Preamble %%
+%% A minimal LaTeX preamble
+%% Some packates are needed to implement
+%% Asciidoc features
+
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}               % ... or a4paper or a5paper or ...
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}       % Activate to begin paragraphs with an empty line rather than an indent
+
+\usepackage{tcolorbox}
+\usepackage{lipsum}
+
+\usepackage{epstopdf}
+\usepackage{color}
+% \usepackage[usenames, dvipsnames]{color}
+% \usepackage{alltt}
+
+
+\usepackage{amssymb}
+% \usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage[version=3]{mhchem}
+
+
+% Needed to properly typeset
+% standard unicode characters:
+%
+\RequirePackage{fix-cm}
+\usepackage{fontspec}
+\usepackage[Latin,Greek]{ucharclasses}
+%
+% NOTE: you must also use xelatex
+% as the typesetting engine
+
+
+% \usepackage{fontspec}
+% \usepackage{polyglossia}
+% \setmainlanguage{en}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+}
+
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\graphicspath{ {images/} }
+\DeclareGraphicsExtensions{.png, .jpg, jpeg, .pdf}
+
+%% \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+%% Asciidoc TeX Macros %%
+
+
+% \pagecolor{black}
+%%%%%%%%%%%%
+
+
+% Needed for Asciidoc
+
+\newcommand{\admonition}[2]{\textbf{#1}: {#2}}
+\newcommand{\rolered}[1]{ \textcolor{red}{#1} }
+\newcommand{\roleblue}[1]{ \textcolor{blue}{#1} }
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+\newtheorem{definition}{Definition}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{problem}{Problem}
+\newtheorem{exercise}{Exercise}
+\newtheorem{example}{Example}
+\newtheorem{note}{Note}
+\newtheorem{joke}{Joke}
+\newtheorem{objection}{Objection}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%  Extended quote environment with author
+
+\renewenvironment{quotation}
+{   \leftskip 4em \begin{em} }
+{\end{em}\par }
+
+\def\signed#1{{\leavevmode\unskip\nobreak\hfil\penalty50\hskip2em
+  \hbox{}\nobreak\hfil\raise-3pt\hbox{(#1)}%
+  \parfillskip=0pt \finalhyphendemerits=0 \endgraf}}
+
+
+\newsavebox\mybox
+
+\newenvironment{aquote}[1]
+  {\savebox\mybox{#1}\begin{quotation}}
+  {\signed{\usebox\mybox}\end{quotation}}
+
+\newenvironment{tquote}[1]
+  {  {\bf #1} \begin{quotation} \\ }
+  { \end{quotation} }
+
+%% BOXES: http://tex.stackexchange.com/questions/83930/what-are-the-different-kinds-of-boxes-in-latex
+%% ENVIRONMENTS: https://www.sharelatex.com/learn/Environments
+
+\newenvironment{asciidocbox}
+  {\leftskip6em\rightskip6em\par}
+  {\par}
+
+\newenvironment{titledasciidocbox}[1]
+  {\leftskip6em\rightskip6em\par{\bf #1}\vskip-0.6em\par}
+  {\par}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% http://texblog.org/tag/rightskip/
+
+
+\newenvironment{preamble}
+  {}
+  {}
+
+%% http://tex.stackexchange.com/questions/99809/box-or-sidebar-for-additional-text
+%%
+\newenvironment{sidebar}[1][r]
+  {\wrapfigure{#1}{0.5\textwidth}\tcolorbox}
+  {\endtcolorbox\endwrapfigure}
+
+
+%%%%%%%%%%
+
+\newenvironment{comment*}
+  {\leftskip6em\rightskip6em\par}
+  {\par}
+
+  \newenvironment{remark*}
+  {\leftskip6em\rightskip6em\par}
+  {\par}
+
+
+%% Dummy environment for testing:
+
+\newenvironment{foo}
+  {\bf Foo.\ }
+  {}
+
+
+\newenvironment{foo*}
+  {\bf Foo.\ }
+  {}
+
+
+\newenvironment{click}
+  {\bf Click.\ }
+  {}
+
+\newenvironment{click*}
+  {\bf Click.\ }
+  {}
+
+
+\newenvironment{remark}
+  {\bf Remark.\ }
+  {}
+
+\newenvironment{capsule}
+  {\leftskip10em\par}
+  {\par}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Style
+
+\parindent0pt
+\parskip8pt
+%% User Macros %%
+%% Front Matter %%
+
+\title{Chapitre 1: L’activité économique et niveau de vie}
+\author{}
+\date{}
+
+
+%% Begin Document %%
+
+\begin{document}
+\maketitle
+\textbf{Note}: chaque élément (les hyperliens en bleu) représente une unité de leçon de 50 minutes. \\
+\textbf{Source}: \href{https://www.core-econ.org/}{CORE} \\
+\textbf{Todo list}:
+
+
+\begin{itemize}
+
+\item Construire les liens pour les figures
+
+\end{itemize}
+
+
+\hypertarget{x-1.-introduction-:-la-richesse-d’une-nation}{\section*{1. Introduction : La richesse d’une nation}}
+\begin{enumerate}
+
+\item{\href{https://www.core-econ.org/the-economy/book/fr/text/01.html}{Comprendre les \emph{faits} économique …​}}
+
+\item{\href{https://www.core-econ.org/the-economy/book/fr/text/01.html#11-in%C3%A9galit%C3%A9s-de-revenus}{Inégalités de revenus}}
+
+\end{enumerate}
+
+
+\hypertarget{x-1.1.-comprendre-les-\emph{faits}-économique-…​}{\subsection*{1.1. Comprendre les \emph{faits} économique …​}}
+\begin{itemize}
+
+\item Depuis le 18e siècle, l’amélioration du niveau de vie moyen est devenue une caractéristique permanente de la vie économique dans de nombreux pays.
+
+\item Ce phénomène fut associé à l’émergence d’un nouveau système économique appelé « capitalisme », dans lequel la propriété privée, les marchés et les entreprises jouent un rôle majeur.
+
+\item Dans le cadre de cette nouvelle organisation de l’économie, les avancées technologiques et la spécialisation des produits et des tâches ont augmenté la quantité qui pouvait être produite au cours d’une journée de travail.
+
+\item Ce processus, que nous appelons la « révolution capitaliste », s’est accompagné de menaces croissantes sur l’environnement et par des inégalités économiques sans précédent à l’échelle mondiale.
+
+\item Les sciences économiques étudient comment les individus interagissent entre eux et avec l’environnement afin de produire leurs moyens de subsistance.
+
+\end{itemize}
+
+
+Au 14e siècle, l’érudit marocain Ibn Battûta (voir l’encadré) décrivit la région indienne du Bengale comme « un pays de grande taille où le riz est très abondant. Je n’ai, en effet, jamais vu une région du monde recelant une telle abondance de provisions ».
+
+
+\begin{center}
+\begin{tabular}{|c|}
+\hline
+\emph{Ibn Battûta (1304–1368)} \\ 
+\hline
+\end{tabular}
+\end{center}
+
+Il avait pourtant parcouru une grande partie du monde, voyageant à travers la Chine, l’Afrique de l’Ouest, le Moyen-Orient et l’Europe. Trois siècles plus tard, le même sentiment fut exprimé par le diamantaire français du 17e siècle Jean-Baptiste Tavernier, qui écrivit à propos de ce pays :
+
+
+\begin{aquote}{Jean-Baptiste Tavernier}{{\bf Travels in India (1676).} \\}
+Même dans les plus petits villages, on peut se procurer en abondance du riz, de la farine, du beurre, du lait, des haricots et autres légumes, du sucre, des confiseries, sous forme de poudre et de liquide.
+
+
+\end{aquote}
+
+À l’époque des voyages d’Ibn Battûta, l’Inde n’était pas plus riche que les autres parties du monde. Mais elle n’était pas non plus plus pauvre. Un observateur à cette époque aurait remarqué que les gens, en moyenne, étaient mieux lotis en Italie, en Chine et en Angleterre qu’au Japon ou en Inde. Mais les grandes différences entre les riches et les pauvres, que le voyageur aurait remarquées partout où il se serait rendu, sautaient bien plus aux yeux que les différences entre les régions. Riches et pauvres portaient souvent des titres distincts : dans certains lieux, ils étaient seigneurs féodaux et serfs, dans d’autres, majestés et sujets, propriétaires d’esclaves et esclaves, ou marchands et commis. À l’époque, comme aujourd’hui, vos perspectives futures dépendaient de la position économique de vos parents et de votre genre. À la différence d’aujourd’hui, au 14e siècle, la partie du monde où vous étiez né(e) importait beaucoup moins.
+
+
+Revenons à aujourd’hui. Les Indiens sont bien mieux lotis maintenant qu’ils ne l’étaient il y a sept siècles en termes d’accès à la nourriture, aux soins médicaux, au logement et aux biens de première nécessité. Cependant, au regard des critères internationaux, la plupart des Indiens demeurent pauvres.
+
+
+La Figure 1.1a illustre cette évolution. Pour comparer les niveaux de vie de chaque pays, nous utilisons une mesure appelée « PIB par tête ». Les gens obtiennent leurs revenus en produisant et vendant des biens et services. Le PIB (produit intérieur brut) est la valeur totale de tout ce qui est produit au cours d’une période donnée comme une année, de sorte que le PIB par tête correspond ici au revenu annuel moyen. Dans la Figure 1.1a, la hauteur de chaque courbe est une estimation du revenu moyen à la date indiquée sur l’axe des abscisses.
+
+
+\begin{figure}[h]{}
+\centering\includegraphics[width=6.0truein]{https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-01-a.jpg}
+\caption{}
+
+\end{figure}
+
+Selon cette mesure, les habitants du Royaume-Uni sont en moyenne six fois plus riches que les Indiens. Les Japonais sont aussi riches que les Britanniques, comme ils l’étaient déjà au 14e siècle. En revanche, les Américains sont désormais mieux lotis que les Japonais, et les Norvégiens le sont encore davantage.
+
+
+Nous pouvons tracer le graphique de la Figure 1.1a grâce \href{https://tinyco.re/4376799}{au travail d’Angus Maddison} qui a consacré sa carrière à rechercher les maigres données disponibles pour faire des comparaisons utiles entre les modes de vie des individus sur plus de 1 000 ans (son travail se poursuit au sein du \href{https://tinyco.re/9843804}{Maddison Project}). Dans ce cours, vous verrez que ce type de données portant sur diverses régions du monde et leurs habitants constituent le point de départ de toute analyse économique. Dans notre vidéo, les économistes James Heckman et Thomas Piketty expliquent combien la collecte de données est essentielle pour mener leurs travaux sur les inégalités et les politiques publiques visant à les réduire.
+
+
+
+\hypertarget{x-1.2.-les-inégalités-de-revenus}{\subsection*{1.2. Les inégalités de revenus}}
+Il y a 1 000 ans, le monde était plat, économiquement parlant. Il y avait des différences de revenus entre les régions du monde ; néanmoins, comme vous pouvez le constater sur la Figure 1.1a, les différences étaient petites relativement à ce qui suivra.
+
+
+Quand on regarde les revenus aujourd’hui, personne ne pense que le monde est plat.
+
+
+La Figure 1.2 montre la distribution des revenus entre et au sein des pays. Les pays sont ordonnés selon leur PIB par tête, du plus pauvre à gauche du graphique (Libéria), au plus riche sur la droite (Singapour). La largeur des barres de chaque pays représente sa population.
+
+
+Pour chaque pays, il y a dix barres, qui correspondent aux dix déciles de revenu. La hauteur de chaque barre représente le revenu moyen de 10 % de la population, allant des 10 % les plus pauvres au premier plan sur le graphique aux 10 % les plus riches à l’arrière-plan, mesuré en dollars américains de 2005. Notez que cela ne veut pas dire « les 10 % les plus riches des personnes recevant des revenus ». Il s’agit des 10 % les plus riches de la population, où chaque personne dans un ménage, incluant les enfants, est supposée recevoir une part égale du revenu du ménage.
+
+
+Les « gratte-ciel » (les barres les plus élevées) à l’arrière-plan sur la droite de la figure représentent le revenu des 10 % les plus riches dans les pays les plus riches. Le gratte-ciel le plus élevé correspond aux 10 % les plus riches à Singapour. En 2014, ce groupe particulier avait un revenu par tête de plus de 67 000 $. La Norvège, le deuxième pays au monde en termes de PIB par tête, n’a pas de gratte-ciel particulièrement élevé (le pays est caché entre les gratte-ciel de Singapour et ceux du troisième pays le plus riche, les États-Unis), car le revenu est réparti de manière plus égalitaire en Norvège par rapport aux autre pays riches.
+
+
+L’analyse de la Figure 1.2 montre comment la distribution des revenus a changé depuis 1980.
+
+
+\begin{figure}[h]{}
+\centering\includegraphics[width=6.0truein]{https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-02-f.jpg}
+\caption{}
+
+\end{figure}
+
+\textbf{Les inégalités au sein des pays ont augmenté}.
+Les distributions du revenu sont devenues plus inégales dans de nombreux pays plus riches : quelques « gratte-ciel » très élevés sont apparus. Dans les pays à revenu intermédiaire, aussi, il y a une hausse marquée des revenus en arrière-plan : les revenus des 10 % les plus riches sont maintenant élevés comparativement au reste de la population.
+
+
+Deux choses ressortent clairement de la distribution de 2014. Premièrement, dans chaque pays, les riches ont beaucoup plus que les pauvres. Nous pouvons utiliser le rapport entre les niveaux des extrémités comme une mesure de l’inégalité dans un pays. Nous l’appellerons le « ratio riches/pauvres », pour des raisons évidentes. Même dans un pays relativement égalitaire comme la Norvège, le ratio riches/pauvres est de 5,4 ; aux États-Unis, il est de 16 et au Botswana dans le sud du continent africain, il est de 145. L’inégalité au sein des pays les plus pauvres est difficile à voir sur le graphique, mais elle est bien réelle : le ratio riches/pauvres est de 22 au Nigeria et de 20 en Inde.
+
+
+\begin{center}
+\begin{tabular}{|c|}
+\hline
+\textbf{Le ratio riches/pauvres} \\ 
+\hline
+\end{tabular}
+\end{center}
+
+La seconde chose qui saute aux yeux sur la Figure 1.2 est l’énorme écart de revenus entre les pays. Le niveau moyen des revenus en Norvège équivaut à 19 fois celui du Nigéria. Et les 10 % les plus pauvres en Norvège reçoivent près du double des revenus des 10 % les plus riches au Nigéria.
+
+
+Imaginez le voyage d’Ibn Battûta dans les différentes régions du monde au 14e siècle et réfléchissez maintenant à quoi cela aurait ressemblé dans un graphique comme celui de la Figure 1.2. Il aurait bien sûr remarqué, partout où il serait allé, des différences entre les groupes les plus pauvres et les plus riches dans la population de chaque région. Il aurait rapporté que les différences de revenus entre les pays du monde étaient relativement faibles en comparaison.
+
+
+Les différences considérables de revenus entre les pays dans le monde aujourd’hui nous ramènent à la Figure 1.1a, grâce à laquelle nous commençons à comprendre leur origine. Les pays qui ont décollé économiquement avant 1900 (Royaume-Uni, Japon, Italie) sont maintenant riches. Comme d’autres pays leur ressemblant, ils sont dans la partie « gratte-ciel » du graphique. Les pays qui ont décollé seulement récemment, ou pas encore, sont dans la partie du graphique avec des barres très peu élevées.
+
+
+\begin{center}
+\begin{tabular}{|c|}
+\hline
+\textbf{Exercice 1.1 INÉGALITÉS AU 14E SIÈCLE} \\ 
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|c|}
+\hline
+\textbf{Exercice 1.2 TRAVAILLER AVEC DES DONNÉES SUR LES REVENUS} \\ 
+\hline
+\end{tabular}
+\end{center}
+
+\hypertarget{x-2.-le-produit-intérieur-brut}{\section*{2. Le Produit intérieur brut}}
+\begin{enumerate}
+
+\item{\href{https://www.core-econ.org/the-economy/book/fr/text/01.html#12-mesurer-les-revenus-et-le-niveau-de-vie}{Mesurer les revenus et le niveau de vie}}
+
+\item{\href{https://www.core-econ.org/the-economy/book/fr/text/01.html#13-la-crosse-de-hockey-de-lhistoire-croissance-des-revenus}{La croissance des revenus}}
+
+\end{enumerate}
+
+
+\hypertarget{x-2.1.-mesurer-les-revenus-et-le-niveau-de-vie}{\subsection*{2.1. Mesurer les revenus et le niveau de vie}}
+L’estimation du niveau de vie que nous avons utilisée dans la Figure 1.1a (PIB par tête) repose sur une mesure de l’ensemble des biens et services produits dans un pays (appelée produit intérieur brut ou PIB), qui est ensuite divisée par la population du pays.
+
+
+Une mesure de la valeur marchande de la production de biens et services finaux dans l’économie au cours d’une période donnée. La production de biens intermédiaires qui sont des intrants de la production finale est exclue pour éviter un double comptage. L’économiste Diane Coyle explique que le PIB « recense tout, des clous aux brosses à dents, en passant par les tracteurs, les chaussures, les coupes de cheveux, les services de conseil de gestion, le nettoyage des rues, les cours de yoga, les assiettes, les sparadraps, les livres et les millions d’autres biens et services produits au sein de l’économie ».
+
+
+\begin{center}
+\begin{tabular}{|c|}
+\hline
+\textbf{Les avantages et limites de la mesure du PIB} \\ 
+\hline
+\end{tabular}
+\end{center}
+
+Additionner ces millions de services et produits nécessite de trouver un étalon commun permettant de comparer, par exemple, la valeur d’une heure de yoga à celle d’une brosse à dents. Le défi des économistes est double : d’abord sélectionner ce qui doit être inclus, puis assigner une valeur à chacun de ces éléments. En pratique, la manière la plus simple de le faire est d’utiliser leur prix. Et quand cela est fait, la valeur du PIB correspond au revenu total de chaque individu dans le pays.
+
+
+La division du PIB par la population nous donne le PIB par tête – le revenu moyen des habitants dans un pays. Néanmoins, est-ce la bonne manière de mesurer leur niveau de vie ou bien-être ?
+
+
+\hypertarget{x-revenu-disponible}{\subsubsection*{Revenu disponible}}
+Le PIB par tête mesure le revenu moyen, mais il diffère de ce que nous appelons le revenu disponible d’un individu type.
+
+
+Le revenu disponible correspond à la somme des salaires, des profits, des rentes, des intérêts et des revenus de transfert versés par l’État (comme les allocations chômage ou les pensions d’invalidité) ou d’autres individus (cadeaux, par exemple) qui sont reçus au cours d’une période donnée (une année, par exemple), moins les sommes versées à des tiers (ce qui inclut les impôts payés à l’État). Le revenu disponible peut être considéré comme une bonne mesure du niveau de vie, puisqu’il correspond à la quantité maximale de nourriture, de logement, de vêtements et d’autres biens et services qu’une personne peut acheter sans avoir à emprunter, c’est-à-dire sans s’endetter ou sans vendre ses biens.
+
+
+\hypertarget{x-est-ce-que-notre-revenu-disponible-est-une-bonne-mesure-de-notre-bien-être-?}{\subsubsection*{Est-ce que notre revenu disponible est une bonne mesure de notre bien-être ?}}
+Le revenu a une influence majeure sur le bien-être, car il nous permet d’acheter les biens et services dont nous avons besoin ou que nous apprécions. Mais il ne suffit pas, car de nombreuses dimensions de notre bien-être ne sont pas liées à ce que nous pouvons acheter.3
+Par exemple, le revenu disponible omet :
+
+
+\begin{itemize}
+
+\item la qualité de notre environnement social et physique, telle que les amitiés et un air sain ;
+
+\item la quantité de temps libre dont nous disposons pour nous détendre ou passer du temps avec des amis ou la famille ;
+
+\item les biens et services que l’on n’achète pas, comme les soins de santé et l’éducation lorsqu’ils sont fournis par l’État ;
+
+\item les biens et services qui sont produits au sein du ménage, comme les repas ou la garde des enfants (fournis principalement par les femmes).
+
+\end{itemize}
+
+
+\hypertarget{x-revenu-disponible-moyen-et-bien-être-moyen}{\subsubsection*{Revenu disponible moyen et bien-être moyen}}
+Quand nous appartenons à un groupe d’individus (une nation, par exemple), est-ce que le revenu disponible moyen est une bonne mesure du bien-être du groupe ? Considérez un groupe au sein duquel chacun dispose initialement d’un revenu mensuel disponible de 5 000 \$. Imaginez que le revenu de tous les individus du groupe augmente, sans que les prix ne varient. Nous conclurions alors que le niveau moyen de bien-être de ce groupe a augmenté.
+
+
+Considérez maintenant un autre cas. Dans un second groupe, le revenu disponible mensuel est de 10 000 pass:[$ pour la moitié des membres. L’autre moitié a seulement 500 \$] à dépenser chaque mois. Le revenu moyen du second groupe (5 250 pass:[$) est plus élevé que celui du premier groupe (5 000 \$] avant l’augmentation de revenu). Mais dirions-nous que son bien-être est plus élevé que celui du premier groupe, où chacun dispose de 5 000 \$ par mois ? Le revenu additionnel dans le second groupe importera sans doute peu aux plus aisés, tandis que l’autre moitié pauvre aura ressenti la pauvreté comme une situation de grande précarité.
+
+
+Le revenu absolu compte dans l’évaluation du bien-être, mais les travaux de recherche ont établi que les individus se soucient également de leur position relative dans la distribution des revenus. Ils rapportent un niveau de bien-être plus faible s’ils découvrent qu’ils ont un salaire inférieur à leurs pairs du groupe.
+
+
+Puisque, d’une part, la distribution des revenus affecte le bien-être et que, d’autre part, le même revenu moyen peut être tiré de distributions de revenus très différentes entre les riches et les pauvres au sein d’un groupe, le revenu moyen peut refléter imparfaitement la situation d’un groupe d’individus par rapport à un autre.
+
+
+\hypertarget{x-la-valeur-des-biens-et-services-publics}{\subsubsection*{La valeur des biens et services publics}}
+Le PIB inclut les biens et les services fournis par l’État, comme l’éducation, l’armée et la justice. Ils concourent au bien-être, mais ne sont pas inclus dans le revenu disponible. À cet égard, le PIB par tête est une meilleure mesure du niveau de vie que le revenu disponible.
+
+
+Mais la valeur des services fournis par l’État est difficile à évaluer, encore plus que la valeur de services comme les coupes de cheveux et les leçons de yoga. Pour les biens et services achetés par les individus, leur prix est considéré comme une mesure approximative de leur valeur (si vous estimiez que la valeur d’une coupe de cheveux était inférieure à son prix, vous vous seriez simplement laissé(e) pousser les cheveux). Mais les biens et services produits par l’État, eux, ne sont généralement pas vendus, et la seule mesure disponible de leur valeur est leur coût de production.
+
+
+Les différences entre ce que nous entendons par bien-être, d’une part, et ce que le PIB par tête mesure, d’autre part, devraient nous inciter à nous montrer prudent quant à l’usage du PIB par tête pour mesurer la qualité des conditions de vie des individus.
+
+
+Mais quand les changements dans le temps ou les écarts entre pays pour cet indicateur sont aussi importants que ceux de la Figure 1.1a (et des Figures 1.1b, 1.8 et 1.9 qui apparaîtront plus tard cette unité), il est opportun de penser que le PIB par tête nous renseigne sur les différences en termes de disponibilité de biens et services.
+
+
+Dans la rubrique « Einstein » à la fin de cette section, nous explorons plus en détail la méthode de calcul du PIB, afin de pouvoir comparer ses valeurs dans le temps ou entre pays. (La plupart des unités comprennent des rubriques « Einstein ». Vous n’êtes pas obligé(e) de les utiliser. Elles expliquent comment calculer et interpréter la plupart des statistiques que nous utilisons.) À l’aide de ces méthodes, nous pouvons utiliser le PIB par tête pour communiquer, sans équivoque, des idées telles que « les Japonais d’aujourd’hui sont en moyenne bien plus riches que leurs ancêtres il y a deux cents ans, et bien plus riches que les Indiens d’aujourd’hui ».
+
+
+\begin{center}
+\begin{tabular}{|c|}
+\hline
+\textbf{Exercice 1.3 QUE DEVRIONS-NOUS MESURER ?} \\ 
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|c|}
+\hline
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|c|}
+\hline
+\textbf{EINSTEIN: Comparer les revenus à différentes périodes et entre différents pays} \\ 
+\hline
+\end{tabular}
+\end{center}
+
+\hypertarget{x-2.2.-la-croissance-des-revenus}{\subsection*{2.2. La croissance des revenus}}
+Une autre manière d’analyser les données de la Figure 1.1a consiste à utiliser une échelle qui indique que le PIB par tête double à mesure que l’on progresse vers le haut de l’axe vertical (de 250 pass:[$ par tête et par année à 500 \$], puis à 1000 \$, etc.). On appelle cela une échelle de rapport, comme celle de la Figure 1.1b. L’échelle de rapport est utilisée pour comparer des taux de croissance.
+
+
+Par taux de croissance du revenu, ou de toute autre quantité, comme la population, on entend le taux de variation :
+
+
+\begin{equation}
+ \mbox{taux de croissance} = \frac{ \mbox{variation du revenu} }{ \mbox{valeur initiale du revenu} }
+\end{equation}
+
+
+Si le niveau du PIB par tête en 2000 est 21 046 pass:[$, comme c’était le cas de la Grande-Bretagne dans les données de la Figure 1.1a, et 21 567 \$] en 2001, nous pouvons calculer le taux de croissance comme suit :
+
+
+\begin{equation}
+\begin{split}
+ \mbox{taux de croissance} & = \frac{ \mbox{variation du revenu} }{ \mbox{valeur initiale du revenu} } \\
+  & = \frac{ y_{2001}-y_{2000} }{ y_{2000} } \\
+  & = \frac{21567-21046}{21046} \\
+  & = 0,0247 \\
+  & = 2,5 \%
+\end{split}
+\end{equation}
+
+
+Selon la question posée, nous choisissons de comparer soit des niveaux, soit des taux de croissance. La Figure 1.1a facilite la comparaison des niveaux de PIB par tête entre pays et à différents moments. La Figure 1.1b utilise une échelle de rapport, qui permet une comparaison des taux de croissance entre pays et à différentes périodes. Lorsqu’une échelle de rapport est utilisée, une série qui croît à un taux constant est représentée par une droite. Cela vient du fait que le pourcentage (ou le taux de croissance proportionnel) est constant. Une droite plus pentue dans une échelle de rapport indique un taux de croissance plus rapide.
+
+
+Pour bien comprendre, prenez l’exemple d’un taux de croissance de 100 % : cela signifie que le niveau double. Dans la Figure 1.1b, avec l’échelle de rapport, vous pouvez vérifier que si le PIB par tête doublait en cent ans d’un niveau de 500 pass:[$ à 1000 \$], la droite aurait la même pente que s’il doublait de 2000 pass:[$ à 4000 \$], ou de 16000 pass:[$ à 32000 \$] au cours d’un siècle. Si, au lieu de doubler, le niveau quadruplait (par exemple, de 500 pass:[$ à 2000 \$] en cent ans), la droite serait deux fois plus pentue, reflétant ainsi un taux de croissance deux fois plus élevé.
+
+
+\begin{figure}[h]{}
+\centering\includegraphics[width=6.0truein]{https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-01-b-f.jpg}
+\caption{}
+
+\end{figure}
+
+\textbf{Comparer les taux de croissance en Chine et au Japon}: L’échelle de rapport permet de voir que les taux de croissance récents observés au Japon et en Chine ont été plus élevés qu’ailleurs.
+
+
+Dans certaines économies, il a fallu attendre qu’elles accèdent à l’indépendance ou s’affranchissent de l’influence des nations européennes avant de voir des améliorations substantielles des niveaux de vie :
+
+
+\begin{itemize}
+
+\item \emph{Inde} : selon Angus Deaton, un économiste spécialiste des questions de pauvreté, quand les trois cents ans de domination britannique sur l’Inde ont pris fin en 1947 : « Il est possible que la pauvreté infantile en Inde  […] fut parmi les plus sévères de l’histoire de l’Humanité. » Durant les dernières années de la domination britannique, un enfant né en Inde avait une espérance de vie de 27 ans. Un demi-siècle plus tard, l’espérance de vie à la naissance en Inde était passée à 65 ans.
+
+\item \emph{Chine} : par le passé, la Chine fut plus riche que la Grande-Bretagne, mais au milieu du 20e siècle, le PIB par tête de la Chine correspondait à moins de 7 % de celui de la Grande-Bretagne.
+
+\item \emph{Amérique latine} : ni la domination coloniale espagnole ni ses conséquences dans le sillage du mouvement d’indépendance intervenu dans la plupart des pays latino-américains au début du 19e siècle n’ont engendré une évolution des niveaux de vie en forme de « coude », comme celle que connurent les pays des Figures 1.1a et 1.1b.
+
+\end{itemize}
+
+
+Les Figures 1.1a et 1.1b nous enseignent deux choses :
+
+
+\begin{itemize}
+
+\item pendant très longtemps, les niveaux de vie n’ont pas augmenté de façon durable ;
+
+\item lorsqu’une croissance durable s’est installée, ce fut à différents moments dans des pays différents, ce qui a engendré des différences substantielles de niveaux de vie dans le monde.
+
+\end{itemize}
+
+
+Comprendre les déterminants de ce phénomène est devenu un enjeu fondamental pour les économistes, à commencer par le fondateur de la discipline, Adam Smith, qui intitula son ouvrage le plus important, \emph{Recherches sur la nature et les causes de la richesse des Nations}.
+
+
+\begin{center}
+\begin{tabular}{|c|}
+\hline
+\emph{Vidéo de Hans Rosling} \\ 
+\hline
+\end{tabular}
+\end{center}
+
+\begin{figure}[h]{}
+\centering\includegraphics[width=1.5truein]{https://www.core-econ.org/the-economy/book/fr/images/web/01-adam-smith.jpg}
+\caption{}
+
+\end{figure}
+
+\begin{center}
+\begin{tabular}{|c|}
+\hline
+\textbf{LES GRANDS ÉCONOMISTES: Adam Smith} \\ 
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|c|}
+\hline
+\textbf{Exercice 1.4 AVANTAGES DES ÉCHELLES DE RAPPORT} \\ 
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|c|}
+\hline
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|c|}
+\hline
+\hline
+\end{tabular}
+\end{center}
+
+\hypertarget{x-3.-la-révolution-technologique}{\section*{3. La révolution technologique}}
+\begin{enumerate}
+
+\item{\href{https://www.core-econ.org/the-economy/book/fr/text/01.html#14-la-r%C3%A9volution-technologique-permanente}{La révolution technologique permanente}}
+
+\end{enumerate}
+
+
+La série de science-fiction \emph{Star Trek} se déroule en 2264, à une époque où les humains voyagent à travers la galaxie avec de sympathiques extraterrestres, aidés par des ordinateurs intelligents, une propulsion plus rapide que la lumière et des machines qui créent de la nourriture et des médicaments sur demande. Que l’on trouve les histoires stupides ou inspirantes, la plupart d’entre nous, quand nous sommes d’humeur optimiste, peuvent s’amuser du fait que le futur sera transformé moralement, socialement et matériellement par le progrès technologique.
+
+
+Les petits-enfants de paysans en 1250 n’ont pas eu à faire face au futur prédit par \emph{Star Trek}. Les cinq cents ans qui ont suivi se sont déroulés sans changement notoire dans les conditions de vie d’un travailleur ordinaire. Alors que la science-fiction émergea au 17e siècle (la nouvelle de Francis Bacon \emph{La Nouvelle Atlantide} est l’une des premières du genre en 1627), il faudra attendre le 18e siècle pour que chaque nouvelle génération puisse aspirer à une vie différente, façonnée par le progrès technologique.
+
+
+De remarquables avancées scientifiques et technologiques ont eu lieu à peu près en même temps que le coude observé pour la Grande-Bretagne au milieu du 18e siècle.
+
+
+Des nouvelles technologies majeures furent introduites dans les domaines du textile, de l’énergie et des transports. Leur caractère cumulatif leur a valu le titre de \rolered{ Révolution industrielle}. Jusqu’en 1800, des tech­niques artisanales traditionnelles, utilisant des compétences transmises de génération en génération, étaient utilisées dans la plupart des procédés de production. La nouvelle ère apporta de nouvelles idées, de nouvelles découvertes, de nouvelles méthodes et de nouvelles machines, rendant obsolètes les anciennes idées et les anciens outils. Ces nouveautés devinrent elles-mêmes obsolètes à mesure que des méthodes plus innovantes apparurent.
+
+
+Dans le langage courant, la « technologie » fait référence aux machines, équipements et outils développés grâce au savoir scientifique. En économie, la \rolered{ technologie} est un processus qui transforme un ensemble de matériaux et d’autres facteurs de production (input, en anglais) – incluant la main-d’œuvre et les machines – et crée un produit (output, en anglais). Par exemple, une technologie pour la préparation d’un gâteau peut être décrite comme une recette indiquant la combinaison d’inputs (les ingrédients tels que la farine, et le travail comme le brassage) nécessaires pour produire l’output (le gâteau). Une autre technologie pour la préparation de gâteaux fait appel à des systèmes de production à grande échelle, mobilisant des machines, des ingrédients et de la main-d’œuvre (les opérateurs de machine).
+
+
+Jusqu’à la Révolution industrielle, la technologie d’une économie, comme les compétences nécessaires pour suivre ses recettes n’évoluaient que lentement et étaient transmises de génération en génération. Avec la révolution de la production permise par le \rolered{ progrès technologique}, le temps nécessaire à la confection d’une paire de chaussures a chuté de moitié en seulement quelques décennies ; le filage, le tissage et la fabrication industrielle de gâteaux connurent la même évolution. Ces bouleversements ont marqué le début d’une révolution technologique permanente, car le temps nécessaire à la production de la plupart des biens n’a cessé de diminuer de génération en génération.
+
+
+\hypertarget{x-le-changement-technologique-dans-le-domaine-de-l’éclairage}{\subsection*{Le changement technologique dans le domaine de l’éclairage}}
+Pour se faire une idée de la vitesse de ce changement sans précédent, considérons la façon dont nous produisons la lumière. Durant la plus grande partie de l’histoire de l’humanité, le progrès technologique dans le domaine de l’éclairage fut lent. Nos plus anciens ancêtres n’avaient rien de mieux qu’un feu de camp pour s’éclairer la nuit. La recette pour produire de la lumière (si elle avait existé) aurait été : rassembler beaucoup de bois, emprunter un tison enflammé à quelqu’un qui a déjà un feu, puis allumer et entretenir le feu.
+
+
+La première grande percée technologique en matière d’éclairage eut lieu il y a 40 000 ans, avec l’utilisation de lampes qui brûlaient de l’huile végétale ou animale. Nous mesurons le progrès technologique dans le domaine de l’éclairage au nombre d’unités de luminosité, appelées « lumens », qui peuvent être générées en une heure de travail. Un lumen est à peu près la quantité de luminosité que reçoit un mètre carré au clair de lune. Un lumen-heure (lm-h) est cette quantité de luminosité durant une heure. Par exemple, créer de la lumière à partir d’un feu de camp requiert environ une heure de travail pour 17 lm-h, mais la lampe à huile animale produit 20 lm-h pour la même quantité de travail. À l’époque babylonienne (1750 av. J.-C.), l’invention d’une lampe améliorée consommant de l’huile de sésame permit d’atteindre 24 lm-h par heure de travail. Le progrès technologique fut lent : cette amélioration modeste nécessita 7 000 ans.
+
+
+Trois millénaires plus tard, au début des années 1800, les techniques d’éclairage les plus efficaces (utilisant les chandelles de suif) produisaient environ 9 fois plus de lumière pour une heure de travail que les lampes à huile animale d’autrefois. Depuis, l’efficacité de l’éclairage a encore augmenté grâce au développement des lampes au gaz de ville, des lampes à pétrole, des ampoules à filament, des ampoules fluorescentes et d’autres formes d’éclairage. Les ampoules compactes fluorescentes inventées en 1992 sont environ 45 000 fois plus efficaces, en termes de temps de production, que les lumières qui existaient deux siècles avant. Aujourd’hui, la productivité du travail pour obtenir de l’éclairage est 500 000 fois plus élevée qu’au temps de nos ancêtres autour de leur feu de camp.
+
+
+La Figure 1.3 représente cette croissance remarquable, en forme de crosse de hockey, de l’efficacité de l’éclairage, à l’aide de l’échelle de rapport introduite dans la Figure 1.1b.
+
+
+\begin{figure}[h]{}
+\centering\includegraphics[width=6.0truein]{https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-03.jpg}
+\caption{}
+
+\end{figure}
+
+Le processus d’innovation ne s’est pas arrêté avec la Révolution industrielle, comme le montre l’exemple de la productivité en termes d’éclairage. Ce processus s’est poursuivi par l’introduction de nouvelles technologies dans de nombreuses industries telles que la machine à vapeur, l’électricité, les transports (canaux, chemins de fer, automobiles) et, plus récemment, la révolution du traitement de l’information et de la communication. Ces innovations technologiques d’application générale donnent une très forte impulsion à la croissance des niveaux de vie, car elles modifient le fonctionnement de larges pans de l’économie.
+
+
+\begin{center}
+\begin{tabular}{|c|}
+\hline
+\emph{Changement technologique structurel} \\ 
+\hline
+\end{tabular}
+\end{center}
+
+En réduisant la quantité de temps de travail requis pour produire ce dont nous avons besoin, les avancées technologiques ont permis une amélioration significative des conditions de vie. David Landes, un historien de l’économie, a écrit que la Révolution industrielle était une « succession de changements technologiques étroitement liés » qui ont transformé les sociétés dans lesquelles ils ont eu lieu.
+
+
+\hypertarget{x-un-monde-connecté}{\subsection*{Un monde connecté}}
+En juillet 2012, le tube coréen « \href{https://www.youtube.com/watch?v=9bZkp7q19f0&ab_channel=officialpsy}{Gangnam Style} » est sorti. À la fin de l’année 2012, il était classé en tête des ventes de 33 pays, parmi lesquels l’Australie, la Russie, le Canada, la France, l’Espagne et le Royaume-Uni. Avec 2 milliards de vues dès la mi-2014, « Gangnam Style » est également devenu la vidéo la plus visionnée sur YouTube. La révolution technologique permanente a créé un monde connecté.
+
+
+Tout le monde en fait partie. Les ressources mobilisées pour ce manuel d’introduction à l’économie ont été écrites par des équipes d’économistes, des graphistes, des programmeurs et des éditeurs, travaillant ensemble – souvent de manière simultanée – sur des ordinateurs au Royaume-Uni, en Inde, aux États-Unis, en Russie, en Colombie, en Afrique du Sud, au Chili, en Turquie, en France, et dans bien d’autres pays. Si vous êtes en ligne, certaines transmissions d’information ont lieu à une vitesse proche de celle de la lumière. Alors que la plupart des produits échangés dans le monde entier se déplacent encore à la vitesse d’un cargo, environ 33 kilomètres/heure, les transactions financières internationales sont réalisées en moins de temps qu’il ne vous en a fallu pour lire cette phrase.
+
+
+La vitesse à laquelle l’information circule fournit une illustration supplé­mentaire de la rupture que constitue la révolution technologique permanente. Il est possible de mesurer la vitesse de circulation des nouvelles en comparant la date connue d’un événement historique avec la date à laquelle l’événement a été relevé pour la première fois dans d’autres endroits (dans des carnets, des revues ou la presse). Quand, par exemple, Abraham Lincoln fut élu président des États-Unis en 1860, la nouvelle fut transmise par télégraphe de Washington à Fort Kearny (Nebraska), qui était à l’extrémité ouest de la ligne de télégraphe. De là, l’information voyagea grâce à un relais de coursiers à cheval, nommé le Pony Express, couvrant 2 030 kilomètres jusqu’à Fort Churchill dans le Nevada, d’où elle fut transmise à la Californie par télégraphe. Le processus dura au total sept jours et dix-sept heures. Pour la partie de l’itiné­raire desservie par le Pony Express, l’information progressa en moyenne à 11 kilomètres/heure. Une lettre de 14 grammes transportée sur cette route coûtait 5 \$, soit l’équivalent de cinq jours de salaire.
+
+
+Des calculs similaires révèlent que les informations voyageaient entre la Rome antique et l’Égypte à environ 2 kilomètres/heure. Mille cinq cents ans plus tard, la circulation entre Venise et les autres villes autour de la Méditerranée était plus lente encore. Toutefois, quelques siècles plus tard, la vitesse s’est accélérée, comme le montre la Figure 1.4. Il fallut « seulement » 46 jours pour que la nouvelle d’une mutinerie de soldats indiens contre le joug britannique en 1857 atteigne Londres, et les lecteurs du \emph{Times} londonien apprirent l’assassinat de Lincoln seulement 13 jours après l’événement. Un an après la mort de Lincoln, un câble transatlantique réduisit le temps de transmission des informations entre New York et Londres à quelques minutes.
+
+
+\begin{figure}[h]{}
+\centering\includegraphics[width=6.0truein]{https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-04.jpg}
+\caption{}
+
+\end{figure}
+
+\hypertarget{x-4.-propriété-privée,-marchés-et-entreprises}{\section*{4. Propriété privée, marchés et entreprises}}
+\begin{enumerate}
+
+\item{\href{https://www.core-econ.org/the-economy/book/fr/text/01.html#16-une-d%C3%A9finition-du-capitalisme-propri%C3%A9t%C3%A9-priv%C3%A9e-march%C3%A9s-et-entreprises}{Propriété privée, marchés et entreprises}}
+
+\item{\href{https://www.core-econ.org/the-economy/book/fr/text/01.html#17-le-capitalisme-en-tant-que-syst%C3%A8me-%C3%A9conomique}{Le capitalisme en tant que système économique}}
+
+\item{\href{https://www.core-econ.org/the-economy/book/fr/text/01.html#18-les-gains-de-la-sp%C3%A9cialisation}{Les gains de spécialisation}}
+
+\end{enumerate}
+
+
+\hypertarget{x-5.-la-croissance-économique}{\section*{5. La croissance économique}}
+\begin{enumerate}
+
+\item{\href{https://www.core-econ.org/the-economy/book/fr/text/01.html#19-capitalisme-causalit%C3%A9-et-la-crosse-de-hockey-de-lhistoire}{La causalité dans les sciences économiques}}
+
+\item{\href{https://www.core-econ.org/the-economy/book/fr/text/01.html#110-les-diff%C3%A9rents-capitalismes-institutions-%C3%A9tat-et-%C3%A9conomie}{Le rôle des institutions, les innovations et la croissance économique}}
+
+\end{enumerate}
+
+
+\hypertarget{x-6.-les-sciences-économiques-et-l’économie}{\section*{6. Les sciences économiques et l’économie}}
+\begin{enumerate}
+
+\item{\href{https://www.core-econ.org/the-economy/book/fr/text/01.html#111-les-sciences-%C3%A9conomiques-et-l%C3%A9conomie}{Les sciences économiques et l’économie}}
+
+\end{enumerate}
+
+
+\hypertarget{x-7.-fiche-méthode:-taux-de-variation,-coefficient-multiplicateur}{\section*{7. Fiche Méthode: Taux de variation, coefficient multiplicateur}}
+\begin{enumerate}
+
+\item{Formules}
+
+\item{Définitions}
+
+\item{Graphiques}
+
+\end{enumerate}
+
+
+\hypertarget{x-conclusion}{\section*{Conclusion}}
+Les concepts introduits dans le chapitre 1:
+
+
+\begin{enumerate}
+
+\item{Économie}
+
+\item{Révolution industrielle}
+
+\item{Technologie}
+
+\item{Système économique}
+
+\item{Capitalisme}
+
+\item{Institutions}
+
+\item{Propriété privée}
+
+\item{Marché}
+
+\item{Entreprise}
+
+\item{Révolution capitaliste}
+
+\item{Démocratie}
+
+\end{enumerate}
+
+
+\hypertarget{x-bibliographie}{\section*{Bibliographie}}
+\begin{enumerate}
+
+\item{CORE Econ}
+
+\end{enumerate}
+
+
+\hypertarget{x-annexe:-questions-pour-évaluation}{\section*{Annexe: Questions pour Évaluation}}
+\hypertarget{x-dissertation-économique}{\subsection*{Dissertation économique}}
+
+\hypertarget{x-questions-et-réponses}{\subsection*{Questions et réponses}}
+\begin{enumerate}
+
+\item{Croissance économique}
+
+\item{Inégalités}
+
+\end{enumerate}
+
+
+\end{document}
+

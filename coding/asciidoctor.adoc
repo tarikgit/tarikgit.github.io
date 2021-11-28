@@ -23,7 +23,7 @@ asciidoctor -r asciidoctor-diagram sourcefile.adoc
 
 
 
-Files containing LaTeX code like: 
+Files containing LaTeX code like:
 
 [source,latex]
 ----
@@ -39,6 +39,10 @@ which will convert the code into
 ++++
 a^{p-1} \equiv 1\ \text{mod}\ p
 ++++
+
+== Tables: cell span
+
+link:https://blog.mrhaki.com/2014/12/awesome-asciidoctor-span-cell-over-rows.html[Span Cell over Rows and Columns]
 
 == Using asciidoctor-latex
 
@@ -56,3 +60,17 @@ asciidoctor-latex -b html foo.adoc
 ----
 
 More details can be found at link:https://github.com/asciidoctor/asciidoctor-latex[asciidoctor-latex documentation].
+
+The default version of asciidoctor-LaTeX may lack some of the functionalities or features. For instance, using the ampersand (&) character in order to align the equations vertically does not work in asciidoctor. Instead of using the ampersand you can use the `split` environment as follows:
+[source,asciidoctor-latex]
+----
+\begin{equation} \label{equation1}
+\begin{split}
+Area & = \frac{length \times breadth }{2} \\
+     & = \frac{1}{2} length \times breadth
+\end{split}
+\end{equation}
+----
+
+
+Source: link:https://www.resurchify.com/latex_tutorial/latex_alignment.php[Resurchify]

@@ -48,3 +48,50 @@ In case ssh is not activated on your server, use:
 sudo systemctl enable ssh
 
 ----
+
+
+== Using VNC
+
+=== Installing and starting the VNC server
+
+The following part explains how to set up a Rspberryy Pi (RPi) VNC server.
+
+Connect remotely to your RPi through `ssh` access.
+
+First install the latest version:
+
+[source,bash]
+----
+
+sudo apt-get update
+sudo apt-get install realvnc-vnc-server
+
+----
+
+Identify the IP adress of your RPi server using `ifconfig`.
+
+In order to *start the VNC server* use the following command:
+
+[source,bash]
+----
+
+sudo systemctl start vncserver-x11-serviced.service
+
+----
+
+If you want to start the VNC server at boot or if you want to modify the resolution, follow the instructions given at the link:https://help.realvnc.com/hc/en-us/articles/360002249917-VNC-Connect-and-Raspberry-Pi#operating-vnc-server-at-the-command-line-0-6[official RealVNC page].
+
+=== Running vncserver as user
+
+. Login to target linux user (user that you want to connect with vnc) via ssh (ex: TARGETUSER). `[root@localhost ~]$ su - TARGETUSER.
+. Run following command to change vnc password. `[TARGETUSER@localhost ~]$ vncpasswd`
+. Start vnc server from within target user to create new session for current user. `[TARGETUSER@localhost ~]$ vncserver.
+. Previous command will be created a new session with a number after existing sessions (in this example: 1).
+New 'localhost.localdomain:1 (TARGETUSER)' desktop is localhost.localdomain:1
+. Connect to it via VNC Viewer (ex:SERVER_IP:1) with above created password.
+
+
+== Source
+
+* link:https://help.realvnc.com/hc/en-us/articles/360002249917-VNC-Connect-and-Raspberry-Pi#transferring-files-to-and-from-your-raspberry-pi-0-3[RealVNC: VNC Connect and Raspberry Pi ]
+* link:https://unix.stackexchange.com/questions/208610/how-to-run-vncserver-as-a-user-not-root[Unix \& Linux: How to run vncserver as a user (not root)?]

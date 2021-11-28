@@ -519,6 +519,14 @@ a^{p-1} \equiv 1\ \text{mod}\ p
 </div>
 </div>
 <div class="sect1">
+<h2 id="_tables_cell_span">Tables: cell span</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href=https://blog.mrhaki.com/2014/12/awesome-asciidoctor-span-cell-over-rows.html>Span Cell over Rows and Columns</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="_using_asciidoctor_latex">Using asciidoctor-latex</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -540,12 +548,28 @@ a^{p-1} \equiv 1\ \text{mod}\ p
 <div class="paragraph">
 <p>More details can be found at <a href=https://github.com/asciidoctor/asciidoctor-latex>asciidoctor-latex documentation</a>.</p>
 </div>
+<div class="paragraph">
+<p>The default version of asciidoctor-LaTeX may lack some of the functionalities or features. For instance, using the ampersand (&amp;) character in order to align the equations vertically does not work in asciidoctor. Instead of using the ampersand you can use the <code>split</code> environment as follows:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-asciidoctor-latex" data-lang="asciidoctor-latex">\begin{equation} \label{equation1}
+\begin{split}
+Area &amp; = \frac{length \times breadth }{2} \\
+     &amp; = \frac{1}{2} length \times breadth
+\end{split}
+\end{equation}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Source: <a href=https://www.resurchify.com/latex_tutorial/latex_alignment.php>Resurchify</a></p>
+</div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-10-29 08:45:54 +0100
+Last updated 2021-11-28 11:13:42 +0100
 </div>
 </div>
 <script type="text/x-mathjax-config">
