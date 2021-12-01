@@ -207,4 +207,53 @@
 |
 |
 
+| 8
+| 17/11/21
+| *[red]#Mathématiques financières#*
+| Exercice 4
+|
+
+| 8
+| 19/11/21
+| *[maroon]#Comptabilité#* +
+| Exercice 2 et 3
+|
+
+| 9
+| 22/11/21
+| *[red]#Mathématiques financières#*
+| Exercice 5 et 6
+|
+
+| 9
+| 24/11/21
+| *[red]#Mathématiques financières#*
+| Exercice 6
+|
+
+| 9
+| 26/11/21
+| *[maroon]#Comptabilité#* +
+| Chapitre 4: +
+  Exercice de révision: Exercices 1, 2 et 3
+|
+
+| 10
+| 29/11/21
+| *[maroon]#Comptabilité#* +
+| Exercice de révision: Exercice 4
+|
+
+| 10
+| 1/12/21
+| *[maroon]#Comptabilité#* +
+| Exercice de révision: Exercice 5
+|
+
+| 10
+| 3/12/21
+| *[maroon]#Comptabilité#* +
+| Exercice de révision: Exercice 6 et 7
+|
+
 |===
