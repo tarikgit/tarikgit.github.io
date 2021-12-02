@@ -1,10 +1,13 @@
+
 = Chapitre 1: L'activité économique et niveau de vie
 
 *Note*: chaque élément (les hyperliens en bleu) représente une unité de leçon de 50 minutes. +
 *Source*: link:https://www.core-econ.org/[CORE] +
-*Todo list*:
 
- * Construire les liens pour les figures
+
+.Concept map du chapitre 1. Le fichier link:Chapitre1-concept-map.nxfc[source du concept map] peut être charger sur link:https://www.oasys4schools.lu/conceptmaps/[le site du SCRIPT].
+image::Chapitre1-concept-map.png[Concept map, caption="Figure 1: "]
+
 
 == 1. Introduction : La richesse d’une nation
 
@@ -39,10 +42,11 @@ ____
 
 Revenons à aujourd’hui. Les Indiens sont bien mieux lotis maintenant qu’ils ne l’étaient il y a sept siècles en termes d’accès à la nourriture, aux soins médicaux, au logement et aux biens de première nécessité. Cependant, au regard des critères internationaux, la plupart des Indiens demeurent pauvres.
 
-La Figure 1.1a illustre cette évolution. Pour comparer les niveaux de vie de chaque pays, nous utilisons une mesure appelée « PIB par tête ». Les gens obtiennent leurs revenus en produisant et vendant des biens et services. Le PIB (produit intérieur brut) est la valeur totale de tout ce qui est produit au cours d’une période donnée comme une année, de sorte que le PIB par tête correspond ici au revenu annuel moyen. Dans la Figure 1.1a, la hauteur de chaque courbe est une estimation du revenu moyen à la date indiquée sur l’axe des abscisses.
+<<crossehockey-img>> (Figure 1.1a) illustre cette évolution. Pour comparer les niveaux de vie de chaque pays, nous utilisons une mesure appelée « PIB par tête ». Les gens obtiennent leurs revenus en produisant et vendant des biens et services. Le PIB (produit intérieur brut) est la valeur totale de tout ce qui est produit au cours d’une période donnée comme une année, de sorte que le PIB par tête correspond ici au revenu annuel moyen. Dans la Figure 1.1a, la hauteur de chaque courbe est une estimation du revenu moyen à la date indiquée sur l’axe des abscisses.
 
 .La crosse de hockey de l’Histoire : produit intérieur brut par tête dans cinq pays (1000–2015). link:https://tinyco.re/3826528[Voir ces données sur OWiD]
-image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-01-a.jpg[Crosse de hockey,600,300]
+[#crossehockey-img]
+image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-01-a.jpg[Crosse de hockey,600,300, caption="Figure 1.1a: "]
 
 Selon cette mesure, les habitants du Royaume-Uni sont en moyenne six fois plus riches que les Indiens. Les Japonais sont aussi riches que les Britanniques, comme ils l’étaient déjà au 14e siècle. En revanche, les Américains sont désormais mieux lotis que les Japonais, et les Norvégiens le sont encore davantage.
 
@@ -65,8 +69,8 @@ Les « gratte-ciel » (les barres les plus élevées) à l’arrière-plan sur l
 
 L’analyse de la Figure 1.2 montre comment la distribution des revenus a changé depuis 1980.
 
-.Les pays sont rangés par PIB par tête, de la gauche vers la droite. Pour chaque pays, les hauteurs des barres montrent le revenu moyen des déciles de la population, des 10 % les plus pauvres au premier plan au 10 % les plus riches à l’arrière-plan. La largeur de la barre correspond à la population du pays. Le graphique interactif de la Figure 1.2 et les données à télécharger sont disponibles ici..
-image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-02-f.jpg[Revenu annuel, 600, 300]
+.Les pays sont rangés par PIB par tête, de la gauche vers la droite. Pour chaque pays, les hauteurs des barres montrent le revenu moyen des déciles de la population, des 10 % les plus pauvres au premier plan au 10 % les plus riches à l’arrière-plan. La largeur de la barre correspond à la population du pays. Le link:https://tinyco.re/4877569[graphique interactif] de la Figure 1.2 et les link:https://jackblun.github.io/Globalinc/[données à télécharger sont disponibles ici].
+image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-02-f.jpg[Revenu annuel, 600, 300, caption="Figure 1.2: "]
 
 *Les inégalités au sein des pays ont augmenté*.
 Les distributions du revenu sont devenues plus inégales dans de nombreux pays plus riches : quelques « gratte-ciel » très élevés sont apparus. Dans les pays à revenu intermédiaire, aussi, il y a une hausse marquée des revenus en arrière-plan : les revenus des 10 % les plus riches sont maintenant élevés comparativement au reste de la population.
@@ -76,7 +80,7 @@ Deux choses ressortent clairement de la distribution de 2014. Premièrement, dan
 |===
 |*Le ratio riches/pauvres*
 
-utilisé ici est similaire à une mesure de l’inégalité couramment utilisée, appelée le ratio 90/10. Le ratio 90/10 est défini comme le rapport entre les revenus des deux individus situés aux quatre-vingt-dixième et dixième centiles. Ici nous prenons plutôt le rapport entre le revenu moyen du dixième décile (les ‘riches’) et celui du premier décile (les ‘pauvres’). Le dixième décile est composé de toutes les personnes ayant un revenu supérieur à celui de la personne située au quatre-vingt-dixième centile, sa moyenne est donc supérieure au revenu de cette personne. Le premier décile est composé de toutes les personnes dont le revenu est inférieur à celui de la personne située au dixième centile, et sa moyenne sera donc inférieure au revenu de cette personne. Par conséquent, notre ratio riches/pauvres sera plus élevé que le ratio 90/10 pour un même pays.
+utilisé ici est similaire à une mesure de l’inégalité couramment utilisée, appelée le link:https://tinyco.re/7590416[ratio 90/10]. Le ratio 90/10 est défini comme le rapport entre les revenus des deux individus situés aux quatre-vingt-dixième et dixième centiles. Ici nous prenons plutôt le rapport entre le revenu moyen du dixième décile (les ‘riches’) et celui du premier décile (les ‘pauvres’). Le dixième décile est composé de toutes les personnes ayant un revenu supérieur à celui de la personne située au quatre-vingt-dixième centile, sa moyenne est donc supérieure au revenu de cette personne. Le premier décile est composé de toutes les personnes dont le revenu est inférieur à celui de la personne située au dixième centile, et sa moyenne sera donc inférieure au revenu de cette personne. Par conséquent, notre ratio riches/pauvres sera plus élevé que le ratio 90/10 pour un même pays.
 
 |===
 
@@ -116,7 +120,7 @@ Vous pouvez voir le graphique interactif et télécharger les données que nous 
 
 === 2.1. Mesurer les revenus et le niveau de vie
 
-L’estimation du niveau de vie que nous avons utilisée dans la Figure 1.1a (PIB par tête) repose sur une mesure de l’ensemble des biens et services produits dans un pays (appelée produit intérieur brut ou PIB), qui est ensuite divisée par la population du pays.
+L’estimation du niveau de vie que nous avons utilisée dans la Figure 1.1a (PIB par tête) repose sur une mesure de l’ensemble des biens et services produits dans un pays (appelée *produit intérieur brut* ou *PIB*), qui est ensuite divisée par la population du pays.
 
 Une mesure de la valeur marchande de la production de biens et services finaux dans l’économie au cours d’une période donnée. La production de biens intermédiaires qui sont des intrants de la production finale est exclue pour éviter un double comptage. L’économiste Diane Coyle explique que le PIB « recense tout, des clous aux brosses à dents, en passant par les tracteurs, les chaussures, les coupes de cheveux, les services de conseil de gestion, le nettoyage des rues, les cours de yoga, les assiettes, les sparadraps, les livres et les millions d’autres biens et services produits au sein de l’économie ».
 
@@ -133,13 +137,13 @@ La division du PIB par la population nous donne le PIB par tête – le revenu m
 
 ==== Revenu disponible
 
-Le PIB par tête mesure le revenu moyen, mais il diffère de ce que nous appelons le revenu disponible d’un individu type.
+Le PIB par tête mesure le revenu moyen, mais il diffère de ce que nous appelons le *revenu disponible* d’un individu type.
 
 Le revenu disponible correspond à la somme des salaires, des profits, des rentes, des intérêts et des revenus de transfert versés par l’État (comme les allocations chômage ou les pensions d’invalidité) ou d’autres individus (cadeaux, par exemple) qui sont reçus au cours d’une période donnée (une année, par exemple), moins les sommes versées à des tiers (ce qui inclut les impôts payés à l’État). Le revenu disponible peut être considéré comme une bonne mesure du niveau de vie, puisqu’il correspond à la quantité maximale de nourriture, de logement, de vêtements et d’autres biens et services qu’une personne peut acheter sans avoir à emprunter, c’est-à-dire sans s’endetter ou sans vendre ses biens.
 
 ==== Est-ce que notre revenu disponible est une bonne mesure de notre bien-être ?
 
-Le revenu a une influence majeure sur le bien-être, car il nous permet d’acheter les biens et services dont nous avons besoin ou que nous apprécions. Mais il ne suffit pas, car de nombreuses dimensions de notre bien-être ne sont pas liées à ce que nous pouvons acheter.3
+Le revenu a une influence majeure sur le bien-être, car il nous permet d’acheter les biens et services dont nous avons besoin ou que nous apprécions. Mais il ne suffit pas, car de nombreuses dimensions de notre bien-être ne sont pas liées à ce que nous pouvons acheter.
 Par exemple, le revenu disponible omet :
 
 * la qualité de notre environnement social et physique, telle que les amitiés et un air sain ;
@@ -193,7 +197,7 @@ link:https://tinyco.re/9533853[Lisez son discours en entier] ou link:https://tin
 |===
 |*EINSTEIN: Comparer les revenus à différentes périodes et entre différents pays*
 
-Les Nations unies collectent et publient des estimations du PIB auprès des bureaux statistiques du monde entier. Ces estimations, parallèlement à celles réalisées par des historiens de l’économie, nous permettent de construire des graphiques, comme la Figure 1.1a, qui comparent les niveaux de vie entre pays et à différentes périodes temporelles et déterminent si l’écart entre les pays riches et pauvres s’est réduit ou s’est creusé au cours du temps. Avant d’affirmer quelque chose comme : « En moyenne, les Italiens sont plus riches que les Chinois, mais l’écart entre eux se rétrécit », les statisticiens et les économistes doivent essayer de résoudre trois problèmes :
+Les Nations unies collectent et link:https://unstats.un.org/unsd/snaama/Index[publient des estimations du PIB] auprès des bureaux statistiques du monde entier. Ces estimations, parallèlement à celles réalisées par des historiens de l’économie, nous permettent de construire des graphiques, comme la link:file:///Users/tarikz/Webpage/tarikgit.github.io/economics-course/Chapitre1-complete.html#crossehockey-img[Figure 1.1a], qui comparent les niveaux de vie entre pays et à différentes périodes temporelles et déterminent si l’écart entre les pays riches et pauvres s’est réduit ou s’est creusé au cours du temps. Avant d’affirmer quelque chose comme : « En moyenne, les Italiens sont plus riches que les Chinois, mais l’écart entre eux se rétrécit », les statisticiens et les économistes doivent essayer de résoudre trois problèmes :
 
 - nous avons besoin de distinguer ce que l’on cherche à mesurer – les évolutions ou les différences de quantités de biens et services – des éléments non pertinents pour effectuer ces comparaisons, en particulier les évolutions ou les écarts de prix de ces biens et services ; +
 - quand nous comparons la production dans un pays à deux moments différents, il faut prendre en compte la variation des prix entre ces deux moments ; +
@@ -276,10 +280,11 @@ Si le niveau du PIB par tête en 2000 est 21 046 \$, comme c’était le cas de 
 
 Selon la question posée, nous choisissons de comparer soit des niveaux, soit des taux de croissance. La Figure 1.1a facilite la comparaison des niveaux de PIB par tête entre pays et à différents moments. La Figure 1.1b utilise une échelle de rapport, qui permet une comparaison des taux de croissance entre pays et à différentes périodes. Lorsqu’une échelle de rapport est utilisée, une série qui croît à un taux constant est représentée par une droite. Cela vient du fait que le pourcentage (ou le taux de croissance proportionnel) est constant. Une droite plus pentue dans une échelle de rapport indique un taux de croissance plus rapide.
 
-Pour bien comprendre, prenez l’exemple d’un taux de croissance de 100 % : cela signifie que le niveau double. Dans la Figure 1.1b, avec l’échelle de rapport, vous pouvez vérifier que si le PIB par tête doublait en cent ans d’un niveau de 500 \$ à 1000 \$, la droite aurait la même pente que s’il doublait de 2000 \$ à 4000 \$, ou de 16000 \$ à 32000 \$ au cours d’un siècle. Si, au lieu de doubler, le niveau quadruplait (par exemple, de 500 \$ à 2000 \$ en cent ans), la droite serait deux fois plus pentue, reflétant ainsi un taux de croissance deux fois plus élevé.
+Pour bien comprendre, prenez l’exemple d’un taux de croissance de 100 % : cela signifie que le niveau double. Dans la Figure 1.1b (<<crossehockeyhistoire-img>>), avec l’échelle de rapport, vous pouvez vérifier que si le PIB par tête doublait en cent ans d’un niveau de 500 \$ à 1000 \$, la droite aurait la même pente que s’il doublait de 2000 \$ à 4000 \$, ou de 16000 \$ à 32000 \$ au cours d’un siècle. Si, au lieu de doubler, le niveau quadruplait (par exemple, de 500 \$ à 2000 \$ en cent ans), la droite serait deux fois plus pentue, reflétant ainsi un taux de croissance deux fois plus élevé.
 
 .La crosse de hockey de l’Histoire : les niveaux de vie dans cinq pays (1000–2015) avec une échelle de rapport. link:https://tinyco.re/9183725[Voir les données sur OWiD]
-image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-01-b-f.jpg[Taux de croissance,600,300]
+[#crossehockeyhistoire-img]
+image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-01-b-f.jpg[Taux de croissance,600,300, caption="Figure 1.1b: "]
 
 *Comparer les taux de croissance en Chine et au Japon*: L’échelle de rapport permet de voir que les taux de croissance récents observés au Japon et en Chine ont été plus élevés qu’ailleurs.
 
@@ -393,7 +398,7 @@ Trois millénaires plus tard, au début des années 1800, les techniques d’éc
 La Figure 1.3 représente cette croissance remarquable, en forme de crosse de hockey, de l’efficacité de l’éclairage, à l’aide de l’échelle de rapport introduite dans la Figure 1.1b.
 
 .La productivité du travail pour produire de la lumière. link:https://ourworldindata.org/grapher/the-price-for-lighting-per-million-lumen-hours-in-the-uk-in-british-pound?time=1301..2006[Voir ces données sur OWiD]
-image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-03.jpg[Productivité du travail,600,300]
+image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-03.jpg[Productivité du travail,600,300, caption="Figure 1.3: "]
 
 Le processus d’innovation ne s’est pas arrêté avec la Révolution industrielle, comme le montre l’exemple de la productivité en termes d’éclairage. Ce processus s’est poursuivi par l’introduction de nouvelles technologies dans de nombreuses industries telles que la machine à vapeur, l’électricité, les transports (canaux, chemins de fer, automobiles) et, plus récemment, la révolution du traitement de l’information et de la communication. Ces innovations technologiques d’application générale donnent une très forte impulsion à la croissance des niveaux de vie, car elles modifient le fonctionnement de larges pans de l’économie.
 
@@ -417,7 +422,7 @@ La vitesse à laquelle l’information circule fournit une illustration supplé�
 Des calculs similaires révèlent que les informations voyageaient entre la Rome antique et l’Égypte à environ 2 kilomètres/heure. Mille cinq cents ans plus tard, la circulation entre Venise et les autres villes autour de la Méditerranée était plus lente encore. Toutefois, quelques siècles plus tard, la vitesse s’est accélérée, comme le montre la Figure 1.4. Il fallut « seulement » 46 jours pour que la nouvelle d’une mutinerie de soldats indiens contre le joug britannique en 1857 atteigne Londres, et les lecteurs du _Times_ londonien apprirent l’assassinat de Lincoln seulement 13 jours après l’événement. Un an après la mort de Lincoln, un câble transatlantique réduisit le temps de transmission des informations entre New York et Londres à quelques minutes.
 
 .Vitesse de transmission de l’information (1000–1865).
-image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-04.jpg[Information,600,300]
+image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-04.jpg[Information,600,300, caption="Figure 1.4: "]
 
 
 
@@ -443,10 +448,10 @@ Comment pouvons-nous expliquer le passage d’un monde où les conditions de vie
 Une partie importante de notre réponse est ce qu’on appelle la « révolution capitaliste » : l’émergence au 18e siècle et sa diffusion mondiale d’une manière d’organiser l’économie, que nous appelons maintenant capitalisme. Le terme « capitalisme » – que nous définirons bientôt – était à peine connu il y a un siècle, mais comme vous pouvez le constater sur la Figure 1.7, son usage a explosé depuis. Le graphique montre la part de tous les articles du New York Times (à l’exclusion des articles sportifs) qui utilisent le mot « capitalisme ».
 
 .Citation du mot « capitalisme » dans les articles du New York Times (1851–2015). link:https://ourworldindata.org/grapher/mention-of-the-word-capitalism-in-new-york-times-articles[Voir ces données sur OWiD]
-image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-07.jpg[Citation capitalisme,600,300]
+image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-07.jpg[Citation capitalisme,600,300, caption="Figure 1.7: "]
 
 
-Le [red]#capitalisme# est un [red]#système économique# caractérisé par une combinaison particulière d’[red]#institutions#. Un système économique est une façon d’organiser la production et la distribution de biens et de services dans l’ensemble d’une économie. Par institutions, nous entendons les différents ensembles de lois et de coutumes sociales qui régulent la production et la distribution de différentes manières dans les familles, les entreprises privées et le secteur public.
+Le *capitalisme* est un *système économique* caractérisé par une combinaison particulière d’*institutions*. Un système économique est une façon d’organiser la production et la distribution de biens et de services dans l’ensemble d’une économie. Par institutions, nous entendons les différents ensembles de lois et de coutumes sociales qui régulent la production et la distribution de différentes manières dans les familles, les entreprises privées et le secteur public.
 
 |===
 |*PROPRIÉTÉ PRIVÉE*
@@ -472,7 +477,7 @@ Au cours de l’histoire de l’Humanité, l’importance de la propriété priv
 
 Dans d’autres systèmes économiques, certains êtres humains – les esclaves – relevaient de la propriété privée.
 
-Dans une économie capitaliste, une forme importante de la propriété privée est constituée des équipements, des bâtiments, et d’autres intrants durables utilisés pour produire des biens et des services. On les appelle des [red]#biens d’équipement#.
+Dans une économie capitaliste, une forme importante de la propriété privée est constituée des équipements, des bâtiments, et d’autres intrants durables utilisés pour produire des biens et des services. On les appelle des *biens d’équipement*.
 
 La propriété privée peut être détenue par un individu, une famille, une entreprise ou une autre entité différente de l’État. Il existe des choses auxquelles nous accordons de l’importance qui ne relèvent pas de la propriété privée : par exemple, l’air que nous respirons, et la plupart des connaissances que nous utilisons ne peuvent être ni possédés ni achetés et vendus.
 
@@ -539,9 +544,9 @@ Néanmoins, la propriété privée et les marchés ne suffisent pas à eux seuls
 
 Les types d’entreprises qui composent une économie capitaliste incluent les restaurants, les banques, les grandes fermes qui payent d’autres personnes pour y travailler, les établissements industriels, les supermarchés et les fournisseurs d’accès à l’Internet. D’autres organisations productives qui ne sont pas des entreprises et qui jouent un moindre rôle dans une économie capitaliste incluent notamment les activités familiales, dans lesquelles la plupart ou toutes les personnes y travaillant sont des membres de la famille, les organisations à but non lucratif, les coopératives de salariés et les entités détenues par l’État (comme les compagnies de transport, d’électricité ou d’eau). Il ne s’agit pas d’entreprises, soit parce qu’elles ne réalisent pas de profit, soit parce que les propriétaires ne sont pas des individus privés qui possèdent les actifs de l’entreprise et emploient d’autres personnes pour y travailler. Notez qu’une entreprise paye des salaires aux employés ; dans le cas où elle recruterait des stagiaires étudiants non rémunérés, elle resterait une entreprise.
 
-Les entreprises ont existé et joué un rôle mineur dans de nombreuses économies, et cela bien avant de devenir essentielles dans la production de biens et services au sein des économies capitalistes. Ce nouveau rôle fut à l’origine du développement soudain d’un type de marché qui avait joué un rôle restreint dans les systèmes économiques précédents : le [red]#marché du travail#. Les propriétaires des entreprises (ou leurs dirigeants) proposent des emplois à des salaires suffisants pour attirer ceux qui recherchent un emploi.
+Les entreprises ont existé et joué un rôle mineur dans de nombreuses économies, et cela bien avant de devenir essentielles dans la production de biens et services au sein des économies capitalistes. Ce nouveau rôle fut à l’origine du développement soudain d’un type de marché qui avait joué un rôle restreint dans les systèmes économiques précédents : le *marché du travail*. Les propriétaires des entreprises (ou leurs dirigeants) proposent des emplois à des salaires suffisants pour attirer ceux qui recherchent un emploi.
 
-En langage économique, les employeurs constituent le [red]#côté de la demande# sur le marché du travail (ils « demandent » des salariés), alors que les travailleurs constituent le [red]#côté de l’offre#, en proposant de travailler sous la direction des propriétaires et des dirigeants qui vont les embaucher.
+En langage économique, les employeurs constituent le *côté de la demande* sur le marché du travail (ils « demandent » des salariés), alors que les travailleurs constituent le *côté de l’offre*, en proposant de travailler sous la direction des propriétaires et des dirigeants qui vont les embaucher.
 
 Une caractéristique remarquable des entreprises, qui les distingue des familles et des États, est la vitesse à laquelle elles peuvent naître, croître, décliner et mourir. Une entreprise performante peut évoluer en quelques années d’une situation où elle emploie quelques salariés seulement à une situation où elle devient une entreprise multinationale avec des centaines de milliers de clients, employant des milliers de salariés. Cela vient du fait qu’elles sont capables d’embaucher des employés supplémentaires sur le marché du travail et d’attirer des capitaux pour financer l’achat des biens d’équipement nécessaires à la croissance de la production.
 
@@ -585,9 +590,9 @@ Dans un système capitaliste, la production est effectuée dans le cadre des ent
 * _les facteurs de production et la production relèvent de la propriété privée_ : les locaux des entreprises, les équipements, les brevets, les autres facteurs de production, appartiennent aux propriétaires, au même titre que la production résultante ;
 * _les entreprises recourent aux marchés pour vendre leur production_ : les profits des propriétaires dépendent des marchés au sein desquels des clients achèteront volontairement les produits à un prix qui excédera les coûts de production.
 
-Historiquement, des économies comme celles du cercle de gauche ont existé, mais elles ont été bien moins importantes que le système combinant les marchés et la [red]#propriété# privée (cercle du milieu). La propriété privée est une condition essentielle au fonctionnement des marchés : les acheteurs ne voudront pas payer pour des biens, à moins d’avoir le droit de les posséder. Dans le cercle du milieu, l’essentiel de la production est soit réalisé par des individus (des cordonniers ou des forgerons, par exemple) ou des familles (par exemple, dans une ferme). Avant 1600, plusieurs grandes économies mondiales ont fonctionné ainsi.
+Historiquement, des économies comme celles du cercle de gauche ont existé, mais elles ont été bien moins importantes que le système combinant les marchés et la *propriété* privée (cercle du milieu). La propriété privée est une condition essentielle au fonctionnement des marchés : les acheteurs ne voudront pas payer pour des biens, à moins d’avoir le droit de les posséder. Dans le cercle du milieu, l’essentiel de la production est soit réalisé par des individus (des cordonniers ou des forgerons, par exemple) ou des familles (par exemple, dans une ferme). Avant 1600, plusieurs grandes économies mondiales ont fonctionné ainsi.
 
-Un trait distinctif de la définition du capitalisme en tant que système économique est que, dans ce système, l’essentiel de la production se fait à l’aide de [red]#biens d’équipement# privés qui sont exploités par des travailleurs rémunérés. Cela contraste avec la propriété publique des biens d’équipement dans une économie planifiée centralisée, où les entreprises et les marchés privés sont relativement peu importants. Les gigantesques métiers à tisser ont par exemple remplacé les rouets, et de puissants tracteurs labourent pour accomplir le travail auparavant effectué à la houe.
+Un trait distinctif de la définition du capitalisme en tant que système économique est que, dans ce système, l’essentiel de la production se fait à l’aide de *biens d’équipement* privés qui sont exploités par des travailleurs rémunérés. Cela contraste avec la propriété publique des biens d’équipement dans une économie planifiée centralisée, où les entreprises et les marchés privés sont relativement peu importants. Les gigantesques métiers à tisser ont par exemple remplacé les rouets, et de puissants tracteurs labourent pour accomplir le travail auparavant effectué à la houe.
 
 Un autre contraste se dessine avec un système économique défini comme une économie d’esclaves, où la plupart des travaux sont effectués par des personnes qui ne sont pas embauchées pour un salaire mais qui sont, comme la terre sur laquelle elles travaillent, la propriété d’une autre personne. Au-delà de ces définitions, les systèmes économiques capitalistes incluent également le travail effectué par des fonctionnaires du gouvernement et le travail non rémunéré au foyer, et, historiquement, celui effectué par des esclaves.
 
@@ -637,7 +642,7 @@ L’un des changements qui étaient en cours à la période où Adam Smith a vé
 
 * _apprentissage par la pratique_ : nous acquérons des compétences en produisant des choses ;
 * _différence de capacités_ : pour des raisons de compétences ou d’environnement naturel, comme la qualité des sols, certaines personnes sont meilleures que d’autres dans la production de certains biens ;
-* _[red]#économies d’échelle#_ : produire un grand nombre d’unités d’un bien est souvent plus rentable en termes de coûts que produire une petite quantité.
+* *_économies d’échelle_* : produire un grand nombre d’unités d’un bien est souvent plus rentable en termes de coûts que produire une petite quantité.
 
 Ce sont les avantages à travailler sur un nombre limité de tâches ou de produits. Les gens ne produisent pas en général la diversité des biens et services qu’ils utilisent ou consomment au quotidien. À la place, nous nous spécialisons, certains produisant un bien, d’autres produisant d’autres biens, certains travaillant comme soudeurs, d’autres comme enseignants ou fermiers.
 
@@ -691,9 +696,9 @@ Bien que la terre de Carlos soit moins bonne pour les deux cultures, son désava
 
 Les économistes distinguent qui est meilleur en production de deux manières : l’avantage absolu et l’avantage comparatif.
 
-Greta a un [red]#avantage absolu# dans les deux cultures. Carlos a un désavantage absolu. Elle peut produire plus de chaque culture par rapport à lui.
+Greta a un *avantage absolu* dans les deux cultures. Carlos a un désavantage absolu. Elle peut produire plus de chaque culture par rapport à lui.
 
-Carlos a un [red]#avantage comparatif# dans les pommes. Bien qu’elle soit plus performante, Carlos est moins désavantagé dans la production de pommes. Greta a un avantage comparatif dans la production de blé.
+Carlos a un *avantage comparatif* dans les pommes. Bien qu’elle soit plus performante, Carlos est moins désavantagé dans la production de pommes. Greta a un avantage comparatif dans la production de blé.
 
 Initialement, Carlos et Greta ne sont pas en mesure d’échanger ensemble. Tous les deux doivent être autosuffisants, en consommant exactement ce qu’ils produisent, de sorte qu’ils produiront chacun des deux biens afin de survivre. Greta choisit d’utiliser 40 \% de son temps dans la production de pommes et le reste pour la production de blé. La colonne 1 de la Figure 1.9b montre qu’elle produit et consomme 500 pommes et 30 tonnes de blé. La consommation de Carlos est également indiquée : il dépense 30 \% de son temps pour la production de pommes et 70 \% pour le blé.
 
@@ -731,7 +736,7 @@ Les marchés contribuent à augmenter la productivité du travail – et peuvent
 . link:https://www.core-econ.org/the-economy/book/fr/text/01.html#19-capitalisme-causalit%C3%A9-et-la-crosse-de-hockey-de-lhistoire[La causalité dans les sciences économiques]
 . link:https://www.core-econ.org/the-economy/book/fr/text/01.html#110-les-diff%C3%A9rents-capitalismes-institutions-%C3%A9tat-et-%C3%A9conomie[Le rôle des institutions, les innovations et la croissance économique]
 
-=== La cuasalité dans les sciences économiques
+=== La causalité dans les sciences économiques
 
 Nous avons vu que les institutions associées au capitalisme ont le potentiel d’améliorer la vie des individus, à travers les opportunités liées à la spécialisation et l’introduction de nouvelles technologies, et que la révolution technologique permanente a coïncidé avec l’émergence du capitalisme. Mais pouvons-nous conclure que le capitalisme a causé le coude de la crosse de hockey ?
 
@@ -739,12 +744,12 @@ Nous devrions nous méfier quand quelqu’un prétend que quelque chose de compl
 
 En sciences, l’affirmation selon laquelle X cause Y nécessite de comprendre la relation existant entre la cause (X) et l’effet (Y) et de réaliser des expériences pour rassembler des preuves en mesurant X et Y.
 
-Nous souhaitons établir des relations [red]#causales# en économie – pour comprendre pourquoi les choses arrivent, ou pour concevoir des manières de changer quelque chose afin d’améliorer le fonctionnement de l’économie. Cela signifie établir le lien causal que la politique X a de bonnes chances de causer le changement Y. Par exemple, un économiste pourrait dire : « Si la banque centrale baisse le taux d’intérêt, plus de personnes achèteront des maisons et des voitures. »
+Nous souhaitons établir des relations *causales* en économie – pour comprendre pourquoi les choses arrivent, ou pour concevoir des manières de changer quelque chose afin d’améliorer le fonctionnement de l’économie. Cela signifie établir le lien causal que la politique X a de bonnes chances de causer le changement Y. Par exemple, un économiste pourrait dire : « Si la banque centrale baisse le taux d’intérêt, plus de personnes achèteront des maisons et des voitures. »
 
 Mais une économie est faite d’interactions entre des millions de personnes. Nous ne pouvons pas toutes les mesurer et les comprendre, et il est rare que l’on puisse rassembler des preuves en menant des expériences (bien que l’Unité 4 donne des exemples d’utilisation d’expériences conventionnelles dans un domaine de l’économie). Dès lors, comment les économistes peuvent-ils produire des résultats scientifiques ? L’exemple suivant montre comment l’observation du monde peut nous aider à investiguer les causes et les effets.
 
 .Les deux Allemagnes : planification et capitalisme (1950–1989).
-image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-10.jpg[DeuxAllemagnes,600,300]
+image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-10.jpg[DeuxAllemagnes,600,300, caption="Figure 1.10: "]
 
 
 |===
@@ -756,7 +761,7 @@ Nous pouvons remarquer que l’émergence du capitalisme a coïncidé avec, ou s
 
 Les scientifiques dans toutes les disciplines cherchent à restreindre les choses sur lesquelles ils ne sont pas d’accord en utilisant des faits. Pour des questions économiques difficiles, comme « Les institutions sont-elles importantes pour l’économie ? », les faits peuvent produire suffisamment d’informations pour parvenir à une conclusion.
 
-Une méthode pour y parvenir est appelée une [red]#expérience naturelle#. Il s’agit d’une situation dans laquelle il y a des différences dans un paramètre d’intérêt – un changement dans les institutions, par exemple – qui sont indépendantes (pas associées) des différences dans les autres causes possibles.
+Une méthode pour y parvenir est appelée une *expérience naturelle*. Il s’agit d’une situation dans laquelle il y a des différences dans un paramètre d’intérêt – un changement dans les institutions, par exemple – qui sont indépendantes (pas associées) des différences dans les autres causes possibles.
 
 La division de l’Allemagne en deux systèmes économiques à l’issue de la Seconde Guerre mondiale – planifié et centralisé à l’est et capitaliste à l’ouest – constituait une expérience naturelle. Durant cette période, un « Rideau de fer » politique, comme l’a décrit le Premier ministre britannique Winston Churchill, a divisé le pays. Il séparait deux populations qui jusqu’à présent avaient partagé la même langue, culture et économie capitaliste.
 
@@ -785,10 +790,10 @@ Tous les pays capitalistes n’ont pas connu le même succès économique, ident
 
 Le pays le plus performant de la Figure 1.11 est la Corée du Sud. En 1950, son PIB par tête était identique à celui du Nigéria. En 2013, la Corée du Sud était devenue 10 fois plus riche.
 
-Son décollage eut lieu sous des institutions et des politiques radicalement différentes de celles que connut la Grande-Bretagne au 18e et au 19e siècle. La différence la plus importante est que les pouvoirs publics en Corée du Sud (de concert avec un petit nombre de très grandes entreprises) jouèrent un rôle primordial en dirigeant le processus de développement. Ils promurent intentionnellement certaines industries, exigeant des entreprises qu’elles deviennent compétitives sur les marchés étrangers, et fournirent une éducation de haute qualité à leur main-d’œuvre. On parle aujourd’hui d’[red]#État développementaliste# au sujet du rôle majeur de l’État coréen dans le décollage économique du pays, et cette notion comprend aujourd’hui tout État intervenant de la sorte dans son économie. Le Japon et la Chine fournissent d’autres exemples.
+Son décollage eut lieu sous des institutions et des politiques radicalement différentes de celles que connut la Grande-Bretagne au 18e et au 19e siècle. La différence la plus importante est que les pouvoirs publics en Corée du Sud (de concert avec un petit nombre de très grandes entreprises) jouèrent un rôle primordial en dirigeant le processus de développement. Ils promurent intentionnellement certaines industries, exigeant des entreprises qu’elles deviennent compétitives sur les marchés étrangers, et fournirent une éducation de haute qualité à leur main-d’œuvre. On parle aujourd’hui d’*État développementaliste* au sujet du rôle majeur de l’État coréen dans le décollage économique du pays, et cette notion comprend aujourd’hui tout État intervenant de la sorte dans son économie. Le Japon et la Chine fournissent d’autres exemples.
 
 .Divergence du PIB par tête au sein des pays qui ont connu une révolution capitaliste tardive (1928–2015). Note : La série sur l’ex-Union soviétique exclut la Fédération de Russie après 1992. [BROKEN LINK TO OWiD]
-image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-11.jpg[DivergencePIB,600,300]
+image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-11.jpg[DivergencePIB,600,300, caption="Figure 1.11: "]
 
 La Figure 1.11 montre également qu’en 1928, lorsque le premier plan quinquennal de l’Union soviétique (ex-URSS) fut introduit, le PIB par tête y valait un dixième de celui de l’Argentine, était égal à celui du Brésil et était bien plus élevé que celui de la Corée du Sud. La planification centralisée en Union soviétique a produit une croissance régulière mais peu spectaculaire pendant près de cinquante ans. Le PIB par tête de l’Union soviétique a largement devancé celui du Brésil, et surpassa même brièvement celui de l’Argentine juste avant l’effondrement du régime communiste en 1990.
 
