@@ -181,6 +181,38 @@
 | `ps`
 | view all the processes running on the machine
 
+| The shell {} operator
+| Example with three directories enclosed in {}: +
+  `mkdir -p -v /home/josevnz/tmp/{dir1,anotherdir,similardir}`
+
+| `sed`
+| Replace a string on one or more files without using an editor: +
+    `sed -i 's#ORIGINAL_VALLUE#NEW_VALUE#g' myfile1 myfile2` +
+
+| `perl`
+| Replace a string on one or more files without using an editor: +
+  `perl -p -i -e 's#ORIGINAL#NEW_VALUE#' myfile1 myfile2`
+
+| `cat`
+| Write instantaneous files: +
+  `cat<<DOC>/my/new/file` +
+  or
+  `cat > testfile`
+
+| `grep`
+| Use the `grep` way to search for specific files: +
+  `grep -R 'import' --include='*.java' --color MySourceCodeDir`
+
+| `find`
+| Use the `find` way to search for specific files: +
+  `find MySourceCodeDir/ -name '*.java' -type f -print| xargs \
+grep --color 'import`
+
+| `watch`
+| Repeat a command, such as free, every five seconds and highlights the differences: +
+  `watch -n 5 -d '/bin/free -m'``
+
+
 |===
 
 
@@ -209,4 +241,5 @@
 
 * Sources
 
-https://www.youtube.com/watch?v=ZtqBQ68cfJc&ab_channel=freeCodeCamp.org
+. https://www.youtube.com/watch?v=ZtqBQ68cfJc&ab_channel=freeCodeCamp.org
+. https://www.redhat.com/sysadmin/one-line-linux-commands

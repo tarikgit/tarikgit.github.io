@@ -582,6 +582,18 @@ git push</code></pre>
 <pre class="highlight"><code class="language-bash" data-lang="bash">git config --global credential.helper osxkeychain</code></pre>
 </div>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>Finally, here is a way to update all git repositories on a directory:</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">for i in */.git; do cd $(dirname $i); git pull; cd ..; done</code></pre>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -650,6 +662,9 @@ git push</pre>
 <li>
 <p><a href="https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account" class="bare">https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account</a></p>
 </li>
+<li>
+<p><a href="https://www.redhat.com/sysadmin/one-line-linux-commands" class="bare">https://www.redhat.com/sysadmin/one-line-linux-commands</a></p>
+</li>
 </ul>
 </div>
 </div>
@@ -657,7 +672,7 @@ git push</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-11-08 13:07:01 +0100
+Last updated 2021-12-04 07:01:03 +0100
 </div>
 </div>
 </body>

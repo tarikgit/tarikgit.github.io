@@ -678,6 +678,43 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>ps</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">view all the processes running on the machine</p></td>
 </tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The shell {} operator</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Example with three directories enclosed in {}:<br>
+  <code>mkdir -p -v /home/josevnz/tmp/{dir1,anotherdir,similardir}</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>sed</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Replace a string on one or more files without using an editor:<br>
+    <code>sed -i 's#ORIGINAL_VALLUE#NEW_VALUE#g' myfile1 myfile2</code><br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>perl</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Replace a string on one or more files without using an editor:<br>
+  <code>perl -p -i -e 's#ORIGINAL#NEW_VALUE#' myfile1 myfile2</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>cat</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Write instantaneous files:<br>
+  <code>cat&lt;&lt;DOC&gt;/my/new/file</code><br>
+  or
+  <code>cat &gt; testfile</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>grep</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Use the <code>grep</code> way to search for specific files:<br>
+  <code>grep -R 'import' --include='*.java' --color MySourceCodeDir</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>find</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Use the <code>find</code> way to search for specific files:<br>
+  `find MySourceCodeDir/ -name '*.java' -type f -print</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">xargs \
+grep --color 'import`</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>watch</code></p></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -712,18 +749,25 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul>
 <li>
 <p>Sources</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="https://www.youtube.com/watch?v=ZtqBQ68cfJc&amp;ab_channel=freeCodeCamp.org" class="bare">https://www.youtube.com/watch?v=ZtqBQ68cfJc&amp;ab_channel=freeCodeCamp.org</a></p>
+</li>
+<li>
+<p><a href="https://www.redhat.com/sysadmin/one-line-linux-commands" class="bare">https://www.redhat.com/sysadmin/one-line-linux-commands</a></p>
+</li>
+</ol>
+</div>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p><a href="https://www.youtube.com/watch?v=ZtqBQ68cfJc&amp;ab_channel=freeCodeCamp.org" class="bare">https://www.youtube.com/watch?v=ZtqBQ68cfJc&amp;ab_channel=freeCodeCamp.org</a></p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-11-21 15:12:46 +0100
+Last updated 2021-12-04 07:03:50 +0100
 </div>
 </div>
 </body>

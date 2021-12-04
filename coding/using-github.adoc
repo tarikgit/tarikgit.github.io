@@ -87,6 +87,12 @@ git push
 git config --global credential.helper osxkeychain
 ----
 
+* Finally, here is a way to update all git repositories on a directory:
+
+[source,bash]
+----
+for i in */.git; do cd $(dirname $i); git pull; cd ..; done
+----
 
 == Summary
 
@@ -121,3 +127,4 @@ git push
 
 * https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 * https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
+* https://www.redhat.com/sysadmin/one-line-linux-commands
