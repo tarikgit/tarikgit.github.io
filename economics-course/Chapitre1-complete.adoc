@@ -4,6 +4,7 @@
 *Note*: chaque élément (les hyperliens en bleu) représente une unité de leçon de 50 minutes. +
 *Source*: link:https://www.core-econ.org/[CORE] +
 
+image::concept-maps/chapitre-1-overview.png[]
 
 .Concept map du chapitre 1. Le fichier link:Chapitre1-concept-map.nxfc[source du concept map] peut être charger sur link:https://www.oasys4schools.lu/conceptmaps/[le site du SCRIPT].
 image::Chapitre1-concept-map.png[Concept map, caption="Figure CM.1: "]
@@ -762,7 +763,7 @@ image::concept-maps/chapitre-1-5.png[Concept map 1.3,640,480,pdfwidth=50%,scaled
 . link:https://www.core-econ.org/the-economy/book/fr/text/01.html#19-capitalisme-causalit%C3%A9-et-la-crosse-de-hockey-de-lhistoire[La causalité dans les sciences économiques]
 . link:https://www.core-econ.org/the-economy/book/fr/text/01.html#110-les-diff%C3%A9rents-capitalismes-institutions-%C3%A9tat-et-%C3%A9conomie[Le rôle des institutions, les innovations et la croissance économique]
 
-=== La causalité dans les sciences économiques
+=== 5.1 La causalité dans les sciences économiques
 
 Nous avons vu que les institutions associées au capitalisme ont le potentiel d’améliorer la vie des individus, à travers les opportunités liées à la spécialisation et l’introduction de nouvelles technologies, et que la révolution technologique permanente a coïncidé avec l’émergence du capitalisme. Mais pouvons-nous conclure que le capitalisme a causé le coude de la crosse de hockey ?
 
@@ -810,7 +811,7 @@ Il n’est pas possible de conclure à partir de l’expérience naturelle allem
 |===
 
 
-=== Le rôle des institutions, les innovations et la croissance économique
+=== 5.2 Le rôle des institutions, les innovations et la croissance économique
 
 Tous les pays capitalistes n’ont pas connu le même succès économique, identifié dans la Figure 1.1a, que celui rencontré par la Grande-Bretagne, et plus tard le Japon. La Figure 1.11 représente l’évolution d’une sélection de pays au cours du 20e siècle. Il montre, par exemple, le contraste saisissant en Afrique, entre le Botswana, qui est parvenu à atteindre une croissance soutenue, et l’échec relatif du Nigéria. Ces deux pays sont richement dotés en ressources naturelles (le Botswana en diamants, et le Nigéria en pétrole), mais ils diffèrent dans la qualité de leurs institutions – s’agissant de la corruption et du détournement des fonds publics, par exemple –, ce qui explique leurs trajectoires contrastées.
 
@@ -835,11 +836,11 @@ Le contraste entre l’Allemagne de l’Ouest et l’Allemagne de l’Est illust
 .Dans notre vidéo « Économiste en action », Lisa Cook explique ce qui stimule ou tue l’innovation.
 video::https://www.core-econ.org/the-economy/downloads/lisa-cook_what-promotes-or-kills-innovation.mp4[Innovation,600,300]
 
-==== Quand le capitalisme est-il dynamique ?
+==== 5.2.1 Quand le capitalisme est-il dynamique ?
 
 Les performances tardives de certaines économies de la Figure 1.11 prouvent que l’existence d’institutions capitalistes ne suffit pas pour créer une économique dynamique, c’est-à-dire, une économie assurant une croissance durable des conditions de vie. Deux ensembles de conditions contribuent au dynamisme du système économique capitaliste. Un ensemble est économique ; l’autre est politique, il concerne le gouvernement et son mode de fonctionnement.
 
-==== Conditions économiques
+==== 5.2.2 Conditions économiques
 
 Le moindre dynamisme du capitalisme dans certaines situations peut être dû aux éléments suivants :
 
@@ -855,7 +856,7 @@ Imaginez à quel point cela est différent des autres systèmes économiques. Un
 
 Bien sûr, s’ils sont initialement très riches et qu’ils disposent d’un bon réseau politique, les propriétaires et les dirigeants d’entreprises capitalistes survivent, et leurs entreprises restent en activité malgré leurs défaillances, parfois pour de longues périodes, voire pour des générations. Les perdants continuent parfois. Mais il n’y a pas de garanties : pour devancer la concurrence, il faut innover en permanence.
 
-==== Conditions politiques
+==== 5.2.3 Conditions politiques
 
 L’État est également important. Nous avons vu que dans certaines économies – en Corée du Sud, par exemple –, les États ont joué un rôle principal dans la révolution capitaliste. Dans presque chaque économie capitaliste moderne, les États constituent une large part de l’économie, leurs activités comptant pour presque la moitié du PIB pour certains. Mais même dans les pays où le rôle de l’État est limité, comme en Angleterre au moment du décollage économique, les États continuent d’établir, de faire respecter et de changer les lois et les régulations qui influencent la manière dont l’économie fonctionne. Les marchés, la propriété privée et les entreprises sont tous régulés par des lois et des politiques publiques.
 
@@ -874,7 +875,7 @@ En somme, le capitalisme peut être un système économique dynamique lorsqu’i
 
 Ce sont les conditions qui constituent ensemble ce que nous appelons la [red]#Révolution capitaliste#, celle qui, en Grande-Bretagne d’abord et dans d’autres pays ensuite, a transformé la façon dont les individus interagissent entre eux et avec la nature dans le but de produire leur subsistance.
 
-==== Systèmes politiques
+==== 5.2.4 Systèmes politiques
 
 L’une des raisons pour lesquelles le capitalisme prend un si grand nombre de formes est qu’au cours de l’Histoire et encore aujourd’hui, les économies capitalistes ont coexisté avec de nombreux [red]#systèmes politiques#. Un système politique, comme la [red]#démocratie# ou la dictature, détermine comment les gouvernements seront sélectionnés, et comment ces gouvernements vont prendre et mettre en place les décisions qui affectent la population.
 
