@@ -4,11 +4,26 @@
 *Note*: chaque élément (les hyperliens en bleu) représente une unité de leçon de 50 minutes. +
 *Source*: link:https://www.core-econ.org/[CORE] +
 
-image::concept-maps/chapitre-1-overview.png[]
 
-.Concept map du chapitre 1. Le fichier link:Chapitre1-concept-map.nxfc[source du concept map] peut être charger sur link:https://www.oasys4schools.lu/conceptmaps/[le site du SCRIPT].
-image::Chapitre1-concept-map.png[Concept map, caption="Figure CM.1: "]
 
+[.float-group]
+--
+image::concept-maps/chapitre-1-1-1.png[float="left",width=200mm]
+image::concept-maps/chapitre-1-1-2.png[float="left",width=200mm]
+// Define float role, instead of attribute.
+[.left]
+image::concept-maps/chapitre-1-2-1.png[width=200mm]
+image::concept-maps/chapitre-1-2-2.png[width=200mm]
+--
+
+[.float-group]
+--
+image::concept-maps/chapitre-1-3.png[float="left",width=200mm]
+image::concept-maps/chapitre-1-4.png[float="left",width=200mm]
+// Define float role, instead of attribute.
+[.left]
+image::concept-maps/chapitre-1-5.png[width=200mm]
+--
 
 == 1. Introduction : La richesse d’une nation
 
