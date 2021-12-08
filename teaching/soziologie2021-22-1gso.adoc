@@ -158,7 +158,9 @@ Textanalyse (link:https://tarikgit.github.io/teaching/examen/20200921_SOCIO_DE_s
 3+| *Examen* : +
   - Wie erklären Marx und Engels die Entstehung von sozialen Ungleichheiten? _10 Punkte_) +
   - Erklären Sie wie sich laut Marx die „Wirklichkeit strukturiert“. (_6 Punkte_) +
-  - Unterscheiden Sie die Begriffe „Kapital“ und „Vermögen“. Nennen Sie jeweils ein Beispiel. (_4 Punkte_)
+  - Unterscheiden Sie die Begriffe „Kapital“ und „Vermögen“. Nennen Sie jeweils ein Beispiel. (_4 Punkte_) +
+    *Artikel* : _Revolutionen werden nicht von einer Partei gemacht_ (link:soziologie-cours/03-KarlMarxInterview.pdf[Ein Interview mit Karl Marx, _Chicago Tribune_ , 5.1.1879])+
+
 |
 |
 
@@ -166,7 +168,7 @@ Textanalyse (link:https://tarikgit.github.io/teaching/examen/20200921_SOCIO_DE_s
 
 {blank} +
 
-
+link:https://wir2022.wid.world/[World Inequality Report 2022]
 
 
 == Strukturierte Antwort

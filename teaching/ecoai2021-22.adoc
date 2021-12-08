@@ -262,4 +262,16 @@
 | 
 |
 
+| 11
+| 6/12/21
+| *[red]#Mathématiques financières#*
+| Exercices supplémentaires
+|
+
+| 11
+| 8/12/21
+| *[red]#Mathématiques financières#*
+| link:mathfi/Maths-fi-emprunt-indivis.pdf[Loi d'amortissement] et tableau d'amortissement
+|
+
 |===
