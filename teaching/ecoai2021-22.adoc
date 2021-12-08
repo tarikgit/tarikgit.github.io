@@ -253,7 +253,13 @@
 | 10
 | 3/12/21
 | *[maroon]#Comptabilité#* +
-| Exercice de révision: Exercice 6 et 7
+| +++<del>+++Exercice de révision: Exercice 6 et 7+++<del>+++
+|
+
+| 11
+| 6/12/21
+| *[red]#Mathématiques financières#*
+| 
 |
 
 |===
