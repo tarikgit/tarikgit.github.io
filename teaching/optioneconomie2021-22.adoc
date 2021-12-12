@@ -81,4 +81,14 @@ Ce cours est basé sur le matériel fournit par le projet link:https://www.core-
 | *Compétences*: Analyse graphique, synthèse vidéo +
   *Notions*: Sources des inégalités, inégalités spatiales
 
+|
+| 13/12/21
+| Présentation des dossiers
+| 1. link:option-economie/student-posters/20211212-OECO-OF-MM.pdf[Die Wohnungspreise in Luxemburg] +
+  2. link:option-economie/student-posters/20211212-OECO-IR-LC.pdf[Der Datenmissbrauch von Facebook] +
+  3. link:option-economie/student-posters/20211212_OECO_AC-SM-JS-MB-NL.pdf[Kryptowährung]
+| - prix des logements +
+  - biens de consommation électroniques +
+  - crypto-monnaie
+
 |===
