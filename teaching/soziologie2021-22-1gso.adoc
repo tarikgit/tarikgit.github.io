@@ -164,7 +164,9 @@ Textanalyse (link:https://tarikgit.github.io/teaching/examen/20200921_SOCIO_DE_s
 
 | 12
 | 13/12/21
-|
+| link:https://www.franceculture.fr/oeuvre/le-jeune-karl-marx[france culture] +
+  link:https://www.lemonde.fr/cinema/article/2017/09/26/le-jeune-karl-marx-ou-la-horde-sauvage-de-la-revolution_5191338_3476.html[Le Monde: _« Le Jeune Karl Marx » : la horde sauvage de la révolution_] +
+  
 | link:https://www.youtube.com/watch?v=zZ8cuP51oG8&ab_channel=SSaulaha-ChanelEdukatif[Le jeune Karl Marx (youtube)] +
   link:https://archive.org/details/the-young-karl-marx-2017-720p-eng-subs-le-jeune-karl-marx[Le jeune Karl Marx (archive.com)]
 |
