@@ -80,6 +80,8 @@ git commit  -m "description of commit"
 git push
 ----
 
+* If your *Personal Access Token* is expired follow this link:https://github.com/settings/tokens/new[New personal access token]. 
+
 * If your password has expired, here is how you can update the cached password on Mac OS. A username and password prompt will appear with your next git action (push, clone, etc.).
 
 [source,bash]
