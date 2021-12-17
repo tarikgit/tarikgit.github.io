@@ -9,13 +9,43 @@ link:http://www.gutenberg.org/files/27597/27597-h/27597-h.htm[The English Utilit
 * Bentham, Jeremy (1747 - 1832): link:https://www.utilitarianism.com/jeremy-bentham/index.html[Principles of Morals and Legislation]
 * Bloch, Jean (1836 - 1902): The Future of War
 * Burke, Edmund (1729 - 1797): Reflections on the Revolution in France
-* Comte, Auguste (1798 - 1857): A Course of Positive Philosophy link:http://www.gutenberg.org/ebooks/31881[1], link:http://www.gutenberg.org/ebooks/31882[2], link:http://www.gutenberg.org/ebooks/31883[3], link:http://www.gutenberg.org/ebooks/31947[4], link:http://www.gutenberg.org/ebooks/52880[5], link:http://www.gutenberg.org/ebooks/50786[6] 	
+* Comte, Auguste (1798 - 1857): A Course of Positive Philosophy link:http://www.gutenberg.org/ebooks/31881[1], link:http://www.gutenberg.org/ebooks/31882[2], link:http://www.gutenberg.org/ebooks/31883[3], link:http://www.gutenberg.org/ebooks/31947[4], link:http://www.gutenberg.org/ebooks/52880[5], link:http://www.gutenberg.org/ebooks/50786[6]
 * George, Henry (1839 - 1897): link:http://www.gutenberg.org/ebooks/55308[Progress and Poverty]
 * Hobbes, Thomas (1588 - 1679): link:http://www.gutenberg.org/ebooks/3207[The Leviathan]
 * Machiavelli, Niccolo (1469 - 1527): link:http://www.gutenberg.org/ebooks/57037[The Prince]
 * Malthus, T.R. (1766 - 1834): link:http://www.gutenberg.org/ebooks/4239[On the Principle of Population]
-* Marx, Karl (1818 - 1883): link:https://www.marxists.org/archive/marx/works/1867-c1/index.htm[Capital: A Critical Analysis] 
-* Mill, John Stuart (1806 - 1873): link:http://www.gutenberg.org/ebooks/30107[Principles of Political Economy] 
+* Marx, Karl (1818 - 1883): link:https://www.marxists.org/archive/marx/works/1867-c1/index.htm[Capital: A Critical Analysis]
+
+"L'histoire, n'est que l'histoire de la
+guerre des classes. La division de la société en classes,
+qui apparaît avec la vie sociale de l'homme, repose
+sur des rapports économiques, maintenus par la
+force, d'après lesquels les uns réussissent à se
+décharger sur les autres de la nécessité naturelle du
+travail. +
+Ce sont les intérêts matériels qui ont toujours motivé
+la lutte incessante des classes privilégiées, soit
+entre elles, soit contre les classes inférieures aux dépens
+de qui elles vivent. Ce sont les conditions de la
+vie matérielle qui dominent l'homme, ce sont ces
+conditions, et par suite le mode de production, qui
+ont déterminé et détermineront les moeurs et les
+institutions sociales, économiques, politiques, juridiques, etc. +
+Dès qu'une partie de la société a accaparé les
+moyens de production, l'autre partie, à qui incombe
+le fardeau du travail, est obligée d'ajouter au temps
+de travail commandé par son propre entretien, un
+surplus, pour lequel elle ne reçoit aucun équivalent,
+destiné à entretenir et à enrichir les possesseurs des
+moyens de production. Comme soutireur de travail
+non payé qui, par la plus-value croissante dont il est
+la source, accumule tous les jours davantage dans
+les mains de la classe propriétaire les instruments de domination,
+le régime capitaliste dépasse en puissance tous les régimes
+antérieurs de travaux forcés."
+-- Karl Marx, link:https://gallica.bnf.fr/ark:/12148/bpt6k5495207k/f12.item.r=karl%20Marx[Le capital de Karl Marx]
+
+* Mill, John Stuart (1806 - 1873): link:http://www.gutenberg.org/ebooks/30107[Principles of Political Economy]
 
 "Cheapness is the
     sentence of death to the producer on a small scale who has no
@@ -39,7 +69,7 @@ to those whom it concerned, and he acquired a character for honest or
 dishonest dealing of more importance to him than the gain that would
 be made by cheating casual purchasers."
 -- John Stuart Mill, link:http://www.gutenberg.org/ebooks/38138[Socialism]
-  
+
 * Montesquieu (1689 - 1755): link:http://www.gutenberg.org/ebooks/27573[The Spirit of Laws]
 * Owen, Robert: link:https://babel.hathitrust.org/cgi/pt?id=umn.31951001993567t&view=1up&seq=7[Book of the New Moral World]
 * More, Sir Thomas (1478 - 1535): link:http://www.gutenberg.org/ebooks/2130[Utopia Nowhere Land]
@@ -50,7 +80,7 @@ be made by cheating casual purchasers."
 * Samuelson, Paul (1915 - 2009): _revealed preference theory_ link:["A note on the pure theory of consumer's behaviour." Economica (1938)] and link:["Consumption theory in terms of revealed preference." Economica (1948)].
 * Ricardo, David (1772 - 1823): link:http://www.gutenberg.org/ebooks/33310[On The Principles of Political Economy, and Taxation]
 * Viner, Jacob (1892 - 1970): link:https://cdn.mises.org/Studies%20in%20the%20Theory%20of%20International%20Trade_3.pdf[Studies in the Theory of International Trade]
-* Tinbergen, Jan (1903 - 1994): 
+* Tinbergen, Jan (1903 - 1994):
 * Baumol, William J. (1922 - 2017): link:https://www.economist.com/finance-and-economics/2017/05/11/william-baumol-a-great-economist-died-on-may-4th[Obituary (The Economist)]; _Welfare Economics and the Theory of the State_
 * Pigou, A.C. (1877 - 1959): link:https://www.econlib.org/library/NPDBooks/Pigou/pgEW.html[The Economics of Welfare]
 * Keynes, John Maynard (1883 - 1946): link:https://www.marxists.org/reference/subject/economics/keynes/general-theory/[The General Theory of Employment, Interest and Money]
