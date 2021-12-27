@@ -1,0 +1,64 @@
+// Métode de calcul du PIB //
+
+Dans la rubrique « Einstein » à la fin de cette section, nous explorons plus en détail la méthode de calcul du PIB, afin de pouvoir comparer ses valeurs dans le temps ou entre pays. (La plupart des unités comprennent des rubriques « Einstein ». Vous n’êtes pas obligé(e) de les utiliser. Elles expliquent comment calculer et interpréter la plupart des statistiques que nous utilisons.) À l’aide de ces méthodes, nous pouvons utiliser le PIB par tête pour communiquer, sans équivoque, des idées telles que « les Japonais d’aujourd’hui sont en moyenne bien plus riches que leurs ancêtres il y a deux cents ans, et bien plus riches que les Indiens d’aujourd’hui ».
+
+|===
+|*EINSTEIN: Comparer les revenus à différentes périodes et entre différents pays*
+
+Les Nations unies collectent et link:https://unstats.un.org/unsd/snaama/Index[publient des estimations du PIB] auprès des bureaux statistiques du monde entier. Ces estimations, parallèlement à celles réalisées par des historiens de l’économie, nous permettent de construire des graphiques, comme la link:file:///Users/tarikz/Webpage/tarikgit.github.io/economics-course/Chapitre1-complete.html#crossehockey-img[Figure 1.1a], qui comparent les niveaux de vie entre pays et à différentes périodes temporelles et déterminent si l’écart entre les pays riches et pauvres s’est réduit ou s’est creusé au cours du temps. Avant d’affirmer quelque chose comme : « En moyenne, les Italiens sont plus riches que les Chinois, mais l’écart entre eux se rétrécit », les statisticiens et les économistes doivent essayer de résoudre trois problèmes :
+
+- nous avons besoin de distinguer ce que l’on cherche à mesurer – les évolutions ou les différences de quantités de biens et services – des éléments non pertinents pour effectuer ces comparaisons, en particulier les évolutions ou les écarts de prix de ces biens et services ; +
+- quand nous comparons la production dans un pays à deux moments différents, il faut prendre en compte la variation des prix entre ces deux moments ; +
+- quand nous comparons la production entre deux pays à un moment donné, il faut prendre en compte les écarts de prix entre ces deux pays. +
+
+Remarquez à quel point les deux dernières affirmations sont similaires. La mesure de l’évolution de la production entre différentes périodes présente le même type de défi que la mesure des différences de production entre pays à un moment donné. L’enjeu est de trouver une série de prix à utiliser dans le calcul et qui nous permettra d’identifier les évolutions ou les écarts de production, sans supposer à tort que si le prix de quelque chose a augmenté dans un pays, et pas dans un autre, alors la quantité totale produite a augmenté dans le premier pays.
+
+*Point de départ : PIB nominal*
+
+Lorsque les statisticiens estiment la valeur marchande de la production d’une économie dans son ensemble, à une période donnée (par exemple, une année), ils utilisent les prix auxquels les biens et services sont vendus sur le marché. En multipliant les quantités de la large gamme de biens et services produits par leurs prix, on peut les convertir en termes monétaires ou nominaux. Si tout est libellé dans la même unité nominale (ou monétaire), il devient possible de tout additionner. Le PIB nominal s’écrit alors :
+
+`(prix d’une leçon de yoga) × (nombre de leçons de yoga)`  +
+`+ (prix d'un livre) × (nombre de livres)+ ...` +
+`+ (prix) × (quantité)`   _pour tous les autres biens et services_
+
+En général, nous écrivons que :
+
+\begin{equation}
+ \mbox{PIB nominal} = \sum_i p_i q_i
+\end{equation}
+
+Où $p_i$ est le prix du bien $i$, $q_i$ est la quantité du bien $i$, et $\sum$ indique la somme du produit du prix par la quantité, pour tous les biens et services que nous comptons.
+
+*Prendre en compte le changement des prix au cours du temps : PIB réel*
+
+Pour estimer si l’économie est en croissance ou si elle ralentit, il faut disposer d’une mesure de la quantité de biens et services achetés. Il s’agit du PIB réel. Si l’on compare l’économie au cours de deux années différentes et si toutes les quantités restent identiques, mais que les prix augmentent, par exemple, de 2 % d’une année sur l’autre, alors le PIB nominal augmente de 2 %, mais le PIB réel demeure inchangé. L’économie n’a pas connu de croissance.
+
+Puisqu’il est impossible d’additionner le nombre d’ordinateurs, de chaussures, de repas au restaurant, de trajets en avion, de chariots élévateurs et ainsi de suite, il n’est pas possible de mesurer le PIB réel directement. En revanche, il est possible d’obtenir une estimation du PIB réel, en s’appuyant sur la définition du PIB nominal donnée ci-dessus.
+
+Le terme de droite de l’équation définissant le PIB nominal représente le produit du prix de chaque élément vendu par la quantité.
+
+Pour déterminer ce qu’il advient du PIB réel, nous commençons par sélectionner une année de référence : par exemple, l’année 2010. Nous définissons ensuite le PIB réel en considérant que les prix de 2010 sont égaux au PIB nominal de cette année-là. L’année suivante, le PIB nominal de 2011 est calculé selon la méthode usuelle à l’aide des prix en vigueur en 2011. Il est alors possible de déterminer le PIB réel en multipliant les quantités de 2011 par les prix de 2010. Si, en utilisant les prix de l’année de référence, le PIB a augmenté, nous pouvons en déduire que le PIB réel a augmenté.
+
+Si, avec cette méthode, on observe que lorsque l’on calcule le PIB de 2011 avec les prix de 2010, celui-ci est identique au PIB de 2010, on peut en déduire que malgré des changements probables dans la composition de la production (moins de trajets en avion, mais plus d’ordinateurs vendus, par exemple), la quantité totale de biens et services produits n’a pas changé. La conclusion serait alors que le PIB réel, qu’on appelle également PIB à [red]#prix constants#, n’a pas changé. En termes réels, le taux de croissance de l’économie est nul.
+
+*Prendre en compte les différences de prix entre pays : prix internationaux et pouvoir d’achat*
+
+Pour comparer les pays, nous devons choisir une série de prix et l’appliquer aux deux pays.
+
+Pour commencer, imaginez une économie simple qui ne produit qu’un seul bien. Dans notre exemple, nous choisissons un cappuccino, car il est facile de trouver le prix de ce produit dans différents endroits du monde. Nous choisissons également deux économies dont les niveaux de développement sont très différents : la Suède et l’Indonésie.
+
+Au moment où nous écrivons, quand les prix sont convertis en dollars américains, à l’aide du taux de change courant, un cappuccino coûte 3,90 \$ à Stockholm et 2,63 \$ à Jakarta.
+
+Toutefois, il n’est pas suffisant d’exprimer simplement le prix des deux cappuccinos dans une même devise, car le taux de change international courant que nous avons utilisé pour obtenir ces valeurs n’est pas une très bonne mesure de ce qu’une roupie permet d’acheter à Jakarta et de ce qu’une couronne permet d’acheter à Stockholm.
+
+C’est pourquoi, lorsque l’on compare les niveaux de vie entre pays, nous utilisons des estimations du PIB par tête exprimées selon une série commune de prix appelés prix à [red]#parité de pouvoir d’achat (PPA)#. Comme son nom l’indique, l’idée est d’aboutir à une parité (égalité) du pouvoir d’achat réel.
+
+Les prix sont typiquement plus élevés dans les pays riches – comme c’est le cas dans notre exemple. L’une des raisons est que les salaires y sont plus élevés, ce qui se traduit par des prix supérieurs. Puisque les prix des cappuccinos, des repas au restaurant, des coupes de cheveux, de la plupart des aliments, des transports, des loyers et de la plupart des autres biens et services sont plus élevés en Suède qu’en Indonésie, lorsqu’un panier commun de prix est appliqué, la différence entre le PIB par tête en Suède et en Indonésie mesurée à parité de pouvoir d’achat est plus faible que si la comparaison était faite au taux de change courant.
+
+Au taux de change courant, le PIB par tête indonésien ne vaut que 6 % du PIB par tête suédois. À PPA, lorsque la comparaison fait appel aux prix internationaux, le PIB par tête indonésien correspond à 21 % du PIB par tête suédois.
+
+Cette comparaison montre que le pouvoir d’achat de la roupie indonésienne par rapport à la couronne suédoise est plus de trois fois supérieur à ce que le taux de change courant entre les deux monnaies indiquerait.
+
+*Note*: _La mesure du PIB et d'autres agrégats de l’économie sont traités en détail dans l'link:https://www.core-econ.org/the-economy/book/fr/text/13.html[Unité 13 de l'Économie]._
+
+|===

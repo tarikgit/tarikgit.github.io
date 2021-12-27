@@ -1,0 +1,13 @@
+// Inégalités //
+
+*Les inégalités au sein des pays ont augmenté*.
+Les distributions du revenu sont devenues plus inégales dans de nombreux pays plus riches : quelques « gratte-ciel » très élevés sont apparus. Dans les pays à revenu intermédiaire, aussi, il y a une hausse marquée des revenus en arrière-plan : les revenus des 10 % les plus riches sont maintenant élevés comparativement au reste de la population.
+
+Deux choses ressortent clairement de la distribution de 2014. Premièrement, dans chaque pays, les riches ont beaucoup plus que les pauvres. Nous pouvons utiliser le rapport entre les niveaux des extrémités comme une mesure de l’inégalité dans un pays. Nous l’appellerons le « ratio riches/pauvres », pour des raisons évidentes. Même dans un pays relativement égalitaire comme la Norvège, le ratio riches/pauvres est de 5,4 ; aux États-Unis, il est de 16 et au Botswana dans le sud du continent africain, il est de 145. L’inégalité au sein des pays les plus pauvres est difficile à voir sur le graphique, mais elle est bien réelle : le ratio riches/pauvres est de 22 au Nigeria et de 20 en Inde.
+
+|===
+|*Le ratio riches/pauvres*
+
+utilisé ici est similaire à une mesure de l’inégalité couramment utilisée, appelée le link:https://tinyco.re/7590416[ratio 90/10]. Le ratio 90/10 est défini comme le rapport entre les revenus des deux individus situés aux quatre-vingt-dixième et dixième centiles. Ici nous prenons plutôt le rapport entre le revenu moyen du dixième décile (les ‘riches’) et celui du premier décile (les ‘pauvres’). Le dixième décile est composé de toutes les personnes ayant un revenu supérieur à celui de la personne située au quatre-vingt-dixième centile, sa moyenne est donc supérieure au revenu de cette personne. Le premier décile est composé de toutes les personnes dont le revenu est inférieur à celui de la personne située au dixième centile, et sa moyenne sera donc inférieure au revenu de cette personne. Par conséquent, notre ratio riches/pauvres sera plus élevé que le ratio 90/10 pour un même pays.
+
+|===

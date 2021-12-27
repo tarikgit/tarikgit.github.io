@@ -1,0 +1,34 @@
+// Adam Smith //
+
+image::https://www.core-econ.org/the-economy/book/fr/images/web/01-adam-smith.jpg[Adam Smith, 150, 50, title="Adam Smith"]
+
+|===
+|*LES GRANDS ÉCONOMISTES: Adam Smith*
+
+
+Adam Smith (1723–1790) est considéré par beaucoup comme le père des sciences économiques modernes. Il fut élevé par sa mère, une veuve, en Écosse. Il étudia la philosophie à l’Université de Glasgow, puis à Oxford où il écrivit : « La plupart des […] professeurs […] ne daignaient même plus faire semblant d’enseigner. »
+
+Il voyagea à travers l’Europe, et c’est lors d’un séjour à Toulouse où il se trouvait « désœuvré », qu’il « commença à écrire un livre pour passer le temps ». Cet ouvrage devint le livre d’économie le plus célèbre.
+
+Dans _Recherches sur la nature et les causes de la richesse des Nations_, publié en 1776, Smith posa la question suivante : comment une société peut-elle coordonner les activités indépendantes d’un très grand nombre d’acteurs économiques — producteurs, transporteurs, vendeurs, consommateurs — souvent inconnus les uns des autres et très dispersés à travers le monde ? Sa théorie novatrice était qu’une coordination entre tous ces acteurs pouvait spontanément émerger, sans qu’aucune personne ou institution ne tente consciemment de la créer ou la maintenir. Ce raisonnement rompait avec les anciennes notions d’organisation politique et économique, selon lesquelles les gouvernants doivent imposer l’ordre auprès de leurs sujets.
+
+Plus radicale encore fut son idée que cela pouvait résulter de la poursuite par les individus de leurs intérêts égoïstes : « Ce n’est pas de la bienveillance du boucher, du marchand de bière ou du boulanger que nous attendons notre dîner, mais bien du soin qu’ils apportent à leur propre intérêt », écrivit-il.
+
+Ailleurs dans la _Richesse des Nations_, Smith a introduit l’une des métaphores les plus durables dans l’histoire des sciences économiques, celle de la main invisible. L’homme d’affaires, écrivit-il : « ne pense qu’à son propre gain ; en cela, comme dans beaucoup d’autres cas, il est conduit par une main invisible à remplir une fin qui n’entre nullement dans ses intentions. Tout en ne cherchant que son intérêt personnel, il travaille souvent d’une manière bien plus efficace pour l’intérêt de la société, que s’il avait réellement pour but d’y travailler ».
+
+Parmi les idées de Smith, il faut noter celle selon laquelle une source majeure de la prospérité réside dans la division du travail ou la spécialisation, et que celle-ci est contrainte par la « taille du marché ». Smith illustre cette idée dans un passage célèbre sur l’usine d’épingles en observant que dix hommes, chacun complètement spécialisé dans une ou deux des 18 tâches distinctes, pouvaient produire jusqu’à 50 000 épingles par jour. Néanmoins, « s’ils avaient tous travaillé séparément et indépendamment […] ils n’auraient certainement pas pu en fabriquer chacun vingt, ni peut-être une par jour ».
+
+Toutefois, un tel nombre d’épingles trouveraient des acheteurs seulement si elles étaient vendues loin de leur lieu de production. Aussi, la spécialisation était favorisée par la construction de voies navigables et l’extension du commerce international. La prospérité qui en résultait augmentait elle-même la « taille du marché », dans un cycle vertueux de croissance économique.
+
+Smith ne pensait pas que les individus étaient entièrement guidés par leur propre intérêt. Dix-sept ans avant la Richesse des Nations, il consacra un livre aux comportements éthiques, appelé La _Théorie des sentiments moraux_.
+
+Il comprit aussi que le système de marché présentait des défaillances, particulièrement en cas de collusion entre vendeurs pour éviter de se faire concurrence. « Il est rare que des gens du même métier se trouvent réunis, écrivait-il, fût-ce pour quelque partie de plaisir ou pour se distraire, sans que la conversation finisse par quelque conspiration contre le public, ou par quelque machination pour faire hausser les prix. »
+
+Il ciblait particulièrement les monopoles protégés par les gouvernements, tels que la Compagnie britannique des Indes orientales, qui non seulement contrôlait le commerce entre l’Inde et la Grande-Bretagne, mais administrait également une grande partie de la colonie britannique sur place.
+
+Comme ses contemporains, il défendait l’idée d’un gouvernement qui devait protéger la nation contre les menaces extérieures et assurer la justice grâce à la police et aux tribunaux. Il plaidait aussi en faveur d’investissements publics dans l’éducation et dans des infrastructures publiques telles que les ponts, les routes ou les canaux.
+
+Smith est souvent associé à ’idée selon laquelle la prospérité émerge de la poursuite de l’intérêt personnel sous les conditions de l’économie de marché. Pourtant, sa pensée sur ces questions était bien plus nuancée qu’on ne le reconnaît.
+
+
+|===

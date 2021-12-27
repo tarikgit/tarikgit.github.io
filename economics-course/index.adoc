@@ -1,0 +1,25 @@
+= Introduction aux sciences économiques
+
+== Chapitre 1: L’activité économique et niveau de vie
+
+image::concept-maps/chapitre-1-revision-guide.png[Concept map 1.R.G,768,576,pdfwidth=50%,scaledwidth=10%, caption="Figure CM.1.R.G: "]
+
+. Cours
+.. Introduction
+.. Le produit intérieur brut
+.. La révolution technologique
+.. Conclusion
+. Cahier d'exercice
+. Guide de révision pour l'élève
+
+////
+
+== Chapitre 2:
+. Cours
+.. Propriété privée, marchés et entreprises
+.. La croissance économique
+.. Les sciences économiques et l'économie
+. Cahier d'exercice
+. Guide de révision pour l'élève
+
+////

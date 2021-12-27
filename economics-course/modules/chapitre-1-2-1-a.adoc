@@ -1,0 +1,53 @@
+// Les mesures de revenus et niveua de vie //
+
+L’estimation du niveau de vie que nous avons utilisée dans la Figure 1.1a (PIB par tête) repose sur une mesure de l’ensemble des biens et services produits dans un pays (appelée *produit intérieur brut* ou *PIB*), qui est ensuite divisée par la population du pays.
+
+Une mesure de la valeur marchande de la production de biens et services finaux dans l’économie au cours d’une période donnée. La production de biens intermédiaires qui sont des intrants de la production finale est exclue pour éviter un double comptage. L’économiste Diane Coyle explique que le PIB « recense tout, des clous aux brosses à dents, en passant par les tracteurs, les chaussures, les coupes de cheveux, les services de conseil de gestion, le nettoyage des rues, les cours de yoga, les assiettes, les sparadraps, les livres et les millions d’autres biens et services produits au sein de l’économie ».
+
+|===
+| *Les avantages et limites de la mesure du PIB*
+
+Écoutez Diane Coyle parler des link:https://www.econtalk.org/diane-coyle-on-gdp/#audio-highlights[avantages et limites de la mesure du PIB].
+
+|===
+
+Additionner ces millions de services et produits nécessite de trouver un étalon commun permettant de comparer, par exemple, la valeur d’une heure de yoga à celle d’une brosse à dents. Le défi des économistes est double : d’abord sélectionner ce qui doit être inclus, puis assigner une valeur à chacun de ces éléments. En pratique, la manière la plus simple de le faire est d’utiliser leur prix. Et quand cela est fait, la valeur du PIB correspond au revenu total de chaque individu dans le pays.
+
+La division du PIB par la population nous donne le PIB par tête – le revenu moyen des habitants dans un pays. Néanmoins, est-ce la bonne manière de mesurer leur niveau de vie ou bien-être ?
+
+==== Revenu disponible
+
+Le PIB par tête mesure le revenu moyen, mais il diffère de ce que nous appelons le *revenu disponible* d’un individu type.
+
+Le revenu disponible correspond à la somme des salaires, des profits, des rentes, des intérêts et des revenus de transfert versés par l’État (comme les allocations chômage ou les pensions d’invalidité) ou d’autres individus (cadeaux, par exemple) qui sont reçus au cours d’une période donnée (une année, par exemple), moins les sommes versées à des tiers (ce qui inclut les impôts payés à l’État). Le revenu disponible peut être considéré comme une bonne mesure du niveau de vie, puisqu’il correspond à la quantité maximale de nourriture, de logement, de vêtements et d’autres biens et services qu’une personne peut acheter sans avoir à emprunter, c’est-à-dire sans s’endetter ou sans vendre ses biens.
+
+==== Est-ce que notre revenu disponible est une bonne mesure de notre bien-être ?
+
+Le revenu a une influence majeure sur le bien-être, car il nous permet d’acheter les biens et services dont nous avons besoin ou que nous apprécions. Mais il ne suffit pas, car de nombreuses dimensions de notre bien-être ne sont pas liées à ce que nous pouvons acheter.
+Par exemple, le revenu disponible omet :
+
+* la qualité de notre environnement social et physique, telle que les amitiés et un air sain ;
+* la quantité de temps libre dont nous disposons pour nous détendre ou passer du temps avec des amis ou la famille ;
+* les biens et services que l’on n’achète pas, comme les soins de santé et l’éducation lorsqu’ils sont fournis par l’État ;
+* les biens et services qui sont produits au sein du ménage, comme les repas ou la garde des enfants (fournis principalement par les femmes).
+
+==== Revenu disponible moyen et bien-être moyen
+
+Quand nous appartenons à un groupe d’individus (une nation, par exemple), est-ce que le revenu disponible moyen est une bonne mesure du bien-être du groupe ? Considérez un groupe au sein duquel chacun dispose initialement d’un revenu mensuel disponible de 5 000 \$. Imaginez que le revenu de tous les individus du groupe augmente, sans que les prix ne varient. Nous conclurions alors que le niveau moyen de bien-être de ce groupe a augmenté.
+
+Considérez maintenant un autre cas. Dans un second groupe, le revenu disponible mensuel est de 10 000 \$ pour la moitié des membres. L’autre moitié a seulement 500 \$ à dépenser chaque mois. Le revenu moyen du second groupe (5 250 \$) est plus élevé que celui du premier groupe (5 000 \$ avant l’augmentation de revenu). Mais dirions-nous que son bien-être est plus élevé que celui du premier groupe, où chacun dispose de 5 000 \$ par mois ? Le revenu additionnel dans le second groupe importera sans doute peu aux plus aisés, tandis que l’autre moitié pauvre aura ressenti la pauvreté comme une situation de grande précarité.
+
+Le revenu absolu compte dans l’évaluation du bien-être, mais les travaux de recherche ont établi que les individus se soucient également de leur position relative dans la distribution des revenus. Ils rapportent un niveau de bien-être plus faible s’ils découvrent qu’ils ont un salaire inférieur à leurs pairs du groupe.
+
+Puisque, d’une part, la distribution des revenus affecte le bien-être et que, d’autre part, le même revenu moyen peut être tiré de distributions de revenus très différentes entre les riches et les pauvres au sein d’un groupe, le revenu moyen peut refléter imparfaitement la situation d’un groupe d’individus par rapport à un autre.
+
+==== La valeur des biens et services publics
+
+Le PIB inclut les biens et les services fournis par l’État, comme l’éducation, l’armée et la justice. Ils concourent au bien-être, mais ne sont pas inclus dans le revenu disponible. À cet égard, le PIB par tête est une meilleure mesure du niveau de vie que le revenu disponible.
+
+Mais la valeur des services fournis par l’État est difficile à évaluer, encore plus que la valeur de services comme les coupes de cheveux et les leçons de yoga. Pour les biens et services achetés par les individus, leur prix est considéré comme une mesure approximative de leur valeur (si vous estimiez que la valeur d’une coupe de cheveux était inférieure à son prix, vous vous seriez simplement laissé(e) pousser les cheveux). Mais les biens et services produits par l’État, eux, ne sont généralement pas vendus, et la seule mesure disponible de leur valeur est leur coût de production.
+
+Les différences entre ce que nous entendons par bien-être, d’une part, et ce que le PIB par tête mesure, d’autre part, devraient nous inciter à nous montrer prudent quant à l’usage du PIB par tête pour mesurer la qualité des conditions de vie des individus.
+
+
+Mais quand les changements dans le temps ou les écarts entre pays pour cet indicateur sont aussi importants que ceux de la Figure 1.1a (et des Figures 1.1b, 1.8 et 1.9 qui apparaîtront plus tard cette unité), il est opportun de penser que le PIB par tête nous renseigne sur les différences en termes de disponibilité de biens et services.
