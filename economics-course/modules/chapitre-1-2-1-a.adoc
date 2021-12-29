@@ -15,13 +15,13 @@ Additionner ces millions de services et produits nécessite de trouver un étalo
 
 La division du PIB par la population nous donne le PIB par tête – le revenu moyen des habitants dans un pays. Néanmoins, est-ce la bonne manière de mesurer leur niveau de vie ou bien-être ?
 
-==== Revenu disponible
+*Revenu disponible* +
 
 Le PIB par tête mesure le revenu moyen, mais il diffère de ce que nous appelons le *revenu disponible* d’un individu type.
 
 Le revenu disponible correspond à la somme des salaires, des profits, des rentes, des intérêts et des revenus de transfert versés par l’État (comme les allocations chômage ou les pensions d’invalidité) ou d’autres individus (cadeaux, par exemple) qui sont reçus au cours d’une période donnée (une année, par exemple), moins les sommes versées à des tiers (ce qui inclut les impôts payés à l’État). Le revenu disponible peut être considéré comme une bonne mesure du niveau de vie, puisqu’il correspond à la quantité maximale de nourriture, de logement, de vêtements et d’autres biens et services qu’une personne peut acheter sans avoir à emprunter, c’est-à-dire sans s’endetter ou sans vendre ses biens.
 
-==== Est-ce que notre revenu disponible est une bonne mesure de notre bien-être ?
+*Est-ce que notre revenu disponible est une bonne mesure de notre bien-être ?* +
 
 Le revenu a une influence majeure sur le bien-être, car il nous permet d’acheter les biens et services dont nous avons besoin ou que nous apprécions. Mais il ne suffit pas, car de nombreuses dimensions de notre bien-être ne sont pas liées à ce que nous pouvons acheter.
 Par exemple, le revenu disponible omet :
@@ -31,7 +31,7 @@ Par exemple, le revenu disponible omet :
 * les biens et services que l’on n’achète pas, comme les soins de santé et l’éducation lorsqu’ils sont fournis par l’État ;
 * les biens et services qui sont produits au sein du ménage, comme les repas ou la garde des enfants (fournis principalement par les femmes).
 
-==== Revenu disponible moyen et bien-être moyen
+*Revenu disponible moyen et bien-être moyen* +
 
 Quand nous appartenons à un groupe d’individus (une nation, par exemple), est-ce que le revenu disponible moyen est une bonne mesure du bien-être du groupe ? Considérez un groupe au sein duquel chacun dispose initialement d’un revenu mensuel disponible de 5 000 \$. Imaginez que le revenu de tous les individus du groupe augmente, sans que les prix ne varient. Nous conclurions alors que le niveau moyen de bien-être de ce groupe a augmenté.
 
@@ -41,7 +41,7 @@ Le revenu absolu compte dans l’évaluation du bien-être, mais les travaux de 
 
 Puisque, d’une part, la distribution des revenus affecte le bien-être et que, d’autre part, le même revenu moyen peut être tiré de distributions de revenus très différentes entre les riches et les pauvres au sein d’un groupe, le revenu moyen peut refléter imparfaitement la situation d’un groupe d’individus par rapport à un autre.
 
-==== La valeur des biens et services publics
+*La valeur des biens et services publics* +
 
 Le PIB inclut les biens et les services fournis par l’État, comme l’éducation, l’armée et la justice. Ils concourent au bien-être, mais ne sont pas inclus dans le revenu disponible. À cet égard, le PIB par tête est une meilleure mesure du niveau de vie que le revenu disponible.
 
