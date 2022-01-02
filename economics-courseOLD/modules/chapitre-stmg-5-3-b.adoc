@@ -1,0 +1,21 @@
+Pour en savoir plus sur le pays dans lequel vous vivez et le comparer à d’autres pays, reportez-vous à l’Exercice 5.2.
+
+|===
+|*EXERCICE 5.2 COMMENT UTILISER FRED*
+
+Si vous souhaitez obtenir des données macroéconomiques en temps réel sur le taux de chômage allemand ou la croissance de la production chinoise, il n’est pas nécessaire d’apprendre l’allemand ou le mandarin, ni de se débattre avec des archives nationales, puisque FRED le fait pour vous ! FRED est une base de données complète et actualisée, alimentée par la Réserve fédérale (Fed) de Saint-Louis aux États-Unis, qui fait partie du système bancaire central américain. On y trouve les principales statistiques macroéconomiques de la plupart des pays développés depuis les années 1960. Avec FRED, vous pouvez aussi créer vos propres graphiques et exporter les données vers un tableur. Voici les étapes à suivre pour apprendre à utiliser FRED et trouver des données macroéconomiques :
+
+- Allez sur le link:https://tinyco.re/8136544[site de FRED] +
+- Utilisez la barre de recherche et tapez en anglais « Gross Domestic Product » (pour PIB) et le nom d’une grande économie mondiale. Sélectionnez les séries annuelles du PIB nominal (« current prices » pour prix courants) et réel (« constant prices » pour prix constants) de ce pays. Cliquez sur le bouton « Add to graph » en bas de la page. +
+
+Utilisez le graphique ainsi créé pour répondre aux questions suivantes :
+
+1. Quel est le niveau du PIB nominal cette année dans le pays que vous avez choisi ? +
+2. FRED vous indique que le PIB réel est aux prix d’une année spécifique chaînés (cela signifie que le PIB est évalué aux prix constants de cette année de référence). Remarquez que les séries du PIB réel et du PIB nominal se croisent en un point donné. Comment l’expliquez-vous ? +
+
+Gardez seulement la série du PIB réel représentée sur le graphique de FRED. FRED indique les récessions de l’économie américaine en grisé en s’appuyant sur la définition du NBER, mais pas pour les autres économies. Supposez que, pour les autres économies, une récession soit définie par deux trimestres consécutifs de croissance négative. En bas de la page du graphique, sélectionnez « Create your own data transformation » et cliquez sur « Percent change from one year » (FRED vous donne un indice pour calculer un taux de croissance en bas de la page : « Notes on growth rate calculation and recessions »). La série statistique montre à présent la variation en pourcentage du PIB réel.
+
+1. Combien de récessions l’économie de votre choix a-t-elle connues au cours des années représentées sur le graphique ? +
+2. Quelles sont les deux plus fortes récessions par leur durée et leur ampleur ?
+
+|===

@@ -1,0 +1,16 @@
+// Distribution des revenus //
+
+Il y a 1 000 ans, le monde était plat, économiquement parlant. Il y avait des différences de revenus entre les régions du monde ; néanmoins, comme vous pouvez le constater sur la Figure 1.1a, les différences étaient petites relativement à ce qui suivra.
+
+Quand on regarde les revenus aujourd’hui, personne ne pense que le monde est plat.
+
+La Figure 1.2 montre la distribution des revenus entre et au sein des pays. Les pays sont ordonnés selon leur PIB par tête, du plus pauvre à gauche du graphique (Libéria), au plus riche sur la droite (Singapour). La largeur des barres de chaque pays représente sa population.
+
+Pour chaque pays, il y a dix barres, qui correspondent aux dix déciles de revenu. La hauteur de chaque barre représente le revenu moyen de 10 % de la population, allant des 10 % les plus pauvres au premier plan sur le graphique aux 10 % les plus riches à l’arrière-plan, mesuré en dollars américains de 2005. Notez que cela ne veut pas dire « les 10 % les plus riches des personnes recevant des revenus ». Il s’agit des 10 % les plus riches de la population, où chaque personne dans un ménage, incluant les enfants, est supposée recevoir une part égale du revenu du ménage.
+
+Les « gratte-ciel » (les barres les plus élevées) à l’arrière-plan sur la droite de la figure représentent le revenu des 10 % les plus riches dans les pays les plus riches. Le gratte-ciel le plus élevé correspond aux 10 % les plus riches à Singapour. En 2014, ce groupe particulier avait un revenu par tête de plus de 67 000 $. La Norvège, le deuxième pays au monde en termes de PIB par tête, n’a pas de gratte-ciel particulièrement élevé (le pays est caché entre les gratte-ciel de Singapour et ceux du troisième pays le plus riche, les États-Unis), car le revenu est réparti de manière plus égalitaire en Norvège par rapport aux autre pays riches.
+
+L’analyse de la Figure 1.2 montre comment la distribution des revenus a changé depuis 1980.
+
+.Les pays sont rangés par PIB par tête, de la gauche vers la droite. Pour chaque pays, les hauteurs des barres montrent le revenu moyen des déciles de la population, des 10 % les plus pauvres au premier plan au 10 % les plus riches à l’arrière-plan. La largeur de la barre correspond à la population du pays. Le link:https://tinyco.re/4877569[graphique interactif] de la Figure 1.2 et les link:https://jackblun.github.io/Globalinc/[données à télécharger sont disponibles ici].
+image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-02-f.jpg[Revenu annuel, 600, 300, caption="Figure 1.2: "]

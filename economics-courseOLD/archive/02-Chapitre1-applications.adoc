@@ -1,0 +1,26 @@
+= Chapitre 1: L'activité économique et niveau de vie (Applications)
+
+== Croissance économique
+
+link:https://www.youtube.com/watch?v=vA-rtjlKEYU[*Video*: How India's Economy Is Growing At A Faster Pace Than China]
+
+link:https://www.youtube.com/watch?v=tboPF8w-554[*Video*: Why is India’s growth slowing?]
+
+=== Questions
+
+. Comment la croissance économique est-elle mesurée ?
+. Décrivez deux limites de l’utilisation du PIB comme mesure de la croissance économique.
+. Que s'est-il passé dans l'économie de l'Inde au cours de la période considéré dans la vidéo. Utilisez un schéma du cycle économique pour expliquer votre réponse.
+. Discutez le lien possible entre la croissance économique et l'inflation dans le cas de l'Inde.
+. Considérez les avantages possibles de la croissance économique pour l'Inde.
+
+=== Proposition d’une réponse
+
+. Comment la croissance économique est-elle mesurée ? [kn, app]
+.. Mesure utilisée : PIB
+... Le PIB mesure la production d’un pays au cours d’une année.
+... Il mesure la valeur des biens et services produits et vendus.
+... Le graphique représente le PIB de l’économie en question.
+
+.Cycles économiques
+image::https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Economic_cycle.svg/2560px-Economic_cycle.svg.png[600,300,float="right",align="center"]

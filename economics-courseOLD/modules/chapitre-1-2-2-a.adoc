@@ -1,0 +1,23 @@
+// Calcul du taux de croissance //
+
+Une autre manière d’analyser les données de la Figure 1.1a consiste à utiliser une échelle qui indique que le PIB par tête double à mesure que l’on progresse vers le haut de l’axe vertical (de 250 \$ par tête et par année à 500 \$, puis à 1000 \$, etc.). On appelle cela une échelle de rapport, comme celle de la Figure 1.1b. L’échelle de rapport est utilisée pour comparer des taux de croissance.
+
+Par taux de croissance du revenu, ou de toute autre quantité, comme la population, on entend le taux de variation :
+
+\begin{equation}
+ \mbox{taux de croissance} = \frac{ \mbox{variation du revenu} }{ \mbox{valeur initiale du revenu} }
+\end{equation}
+
+Si le niveau du PIB par tête en 2000 est 21 046 \$, comme c’était le cas de la Grande-Bretagne dans les données de la Figure 1.1a, et 21 567 \$ en 2001, nous pouvons calculer le taux de croissance comme suit :
+
+\begin{equation}
+\begin{split}
+ \mbox{taux de croissance} & = \frac{ \mbox{variation du revenu} }{ \mbox{valeur initiale du revenu} } \\
+  & = \frac{ y_{2001}-y_{2000} }{ y_{2000} } \\
+  & = \frac{21567-21046}{21046} \\
+  & = 0,0247 \\
+  & = 2,5 \%
+\end{split}
+\end{equation}
+
+Selon la question posée, nous choisissons de comparer soit des niveaux, soit des taux de croissance. La Figure 1.1a facilite la comparaison des niveaux de PIB par tête entre pays et à différents moments. La Figure 1.1b utilise une échelle de rapport, qui permet une comparaison des taux de croissance entre pays et à différentes périodes. Lorsqu’une échelle de rapport est utilisée, une série qui croît à un taux constant est représentée par une droite. Cela vient du fait que le pourcentage (ou le taux de croissance proportionnel) est constant. Une droite plus pentue dans une échelle de rapport indique un taux de croissance plus rapide.

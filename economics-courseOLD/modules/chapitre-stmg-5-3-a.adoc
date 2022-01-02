@@ -1,0 +1,37 @@
+// La statistique nationale et la comptabilité nationale //
+
+On entend souvent parler d’économies connaissant tour à tour des phases d’expansion et de récession selon que la croissance oscille entre des valeurs négatives et positives. Le mouvement de va-et-vient entre expansion et récession est connu comme le cycle économique.
+
+Pourtant il n’existe aucune définition unanimement reconnue de ces termes. Le Bureau national pour la recherche économique (NBER), un institut américain, propose cette définition : « Au cours d’une récession, un déclin significatif de l’activité économique se diffuse à toute l’économie et peut durer quelques mois à plus d’une année. » Une définition alternative consiste à dire que l’économie se trouve en récession lorsque le niveau de production passe sous son niveau normal. Un problème pratique apparaît avec la seconde définition : la production normale d’une économie est une question de jugement, parfois sujette à controverses.
+
+Nous avons donc deux définitions d’une récession :
+
+. _Définition du NBER_ : la production baisse. Une récession se termine quand l’économie commence à croître de nouveau.
+. _Définition alternative_ : le niveau de production est inférieur à son niveau normal, même si l’économie est en croissance. Une récession ne s’achève que lorsque la production augmente suffisamment pour atteindre à nouveau le volume normal.
+
+Toutes les récessions ne sont cependant pas comparables. Le Graphique 5.2 illustre le cas de l’économie française, pour laquelle de longues séries temporelles sont disponibles. Dans le Graphique 5.2, vous pouvez remarquer qu’en plus de l’évolution annuelle du PIB, qui suggère deux récessions (mesurées par une croissance négative) par décennie environ, il existe des épisodes, moins fréquents, de fluctuations plus importantes de l’activité. Au 20e siècle, les creux les plus conséquents ont coïncidé avec la fin des Première et Seconde Guerres mondiales, et avec la crise économique de la Grande Dépression. Suivez les étapes de l’analyse du Graphique 5.2 pour voir que, au 21e siècle, la crise financière mondiale a mis fin à une période caractérisée par de faibles fluctuations.
+
+
+
+[.float-group]
+.Graphique 5.2 Croissance du PIB de la France (1820–2014). Au 21e siècle, la crise financière de 2008 survint après une période au cours de laquelle les fluctuations furent limitées.
+--
+image::https://www.sciencespo.fr/department-economics/econofides/premiere-stmg/images/web/graphique-05-02-a.jpg[float="left",width=420mm]
+// Define float role, instead of attribute.
+[.left]
+image::https://www.sciencespo.fr/department-economics/econofides/premiere-stmg/images/web/graphique-05-02-b.jpg[width=420mm]
+--
+
+Depuis le 18e siècle, l’amélioration du niveau de vie moyen, mesuré par le PIB par habitant, est devenue une caractéristique permanente de la vie économique dans de nombreux pays. Toutefois, cette croissance n’a pas été régulière.
+
+Lors du siècle précédent, la moyenne des niveaux de vie a été multipliée par six dans les économies que l’on considère souvent comme « avancées » (principalement les économies « riches ») et qui incluent les États-Unis, l’Europe de l’Ouest, l’Australie, le Canada et la Nouvelle-Zélande. Il s’agit là d’un succès économique remarquable, mais cela ne fut pas un parcours facile.
+
+Les pics et les creux des séries du Graphique 5.2 montrent de façon nette que la croissance économique n’est pas un processus lisse et régulier. Dans le Graphique 5.1, nous examinons la production agrégée, plutôt que le PIB par habitant, car nous nous focalisons sur la taille de l’économie et son évolution d’une année sur l’autre.
+
+Les économistes mesurent la taille de l’économie en s’appuyant sur la comptabilité nationale : celle-ci mesure la croissance et les fluctuations économiques. Les comptes nationaux sont des statistiques publiées par les bureaux nationaux de statistique, qui utilisent des informations sur les acteurs économiques pour construire une image quantifiée de l’économie dans son ensemble. En France, cette mission revient à l’Institut national de la statistique et des études économiques (Insee). La vidéo « Pour comprendre les statistiques de l’Insee » explique comment l’Insee produit des statistiques nationales.
+
+
+.« Pour comprendre les statistiques de l’Insee »
+video::RzNGx11lw5E[youtube,600,300]
+
+Travailler avec les données de la comptabilité nationale permet d’en apprendre beaucoup sur l’économie. Pour ce faire, une manière simple est d’utiliser FRED (Federal Reserve Economic Data). 

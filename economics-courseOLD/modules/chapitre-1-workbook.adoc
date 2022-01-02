@@ -1,0 +1,114 @@
+= Cahier d'exercices
+
+== 1. Les inégalités de revenus (1/2)
+
+Ici nous utilisons l'approche des questions en quatre parties qui visent à guider l'apprenant à travers les différentes étapes de la rédaction d'une réponse structurée.
+
+. Définir la pauvreté absolue (2 points)
+. Expliquez deux raisons pour lesquelles les enfants des pauvres sont susceptibles d'être pauvres à l'âge adulte (4 points).
+. Analyser comment la politique budgétaire pourrait réduire les inégalités de revenus (6 points).
+. Discuter si l'introduction d'un salaire minimum national réduira ou non la pauvreté (8 points)
+
+
+== 2. Les inégalités de revenus (2/2)
+
+=== Question:
+
+D'importantes inégalités de revenus continuent d'exister dans les économies développées. _Évaluer_ l'utilisation de la politique gouvernementale pour redistribuer les revenus dans les économies développées. (12 points)
+
+=== Proposition d'une réponse:
+
+Les réponses doivent clairement être en lien avec les _économies développées_ ainsi que le rôle des _politiques budgétaires_. Les réponses devraient tenter d'expliquer pourquoi de telles inégalités existent et considérer le rôle d'une série de politiques fiscales qui pourraient être utilisées pour résoudre le problème. Cela pourrait inclure une référence à l'imposition progressive, au contrôle des salaires et aux paiements de transfert. Dans chaque cas, les apprenants doivent discuter du potentiel de chacun à redistribuer les revenus et envisager les éventuelles conséquences négatives à long terme.
+
+=== Aide supplémentaire pour le correcteur:
+
+Niveau 4 (9-12 points):: pour une réponse contenant l’idée que tous les types de politique budgétaire ont des coûts et des avantages et qu'il est donc nécessaire de considérer les conséquences plus larges pour l'économie de telles politiques. Par exemple, le candidat pourrait faire référence à l'impact négatif potentiel de la fiscalité progressive sur l'investissement et la croissance économique. Une conclusion devrait se dégager de l'argument précédent.
+Niveau 3 (7-8 points):: pour une réponse qui tente d'analyser les liens entre au moins deux changements de politique budgétaire et, dans chaque cas, d'examiner l'impact sur la répartition actuelle des revenus. Une analyse des coûts potentiels de telles politiques et s'il est possible de s'appuyer uniquement sur les forces du marché pourrait également être fournie.
+Niveau 2 (5-6 points):: pour une réponse descriptive et qui n'indique pas clairement qu'il s'agit d'évaluer un problème auquel est confrontée une économie développée. Quelques références seront faites à l'utilisation de la politique budgétaire mais les alternatives seront limitées et il y aura peu d'efforts pour analyser les liens entre les changements de politique budgétaire et leur impact sur la répartition des revenus.
+Niveau 1 (1-4 points):: pour une réponse qui contient des faits de base corrects, mais comprend des non-pertinences et des erreurs de théorie.
+
+
+== 3. Croissance économique
+
+=== Proposition de texte:
+link:https://www.alternatives-economiques.fr/kaushik-basu/bangladesh-prochain-tigre-asiatique/00084442[Le Bangladesh, prochain tigre asiatique? (Kaushik Basu)] (_Alternatives Economiques_, 30/04/2018).
+
+[#img-bangladesh]
+.Croissance économique au Bangladesh (source: link:https://fred.stlouisfed.org/graph/?g=KkEx[FRED])
+[link=https://fred.stlouisfed.org/graph/fredgraph.png?g=KjDm]
+image::https://fred.stlouisfed.org/graph/fredgraph.png?g=KkEx[Bangladesh,480,240]
+
+=== Questions:
+
+. Comment la croissance économique est-elle mesurée ?
+. Décrivez deux limites de l’utilisation du PIB comme mesure de la croissance économique.
+. Que s'est-il passé dans l'économie du pays en question au cours de la période illustrée à la figure 1. Utilisez un schéma du cycle économique pour expliquer votre réponse.
+. Discutez le lien possible entre la croissance économique et l'inflation dans le pays en question.
+. Considérez les avantages possibles de la croissance économique dans le pays en question.
+
+=== Proposition d'une réponse:
+
+. Comment la croissance économique est-elle mesurée ? [kn, app]
+.. Mesure utilisée : PIB
+.. Le PIB mesure la production d’un pays au cours d’une année.
+.. Il mesure la valeur des biens et services produits et vendus.
+.. Le graphique représente le PIB de l’économie en question.
+. Décrivez deux limites de l’utilisation du PIB comme mesure de la croissance économique. [app, an]
+.. Collecte des données pour calculer le PIB est une tâche difficile. [présent dans l’ancien cours]
+.. Des erreurs sont commises parce que les informations ont été saisies de manière inexacte ou omises.
+.. La vraie valeur du PIB n'est jamais vraiment connue.
+.. Certains biens et services ne sont pas échangés et, par conséquent, l'activité économique n'est pas enregistrée. (cf. production non-marchande)
+. Que s'est-il passé dans l'économie du pays en question au cours de la période illustrée à la figure 1. Utilisez un schéma du cycle économique pour expliquer votre réponse. [app, an]
+.. Description du graphique représentant la trajectoire du PIB et ainsi de la croissance économique.
+.. Préciser dans quelle partie du cycle économique se trouve l’économie en question (p.ex. récession, expansion, ...).
+.. Expliquer ce qui se passe lorsqu’une économie est en phase d’expansion : les entreprises existants procède à une expansion et des entreprises étrangères entrent sur le marché. La demande augmente, des nouveaux emplois sont créés, les salaires augmentent, les profits augmentent.
+.. Les prix  augmentent.
+.. Faire le lien avec les données ou le graphique accompagnant.
+. Considérez les avantages possibles de la croissance économique dans le pays en question. [an, ev]
+.. Promouvoir la croissance est l'un des objectifs macroéconomiques clés du gouvernement.
+.. En général, la croissance économique est *bénéfique* .
+... Par exemple, la croissance économique est le résultat des entreprises générant plus de production.
+... Par conséquent, la croissance économique augmente les niveaux d'emploi et réduit ainsi le chômage.
+... Les augmentations du PIB signifient qu'en moyenne les gens ont plus de revenus. Avec un revenu disponible plus élevé, les gens peuvent acheter plus de biens et de services. Ils peuvent acheter des aliments de meilleure qualité, des logements améliorés et davantage de biens de loisirs. De plus, en raison de la croissance économique, les gens vivent maintenant plus longtemps. Les gens peuvent se permettre une alimentation plus saine et vivre plus longtemps. Avec les taux élevés de croissance économique, le gouvernement a bénéficié d'une augmentation significative des recettes fiscales. En conséquence, le gouvernement indien a mis en place des politiques visant à réduire la pauvreté et à créer des emplois.
+... Les gouvernements mettent en place des politiques pour réduire la pauvreté et créer des emplois.
+... Ici les élèves peuvent utiliser la connaissance acquise lors des lectures ou des vidéos associées avec le cours.
+... Le gouvernement peut également dépenser plus pour des services tels que les soins de santé, l'éducation et la provision pour les pauvres. Ces dépenses vont augmenter le taux d'alphabétisation et réduire la mortalité infantile (s’il s’agit d’un pays en voie de développement)
+... Ici les élèves peuvent utiliser la connaissance acquise lors des lectures ou des vidéos associées avec le cours.
+... Le gouvernement peut également dépenser plus pour des services tels que les soins de santé, l'éducation et la provision pour les pauvres. Ces dépenses vont augmenter le taux d'alphabétisation et réduire la mortalité infantile (s’il s’agit d’un pays en voie de développement)
+... Les élèves sont invités à utiliser activement toutes les données qui sont présents dans le texte.
+... Le gouvernement a également investi massivement dans les infrastructures. Par exemple, le gouvernement s'est engagé à un vaste programme de construction de routes.
+.. Bien que les avantages de la croissance soient importants et très bien accueilli, il y a quelques *inconvénients*.
+... Ces investissements peuvent mener à des taux d'inflation élevés qui peuvent nuire à l'économie. Par exemple, cela entraîne une augmentation du coût de vie. Une croissance rapide peut également endommager l'environnement.
+... Les groupes environnementaux estiment que les avantages de la croissance sont inférieurs aux coûts de génération de cette croissance. Par exemple, à mesure que les économies se développent, plus de voitures sont achetées et plus les vols sont pris. Le transport automobile et le transport aérien contribuent à gaz à effet de serre qui causent le réchauffement climatique. Dans certaines des pays comme la Chine et l'Inde, des niveaux élevés de croissance s'est accompagnée de niveaux très élevés de la pollution.
+... De plus, la croissance économique utilise des ressources non renouvelables ressources telles que le pétrole, le gaz, l'or et le minerai de fer. Une fois qu'ils ont été utilisés, ils ne peuvent pas être remplacés. Croissance économique signifie que les générations futures auront moins de ressources.
+... Lorsque cela se produit, on dit que la croissance n'est pas durable.
+.. Pour conclure, il est probable qu'il y ait peu de personnes en Inde qui n'accueilleraient pas plus de croissance économique. Pour la plupart des gens, les avantages de la croissance sont plus importants que les inconvénients.
+.. Pour un pays en développement comme l'Inde, une certaine inflation et les dommages environnementaux peuvent être un prix acceptable à payer pour des niveaux de pauvreté plus bas, une espérance de vie plus élevée, plus d'emplois et revenus, de meilleures infrastructures et des niveaux d'alphabétisation plus élevés.
+
+
+== 4. Croissance économique
+
+=== Videos
+
+link:https://www.youtube.com/watch?v=vA-rtjlKEYU[*Video*: How India's Economy Is Growing At A Faster Pace Than China]
+
+link:https://www.youtube.com/watch?v=tboPF8w-554[*Video*: Why is India’s growth slowing?]
+
+=== Questions
+
+. Comment la croissance économique est-elle mesurée ?
+. Décrivez deux limites de l’utilisation du PIB comme mesure de la croissance économique.
+. Que s'est-il passé dans l'économie de l'Inde au cours de la période considéré dans la vidéo. Utilisez un schéma du cycle économique pour expliquer votre réponse.
+. Discutez le lien possible entre la croissance économique et l'inflation dans le cas de l'Inde.
+. Considérez les avantages possibles de la croissance économique pour l'Inde.
+
+=== Proposition d’une réponse
+
+. Comment la croissance économique est-elle mesurée ? [kn, app]
+.. Mesure utilisée : PIB
+... Le PIB mesure la production d’un pays au cours d’une année.
+... Il mesure la valeur des biens et services produits et vendus.
+... Le graphique représente le PIB de l’économie en question.
+
+.Cycles économiques
+image::https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Economic_cycle.svg/2560px-Economic_cycle.svg.png[600,300,float="right",align="center"]

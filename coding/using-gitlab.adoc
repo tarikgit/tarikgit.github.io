@@ -1,0 +1,27 @@
+= Using GitLab
+
+== Download or clone a repository
+
+[source,bash]
+----
+
+git clone git@gitlab.com:econmediadb/economics-course.git
+
+----
+
+== Creating a repository
+
+
+
+* Commit new changes
+[source,bash]
+----
+git add *
+git commit -m "write a short comment here"
+git push
+----
+
+
+== Sources:
+
+link:https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html[Start using Git on the command line] +

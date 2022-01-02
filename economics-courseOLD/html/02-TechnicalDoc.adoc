@@ -1,0 +1,5 @@
+= Technical details
+
+link:../concept-maps/chapitre-1-sources-et-contenus.nxfc[Concept map] du chapitre 1 (sources et contenus).
+
+image::../images/chapitre-1-sources-et-contenus.png[Concept map,896,672,pdfwidth=50%,scaledwidth=50%]] 

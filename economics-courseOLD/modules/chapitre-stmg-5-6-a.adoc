@@ -1,0 +1,24 @@
+// Les indicateurs complémentaires au PIB //
+
+Pour comparer les niveaux de vie de chaque pays, nous utilisons une mesure appelée « PIB par habitant ». Néanmoins, est-ce la bonne manière de mesurer leur niveau de vie ou bien-être ?
+
+En campagne pour les élections présidentielles américaines, le sénateur Robert Kennedy prononça le 18 mars 1968 un discours célèbre dans lequel il se demandait pourquoi la pollution de l’air, la publicité pour les cigarettes et les prisons, entre autres choses, étaient prises en compte dans la mesure américaine du niveau de vie, alors que la santé, l’éducation ou le dévouement à sa patrie ne l’étaient pas, et remettait en cause « la simple accumulation de biens matériels » au sein de la société américaine. D’après lui, « cela mesure tout, sauf ce qui donne du sens à nos vies ».
+
+Rappelez-vous que la dépréciation fait référence à l’amortissement ou l’épuisement des biens d’équipement utilisés dans la production. Dans le cadre de la comptabilité de la croissance verte, l’environnement est de manière similaire considéré comme un actifactif Toute chose de valeur qui est possédée. Voir également : bilan, passif.close qui peut s’user. L’environnement fait partie de ce dont a besoin la société pour produire des biens et services.
+
+Ainsi, la dégradation environnementale réduit les actifs de la société, à l’instar de l’usure ou l’obsolescence des machines utilisées dans la production. Mais de combien ?
+
+Pour prendre en compte cette perte de capital naturel, nous devons trouver combien cela coûterait (par an) pour remplacer le capital naturel perdu et ensuite le soustraire du PIB annuel.
+
+Si vous réalisez cet ajustement comptable (aussi appelé ajustement environnementalajustement environnemental Ajustement comptable apporté aux mesures conventionnelles du revenu national pour prendre en compte la valeur du capital naturel.close), les « miracles économiques » sont en réalité moins impressionnants. Lorsqu’une politique indonésienne généra un boom de l’industrie du bois entre 1979 et 1982, Robert Repetto et ses collègues de l’Institut des ressources mondiales (World Resources Institute, WRI, en anglais) ont calculé que le pays avait sacrifié un montant supérieur à 2 milliards de dollars de revenus forestiers potentiels. Ils ont montré qu’en prenant en compte la déforestation, la raréfaction du pétrole et l’érosion des sols, le taux de croissance annuel moyen du PIB de l’Indonésie ajusté (net de la dépréciation du capital naturel) – mesuré au départ à 7,1 % entre 1971 et 1984 – était de seulement 4 %. Un exercice similaire a été mené en Suède entre 1993 et 1997, où la dépréciation des actifs naturels était estimée à environ 1 % du PIB par an.
+
+Bien que la dégradation environnementale ne soit pas prise en compte dans la comptabilité nationale habituelle, elle devrait l’être, car exploiter le capital naturel n’est pas différent de l’usure des machines et des autres équipements dont nous nous servons.
+
+Ainsi, en utiliser une partie sans compter la perte engendrée surestime la vitesse à laquelle le revenu croît réellement (rappelez-vous que le PIB, la mesure la plus courante du revenu, ne prend même pas en compte la dépréciation des biens d’équipement à cause des difficultés de mesure).
+
+En outre, les revenus générés par la production dans un pays ne peuvent pas rester dans ce pays et être utilisés par des personnes vivant dans un autre pays : une partie des revenus peut être utilisée par des sociétés étrangères rapatriant les bénéfices de leurs sociétés affiliées. C’est pour cette raison que le produit « national » brut (PNB) est calculé, en additionnant au PIB (la production totale des industries qui opèrent dans l’économie domestique) la production des résidents réalisée à l’étranger et en retirant la production réalisée par les résidents établis à l’étranger.
+
+Enfin, les revenus ont une influence majeure sur le bien-être, car ils nous permettent d’acheter les biens et services dont nous avons besoin ou que nous apprécions. Mais ils ne suffisent pas, car de nombreuses dimensions de notre bien-être ne sont pas liées à ce que nous pouvons acheter :
+
+* La qualité de notre environnement social et physique, telle que les amitiés et un air sain.
+* La quantité de temps libre dont nous disposons pour nous détendre ou passer du temps avec des amis ou la famille.

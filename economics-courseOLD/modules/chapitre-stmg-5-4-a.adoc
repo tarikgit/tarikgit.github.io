@@ -1,0 +1,36 @@
+Au cours de l’Histoire, les niveaux de vie ont été similaires dans le monde et ont peu varié d’un siècle à l’autre. À partir de 1700, ils ont augmenté rapidement dans certains pays.
+
+Il y a 1 000 ans, le monde était plat, économiquement parlant. Il y avait des différences de revenus entre les régions du monde ; néanmoins, comme vous pouvez le constater sur le Graphique 5.1, les différences étaient petites relativement à ce qui suivra. Quand on regarde les revenus aujourd’hui, personne ne pense que le monde est plat.
+
+Comprendre les déterminants de ce phénomène est devenu un enjeu fondamental pour les économistes, à commencer par le fondateur de la discipline, Adam Smith, qui intitula son ouvrage le plus important Recherches sur la nature et les causes de la richesse des nations.
+
+La richesse n’a pas de dimension temporelle, ce qui signifie qu’elle existe à tout moment : c’est une variable de stock. Le PIB mesure la quantité totale produite par une économie au cours d’une période donnée, comme une année. Puisqu’il est mesuré sur une période de temps (trimestriel ou annuel, par exemple), c’est une variable de flux.
+
+Pour se souvenir de la différence entre richesse et PIB, on peut s’imaginer une baignoire qui se remplit, comme dans l’Illustration 5.1. La richesse est la quantité (le stock) d’eau dans la baignoire, le PIB est le flux d’eau dans la baignoire. Cet afflux est mesuré en litres par minute. Le stock d’eau est mesuré en litres à un instant donné.
+
+.Illustration 5.1 Production, PIB, richesse et dépréciation : l’analogie de la baignoire.
+image::https://www.sciencespo.fr/department-economics/econofides/premiere-stmg/images/web/illustration-05-01.jpg[Baignoire 1.3,640,480,pdfwidth=50%,scaledwidth=50%]
+
+La valeur de cette richesse a tendance à décliner à cause de l’usage que l’on en fait ou tout simplement avec le passage du temps. Cette diminution de la valeur du stock de richesse au cours du temps est appelée la dépréciation. Cette dernière correspond à la quantité d’eau qui s’évapore. Tout comme le PIB, il s’agit d’un flux (on pourrait le mesurer en litres par an), mais cette fois-ci d’un flux négatif.
+
+Il existe trois manières différentes d’estimer le PIB :
+
+* _Revenu_ : la somme de tous les revenus reçus, dont les salaires, les profits, les revenus des travailleurs indépendants, ainsi que les impôts reçus par l’État.
+* _Dépense_ : la dépense totale des ménages, des entreprises, de l’État et des résidents des autres pays pour acquérir les produits de l’économie domestique.
+* _Production_ : la valeur ajoutée des producteurs qui opèrent dans l’économie domestique.
+
+Le PIB peut être défini par chacune de ces trois approches. Cela tient au fait que toute dépense dans un bien ou un service, qui a nécessairement été produit, constitue un revenu pour celui qui l’a vendu.
+
+Rappelez-vous que si des quantités Q sont vendues au prix P, les recettes R sont données par R = P × Q. Nous devons en déduire la consommation intermédiaire, c’est-à-dire la valeur des biens et services achetés à d’autres producteurs et utilisés (incorporés ou entièrement détruits) au cours du processus de production (matières premières, électricité, par exemple). On obtient ainsi la valeur ajoutée brute. Nous devons aussi en déduire la consommation de capital fixe (machines, bâtiments, véhicules, par exemple), c’est-à-dire la dépréciation subie au cours du processus de production par le capital fixe acheté à d’autres producteurs à la suite d’usure normale et d’obsolescence prévisible. On obtient alors la valeur ajoutée « nette ». Donc, si l’on tient compte de la dépréciation, on doit distinguer entre production nette et production bruteproduction nette Production brute moins la dépréciation. Voir également : PIB, dépréciation.close. Dans l’exemple de la baignoire, la production brute correspondrait au flux d’eau coulant dans la baignoire, alors que la production nette correspondrait à ce flux diminué de la dépréciation. En pratique, on ne calcule souvent que la valeur ajoutée brute. En effet, le calcul de la valeur ajoutée nette est problématique (comme expliqué dans ces séquences animées de l’Insee).
+
+.Illustration 5.2 La valeur ajoutée.
+image::https://www.sciencespo.fr/department-economics/econofides/premiere-stmg/images/web/illustration-05-02.svg[ValeurAjoutee,640,480,pdfwidth=50%,scaledwidth=50%]
+
+La comptabilité nationale calcule la valeur ajoutée aux prix perçus par les producteurs, appelés également prix de base, mais le PIB est calculé aux prix payés par les consommateurs, appelés également prix du marché. Par conséquent, les prix de base comprennent les subventions sur les produits perçus par les producteurs, qui ne figurent pas dans les prix de marché. Ceux-ci comprennent des impôts sur les produits, comme la taxe sur la valeur ajoutée (TVA), qui n’entrent pas dans les prix de base. Suivez les étapes de l’analyse de l’Illustration 5.3 pour voir comment obtenir le PIB à partir des valeurs ajoutées.
+
+.Illustration 5.3 La valeur ajoutée et le PIB.
+image::https://www.sciencespo.fr/department-economics/econofides/premiere-stmg/images/web/illustration-05-03-c.svg[ValeurAjouteeEtPIB,640,480,pdfwidth=50%,scaledwidth=50%]
+
+
+.« TVA collectée, TVA déductible : qui paye réellement ? » – Vidéo issue de Dessine-moi l’éco : vidéos produites par Sydo, société de conseil en pédagogie.
+video::fh2Uy5M1NS4[youtube,600,300]

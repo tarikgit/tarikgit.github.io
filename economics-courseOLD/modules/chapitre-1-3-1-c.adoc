@@ -1,0 +1,23 @@
+// Changement technologique: éclairage //
+
+Pour se faire une idée de la vitesse de ce changement sans précédent, considérons la façon dont nous produisons la lumière. Durant la plus grande partie de l’histoire de l’humanité, le progrès technologique dans le domaine de l’éclairage fut lent. Nos plus anciens ancêtres n’avaient rien de mieux qu’un feu de camp pour s’éclairer la nuit. La recette pour produire de la lumière (si elle avait existé) aurait été : rassembler beaucoup de bois, emprunter un tison enflammé à quelqu’un qui a déjà un feu, puis allumer et entretenir le feu.
+
+La première grande percée technologique en matière d’éclairage eut lieu il y a 40 000 ans, avec l’utilisation de lampes qui brûlaient de l’huile végétale ou animale. Nous mesurons le progrès technologique dans le domaine de l’éclairage au nombre d’unités de luminosité, appelées « lumens », qui peuvent être générées en une heure de travail. Un lumen est à peu près la quantité de luminosité que reçoit un mètre carré au clair de lune. Un lumen-heure (lm-h) est cette quantité de luminosité durant une heure. Par exemple, créer de la lumière à partir d’un feu de camp requiert environ une heure de travail pour 17 lm-h, mais la lampe à huile animale produit 20 lm-h pour la même quantité de travail. À l’époque babylonienne (1750 av. J.-C.), l’invention d’une lampe améliorée consommant de l’huile de sésame permit d’atteindre 24 lm-h par heure de travail. Le progrès technologique fut lent : cette amélioration modeste nécessita 7 000 ans.
+
+Trois millénaires plus tard, au début des années 1800, les techniques d’éclairage les plus efficaces (utilisant les chandelles de suif) produisaient environ 9 fois plus de lumière pour une heure de travail que les lampes à huile animale d’autrefois. Depuis, l’efficacité de l’éclairage a encore augmenté grâce au développement des lampes au gaz de ville, des lampes à pétrole, des ampoules à filament, des ampoules fluorescentes et d’autres formes d’éclairage. Les ampoules compactes fluorescentes inventées en 1992 sont environ 45 000 fois plus efficaces, en termes de temps de production, que les lumières qui existaient deux siècles avant. Aujourd’hui, la productivité du travail pour obtenir de l’éclairage est 500 000 fois plus élevée qu’au temps de nos ancêtres autour de leur feu de camp.
+
+La Figure 1.3 représente cette croissance remarquable, en forme de crosse de hockey, de l’efficacité de l’éclairage, à l’aide de l’échelle de rapport introduite dans la Figure 1.1b.
+
+.La productivité du travail pour produire de la lumière. link:https://ourworldindata.org/grapher/the-price-for-lighting-per-million-lumen-hours-in-the-uk-in-british-pound?time=1301..2006[Voir ces données sur OWiD]
+image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-03.jpg[Productivité du travail,600,300, caption="Figure 1.3: "]
+
+Le processus d’innovation ne s’est pas arrêté avec la Révolution industrielle, comme le montre l’exemple de la productivité en termes d’éclairage. Ce processus s’est poursuivi par l’introduction de nouvelles technologies dans de nombreuses industries telles que la machine à vapeur, l’électricité, les transports (canaux, chemins de fer, automobiles) et, plus récemment, la révolution du traitement de l’information et de la communication. Ces innovations technologiques d’application générale donnent une très forte impulsion à la croissance des niveaux de vie, car elles modifient le fonctionnement de larges pans de l’économie.
+
+|===
+|_Changement technologique structurel_
+
+Le changement technologique structurel est toujours à l’œuvre aujourd’hui. link:https://www.youtube.com/watch?v=BZoKfap4g4w&feature=youtu.be&ab_channel=TED[Hans Rosling affirme] que nous devrions « remercier l’industrialisation » d’avoir créé la machine à laver, un appareil qui a transformé le bien-être de millions de femmes.
+
+|===
+
+En réduisant la quantité de temps de travail requis pour produire ce dont nous avons besoin, les avancées technologiques ont permis une amélioration significative des conditions de vie. David Landes, un historien de l’économie, a écrit que la Révolution industrielle était une « succession de changements technologiques étroitement liés » qui ont transformé les sociétés dans lesquelles ils ont eu lieu.

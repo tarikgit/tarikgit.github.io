@@ -1,0 +1,47 @@
+
+
+Publié depuis 1990 par le Programme des Nations Unies pour le développement (PNUD), l’indice de développement humain (IDH) est un indicateur composite regroupant trois dimensions complémentaires du développement humain :
+
+* La capacité à vivre longtemps et en bonne santé avec l’espérance de vie à la naissance.
+* La capacité à acquérir des connaissances avec la durée moyenne de scolarisation et la durée attendue de scolarisation.
+* La capacité à avoir un niveau de vie décent avec le revenu national brut par habitant.
+
+L’IDH prend une valeur maximale de 1. Le PNUD classe ensuite les pays en quatre groupes en fonction de leur IDH, comme le montre le Tableau 5.2.
+
+.Swaziland, République arabe syrienne, Angola, Tchad, Niger, République centrafricaine
+[cols="3,1,4"]
+|===
+|Classification |IDH |Exemples
+
+| Développement humain très élevé
+| 0,8 à 1
+| Norvège, Australie, Suisse, Monténégro, Fédération de Russie, Roumanie
+
+| Développement humain élevé
+| 0,7–0,799
+| Bélarus, Bulgarie, Serbie, Albanie, Arménie, Ukraine
+
+| Développement humain moyen
+| 0,55–0,699
+| République de Moldova, Botswana, Gabon, Myanmar, Kenya, Pakistan
+
+| Développement humain faible
+| 0 à 0,55
+| Swaziland, République arabe syrienne, Angola, Tchad, Niger, République centrafricaine
+
+|===
+
+Quelle est votre recette pour une meilleure qualité de vie dans votre pays ? Quelle importance accordez-vous aux revenus ? D’autres critères sont-ils aussi ou plus importants, par exemple une éducation de qualité, un air sain, un niveau élevé de confiance entre les personnes, une bonne santé, ou encore un faible sentiment d’insécurité ? Dans l’Exercice 5.6, nous vous présentons un outil que vous pouvez explorer pour réfléchir à la manière dont on peut comparer le bien-être global d’un pays donné à celui d’autres pays.
+
+
+|===
+|*EXERCICE 5.7 L’INDICATEUR DU VIVRE MIEUX DE L’OCDE*
+
+L’indicateur du vivre mieux fut créé par l’Organisation de coopération et de développement économiques (OCDE). Il vous permet de concevoir une mesure de la qualité de vie d’un pays en décidant du poids que vous accordez à chacune des composantes de l’indicateur.
+
+1. Un link:http://www.oecdbetterlifeindex.org/fr/[indicateur du vivre mieux] devrait-il inclure les éléments suivants : revenus, logement, emploi, liens sociaux, éducation, environnement, engagement civique, santé, satisfaction, sécurité et équilibre vie professionnelle/vie privée ? Justifiez votre réponse pour chacun de ces éléments. +
+2. Utilisez l’outil de l’indicateur du vivre mieux pour créer votre propre indicateur du vivre mieux pour le pays dans lequel vous résidez. Quelles sont les performances de ce pays pour les facteurs les plus importants pour vous ? +
+3. Classez les pays de la base de données en utilisant votre nouvel indicateur du vivre mieux, et comparez votre classement avec celui fondé exclusivement sur les revenus. +
+4. Pour les deux indicateurs, choisissez deux pays présentant des classements très différents et suggérez brièvement les raisons de ces écarts.
+
+|===

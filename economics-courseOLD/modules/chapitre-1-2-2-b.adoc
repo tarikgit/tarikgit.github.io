@@ -1,0 +1,29 @@
+// Crosse de hockey et taux de croissance (Inde, Chine, Amerique latine) //
+
+Pour bien comprendre, prenez l’exemple d’un taux de croissance de 100 % : cela signifie que le niveau double. Dans la Figure 1.1b (<<crossehockeyhistoire-img>>), avec l’échelle de rapport, vous pouvez vérifier que si le PIB par tête doublait en cent ans d’un niveau de 500 \$ à 1000 \$, la droite aurait la même pente que s’il doublait de 2000 \$ à 4000 \$, ou de 16000 \$ à 32000 \$ au cours d’un siècle. Si, au lieu de doubler, le niveau quadruplait (par exemple, de 500 \$ à 2000 \$ en cent ans), la droite serait deux fois plus pentue, reflétant ainsi un taux de croissance deux fois plus élevé.
+
+.La crosse de hockey de l’Histoire : les niveaux de vie dans cinq pays (1000–2015) avec une échelle de rapport. link:https://tinyco.re/9183725[Voir les données sur OWiD]
+[#crossehockeyhistoire-img]
+image::https://www.core-econ.org/the-economy/book/fr/images/web/figure-01-01-b-f.jpg[Taux de croissance,600,300, caption="Figure 1.1b: "]
+
+*Comparer les taux de croissance en Chine et au Japon*: L’échelle de rapport permet de voir que les taux de croissance récents observés au Japon et en Chine ont été plus élevés qu’ailleurs.
+
+Dans certaines économies, il a fallu attendre qu’elles accèdent à l’indépendance ou s’affranchissent de l’influence des nations européennes avant de voir des améliorations substantielles des niveaux de vie :
+
+* _Inde_ : selon Angus Deaton, un économiste spécialiste des questions de pauvreté, quand les trois cents ans de domination britannique sur l’Inde ont pris fin en 1947 : « Il est possible que la pauvreté infantile en Inde  […] fut parmi les plus sévères de l’histoire de l’Humanité. » Durant les dernières années de la domination britannique, un enfant né en Inde avait une espérance de vie de 27 ans. Un demi-siècle plus tard, l’espérance de vie à la naissance en Inde était passée à 65 ans.
+* _Chine_ : par le passé, la Chine fut plus riche que la Grande-Bretagne, mais au milieu du 20e siècle, le PIB par tête de la Chine correspondait à moins de 7 % de celui de la Grande-Bretagne.
+* _Amérique latine_ : ni la domination coloniale espagnole ni ses conséquences dans le sillage du mouvement d’indépendance intervenu dans la plupart des pays latino-américains au début du 19e siècle n’ont engendré une évolution des niveaux de vie en forme de « coude », comme celle que connurent les pays des Figures 1.1a et 1.1b.
+
+Les Figures 1.1a et 1.1b nous enseignent deux choses :
+
+* pendant très longtemps, les niveaux de vie n’ont pas augmenté de façon durable ;
+* lorsqu’une croissance durable s’est installée, ce fut à différents moments dans des pays différents, ce qui a engendré des différences substantielles de niveaux de vie dans le monde.
+
+Comprendre les déterminants de ce phénomène est devenu un enjeu fondamental pour les économistes, à commencer par le fondateur de la discipline, Adam Smith, qui intitula son ouvrage le plus important, _Recherches sur la nature et les causes de la richesse des Nations_.
+
+|===
+|_Vidéo de Hans Rosling_
+
+Une link:https://www.youtube.com/watch?v=jbkSRLYSojo[vidéo amusante] de Hans Rosling, un statisticien, met en évidence comment certains pays sont devenus plus riches et ont accédé à un niveau de santé élevé beaucoup plus tôt que d’autres.
+
+|===
