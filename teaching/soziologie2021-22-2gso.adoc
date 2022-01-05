@@ -247,9 +247,14 @@
 
 | 13
 | 5/1/22
-| 3.1.2 :
-|
-|
+| link:soziologie-cours/3-2-1_3-2-2.pdf[3.2.1 - 3.2.2] : +
+  soziale Anpassung, Konformität, Compliance, soziale Chamäleone,
+  Konformitätsdruck, Überangepasstheit, Autoritätsgläubigkeit,
+  blinde Gefolgschaft, Konformitätszwang, Masse
+| Aufgaben: +
+  - 5 (S.99) +
+  - 6 (S.99)
+| Anpassung
 
 | 14
 | 10/1/22
