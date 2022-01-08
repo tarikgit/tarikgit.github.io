@@ -1,0 +1,18 @@
+= Images in asciidoctor
+
+link:https://developers.google.com/speed/webp[The webp format].
+
+link:01-tree.svg[Tree]
+
+.svg (6.1M)
+image::01-tree.svg[Tree,200,100]
+
+.webp (386K)
+image::02-istanbul.webp[Istanbul, 200,100]
+
+.png (1.6M)
+image::02-istanbul.png[Istanbul, 200,100]
+
+.svg (609K)
+image::02-istanbul.svg[Istanbul, 200,100]
+
