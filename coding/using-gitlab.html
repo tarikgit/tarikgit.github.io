@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.8">
-<title>Coding Tutorials</title>
+<title>Using GitLab</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -432,138 +432,50 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>Coding Tutorials</h1>
+<h1>Using GitLab</h1>
 </div>
 <div id="content">
-<div id="preamble">
+<div class="sect1">
+<h2 id="_download_or_clone_a_repository">Download or clone a repository</h2>
 <div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://tarikgit.github.io/coding/asciidoctor.html">Using asciidoctor</a>: <em>asciidoctor is the text processor and publishing too that is used on this website to convert basic ascii text to HTML5</em>.</p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/compiling.html">Compiling in different environments</a>: <em>I have been using LaTeX over the past two decades and it still remains my favorite typesetting system. In this link there are some scripts for using LaTeX together with Tikz and ghostscript</em>.</p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-github.html">Using GitHub</a>: <em>This entire website is published using Github. Here are the commands that can be used to create a repository in Github and make changes to the same repository</em>.</p>
-</li>
-<li>
-<p><a href="https://www.overleaf.com/learn/latex/Main_Page">Using Overleaf to compile LaTeX code</a>: <em>Overleaf is an online documentation system that uses LaTeX. There is no need to install anything on your computer. You can simply run your LaTeX scripts on the website</em>.</p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-ssh.html">Using remote access in Linux</a>: <em>SSH is the Linux command that I rely on for accessing my local computers, servers and brickpi robots</em>.</p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-raspberry-samba-apache.html">Using Raspberry Pi as a Samba and Apache server</a>: <em>I setup a Raspberry Pi as a local Samba and Apache server. Here is how I did it &#8230;&#8203;</em></p>
-</li>
-<li>
-<p><a href="https://sailfishos.org/wiki/Sailfish_OS_Cheat_Sheet#Package_Handling">Cheat sheet for Sailfish OS</a>: <em>My phone is running <a href="https://sailfishos.org/">Sailfish OS</a>. Although not free, it is an open-source operating system for my phone. You have full control over your phone, in the same way as a linux computer. Here is a cheat sheet for the basic commands</em>.</p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-terminal-command.html">Using Terminal Command in Linux</a></p>
-</li>
-<li>
-<p><a href="using-gitlab.html">Using Gitlab</a></p>
-</li>
-</ul>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">git clone git@gitlab.com:econmediadb/economics-course.git</code></pre>
+</div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_learning_to_code_in_python">Learning to code in Python</h2>
+<h2 id="_creating_a_repository">Creating a repository</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Commit new changes</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>git add *
+git commit -m "write a short comment here"
+git push</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_sources">Sources:</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The <em>MagPi</em> <a href="https://magpi.raspberrypi.org/issues/">magazines</a> and <a href="https://magpi.raspberrypi.org/books">books</a>
-are a valuable (but free) source to find inspiration for projects related to your <a href="https://www.raspberrypi.org/">Raspberry Pi</a>.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="http://docs.micropython.org/en/latest/library/machine.html">MicroPython: the <em>machine</em> library</a></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-sensehat.html">Using Sense HAT</a>: <em>The Sense HAT on the Raspberry Pi is an excellent tool for students to start scientific projects. Although it has been designed for the <a href="https://astro-pi.org/">Astro Pi</a> it can be used in so many other interesting projects</em>.</p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-raspberry-pico">Using Raspberry Pi Pico</a>: <em>The <a href="https://www.raspberrypi.org/products/raspberry-pi-pico/">Raspberry Pi Pico</a> is a small, <a href="https://www.electronic-shop.lu/product/185605">cheap</a> and incredibly fast microcontroller board. The board is well-documented and extensions are cheap and simple to implement, as long as you have the <a href="https://www.electronic-shop.lu/search?q=kit">right kit</a> for your project</em>.</p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-microbit.html">Using BBC micro:bit</a>: <em>The BBC micro:bit is microcontroller board is <a href="https://www.electronic-shop.lu/product/164829">cheap</a> and has many build-in sensors and LED&#8217;s. Using the PIO the board can be easily extended</em>. This microcontroller can be turned into a robot by using the <a href="https://www.electronic-shop.lu/product/166029">:Move mini</a> and then be controlled using a <a href="https://makecode.microbit.org/pkg/kitronikltd/pxt-kitronik-servo-lite">simple extension</a> to the MakeCode.</p>
-</li>
-<li>
-<p><a href="https://pinout.xyz/">The Raspberry Pi GPIO pinout guide</a></p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Here are useful ressources for teaching Python: 1. <a href="https://hourofcode.com/">Hour of Code</a>,
-2. <a href="https://python.infobrisson.fr/">Using Python without installation</a>,
-3. <a href="https://fr.vittascience.com/python">Learn to code using blocks and convert it into Python code</a>
-4. <a href="https://www.python.org/">Install Python on your computer</a>
-5. <a href="https://pyzo.org/">Free and open-source computing environment based on Python</a>
-6. <a href="https://docs.python.org/3/library/turtle.html">Use the Turtle to learn and teach Python</a>
-7. <a href="https://greenteapress.com/wp/think-python/">Think Python: Introduction to Python programming for beginners</a>
-8. <a href="https://inforef.be/swi/python.htm">Apprentissage de la programmation: Ressources didactiques Gérard Swinnen</a>
-9. <a href="https://www.pedagogie.ac-nantes.fr/mathematiques/enseignement/groupe-de-recherche/2017-2019/de-scratch-vers-python-1132341.kjsp?RH=1510509626265">Using Scratch knowledge of learners to teach Python  in class</a>
-10. <a href="https://edupython.tuxfamily.org/">EduPython</a>
-11. <a href="https://www.ac-clermont.fr/disciplines/fileadmin/user_upload/Mathematiques/pages/Telecharger/Une_demarche_pedagogique_pour_l_apprentissage_de_l_algorithmique.pdf">Teaching algorithms</a>
-12. <a href="http://pythontutor.com/visualize.html#mode=edit">Online debugging tool that helps you to visualize your code</a></p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://julialang.org/">Julia</a> is another language similar to Python, but much faster. Here are some <a href="using-julia.html">ressources</a>.</p>
-</li>
-<li>
-<p><a href="using-pygames.html">Learn to code through Pygames</a>.</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_doing_maths_on_raspberry_pi">Doing Maths on Raspberry Pi</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://tarikgit.github.io/coding/using-mathematica-on-raspberry.html">Using Mathematica on a RaspberryPi</a>: <em>The Wolfram Language has been around for decades and it offers great tools. Now you can use the <a href="https://www.wolfram.com/raspberry-pi/">Wolfram language using Mathematica on your Raspberry</a> for free</em>.</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_advanced_maths_in_a_linux_environment">Advanced Maths in a Linux environment</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://tarikgit.github.io/coding/computational-tools.html">Computational tools</a>: <em>Here are more advanced topics taken from dynamic programming (or optimal control theory), econometrics and statistics</em></p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/valueiteration-gridworld.html">Value iteration in the gridworld</a>: This page presents a simple example for value iteration in a 3-by-4 gridworld.</p>
-</li>
-<li>
-<p><a href="https://tarikgit.github.io/coding/neos-server/neos-server.html">A work-in-progess to model the decision-making of learners and teachers in the classroom.</a></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_teaching_stem_through_coding">Teaching STEM through Coding</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p><a href="../teaching/makerspace2021-22.html">Resources for STEM and coding</a></p>
+<p><a href="https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html">Start using Git on the command line</a><br></p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-01-08 12:49:28 +0100
+Last updated 2021-12-30 12:17:19 +0100
 </div>
 </div>
 </body>

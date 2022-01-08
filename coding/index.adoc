@@ -17,6 +17,8 @@
 
 * link:https://tarikgit.github.io/coding/using-terminal-command.html[Using Terminal Command in Linux]
 
+* link:using-gitlab.html[Using Gitlab]
+
 == Learning to code in Python
 
 The _MagPi_ link:https://magpi.raspberrypi.org/issues/[magazines] and link:https://magpi.raspberrypi.org/books[books]
@@ -46,6 +48,8 @@ Here are useful ressources for teaching Python: 1. link:https://hourofcode.com/[
 12. link:http://pythontutor.com/visualize.html#mode=edit[Online debugging tool that helps you to visualize your code]
 
 * link:https://julialang.org/[Julia] is another language similar to Python, but much faster. Here are some link:using-julia.html[ressources].
+
+* link:using-pygames.html[Learn to code through Pygames].
 
 == Doing Maths on Raspberry Pi
 

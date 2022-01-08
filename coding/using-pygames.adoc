@@ -1,0 +1,37 @@
+= Games Programming with Pygame Zero
+
+== Install pygame and pgzero
+
+[source,bash]
+----
+sudo apt-get install python3-pygame python3-pgzero
+
+pgzrun myprogram.py
+----
+
+== Simple Code
+
+Before running the following code, create a folder called 'images' and store a PNG file of a rocket in it.
+
+[source,python]
+----
+import pgzrun
+
+myrocket = Actor('rocket', center=(400, 500))
+
+def draw():
+  screen.clear()
+  myrocket.draw()
+
+def update():
+  myrocket.y -= 1
+
+pgzrun.go()
+
+----
+
+Sources:
+
+* https://www.pygame.org/wiki/GettingStarted
+* https://cs.hofstra.edu/docs/pages/guides/InstallingPygame.html
+*
