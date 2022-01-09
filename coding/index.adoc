@@ -1,5 +1,21 @@
 = Coding Tutorials
 
+[.float-group]
+--
+image::../img/python.webp[PythonLogo,50,25,float="left"]
+image::../img/rpi.webp[RaspberryPiLogo,50,25,float="left"]
+image::../img/latex-project.webp[LatexProjectLogo,150,75,float="left"]
+image::../img/github.webp[GithubLogo,50,25,float="left"]
+image::../img/gitlab.webp[GitlabLogo,50,25,float="left"]
+image::../img/linux-logo.webp[LinuxLogo,50,25,float="left"]
+image::../img/apache-logo.webp[ApacheLogo,150,75,float="left"]
+image::../img/julialang-logo.webp[JuliaLogo,100,50,float="left"]
+--
+
+////
+image::../img/rpi.webp[RaspberryPiLogo,50,25]
+image::../img/python.webp[PythonLogo,50,25]
+////
 
 * link:https://tarikgit.github.io/coding/asciidoctor.html[Using asciidoctor]: _asciidoctor is the text processor and publishing too that is used on this website to convert basic ascii text to HTML5_.
 
