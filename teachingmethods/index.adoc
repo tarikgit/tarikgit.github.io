@@ -8,3 +8,6 @@
 . *Enseignement secondaire général - Division administrative et commerciale* (link:../posters/03_Poster_Departement_Sciences_Economiques_ESG.pdf[poster]): _This poster provides an overview of the secondary school system in Luxembourg with focus on the trade specialisation. These are learners who are on average aged between 14 and 18._ (1/4/2021)
 . *Technicien en Administration et Commerce* (link:../posters/03_Poster_Departement_Sciences_Economiques_TPCM.pdf[poster]): _This poster provides an overview of the vocational schooling system in Luxembourg with focus on the trade specialisation. These are learners who are on average aged between 14 and 18._ (1/4/2021)
 . *Etudier les sciences économiques* (link:../posters/03-EconomieExpliquee.pdf[slides]): _Here are some slides that I use to explain to younger learners what studying economics, trade and business is about._ (14/3/2021)
+
+
+image::../img/end-of-schoolday.webp[Sortie de l'école turque, 400, 200, align="center"]
