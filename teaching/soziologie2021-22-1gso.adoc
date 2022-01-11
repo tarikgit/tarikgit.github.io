@@ -183,25 +183,31 @@ Textanalyse (link:https://tarikgit.github.io/teaching/examen/20200921_SOCIO_DE_s
 
 | 13
 | 5/1/22
-| 10.2.1 :
+| Correction et feedback : DEC I,2
 |
 |
 
 | 14
 | 10/1/22
-| 10.2.2 :
-|
+| link:soziologie-cours/10-2-1_10-2-2.pdf[10.2.1 - 10.2.2] : +
+  Der soziale Status und soziales Prestige
+| Aufgaben (link:soziologie-cours/01-Kapitel-10-Arbeitsblatt-b.pdf[Arbeitsblatt]): +
+  - 3-7 (S.346) +
+  - Materiale 3 (S.344)
 |
 
 | 14
 | 12/1/22
-| 10.3.1 :
-|
+| link:soziologie-cours/10-3-1_10-3-2.pdf[10.3.1 - 10.3.2] : +
+Modelle der Sozialstruktur: Der Stand u. Klassenmodelle
+| Aufgaben (link:soziologie-cours/01-Kapitel-10-Arbeitsblatt-c.pdf[Arbeitsblatt]): +
+  - 8-11 (S.346) +
+  - Materiale 4 (S.344)
 |
 
 | 15
 | 17/1/22
-| 10.3.2 - 10.3.3 :
+| 10.3.3 :
 |
 |
 
