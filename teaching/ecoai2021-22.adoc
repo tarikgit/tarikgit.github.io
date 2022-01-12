@@ -295,4 +295,12 @@
   - link:concept-maps/droit-civil-1.nxfc[concept map source file]
 |
 
+| 13
+| 10/1/22
+| *[blue]#Droit#*
+| Introduction au droit: +
+  - link:concept-maps/droit-civil-1-c.png[responsabilité civile, les contrats (image)] +
+  - link:droit/droits-patrimoniaux-contrats.nxfc[droit civil (concept map)]
+|
+
 |===
