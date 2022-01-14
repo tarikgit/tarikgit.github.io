@@ -35,6 +35,8 @@ image::../img/python.webp[PythonLogo,50,25]
 
 * link:using-gitlab.html[Using Gitlab]
 
+* link:https://pimylifeup.com/raspberrypi-minidlna/[Setting Up *MiniDLNA* on the Raspberry Pi]
+
 == Learning to code in Python
 
 The _MagPi_ link:https://magpi.raspberrypi.org/issues/[magazines] and link:https://magpi.raspberrypi.org/books[books]
