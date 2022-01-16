@@ -199,7 +199,7 @@ Textanalyse (link:https://tarikgit.github.io/teaching/examen/20200921_SOCIO_DE_s
 | 14
 | 12/1/22
 | link:soziologie-cours/10-3-1_10-3-2.pdf[10.3.1 - 10.3.2] : +
-Modelle der Sozialstruktur: Der Stand u. Klassenmodelle
+Modelle der Sozialstruktur: Der Stand u. Klassenmodelle, Zwiebel-Modell
 | Aufgaben (link:soziologie-cours/01-Kapitel-10-Arbeitsblatt-c.pdf[Arbeitsblatt]): +
   - 8-11 (S.346) +
   - Materiale 4 (S.344)
@@ -207,8 +207,10 @@ Modelle der Sozialstruktur: Der Stand u. Klassenmodelle
 
 | 15
 | 17/1/22
-| 10.3.3 :
-|
+| link:soziologie-cours/10-3-3_10-3-4.pdf[10.3.3 - 10.3.4] : +
+  Soziale Schicht, Schichtung, Schichtungsmodell, subjektive/objektive Schichteinstufung, Haus-Modell
+| Aufgaben (link:soziologie-cours/01-Kapitel-10-Arbeitsblatt-d.pdf[Arbeitsblatt]) : +
+  - 12-13 (S.346)
 |
 
 | 15
