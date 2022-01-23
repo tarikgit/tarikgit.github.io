@@ -1,0 +1,58 @@
+= My First Quiz
+
+== Include external html file : quiz1.html
+
+This is difficult to edit. Searching for Markdown or asciidoctor equivalent.
+
+++++
+include::quiz1.html[]
+++++
+
+
+== Include external html file : quiz2.html
+
+Here I used a link:https://www.htmlcodegenerator-tools.com/2019/10/html-javascript-quiz-generator-score-timer.html[quiz generator]. This is still very cumbersome since I have to edit the quiz on a webpage and I cannot edit or reuse existing quizzes.
+
+++++
+include::quiz2.html[]
+++++
+
+
+== Include external html file : quiz3.html
+
+link:https://www.w3schools.com/tags/tag_select.asp[Source]
+
+Useless for my needs.
+
+++++
+include::quiz3.html[]
+++++
+
+++++
+include::quiz4.html[]
+++++
+
+
+== Include
+
+++++
+include::quiz5.html[]
+++++
+
+== Best solution so far
+
+https://github.com/hobbypunk90/asciidoctor-question
+
+
+
+[question, mc]
+....
+Lorem ipsum dolor sit amet, consetetur
+sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore
+magna aliquyam erat, sed diam voluptua.
+
+- [x] ipsum
+- [ ] eltir
+- [x] ut
+....

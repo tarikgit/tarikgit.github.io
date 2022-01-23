@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<body>
+    <p>
+    <form name="quiz">
+    <p>
+        <b>Question 1.
+        <br>He -------------------- it.<br></b>
+        <blockquote>
+    <input type="radio" name="q1" value="don't like">don't like<br>
+    <input type="radio" name="q1" value="doesn't like">doesn't like<br>
+    <input type="radio" name="q1" value="doesn't likes">doesn't likes<br>
+    </blockquote>
+
+<p><b>
+<hr>
+Question 2.
+<br>They -------------------- here very often.<br></b>
+<blockquote>
+<input type="radio" name="q2" value="don't come">don't come<br>
+<input type="radio" name="q2" value="doesn't come">doesn't come<br>
+<input type="radio" name="q2" value="doesn't comes">doesn't comes<br>
+</blockquote>
+<p><b>
+<hr>
+Question 3.
+<br>John and Mary -------------------- twice a week.<br></b>
+<blockquote>
+<input type="radio" name="q3" value="come">come<br>
+<input type="radio" name="q3" value="comes">comes<br>
+<input type="radio" name="q3" value="coming">coming<br>
+</blockquote>
+<p><b>
+<hr>
+Question 4.
+<br>I -------------------- mind at all.<br></b>
+<blockquote>
+<input type="radio" name="q4" value="not">not<br>
+<input type="radio" name="q4" value="isn't">isn't<br>
+<input type="radio" name="q4" value="don't">don't<br>
+</blockquote>
+<p><b>
+<hr>
+Question 5.
+<br>It -------------------- sense.<br></b>
+<blockquote>
+<input type="radio" name="q5" value="don't make">don't make<br>
+<input type="radio" name="q5" value="doesn't makes">doesn't makes<br>
+<input type="radio" name="q5" value="doesn't make">doesn't make<br>
+</blockquote>
+<p><b>
+<hr>
+Question 6.
+<br>They -------------------- happy.<br></b>
+<blockquote>
+<input type="radio" name="q6" value="seem">seem<br>
+<input type="radio" name="q6" value="seems">seems<br>
+<input type="radio" name="q6" value="seeming">seeming<br>
+</blockquote>
+<p><b>
+Question 7.
+<br>You -------------------- to do it.<br></b>
+<blockquote>
+<input type="radio" name="q7" value="don't have">don't have<br>
+<input type="radio" name="q7" value="doesn't have">doesn't have<br>
+<input type="radio" name="q7" value="doesn't has">doesn't has<br>
+</blockquote>
+<p><b>
+<hr>
+Question 8.
+<br>She -------------------- a brother.<br></b>
+<blockquote>
+<input type="radio" name="q8" value="doesn't has">doesn't has<br>
+<input type="radio" name="q8" value="don't has">don't has<br>
+<input type="radio" name="q8" value="doesn't have">doesn't have<br>
+</blockquote>
+<p><b>
+<hr>
+Question 9.
+<br>The journey -------------------- an hour.<br></b>
+<blockquote>
+<input type="radio" name="q9" value="take">take<br>
+<input type="radio" name="q9" value="takes">takes<br>
+<input type="radio" name="q9" value="taking">taking<br>
+</blockquote>
+<p><b>
+<hr>
+Question 10.
+<br>I -------------------- it now.<br></b>
+<blockquote>
+<input type="radio" name="q10" value="want">want<br>
+<input type="radio" name="q10" value="wants">wants<br>
+<input type="radio" name="q10" value="wanting">wanting<br>
+</blockquote>
+<p><b>
+<hr>
+Question 11.
+<br>Peggy -------------------- by bus.<br></b>
+<blockquote>
+<input type="radio" name="q11" value="come">come<br>
+<input type="radio" name="q11" value="comes">comes<br>
+<input type="radio" name="q11" value="coming">coming<br>
+</blockquote>
+<p><b>
+<hr>
+Question 12.
+<br>She --------------------.<br></b>
+<blockquote>
+<input type="radio" name="q12" value="don't know">don't know<br>
+<input type="radio" name="q12" value="doesn't knows">doesn't knows<br>
+<input type="radio" name="q12" value="doesn't know">doesn't know<br>
+</blockquote>
+<p><b>
+<hr>
+Question 13.
+<br>She -------------------- hard.<br></b>
+<blockquote>
+<input type="radio" name="q13" value="try">try<br>
+<input type="radio" name="q13" value="trys">trys<br>
+<input type="radio" name="q13" value="tries">tries<br>
+</blockquote>
+<p><b>
+<hr>
+Question 14.
+<br>They -------------------- football every weekend.<br></b>
+<blockquote>
+<input type="radio" name="q14" value="play">play<br>
+<input type="radio" name="q14" value="plays">plays<br>
+<input type="radio" name="q14" value="playing">playing<br>
+</blockquote>
+<p><b>
+<hr>
+Question 15.
+<br>The exam -------------------- two hours.<br></b>
+<blockquote>
+<input type="radio" name="q15" value="last">last<br>
+<input type="radio" name="q15" value="lastes">lastes<br>
+<input type="radio" name="q15" value="lasts">lasts<br>
+</blockquote>
+<p><b>
+
+
+<input type="button"value="Grade Me"onClick="getScore(this.form);">
+<input type="reset" value="Clear"><p>
+Number of score out of 15 = <input type= text size 15 name= "mark">
+Score in percentage = <input type=text size=15 name="percentage"><br>
+
+</form>
+<p>
+
+    <form method="post" name="Form" onsubmit="" action="">
+</form>
+
+</body>
+
+
+<script>
+    var numQues = 15;
+var numChoi = 3;
+var answers = new Array(15);
+    answers[0] = "doesn't like";
+    answers[1] = "don't come";
+    answers[2] = "come";
+    answers[3] = "don't";
+    answers[4] = "doesn't make";
+    answers[5] = "seem";
+    answers[6] = "don't have";
+    answers[7] = "doesn't have";
+    answers[8] = "takes";
+    answers[9] = "want";
+    answers[10] = "comes";
+    answers[11] = "doesn't know";
+    answers[12] = "tries";
+    answers[13] = "play";
+    answers[14] = "lasts";
+      function getScore(form) {
+
+   var score = 0;
+  var currElt;
+  var currSelection;
+  for (i=0; i<numQues; i++) {
+    currElt = i*numChoi;
+    answered=false;
+    for (j=0; j<numChoi; j++) {
+      currSelection = form.elements[currElt + j];
+      if (currSelection.checked) {
+        answered=true;
+        if (currSelection.value == answers[i]) {
+          score++;
+          break;
+        }
+      }
+    }
+    if (answered ===false){alert("Do answer all the questions, Please") ;return false;}
+  }
+
+  var scoreper = Math.round(score/numQues*100);
+  form.percentage.value = scoreper + "%";
+  form.mark.value=score;
+
+
+}
+    </script>
+</html>
