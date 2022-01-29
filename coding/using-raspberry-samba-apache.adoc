@@ -127,3 +127,23 @@ This will not work on Raspberry since the device has no internal clock
 sudo rtcwake -m disk -s 60
 
 ----
+
+
+
+== Run a Program On Your Raspberry Pi At Startup
+
+You can edit `rc.local` using the following command:
+
+[source,bash]
+----
+sudo nano /etc/rc.local
+----
+
+Be sure to leave the line exit 0 at the end.
+
+If your program runs continuously (runs an infinite loop) or is likely not to exit, you must be sure to fork the process by adding an ampersand (“&”) to the end of the command, like:
+
+[source,bash]
+----
+sudo python /home/pi/sample.py &
+----

@@ -563,10 +563,34 @@ sudo chown -R 755 /var/www</code></pre>
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_run_a_program_on_your_raspberry_pi_at_startup">Run a Program On Your Raspberry Pi At Startup</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can edit <code>rc.local</code> using the following command:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo nano /etc/rc.local</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Be sure to leave the line exit 0 at the end.</p>
+</div>
+<div class="paragraph">
+<p>If your program runs continuously (runs an infinite loop) or is likely not to exit, you must be sure to fork the process by adding an ampersand (“&amp;”) to the end of the command, like:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo python /home/pi/sample.py &amp;</code></pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-05-23 13:13:45 +0200
+Last updated 2022-01-29 19:55:04 +0100
 </div>
 </div>
 </body>
