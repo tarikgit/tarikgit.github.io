@@ -147,3 +147,8 @@ If your program runs continuously (runs an infinite loop) or is likely not to ex
 ----
 sudo python /home/pi/sample.py &
 ----
+
+
+== Source
+
+link:https://www.redhat.com/sysadmin/samba-file-sharing[How to share files with Samba] 
