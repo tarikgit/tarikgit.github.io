@@ -79,6 +79,10 @@ are a valuable (but free) source to find inspiration for projects related to you
 
 * link:https://tarikgit.github.io/coding/using-microbit.html[Using BBC micro:bit]: _The BBC micro:bit is microcontroller board is link:https://www.electronic-shop.lu/product/164829[cheap] and has many build-in sensors and LED's. Using the PIO the board can be easily extended_. This microcontroller can be turned into a robot by using the link:https://www.electronic-shop.lu/product/166029[:Move mini] and then be controlled using a link:https://makecode.microbit.org/pkg/kitronikltd/pxt-kitronik-servo-lite[simple extension] to the MakeCode.
 
+=== ... on a ESP32
+
+TBC
+
 === Julia language
 
 * link:https://julialang.org/[Julia] is another language similar to Python, but much faster. Here are some link:using-julia.html[ressources].
