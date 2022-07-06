@@ -4,4 +4,4 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - coding/asciidoctor.md
+  - test.md
