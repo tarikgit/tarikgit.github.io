@@ -1,5 +1,9 @@
 = Teaching
 
+2022-23
+
+All the courses are being maintained in link:https://gitlab.com/econmediadb[GitLab ...]
+
 2021-22
 
 link:https://tarikgit.github.io/[Formation professionnelle, sociologie, économie (4TPCM,3TPCM,2GSO,1GSO,2DG)]
